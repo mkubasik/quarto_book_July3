@@ -11,7 +11,7 @@ book:
   chapters:
   - index.qmd
 
-  - part: '1.NeedForQM'
+  - part: '1. The need for Quantum Mechanics'
     chapters:
      - qmd/1.NeedForQM/What_is_Physical_Chemistry.qmd
      - qmd/1.NeedForQM/The_Original_Double_Slit_Experiment.qmd
