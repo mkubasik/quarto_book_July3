@@ -1,0 +1,1 @@
+Sitemap: https://mkubasik.github.io/quarto_book_July3/sitemap.xml
