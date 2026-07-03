@@ -21,7 +21,7 @@ book:
      - qmd/1.NeedForQM/Energies_Are_Quantized.qmd
      - qmd/1.NeedForQM/States_of_Matter_Are_Quantized.qmd
      - qmd/1.NeedForQM/Matter_Has_Wave-like_Properties.qmd
-  - part: '6.HO'
+  - part: '6.Harmonic Oscillator'
     chapters:
      - qmd/6.HO/Harmonic_Oscillator_Model.qmd
      - qmd/6.HO/Classical_Harmonic_Oscillator.qmd
