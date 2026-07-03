@@ -1,6 +1,8 @@
  
 book:
-  title: "Physical Chemistry I  Quantum Mechanics"
+  title: "Physical Chemistry I"
+  subtitle:  "Quantum Mechanics"
+  site-url: https://mkubasik.github.io/quarto_book_July3
   sidebar:
     logo: "img/FairfielduShield.o.png"
     logo-alt: "My Book Logo"
