@@ -1,0 +1,40 @@
+#  H Atom (Angular Component)
+## H Atom (Angular Component) (7:53) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/XmF5QLQ8inI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## H Atom (Angular Component)  Video Transcript { .unnumbered}
+
+
+Okay, so we have seen that the angular portion of the Schrödinger equation for the hydrogen atom, once we break it down into a radial piece and an angular piece, looks like this. We have this differential equation. Notice that we're not solving for a wave function anymore; we're solving for $y$, which is only the angular component of the hydrogen atom Schrödinger equation. Still, we've got a differential equation to solve. If we can figure out the function $y$ that obeys this differential equation, if we take these derivatives of it and add them to these derivatives, we get back a particular constant. So that's what we're looking to do: find the solutions to this differential equation for the function $y(\theta, \phi)$.
+
+As a start, we can do the following: if we take this equation and multiply by $y$ to get rid of this term, and if we divide by $r^2$ for reasons I'll mention in just a second, then what this equation looks like is as follows. Multiplying by $y$ gets rid of this term, and dividing by $r^2$ does that. On this side, if I multiply by $y$ and divide by $r^2$, then I've transformed the equation accordingly. 
+
+The reason I've done those two particular things is that this differential equation might look very familiar. In particular, the $\theta$ and $\phi$ portions of the kinetic energy term and the lack of a potential energy term look exactly like the differential equation that we solved when we were studying the rigid rotor. If I notice that this $\alpha/r^2$ can be identified with the energy we called energy for the rigid rotor, and if I replace the mass of an electron with the reduced mass for a diatomic molecule, replacing $m$ with $\mu$ and $\alpha/r^2$ with $e$, that gives us exactly the same differential equation we solved when we were solving for the rigid rotor wave functions.
+
+This means two things that are fairly convenient and somewhat remarkable. The first is that, for some reason, the angular behavior of an electron around a hydrogen atom—the problem we're currently trying to solve, where we have an electron at some distance $r$ away from a hydrogen nucleus, which I suppose is just a proton—behaves exactly the same way quantum mechanically as if we have a diatomic molecule with one atom of mass 1 at some distance away from an atom of mass 2. Drawing the diagrams makes it clear exactly why this is true. We just have two point masses interacting with no potential energy because we're only considering the right angular term with a fixed $r$. It doesn't matter whether we call them a proton and an electron or whether we call them an atom and another atom; if we keep their distance fixed and leave the radial portion of the behavior for a different day, then at fixed $r$, a rigid rotor molecule behaves exactly the same as the angular behavior of an electron and a hydrogen atom.
+
+So, we've already solved this problem, as it turns out, and the solutions that we found for the rigid rotor are going to be exactly the same as the solutions for this angular term in the hydrogen atom wave function. What those looked like for the rigid rotor was some normalization constant, some polynomial that looks like a spherical harmonic, and I guess I don't need the plus or minus $e^{i m \phi}$ since $m$ could be a positive or negative number. This reminds us that there is a whole sequence of these solutions. We can have the $l = 0$, $l = 1$, $l = 2$ solutions; each $l$ can have its own family of $m$ values ranging from $-l$ to $+l$. These are exactly what we wrote down for the rigid rotor wave functions; they are also exactly the same as the hydrogen atom angular terms.
+
+Just as a reminder, the $0, 0$ wave function was just some normalization constant with no angular dependence. The $1, 0$ wave function had some angular dependence in terms of the $\theta$ variable. The $1, 1$ and $1, -1$ wave functions for the rigid rotor looked like a normalization constant multiplied by $\sin \theta$ and then $e^{i \phi}$ or $e^{-i \phi}$, depending on whether I have a plus one or a minus one here. There are an infinite number of those wave functions; any $l$ and any $m$ that we insert into this equation gives us a particular polynomial in $\cos \theta$ or $\sin \theta$ and $e^{i \phi}$ terms, along with a normalization constant out front. These are also the solutions for the angular behavior of the hydrogen atom.
+
+The only last thing we have to consider is that energy means something slightly different now than it did before. Previously, our energy now corresponds to this $\alpha/r^2$. So, this constant $\alpha$ that we wanted to know—if I take these derivatives of the angular function, what I get back is an $\alpha$, or in this new equation, what I get is $\alpha/r^2$ times the original function. The value of this $\alpha$ is $r^2$ times what we used to think of as the energy of the rigid rotor. Those energies for the rigid rotor, the energy of the $l$ wave function, was this collection of constants $\frac{h^2}{8 \pi^2}$ that used to be a $\mu$ for reduced mass; now it's $m_e$ for the mass of an electron. $r^2$ is in the denominator, and that all multiplies the quantum numbers $l(l + 1)$. 
+
+What that means now for our value of $\alpha$ for the hydrogen atom is that if I just take that energy and multiply by $r^2$ (since there is an $r^2$ in the denominator), the value of $\alpha$ just works out to be $\frac{h^2}{8 \pi^2 m_e}$. The $r^2$ has gone away, and we still have $l(l + 1)$. So, those are the significant conclusions we've got so far for the angular behavior of an electron in the hydrogen atom. It obeys any one of these functions for the angular component of the wave function, and the value of $\alpha$ that we'll need to solve the radial equation is this collection of constants times some quantum numbers.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

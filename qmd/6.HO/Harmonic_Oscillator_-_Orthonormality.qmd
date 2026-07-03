@@ -1,0 +1,56 @@
+#  Harmonic Oscillator - Orthonormality
+## Harmonic Oscillator - Orthonormality (12:38) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/2Odcrw6n4Rg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Harmonic Oscillator - Orthonormality  Video Transcript { .unnumbered}
+
+
+The general form of the harmonic oscillator wave functions is a polynomial in $x$, specifically a Hermite polynomial, multiplied by a Gaussian function with carefully chosen constants to ensure it is an actual solution to the Schrödinger equation. We haven't yet discussed the normalization constant in front of these wave functions. As usual, once we obtain a solution to the Schrödinger equation, we can guarantee that the function is normalized. We can also investigate whether the family of solutions is mutually orthogonal. That's what we'll do next.
+
+Normalization involves ensuring that if I integrate the probability of finding the particle over all positions, it must equal one. Probability is given by the wave function squared, which involves the complex conjugate. However, we don't need to worry about that too much in this case because neither the Hermite polynomial nor the Gaussian involves any imaginary numbers or square roots of negative one. Therefore, complex conjugation is not needed for the harmonic oscillator wave functions since they are not complex.
+
+Let's do one example of normalization, specifically the simplest one we can think of, because normalization is not particularly fun. Watching someone normalize a wave function is certainly not enjoyable, but it's worth doing one example just to ensure we know what variable we're integrating over. Since this wave function is a one-dimensional function that depends on $x$, the variable we integrate over is $x$. Remembering what that variable means, it represents bond displacement—how much I have stretched or compressed the bond. This displacement can range anywhere between negative infinity and infinity.
+
+Negative infinity, representing an infinite amount of compression, might seem nonsensical. If you're thinking of the bond as having potential energy as a function of bond length, I can only compress the bond from its equilibrium position, where $x = 0$, down to fully compressed until the two items are sitting on top of each other. However, we're not solving the Schrödinger equation for the correct potential energy function; we're solving it for an approximation where we've treated the bottom of this well as a parabola. We acknowledge that we're making some mistakes in both regions, and this function can continue to negative values of bond displacement. Therefore, if we treat the potential energy as a parabola, $x$ can range from negative infinity to positive infinity.
+
+Now, let's normalize the zeroth wave function, which is equal to some normalization constant that we have not yet determined. The Hermite polynomial is 1, and the Gaussian looks like $e^{-\frac{\alpha x^2}{2}}$ for this particular value of $\alpha$. Normalization means I need for 1 to equal the integral from negative infinity to infinity of the wave function, which is $N_0 e^{-\frac{\alpha x^2}{2}}$ integrated over $x$. The $N$s can be pulled out of the integral. The two Gaussians combine, and $e$ to the exponentials multiplied together is $e$ to the sum of the two exponents. One-half of this quantity and one-half of that quantity add up to just give one of that quantity. Luckily, that's an integral we know how to do; we've seen Gaussian integrals before. The integral of a Gaussian function from negative infinity to infinity is $\sqrt{\frac{\pi}{\alpha}}$.
+
+Thus, we need for 1 to equal $N_0^2 \sqrt{\frac{\pi}{\alpha}}$. Since we're solving for $N_0$, I'll rearrange this to say $N_0^2 = \frac{\sqrt{\alpha}}{\pi}$, or when I take the square root, $N_0 = \left( \frac{\alpha}{\pi} \right)^{\frac{1}{4}}$. So that's the normalization constant. If we care about the full details of the zeroth wave function, the value of this normalization constant is $\left( \frac{\alpha}{\pi} \right)^{\frac{1}{4}}$, where $\alpha$ is this collection of constants. Often, we don't particularly care about those values, but when we do, here's how to do the normalization.
+
+The variable we integrate over and the ranges of that integral can also lead us to discuss the orthogonality of those wave functions. Are they orthogonal to one another? Here, I can't ask if $\psi_0$ is orthogonal; I need to ask if one wave function is orthogonal to another wave function. For example, I can ask if $\psi_0$ is orthogonal to $\psi_1$, $\psi_2$, $\psi_3$, and so on—any pair of wave functions I want. In general, to answer that question, I would need to determine whether the $n$-th wave function is orthogonal to some $n'$, a different wave function. 
+
+To answer that question, I ask if it is true that the overlap integral between $n$ and $n'$, which is the integral of $\psi_n$ multiplied by the complex conjugate of $\psi_{n'}$ (which we don't need for the harmonic oscillator), is equal to zero. If it is for $n$s that are different from one another, then those two wave functions are orthogonal to one another. We can certainly solve one such problem mathematically. We can take the $\psi_0$ wave function and the $\psi_1$ wave function, insert the integral, and do the calculation. It's a little easier to see how that works out visually.
+
+If I draw a graph of what the $\psi_0$ wave function looks like, it resembles a Gaussian function. Ignoring the normalization constant, it looks like $e^{-x^2}$. The shape of the function is that of a Gaussian. If I am asking whether that's orthogonal to $\psi_1$ or $\psi_n$ or some other wave function, I need to know what those look like as well. If I draw $\psi_1$, it has the shape of a first-order function $x$ times the Gaussian, again with normalization constants in front. The shape of that function generally looks like this. We know it looks like that because it's the same Gaussian we started with before, multiplied by $x$. 
+
+When $x = 0$, the function has a value of 0. For small values of $x$, I'm multiplying my Gaussian by a small number that is either positive or negative, depending on whether $x$ is positive or negative. As $x$ gets larger, I'm multiplying by a larger number, but it doesn't blow up because the Gaussian decays fairly quickly, faster than the value of $x$ grows. Thus, it is negative when $x$ is negative and positive when $x$ is positive. 
+
+Let me shade the area under this integral to illustrate that if I were to compute the overlap integral between the zeroth and first wave functions, the overlap integral between $\psi_0$ and $\psi_1$ would yield zero. Both wave functions are symmetric; the first wave function is symmetric about $x = 0$. If I had drawn it as carefully as I should, what it looks like on the left matches what it looks like on the right. The $\psi_1$ wave function is odd; remember, the Hermite polynomial is an odd function. Therefore, the value on the left is the negative of the value on the right. 
+
+When I multiply the two functions together, the areas where it's positive times positive exactly cancel the areas where it's positive times negative. By symmetry, we can see that the overlap integral will indeed equal zero. We can continue and do a very similar thing for one more case: the $\psi_2$ function. Ignoring the constants, $\psi_2$ looks like $x^2$ minus a constant times the Gaussian. The second-order Hermite polynomial multiplies my Gaussian function, so it resembles a Gaussian not multiplied by a linear function, which has one zero. This gives the wave function a single node at $x = 0$. 
+
+However, I've got a quadratic function with two zeros, which will cause the wave function to cross zero at two different locations, starting out positive, dipping negative, crossing back positive again, and then dying at either extreme because of the Gaussian. Again, shading the area under the integral illustrates where it's positive and where it's negative. If we compute the overlap integral between wave function one and wave function two, we can see that because of symmetry, this is an even function. If I multiply it by an odd function, the places where it's positive and negative will cancel out. 
+
+Thus, by symmetry, these two wave functions are orthogonal to one another. It gets a little more complicated when I talk about the overlap between function zero and function two. Here, I can't use symmetry in quite the same way. This is an even function, and this is also an even function. There's no guarantee that an even function times another even function will integrate to zero. However, I can observe that there are some regions where positive multiplies positive, and in the middle, there are regions where positive multiplies negative. 
+
+It just so happens that because of the features of this Hermite polynomial—essentially due to the recursion relation between different Hermite polynomials—the negative areas of this product will exactly cancel the positive areas of this product. Thus, this overlap integral will indeed be zero, although it's not obvious that it must be the case from the pictures we've drawn here. 
+
+In fact, it is true that every pair of different harmonic oscillator wave functions has an overlap integral of zero, meaning those two wave functions are orthogonal. The full set of harmonic oscillator wave functions is indeed mutually orthogonal. This summarizes both the normalization and the orthogonality of these integrals. Since the wave functions, with these choices of normalization constants, are normalized and mutually orthogonal to one another, we say that the harmonic oscillator wave functions form an orthonormal set of functions. Now that we know this, the next step is to return to the wave function and see what we can learn about the energies of the wave functions.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

@@ -1,0 +1,86 @@
+#  H Atom wavefunction Characteristics (s)
+## H Atom wavefunction Characteristics (s) (16:37) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/5axHj6t2GIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## H Atom wavefunction Characteristics (s)  Video Transcript { .unnumbered}
+
+
+Okay, so now that we know how to write down the wave functions for the hydrogen atom, I've written down a few of them here. Let's take a closer look and see if we can understand what those wave functions look like graphically or spatially. 
+
+What I've written here are the first few wave functions with $l = 0$ and $m = 0$, corresponding to quantum numbers $n = 1$, $n = 2$, and $n = 3$. The reason I've chosen these three is that they don't have any dependence on $\theta$ or $\phi$. Because $l = 0$ and $m = 0$, there are no terms that involve $\sin(\theta)$ or $\cos(\theta)$ or $e^{i \phi}$. Thus, there is only $r$ dependence, with no $\theta$ or $\phi$ dependence. 
+
+What this means is that these wave functions are spherically symmetric. The size of the wave function depends on how far the electron is from the nucleus, but it doesn't depend on the direction of the electron relative to the nucleus. Therefore, no matter what direction you look outward from the nucleus, you have the same probability of finding the electron. This gives these wave functions spherical symmetry, and for that reason, we call them $s$ wave functions. 
+
+The $1_{00}$ wave function is sometimes called the $n = 1$ spherical wave function, or the $1s$ wave function. Likewise, the $2_{00}$ wave function is the $2s$ wave function, and $3_{00}$ corresponds to the $\psi_{3s}$ wave function. These are the same $1s$, $2s$, and $3s$ orbitals or wave functions that you are familiar with from earlier levels of chemistry courses.
+
+To understand the shapes of these $1s$, $2s$, and $3s$ orbitals, we need to look in more detail at these wave functions and see what they look like when graphed. Since there is only one variable, $\theta$ and $\phi$ are not present, we can graph a function of an exponential. We know what exponential functions look like. If I graph the $1s$ wave function as a function of distance, that's just an exponential function that will decay exponentially with distance from the origin or distance from the nucleus. 
+
+This indicates that the farther away from the nucleus we get, the less likely we are to find the wave function. Remember, the probability of finding an electron at some position is proportional to the wave function squared. To really ask about the probability, if I want to draw a picture, here's a three-dimensional graph with $x$, $y$, and $z$ axes, and a nucleus at the center. I want to ask where I am likely to find that electron relative to the nucleus. I'm asking for the probability of finding it in some small region of space, some small $dx \, dy \, dz$ component of three-dimensional space. 
+
+Since we've written the wave functions in terms of $r$, $\theta$, and $\phi$, I don't want to write $dx \, dy \, dz$; instead, I'll write that as $dV = r^2 \sin(\theta) \, dr \, d\theta \, d\phi$. This is an important distinction. The probability of finding an electron in some three-dimensional volume of space is not just the wave function squared; it's the wave function squared times $r^2 \sin(\theta) \, dr \, d\theta \, d\phi$. 
+
+If I only care about how likely I am to find the wave function at some particular $r$ coordinate, close to the nucleus or far from it, all I'm really asking about is the probability at some particular $r$ without worrying about $\theta$ and $\phi$. To get that, I can go ahead and integrate over $\theta$ and $\phi$. The integral looks like $\int r^2 \sin(\theta) \, dr \, d\theta \, d\phi$. If I perform the $\theta$ and $\phi$ integrals from $0$ to $\pi$ and from $0$ to $2\pi$, I can integrate away $\theta$ and $\phi$ without performing the $r$ integral. 
+
+We can do that integral for these $s$ orbitals because there is no $\theta$ or $\phi$ dependence in the wave function. The wave function squared doesn't have any $\theta$ or $\phi$ in it, and $r^2$ doesn't have any $\theta$ or $\phi$ in it. The integral of $\sin(\theta) \, d\theta \, d\phi$ is just $4\pi$. So I've done the $\theta$ and $\phi$ integrals, and the integral of $\sin(\theta) \, d\theta \, d\phi$ is $4\pi$. 
+
+I still have $r^2$ and the wave function squared, so the graph I'm really interested in is not what the wave function looks like as a function of distance, but what the probability of finding the $1s$ electron looks like as a function of distance. This is not just an exponential; it is, in this case, some constant times $r^2$ times the wave function squared. 
+
+So this graph is going to look like $r^2$ times my wave function squared $e^{-\text{constant} \cdot r}$. When I square it, I get $e^{-2 \cdot \text{constant} \cdot r}$ in the numerator over $a_0$. Without worrying about the constants too much, the graph is not just an exponential anymore; now it's $r^2$ times an exponential. It rises at the beginning as $r^2$ gets bigger. It is zero when $r = 0$ because $r^2$ is zero there, but then it decays at long distances because of the exponential.
+
+This is more like what we think of the wave function as being. I don't have the highest probability of being found at the origin; in fact, the probability of being at the origin is very small because there are very few points that are directly at the origin. At some distance away from the origin, there are more points with a particular radius away from the origin. So if I move a little bit away from the origin, I'm more likely to find the electron. If I move even further away, I have a higher probability of finding the electron there, but then as I move farther and farther away from the electron, I become less and less likely to find it. 
+
+So it's a spherical cloud of electron density surrounding the nucleus that decays the further away we get from the nucleus. This matches the picture you probably already have in your head of a $1s$ orbital and can be mathematically described by this particular function. Notice that there's a maximum in this curve. If I ask you at what distance you're most likely to find the electron, it's not $r = 0$ and it's not $r = \infty$; it's somewhere in between. 
+
+To find this position, let's say specifically for a hydrogen atom. I'm going to let $z = 1$ and look for the place where this curve goes through a maximum, where the slope of that curve is equal to zero. Since I know how to write down the probability $r^2 e^{-2r/a_0}$, I need to find the place where the derivative of $r^2 e^{-2r/a_0}$ is equal to zero. 
+
+Let's go ahead and take that derivative. Notice that I've let $z = 1$, so I'm specifically talking about hydrogen here. If I take this derivative using the product rule, the derivative of $r^2$ is $2r$, and that still has $e^{-2r/a_0}$. Alternatively, I can leave $r^2$ alone and take the derivative of $e^{-2r/a_0}$, which gives me $-\frac{2}{a_0} e^{-2r/a_0}$. 
+
+This is the derivative I want to equal to zero. I can factor out $e^{-2r/a_0}$ because it's zero on the other side. I can get rid of one multiple of $r$ from each of these terms, reducing $r^2$ to $r$. What I'm left with is $2 - \frac{2}{a_0} r = 0$. 
+
+So, $2 = \frac{2}{a_0} r$. I could have canceled the twos at any time up until this point, and then rearranging that one more time, I find that $r = a_0$. Remember, $a_0$ is the Bohr radius. So, our answer to the question of where the probability of finding the electron is largest is at the Bohr radius. 
+
+If I didn't use $z = 1$ and instead used $z = 2$, I would get a different answer, with some twos entering the equation that weren't there before. We could work that problem for helium plus ions or lithium two plus ions, but the point is there's a maximum in this wave function, and we can determine where that maximum is. That maximum is either the Bohr radius or is closely related to the Bohr radius, which covers the $1s$ orbital. 
+
+Let's spend just a minute talking about these higher-level spherical orbitals, the $2s$ and $3s$ orbitals. The only difference between these wave functions and the $1s$ wave function is that there is a polynomial in front of the wave function. If we were to back up now and imagine repeating what we've just done for the $1s$ orbital, now for the $2s$, the wave function, if I were to plot it, would show that this polynomial in front affects the graph of the wave function. 
+
+When I graph the $2s$ wave function, not only do I have an exponential, but the polynomial can occasionally be zero. There is a particular value of $r$ for which this term cancels, making this polynomial a linear function that reaches zero. This means I have an exponential multiplied by something that might be large, small, or zero. 
+
+So the function goes through zero at what we call a node and then still exponentially decays towards zero as $r$ gets larger. We know it's coming to zero from the negative direction because when $r$ is very large, this negative term is dominating. The wave function is not what we're particularly interested in; we're more interested in the probability of finding an electron in a $2s$ orbital at certain radii. 
+
+Again, we need to think of the probability not just as the wave function squared. Squaring it will make the positive and negative terms both positive, but we need to remember that we multiply by $r^2$ to calculate the probability of finding the electrons. So not only is the wave function zero at this node, but it's also zero at the origin when $r = 0$. 
+
+Therefore, it starts at zero, goes up, and then comes back down. This happens when I square this positive part after multiplying by $r^2$. The negative part will also be multiplied by $r^2$ and squared, resulting in a graph that looks something like this. 
+
+Again, we have a node, a particular radius at which we never find the electron. The probability of finding the electron there is zero. We could work through the algebra to determine where exactly the node is and how many multiples of the Bohr radius that particular node represents. We could also ask where we are most likely to find the electron. It turns out this second peak is higher than the first peak, resulting in a local maximum here and a larger global maximum here. 
+
+If I ask where the probability function is flat, there will be two locations, one of which will be higher than the other. This means that when I draw a picture of the $2s$ wave function containing an electron, it will look like the picture of the $1s$ wave function. 
+
+In this graph, I can have the electron appearing at small distances from the nucleus, and then there's this node, a particular radius at which we never find the electron. At that radius, at every point on this sphere, the radius is constant, and I'm even more likely to find the electron outside that sphere than inside it. 
+
+So again, we have a decaying probability as I go further away from the nucleus, indicating less likelihood of finding the electron. It's quite likely to find it out here in this second shell, not at all likely to find it on the nodal surface, and somewhat likely to find it inside that node. 
+
+We still have spherical symmetry, but the difference between the $1s$ orbital and the $2s$ orbital is that the $2s$ orbital has this radial node. Now, without even writing down any math, we can extrapolate a little further and ask ourselves what things will look like for the $3s$ orbital. 
+
+This was all for the $2s$ wave function. If I draw one more set of pictures for the $3s$ orbital, the fact that this linear polynomial had one zero led to one node in the wave function and one node in the probability density. The $3s$ orbital has a quadratic polynomial that will have two roots, meaning the $3s$ wave function will have two nodes. 
+
+It will go through a maximum, come back down to zero, reach a larger maximum, come back down to zero, and then reach a third maximum. So, I will have two separate radial nodes in the $3s$ wave function. 
+
+If we cared about the details, we could solve for the locations of those nodes and the positions of these maxima, as well as the relative heights of these maxima. But qualitatively speaking, as the value of the quantum number $n$ increases, we get successively more peaks and successively more nodes in the wave function, leading to successively more shells in the graphical picture of the orbital.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

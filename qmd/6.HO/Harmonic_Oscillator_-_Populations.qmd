@@ -1,0 +1,48 @@
+#  Harmonic Oscillator - Populations
+## Harmonic Oscillator - Populations (6:56) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/MTjY85WrxH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Harmonic Oscillator - Populations  Video Transcript { .unnumbered}
+
+
+We know that harmonic oscillators have equally spaced energy levels. The selection rules tell us that we can make transitions that only change our level by one. We can gain one from zero to one, one to two, and two to three. However, the one missing piece of the puzzle we have now is which of these states are occupied in the first place. Can I expect a molecule to be occupying the n = 2 state and absorb energy to go to n = 3, or does that state not have a particularly high population, so I shouldn't expect that transition to occur? 
+
+We can discuss which of these states are populated or not, which amounts to the question of whether the energies of these states are large or small compared to $kT$. Is there enough thermal energy at a particular temperature to populate a few or many of these states? We know that the size of this quantity, $h\nu$ or $k \times \theta$, corresponds to the energy of photons in the infrared portion of the spectrum. Infrared photons are what we use to excite these transitions. 
+
+We've seen that the vibrational temperature is in the vicinity of several thousand kelvin. Equivalently, the fundamental vibrational frequency, in units of wave numbers, works out to be a few thousand inverse centimeters typically. Those are photons in the infrared portion of the spectrum. 
+
+If we want to answer the question of which of these states are populated or unpopulated, we would like to know, for example, what's the population of one of these energy levels relative to the one below it. How populated is $E_3$ relative to $E_2$, or $E_2$ relative to $E_1$? It turns out that the answer is going to be the same regardless of which $n$ I'm talking about because each of these $\Delta E$'s is the same. We know that this is equal to $e^{-\Delta E / kT}$, and all the $\Delta E$'s are exactly the same amount. Those are all equal to $h\nu$ or, if we prefer, as we do in this case, $k \times \theta$. 
+
+So, if I write that $\Delta E$ as $k \times \text{vibrational temperature}$ divided by $kT$, those $k$'s are the same $k$; those are both Boltzmann's constant. Thus, that's just $e^{-\theta_{\text{vibrational}} / T}$. The population of an upper level relative to the population of the level below it is this exponential. Up in the exponent is this ratio of the vibrational temperature, several thousand kelvin typically, divided by the actual temperature, maybe 298 kelvin at room temperature. 
+
+For example, if we stick with our carbon monoxide molecule, we have seen that the vibrational temperature is about 3100 kelvin. Again, that doesn't mean the molecule is hot; that means this property of the molecule, $h$ times its vibrational frequency divided by Boltzmann's constant, has units of kelvin and a value of 3100. If we are at a temperature of 298 kelvin and we want to know the probability of being in state 1 relative to the probability of being in the ground state, the zeroth state, that's going to be this formula we've just calculated: $e^{-\Delta E / kT}$ or $e^{-\text{vibrational temperature} / \text{actual temperature}}$, which is $e^{-3100 \, \text{K} / 298 \, \text{K}}$. 
+
+Doing the arithmetic in the exponent first, $3100 / 298$ works out to be a little over 10. So, the vibrational temperature is a little more than 10 times as large as the actual temperature. This means our ratio of populations is going to be $e^{-\text{something a little larger than 10}}$. That's a pretty small number, approximately $3 \times 10^{-5}$. 
+
+What that tells us is that the population, the fraction of molecules that occupy the n = 1 state, is $3 \times 10^{-5}$ as much as the population in the ground state. The population in the n = 2 state is going to be even lower; that's going to be another factor of $3 \times 10^{-5}$ smaller than the n = 1 state. Every state I go up, the population drops by this factor. 
+
+So, in the ground state, something like 99.997 percent of the molecules live in the ground state, while only 0.003 percent, or $3 \times 10^{-5}$, occupy the energy level one. An even smaller factor, that number squared, $3 \times 10^{-5}$ of this number, gives us something like $9 \times 10^{-10}$ as the fraction of molecules occupying this state. 
+
+Thus, a very large majority of the molecules, 99.997 percent, of the carbon monoxide molecules at room temperature are in the ground vibrational state. Most of the carbon monoxide molecules are not vibrationally excited at room temperature. The few that are are only excited into the first vibrational state; almost none of them are in the second vibrational state, and the populations get smaller as we climb that ladder. 
+
+Just like we know that most vibrational temperatures are in the same range of a few thousand kelvin, anytime we're at room temperature, this number is going to be, if it's a few thousand kelvin, many times higher than room temperature. Most diatomic molecules will exhibit the same fact: the vibrational population, the population in vibrational states, is overwhelmingly in the ground state. For diatomic molecules, most are not vibrationally excited at room temperature. You would either have to go to very high temperatures, closer to 3000 kelvin, before you begin exciting the vibrational excitations, or you'd have to find a molecule whose vibrational temperature is much lower than 3100 kelvin. 
+
+Now that we've figured out how to calculate these populations, we will next see how the fact that these molecules mainly occupy the ground state affects their thermodynamic properties.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

@@ -1,0 +1,52 @@
+#  Laguerre Polynomials
+## Laguerre Polynomials (13:04) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/IFH27Ukbpfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Laguerre Polynomials  Video Transcript { .unnumbered}
+
+
+All right, so we're making progress in understanding the radial portion of the wave function for the hydrogen atom. What we've seen so far is that the radial portion of the wave function looks like some normalization constant, a collection of $\frac{r}{a_0}$ raised to some power that depends on the $l$ value of the radial wave function that we're discussing, some additional polynomial in $r$, and then an exponential. You can see these $n$s and $l$s that show up throughout this wave function for various values of $n$ and $l$. We can write down different wave functions based on these values.
+
+It turns out that the polynomial portion of this wave function, which we've called $f$, can be determined from the value of something called a Laguerre polynomial. I'll write that down in just a second. There is a family of these polynomials, which I believe is $n - l - 1$. So, this well-known family of polynomials is called the generalized Laguerre polynomials. If I want to know the $n$ and $l$ version of this polynomial that shows up in the regular wave function, I just need to figure out one of these generalized Laguerre polynomials that has a superscript of $2l + 1$ and a subscript of $n - l - 1$.
+
+Let me give you the first few Laguerre polynomials. Instead of using this complicated argument, I'll describe the Laguerre polynomials as a function of some simple variable $x$. If the subscript is zero, it doesn't matter what the superscript is; for a subscript of zero and any value I've written, $\alpha$ here for the subscript just has the value one. The zero family of Laguerre polynomials is very simple; they are just one. If there's a one as a subscript, they are a little more complicated but not very much. They are $1 + \alpha - x$. So, this is $1 +$ the superscript value (whatever that is) minus $x$, and that's the family with a subscript of one.
+
+Once you've got those, it might not surprise you to hear that we have a recursion formula that we can use. If I want to know the $k + 1$th Laguerre polynomial, again with any arbitrary exponent on top, I can calculate that using the two previous ones. That is a collection of constants, let me double-check. It's that multiplied by the previous one, so $(2k + 1 + \alpha - x)$ times the $k$th Laguerre polynomial with the same superscript, and then I subtract $(k + \alpha)$ times the $k - 1$ Laguerre polynomial. That whole thing is divided by $k + 1$. So, there's the recursion formula that I can use. If I know the 0th and the 1st, then I can use this to calculate the 2nd and then bootstrap my way up to the 3rd, 4th, and so on.
+
+You can also evaluate these Laguerre polynomials differently if you wish. You can evaluate them directly without using the recursion formula with the following formula: what we can do is take this function $x^{-\alpha} e^{x}$ over $k!$ and multiply that by the $k$th derivative of this function $e^{-x} x^{k + \alpha}$. You can double-check if you want; if we plug that in with $k = 0$, we'll get one. If we plug it in with $k = 1$, we'll get this family of functions. If you don't want to bootstrap your way all the way up to, let's say, the 10th $l_{10}$ Laguerre polynomial, then you could do it directly from this formula, with the caveat that you'd have to take the 10th derivative of this function in order to find it. So, these functions do get more complicated as the subscript gets larger.
+
+Again, these are useful because if I want to know what the polynomial piece of the radial wave function looks like, I need to look up or calculate what the $f_{nl}$ function is, which is related to one of these generalized Laguerre polynomials. Just to see how that works, let's do some cases that we've seen already. Previously, we've seen that the polynomial portion of the $n = 2, l = 0$ wave function has the form $2 - \frac{zr}{a_0}$. We can double-check and make sure that that works out to be true. So, this $2_0$ polynomial is a Laguerre polynomial with $n = 2$ and $l = 0$. If I plug in $n = 2$ and $l = 0$, $2 - 0 - 1$ is $1$. For $l = 0$, $2 \times l + 1$ gives me $1$ for a subscript. The argument of that Laguerre polynomial is $\frac{2zr}{a_0}$, and $n$ for us is $2$. 
+
+So, I need to figure out what this Laguerre polynomial $L_{1}^{1}$ is. That's one of the ones that is relatively easy. I started this out with $L_{1}^{1} = 1 + \alpha - x$. Here, $\alpha$ has the value $1$, and I subtract the value of $x$, which is the argument of the function, so I subtract $\frac{2zr}{2a_0}$. I'm just going to subtract $\frac{zr}{a_0}$. So, what I'm left with is $2 - \frac{0}{a_0}$, which is exactly what we've seen previously. That one was easy enough that it didn't require us to use the recursion formula.
+
+Now, let's do one more example when $n = 3$ and $l = 0$. This was a case where we've seen previously that the $3_0$ polynomial looked like $3 - \frac{2zr}{a_0} + \frac{2}{9} \left( \frac{zr}{a_0} \right)^2$. I'll close my brackets so we can double-check that when we plug in $n = 3$ and $l = 0$ into this recursion formula, we're going to get the same polynomial function here just as an example of how that recursion formula works.
+
+Now what we're looking for is the $f_{30}$ function, which is going to be $L_{3 - 0 - 1}$. So, the subscript is $2$, the superscript is still $l = 0$, and we evaluate it for $\frac{2zr}{3a_0}$. To calculate what that is now with a superscript subscript of $2$, we do need to use the recursion formula. We know what $L_0$ and $L_1$ are; we don't know what $L_2$ is without using the recursion formula. 
+
+So, to calculate $L_2$, I can use that as some multiple of the $L_1$ minus some multiple of the $L_0$ function, all divided by $k + 1$. Using that recursion formula, our value of $k$ here, let's see, $k + 1 = 2$. So, the value of $k$ is going to be $1$. Thus, $2 \times k = 2 \times 1 = 2$, plus $1$ gives me $3 + \alpha$ adding $1$ gives me $4$. So, I've got $4 - x$. Let's leave it at that; let's go ahead and say $\frac{2zr}{3a_0}$. 
+
+I'm multiplying that by $L_k$; remember $k = 1$, so $L_1$ is this function $1 + \alpha - x$. I'm subtracting the value of $x$, which is $\frac{2zr}{3a_0}$. That takes care of the first piece of the recursion formula. Now I need to subtract $k + \alpha$; remember $k = 1$, $\alpha = 1$, so $k + \alpha = 2$, and I multiply that by the $L_{k - 1}$. This was $L_1$; this one is $L_0$. So, $L_0$ is the value of $1$, so I just need to subtract $2$ from that first product. 
+
+When I'm all done, I divide by $k + 1$; $k + 1 = 2$. So, I take this whole thing and divide by $2$. Now, what I'm left with is a little bit of algebra to multiply $(4 - \frac{2zr}{3a_0})$ times $(2 - \frac{2zr}{3a_0})$. What I find when I do that multiplication is $4 \times 2 = 8$. These two terms are both the same, so $4 \times (-\frac{2zr}{3a_0})$ and $2 \times (-\frac{2zr}{3a_0})$ gives me a total of $-6 \frac{2zr}{3a_0}$, and lastly, the $r$ terms squared. So, I've got a negative and a negative which cancel, and I'm left with $\frac{2}{3} \times \frac{2}{3} = \frac{4}{9} \left( \frac{zr}{a_0} \right)^2$. 
+
+Oh, I've also forgotten to subtract $2$. So, I've got a $-2$, and then that whole thing is divided by $2$. So, we're almost there. $8 - 2 = 6$. When I divide it by $2$, I get $3$. $6 \div 2 = 3$, which cancels the $3$ in the denominator. So, what I'm left with is $-\frac{2zr}{a_0}$ for this term, and then $\frac{4}{9} \div 2 = \frac{2}{9}$ multiplying $\frac{zr}{a_0}^2$. That's exactly the polynomial term that we saw that shows up in the $3_0$ solution to the radial hydrogen atom Schrödinger equation. 
+
+So, what we've seen here is just an example of how to use these generalized Laguerre polynomials to figure out what this polynomial term is in the radial wave function. Now that we understand where that comes from, if we have any $n$ or any $l$ value, then this equation will tell us exactly how to calculate that radial portion of the wave function.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

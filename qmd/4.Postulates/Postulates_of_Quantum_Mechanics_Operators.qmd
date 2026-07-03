@@ -1,0 +1,70 @@
+#  Postulates of Quantum Mechanics (Operators)
+## Postulates of Quantum Mechanics (Operators) (8:32) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/l4E86OWxFOw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Postulates of Quantum Mechanics (Operators)  Video Transcript { .unnumbered}
+
+
+The first postulate of quantum mechanics tells us that everything possible to know about a quantum mechanical system can be obtained from its wave function. All the different properties of that system can be derived in some way from the wave function. Before we can understand how to do that, we should discuss what these properties are that we can obtain from the wave function. It is important to distinguish between properties that are what we call physical observables and those that are not.
+
+A physical observable is any property that can be measured and assigned a concrete value without disagreement about that value. This may seem like a silly definition; of course, if a property exists, it has a value that we can measure. However, some properties, especially for us as chemists, are somewhat ambiguous or subjective. For example, in organic chemistry, we might discuss the quality of a leaving group or the amount of electron-withdrawing character that a functional group has. These properties are poorly defined, and different people may disagree about how to define them or whether one leaving group has more or less leaving group character than another. Thus, these are not physical observables; there is no instrument we can use to measure the quality of a leaving group.
+
+In contrast, properties like mass, energy, or momentum describe the physical characteristics of a system and are not ambiguous or subjective. These are the properties we refer to as physical observables. For each of these carefully defined properties, there is a corresponding quantum mechanical operator. We have seen operators before, and I will remind you of a few of them. This postulate states that whatever property we want to measure—whether it is energy, momentum, or something else—there is an operator that corresponds to that property. There is an energy operator, a momentum operator, and so on.
+
+We have indeed seen several examples of these operators corresponding to individual properties. Let me provide a few examples. For instance, the kinetic energy operator, sometimes referred to as $\hat{T}$, appears in the Schrödinger equation as a second derivative operator. If I take a wave function and apply this operator to it, it is expressed as:
+
+\[
+-\frac{\hbar^2}{8\pi^2 m} \frac{d^2 \psi}{dx^2}
+\]
+
+This operator acts on the wave function, giving us the kinetic energy in a way we have not yet fully discussed. This is the kinetic energy operator in one dimension. If we are solving a three-dimensional problem, it is often easier to write using the Laplacian operator $\nabla^2$:
+
+\[
+\nabla^2 = \frac{d^2}{dx^2} + \frac{d^2}{dy^2} + \frac{d^2}{dz^2}
+\]
+
+Another operator that appears in the Schrödinger equation is the potential energy operator, which is expressed as the potential energy times the wave function that follows it. In three dimensions, we would have the potential energy as a function of three-dimensional coordinates multiplying the wave function.
+
+The whole purpose of the Schrödinger equation is to use the Hamiltonian operator, which is the sum of the kinetic energy and potential energy operators. This can be expressed as:
+
+\[
+\hat{H} = -\frac{\hbar^2}{8\pi^2 m} \nabla^2 + V(\mathbf{r})
+\]
+
+When this operator acts on a wave function, it gives us back the total energy multiplied by the wave function. This is what it means to be the total energy operator, and we can write that down in three dimensions as well.
+
+To discuss a few properties we have not yet covered, the momentum operator, which we use to find the momentum of a particle, is denoted as $\hat{p}$. It resembles the kinetic energy operator but involves a single derivative instead of a second derivative. It is expressed as:
+
+\[
+\hat{p} = -i\hbar \frac{d}{dx}
+\]
+
+In three dimensions, it looks similar:
+
+\[
+\hat{p} = -i\hbar \nabla
+\]
+
+Along with momentum, we often want to know the position of a particle. The operator that tells us the position of a particle is simply $x$ in one dimension or $\mathbf{r}$ in three dimensions.
+
+Some operators, like momentum and energy, involve derivatives, while others, like position and potential energy, only involve multiplication. The last operator we will discuss for now, which will be particularly relevant once we address three-dimensional problems, is the angular momentum operator, denoted as $\hat{L}$. This operator is also complex and contains the imaginary unit $i$. If you remember enough physics, you know that angular momentum should be expressed as $\mathbf{r} \times \mathbf{p}$. This is exactly what we have here; it represents the cross product between the position operator $\mathbf{r}$ and the momentum operator $-i\hbar \nabla$.
+
+In quantum mechanics, this operator is indeed the cross product of the position operator with the momentum operator. The second postulate tells us that each physical observable property we are interested in has some associated operator. It is still a bit unclear how to use that operator to actually obtain a value for the property, so we need one more postulate to explain how to do that, which is the next step.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

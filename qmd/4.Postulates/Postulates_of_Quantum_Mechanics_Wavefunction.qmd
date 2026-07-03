@@ -1,0 +1,46 @@
+#  Postulates of Quantum Mechanics (Wavefunction)
+## Postulates of Quantum Mechanics (Wavefunction) (7:20) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/Sk3VPtV5bQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Postulates of Quantum Mechanics (Wavefunction)  Video Transcript { .unnumbered}
+
+
+So far, we've talked about the one-dimensional particle in a box. That's our only example of solving a quantum mechanical problem and solving Schrödinger's equation. This has given us a little taste of quantum mechanics, so we have some experience under our belt. Before we move any further, let's discuss what are called the postulates of quantum mechanics, which are the basic foundations for doing quantum mechanics. These will help us understand much better what the answers mean when we solve more complicated problems than the particle in a box.
+
+It turns out there are five of these postulates of quantum mechanics. The first one refers to the properties of what we've been calling the wave function. This first postulate states that the state of a quantum mechanical system is completely described by its wave function. There are two important terms that deserve a little discussion: what do I mean by the state of a system, and what do I mean by the wave function? We'll also talk about what it means for the system to be completely described.
+
+Let's start with the wave function. We've talked about wave functions before, but there's one property that these wave functions must satisfy that we haven't discussed in detail yet: they must be square integrable. This is a technical term, so let me explain what it means. If I have a wave function, $\psi$, and I calculate the integral of the wave function multiplied by its complex conjugate, integrated over all space, that integral must be finite. For something to be a bona fide wave function, it has to be square integrable in this sense, meaning the integral must yield a finite number. This requirement ensures that we can normalize the wave function.
+
+If you remember when we talked about the free particle, a sine wave that oscillated forever in all directions out to infinity resulted in an infinite integral of the square of that wave function. That's one of the reasons we didn't like that wave function, and we had to start discussing particles confined to boxes, where the integral of their probability, or the square of the wave function, would be finite. So, a wave function is the type of thing we've seen before, with the additional requirement that it must be square integrable.
+
+When I refer to the state of the system, I mean the same as if I were describing the state of a problem back when we were doing lattice models. If I describe all the properties of the system, I've given you all the details, and I've completely described the state of the system. This postulate tells us that anything that is possible to know about a quantum mechanical system can be obtained from its wave function. If I know the wave function, there is a way to extract enough information to describe everything I can about the system.
+
+So, what do I mean when I say that I can extract the properties from the wave function? We have seen just one example of this so far. The wave functions for the one-dimensional particle in a box are given by $\sin\left(\frac{n \pi x}{a}\right)$ with a normalization constant out front. The one property we know how to inquire about for this wave function is probability. Remember, the probability of finding an electron or a particle between two different limits, $a$ and $b$, is given by the integral from $a$ to $b$ of the squared wave function.
+
+For example, let's consider a particle in a box from $0$ to $a$. If we take the $\psi_2$ wave function, it looks like this, and the square of the wave function looks like that. If I were to ask, for example, what the probability is that the molecule is in the left half of the box, meaning in the range between $0$ and $\frac{a}{2}$, I would integrate from $0$ to $\frac{a}{2}$ the square of the wave function, $\frac{2}{a} \sin\left(\frac{2 \pi x}{a}\right)^2$. 
+
+We could compute that integral mathematically, or we could just look at the graph and note that the whole area under this curve is $1$ because we have normalized our wave function. Since the left half is symmetric with the right half, by symmetry, I know that if I perform the integral, it will yield $\frac{1}{2}$. Thus, there is a $50\%$ probability that the electron is in the left half of the box. The particle exists at different positions in the box with different probabilities given by the wave function.
+
+That's an example of how I can find out something about the state of the system: where the particle is and with what probability it occupies certain regions. I can obtain that information from the wave function, provided I know what the wave function is, and there is a method for how to find the property I am interested in.
+
+Notice that when I say the state of the system is completely described by the wave function, if I have two systems that have the exact same wave function, I will always get the same properties when I ask questions about the state of those systems. If two systems have the same wave function, they are identical in every way. This is a consequence of the fact that the state is completely described by the wave function.
+
+So far, all we know how to do is find answers to questions about probability using the wave function. If we want to answer questions about other properties beyond probability, we need more information to tell us how to extract those properties from the wave function. That will be the topic of the next few postulates of quantum mechanics.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

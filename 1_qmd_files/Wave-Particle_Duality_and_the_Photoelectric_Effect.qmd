@@ -1,0 +1,40 @@
+#  Wave-Particle Duality and the Photoelectric Effect
+## Wave-Particle Duality and the Photoelectric Effect (3:55) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/MFPKwu5vugg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@ProfessorDaveExplains)
+:::
+ 
+
+    
+## Wave-Particle Duality and the Photoelectric Effect  Video Transcript { .unnumbered}
+
+
+Hey, it's Professor Dave. I want to tell you about wave-particle duality, so let's take a break from atoms and look at something else: light. For some time, we had known light to behave as an electromagnetic wave; for this reason, light is also called electromagnetic radiation. Light waves have both a wavelength, which is the distance from tip to tip, and a frequency, which is the number of waves that pass by a point per unit time. These two properties are inversely proportional: the shorter the wave, the more of them can go by per second, resulting in a higher frequency. These variables are related by the following equation: 
+
+\[
+c = \lambda \cdot f
+\]
+
+where $c$ is the speed of light, about 300 million meters per second, the speed limit of the universe. The electromagnetic spectrum shows light of all different wavelengths, from gamma rays to radio waves, including this tiny sliver in the middle, which is visible light—the light we can detect with our eyes.
+
+The wave theory of light was very useful for a time, but it could not explain the photoelectric effect. This was the observation that if a certain metal plate is irradiated with light, an electron is ejected, which can be detected when it interacts with a positively charged wire or plate sensor. The incongruity was that the ability of the light to eject an electron depends only on its frequency and not its intensity. So, if the beam was below a certain frequency, even a very intense beam with a lot of light could not eject an electron, whereas above a certain frequency, the faintest beam possible could do it. This seemed strange, and a famous fellow named Albert Einstein solved the problem by extending a concept developed by Max Planck just five years prior. Planck proposed that energy is not continuous but rather quantized; that is, all energies are multiples of the smallest fundamental unit of energy, the Planck energy. In fact, quantum theory went on to show that everything is quantized—space and time too—so you can't infinitely subdivide them; you'll eventually get to a smallest thing that can't be divided further, but more on that in the physics course.
+
+Einstein extended what Planck said about energy and rationalized that light must also be made of quanta, which he called photons. These are particles of light. This explains the photoelectric effect because an electron is ejected when struck by a singular photon with sufficient energy; it only takes one photon. So, even the faintest beam above a certain frequency will be able to do it. However, if none of them are of that minimum energy, no matter how many photons strike the sample, an electron will not be ejected. It was found that the energy of the photon can be given by the following equation:
+
+\[
+E = h \cdot f
+\]
+
+where $E$ is the energy of the photon, $h$ is Planck's constant, and $f$ is the frequency of the photon. We now have to accept that light obeys wave-particle duality, meaning it is both a particle and a wave at the same time. Confused? You should be. This is the first discovery in a series that brought about the quantum revolution, completely changing the landscape of physics and how we view the universe. Newton's Laws no longer reign supreme in the world of the very small, and the universe became much stranger almost overnight, thanks to Einstein and others who were inspired by him. 
+
+Thanks for watching, guys! Subscribe to my channel for more tutorials, and as always, feel free to email me.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

@@ -1,0 +1,76 @@
+#  3D Particle in a Box (Solutions)
+## 3D Particle in a Box (Solutions) (16:34) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/IRTjEhxf6XI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## 3D Particle in a Box (Solutions)  Video Transcript { .unnumbered}
+
+
+We've seen that the one-dimensional particle in a box is a problem that we can solve using Schrödinger's equation. Here's a reminder of what Schrödinger's equation looks like for the one-dimensional particle in a box. We gained some insights from solving that problem and discovered that it's a useful model for describing things like an electron in a linear conjugated hydrocarbon molecule. It may also be useful for a small number of other scenarios. However, in general, problems in the three-dimensional world are not well described by a one-dimensional particle in a box. Therefore, we will gain much more knowledge by solving the same particle in a box problem in three dimensions rather than just one dimension. That’s our next task.
+
+To recap how we approached the one-dimensional particle in a box, we started by writing down Schrödinger's equation. There is a kinetic energy term, and the potential energy term was zero because we assumed the particle has no potential energy. So, that's our one-dimensional particle in a box Schrödinger's equation. We could then solve Schrödinger's equation to write down the wave functions. Any function that resembles a sine wave will have a second derivative that is the negative of the original function, so these will all be solutions to this Schrödinger's equation. However, we require that the solutions be zero at the edges of the box, which means we can only have sine waves that end at the edges of the box. 
+
+Solving Schrödinger's equation gives us one set of solutions that obey the boundary conditions, making those sine waves end at specific places defined by the edges of our box. This imposes additional restrictions, and we found that the one-dimensional particle in a box wave function must look like $\sin\left(\frac{n \pi x}{a}\right)$, where $n$ is an integer and $a$ is the box length. This is a quick recap of what we did for our one-dimensional particle in a box. Remember this step: we required that at the two edges of the box, when we plug in $x = 0$ or $x = a$, we must get zero for the value of the wave function. This is how $k$ became $\frac{n \pi}{a}$.
+
+Now, we will do the exact same thing for the three-dimensional particle in a box. We can start by writing down Schrödinger's equation. It is still a particle in a box, and we will assume that when the molecule is inside the box, there is no potential energy, and it is not allowed to be outside the box. Thus, we still have just a kinetic energy operator. The only difference is that instead of having $\frac{d^2}{dx^2}$, we need the full Laplacian, which means we need the derivatives not just with respect to $x$ but also with respect to $y$ and $z$. So, we take the derivatives of the wave function and sum them together, multiplying by the constants out front to obtain a constant times the wave function.
+
+Now we've written the three-dimensional version of Schrödinger's equation, just like the one-dimensional version, but we have $y$ and $z$ as well. I should point out that this wave function itself is now a function of $x$, $y$, and $z$ instead of just a function of $x$ as it was for the one-dimensional problem. If we were to solve this equation formally, as you would have done in a differential equations class, we would invoke separation of variables. We have some $x$ derivatives that are separate from the $y$ and $z$ derivatives. 
+
+Without being overly formal, we can write down what the solution should look like and then confirm that those solutions are indeed solutions to Schrödinger's equation. Since we know how to solve the problem if we only had the $x$ derivative, the solutions would look like this. That's a good starting place. However, since we also have $y$ and $z$ portions, the wave function turns out to be the product of the $x$, $y$, and $z$ portions. There is no difference between $\frac{d^2}{dx^2}$, $\frac{d^2}{dy^2}$, and $\frac{d^2}{dz^2}$ other than the variable names. Thus, we multiply together $\sin(k_x x)$, $\sin(k_y y)$, and $\sin(k_z z)$. In fact, there is no necessity for these $k$ values to be the same; I could have a different constant $k_x$ for $x$, a different constant $k_y$ for $y$, and a different constant $k_z$ for $z$. There could be three different constants in this expression.
+
+This is the equivalent of the equation I have here, where we've solved Schrödinger's equation. If we took this expression and plugged it back into Schrödinger's equation, we could confirm that taking the second derivatives of this function indeed gives us back the same function we started with, multiplied by some constants. 
+
+Step number two proceeds very similarly to step number two in one dimension, keeping in mind that we're now in three dimensions instead of one. Instead of having a one-dimensional region confining our particle to keep it in the box, we have a three-dimensional box. The potential energy is zero inside this box, and the particle is not allowed to be outside the box. The wave function must be zero at the edges of the one-dimensional box, and the same must be true for the edges of the box in $x$. The box may range from $0$ to $a$ in $x$. We can choose a different length $b$ for the box in the $y$ direction and let $c$ be the height of the box in the $z$ direction. 
+
+This means my new boundary conditions require that whenever the particle is at the left edge of the box (when $x = 0$), the wave function must be zero. When $x$ is at the right edge of the box, the wave function must also be zero. This is akin to saying that anytime the particle is at the right face of the box, the entire right side of the box must have a wave function of zero. The first condition is similar for the left face of the box. There are equivalent boundary conditions for the top and bottom of the box, as well as the front and back. Therefore, I also need the wave function to be zero when $y = 0$, $y = b$, $z = 0$, or $z = c$. 
+
+These are the six conditions for the six different sides of the box—not just left and right, but also front and back, and top and bottom. After applying these conditions, we place restrictions on $x$ that work exactly the same way as they did for the one-dimensional particle in a box. This will turn $k_x$ into some integer multiple of $\frac{\pi}{a}$. The wave function must oscillate an integer number of times when it goes from the left edge of the box to the right edge. The conditions on $y$ will impose restrictions on $k_y$, and the conditions on $z$ will impose restrictions on $k_z$. 
+
+By the time we apply all these conditions, the result will look very similar to the solution in one dimension. We will find that the wave function looks like $\sin\left(\frac{n_x \pi x}{a}\right) \cdot \sin\left(\frac{n_y \pi y}{b}\right) \cdot \sin\left(\frac{n_z \pi z}{c}\right)$. However, these constants do not need to be equal; the number of oscillations in the $x$ direction does not have to match the number of oscillations in the $y$ direction or the $z$ direction. Thus, $n_x$, $n_y$, and $n_z$ can be different values. 
+
+Just like in the one-dimensional problem, when we applied the boundary conditions, we went from an infinite number of solutions with any possible value of $k$ to a discretized set of solutions where these $n$ values had to be integers. We started labeling the wave function $\psi_n$. Here, we will label these wave functions not just by a single $n$ but by the three $n$ values $n_x$, $n_y$, and $n_z$ that we need to evaluate it. 
+
+For any choice of $n_x$, $n_y$, and $n_z$, where each $n$ is a positive integer, I can write down a wave function that will obey Schrödinger's equation. To confirm that these wave functions do indeed solve the three-dimensional particle in a box Schrödinger equation, let's convince ourselves of that. If this wave function solves Schrödinger's equation, taking the second $x$ derivative, adding it to the second $y$ derivative, and adding it to the second $z$ derivative multiplied by these constants will yield the original wave function. 
+
+The second $x$ derivative of my wave function involves only the sine term in the $x$ portion; the $y$ and $z$ terms do not contain any $x$ variables. Taking the first derivative of sine gives cosine, and taking another derivative will return to negative sine. Each time I take a derivative, it will pull out some constants, specifically $\frac{n \pi}{a}$. Thus, I will have $-\frac{n_x^2 \pi^2}{a^2} \psi$. The same logic applies for $y$ and $z$; the second $y$ derivative will yield $-\frac{n_y^2 \pi^2}{b^2} \psi$, and the second $z$ derivative will yield $-\frac{n_z^2 \pi^2}{c^2} \psi$. 
+
+These are all the building blocks I need to evaluate Schrödinger's equation. If I take that and plug our wave function into Schrödinger's equation, it tells us that 
+
+\[
+-\frac{h^2}{8 \pi^2 m} \left( \frac{d^2}{dx^2} + \frac{d^2}{dy^2} + \frac{d^2}{dz^2} \right) \psi = E \psi.
+\]
+
+This collection of terms is equal to some constants times the wave function, and it is true. Everything in parentheses is a constant, so that is equal to constants times the wave function. This also allows us to evaluate the energy of a three-dimensional particle in a box. For this particular particle in a box, with choices of $n_x$, $n_y$, and $n_z$ as integers, we find that the energy is given by
+
+\[
+E = \frac{h^2}{8m} \left( \frac{n_x^2}{a^2} + \frac{n_y^2}{b^2} + \frac{n_z^2}{c^2} \right).
+\]
+
+This is the result for a three-dimensional particle in a box. We now know what the wave function is for a three-dimensional particle in a box given an $n$ for each of the $x$, $y$, and $z$ directions, and we can also calculate the energy of that three-dimensional particle in a box. 
+
+The last thing we need to do is consider the common case where we have a cubic box. Notice that I didn't assume that the lengths of the box in $a$, $b$, and $c$ are equal. However, if we assume that $a = b = c$, then these constants are all equal. In that special case, I can write the energy of the wave function as 
+
+\[
+E = \frac{h^2}{8m a^2} \left( n_x^2 + n_y^2 + n_z^2 \right).
+\]
+
+In the fairly common case where we have a cubic box, there is a somewhat simpler expression for calculating the energy. For a non-cubic box, I would use the previous expression, but for a cubic box, I would use this simpler expression. 
+
+We are almost done writing down the wave functions for the three-dimensional particle in a box, but I should point out that I haven't yet specified what this constant $a$ is, nor have we figured out what that constant $a$ is. Therefore, we still need to normalize the wave function, and that will be the next step we take.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

@@ -1,0 +1,56 @@
+#  H Atom (Separation of Variables)
+## H Atom (Separation of Variables) (10:40) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/F0aTN-j7ogc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## H Atom (Separation of Variables)  Video Transcript { .unnumbered}
+
+
+All right, so we're talking about the hydrogen atom and solving the Schrödinger equation for the hydrogen atom. The wave function that we're trying to solve looks like this: it's a three-dimensional wave function that depends on the radial position of the electron, its distance from the nucleus, and also on two angular variables that describe the angular position of the electron with respect to the nucleus. The full Schrödinger equation is this long equation I've written here. There’s a kinetic energy term, which is this term in brackets, and a potential energy term that describes the Coulomb energy of the electron interacting with the nucleus. You can see I've written the terms that depend on the radial coordinate of the electron in green and the terms that depend only on the angular coordinates of the electron in a different color, orange.
+
+So the question is: how do we solve this Schrödinger equation? We're looking for a wave function that, if we take these various derivatives, take the radial derivative, multiply by $r^2$, take another radial derivative, divide by $r^2$, do another set of things with the theta derivatives, do another set of things with the phi derivatives, and add in the potential energy times the wave function, somehow we need to get back just the original wave function itself multiplied by a constant that we call the energy. Solving this differential equation is not trivial, but it's certainly possible, so that's what we'll spend some time doing.
+
+The first step we can see is that these $r^2$ terms show up in nearly every one of these terms. So the first thing we can do is multiply through on both sides of this equation by $r^2$. I can do that relatively easily by just taking out the $\frac{1}{r^2}$ here, getting rid of this $\frac{1}{r^2}$, and multiplying by $r^2$ converts this $\frac{1}{r}$ to an $r$. On the right side of the equation, we also need to multiply it by an $r^2$. So that equation already looks a little bit better; it almost looks like we've got it separated into terms that only involve radial terms and completely separate terms that only involve angular terms. The only thing that's not completely separable about this equation as it stands so far is the wave function itself. Everywhere I've got the wave function written, it depends both on the radial coordinates and on the angular coordinates.
+
+To get around that problem, we can hypothesize that the wave function, which depends on both radial and angular coordinates, might be a product of one function that purely depends on radial coordinates and another function that depends on angular coordinates. So if the wave function has this form, a piece that looks like $R(r)$ multiplied by a piece that looks like $Y(\theta, \phi)$, then that turns out will let us separate the variables in this equation. We've called the radial part of the wave function $R(r)$ and the angular part of the wave function $Y$.
+
+What that means is these derivatives that we need to take—the derivative of the wave function with respect to $r$ or with respect to $\theta$ or with respect to $\phi$—take the following forms. The $r$ derivative affects only the radial part of the wave function. Likewise, if I take the $\theta$ derivative of the wave function, it doesn't affect the $R$ portion, and the $\theta$ derivative only affects the angular part of the wave function. The $\phi$ derivative of the wave function is the radial part multiplied by the derivative of the angular wave function with respect to $\phi$.
+
+We can then take those derivatives and substitute them back into the original Schrödinger equation. Again, I'll attempt to do that without rewriting the entire equation. Where I see the derivative of the wave function with respect to $r$, I'll write $\frac{dR}{dr} \times Y$. So this derivative of $\Psi$ looks like $\frac{dR}{dr} \times Y$, and because the $r$ derivatives don't affect the $Y$ term, I can write that anywhere I like. Likewise, the derivative of the wave function with respect to $\theta$ becomes $\frac{dY}{d\theta} \times R$. The second derivative of the wave function with respect to $\phi$ becomes $R \times \frac{d^2Y}{d\phi^2}$.
+
+Now I've separated the variables; I've written my wave function as a product of two functions that involve the radial and the angular terms, rewritten the Schrödinger equation to involve those terms, and now you can see what I meant when I said the wave function itself involves both $R$ terms and $Y$ terms. I've got a mix of the green terms and the orange terms in the individual terms in this equation. But now I can solve that problem. As the next step, what I can do is divide through by $R \times Y$ on both sides. The term where that's easiest to see is right here. If I take this term and I divide by $R$ and $Y$, the $R$ and the $Y$ disappear. Likewise, in this term, if I divide by $R$ and $Y$, the $R$ and the $Y$ both disappear. If I take these terms, if I divide by $R$ and $Y$, dividing by $Y$ makes this term go away, and dividing by $R$ brings in a $\frac{1}{R^2}$ term. I can divide by $R$ and then divide by $Y$. The third term in brackets I can divide by $R$ and then again divide by $Y$.
+
+Now we can see that we've completely separated the variables. I've got a purely radial term, a purely angular term, another purely angular term, another purely radial term, and then this is also a purely radial term. So as one last step, let's bring this $E R^2$ term over to the left-hand side of the equation. Now I've got a sum of a bunch of radial terms and then a sum of a bunch of angular terms that must sum to zero. The only way that all the radial terms can always add up with all the angular terms to zero is if all the radial terms sum up to one number and all the angular terms sum up to the opposite of that number.
+
+If I write down in equation form what that means, the radial half of the Schrödinger equation will look like this: 
+
+\[
+\frac{1}{R} \frac{d}{dr} \left( r^2 \frac{dR}{dr} \right) - \frac{Z e^2}{4 \pi \epsilon_0 r} R = -\alpha R.
+\]
+
+The angular portion of the Schrödinger equation then, if I write the terms that involve the angular terms, I've again got the typical constants out in front of the Schrödinger equation. The first angular term looks like 
+
+\[
+\frac{1}{Y} \frac{1}{\sin \theta} \frac{d}{d\theta} \left( \sin \theta \frac{dY}{d\theta} \right) + \frac{1}{Y \sin^2 \theta} \frac{d^2Y}{d\phi^2} = \alpha.
+\]
+
+That's the end of my angular terms. Those must sum to some particular value; I don't know what that value is yet, but I can call that $\alpha$. What I do know is that if I sum this green equation and this orange equation together, they must give me zero. So whatever the radial terms sum to, that must be the negative of whatever the angular terms sum to. 
+
+What we've succeeded in doing at this point is breaking down the Schrödinger equation into a form of two separate parts. We've separated the radial parts and the angular parts. What we have here are two different differential equations. Now, if we solve these differential equations for the function $R(r)$ and if we solve the second differential equation for the angular function $Y(\theta, \phi)$, then we can recombine those two to find the total wave function.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

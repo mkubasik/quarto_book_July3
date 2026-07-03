@@ -1,0 +1,64 @@
+#  Rigid Rotor Properties
+## Rigid Rotor Properties (11:20) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/9g1PXgIyXao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Rigid Rotor Properties  Video Transcript { .unnumbered}
+
+
+If we take a step back and remind ourselves what we've done for the rigid rotor so far, we started out by saying our rotating rigid object has no potential energy. We don't expect its potential energy to change as it rotates. That was enough, plus the use of spherical polar coordinates, to derive some wave functions for the rigid rotor and the energy levels for the rigid rotor. We can use those energy levels to obtain a partition function, and then the next step, which we haven't done yet, is to use that partition function to calculate various thermodynamic properties. We can calculate the energy, the pressure, the entropy—anything for which we have a thermodynamic connection formula. We can calculate thermodynamic properties from the partition function.
+
+So, we do in fact know what that partition function is for the rigid rotor, at least under classical conditions. It takes this simple form when the temperature is large compared to the rotational temperature of the diatomic molecule. It takes this form for heteronuclear diatomics. Remember, if we want to allow homonuclear diatomics, we need that symmetry factor in the expression as well. So, that's our task right now: to use that partition function and some thermodynamic connection formulas to calculate properties. We could do that with our small $q$ partition function, which would tell us the thermodynamic properties for a single molecule of a gas. As usual, when we talk about gases, we're more interested in a collection of many molecules. 
+
+So, we're talking about $n$ molecules of a gas that are all indistinguishable from one another. The partition function for those $n$ identical and indistinguishable molecules would be $\frac{q^n}{n!}$. Since they're indistinguishable, we can express this as $\frac{1}{n!} \left( \frac{T}{\theta} \right)^n$. I can either include the symmetry factor or not. If I don't include the symmetry factor, it won't end up changing our result, but if the symmetry factor is included, it would show up in here as $\frac{1}{\sigma^n}$ as well.
+
+So, what do we do with that? If we want to know a property like the internal energy, then we need to remember what the thermodynamic connection formula is that connects the partition function to the energy. That connection formula tells us to take $\frac{d \log q}{dT}$ multiplied by $k$ to get the internal energy. I want to know what the temperature derivative $\frac{d}{dT} \log q$ is. 
+
+The logarithm of this partition function is a product of multiple terms raised to some power. The logarithm of $\frac{1}{n!}$ is $-\log(n!)$, the logarithm of $T^n$ is $n \log T$, and the logarithm of $\frac{1}{\theta^n}$ is $-n \log \theta$. So, I need the temperature derivative of everything here in brackets. There are not many temperatures here; only the $\log T$ involves the temperature. All the other terms don't involve $T$. The rotational temperature is called a temperature, but that's just a constant—a number that describes an individual molecule—so the derivative of that constant is zero. The derivative of $n$ with respect to $T$ is also zero. The derivative of everything but this $\log T$ is zero.
+
+Thus, this derivative gives me $k T^2$ out front, and then the temperature derivative of $\log T$ is $\frac{1}{T}$. I have an $n$ multiplying that term that I need to include as well. So, this $\frac{1}{T}$ cancels one of these factors in the $T^2$, and I'm left with $n k T$. 
+
+It turns out that the internal energy for my box containing $n$ identical and indistinguishable diatomic molecules is $n k T$. If I want an intensive energy, I divide by the number of molecules, and I get $k T$ or, if I prefer, $R T$ since $k$ and $R$ are the same quantity. Let me point out that the energy we're talking about is the rotational energy of the molecules because we're discussing the rotational partition function. What I mean by the rotational energy will be more clear in just a second. 
+
+So, our answer is that this energy per mole is $k T$ or $R T$. We've already seen—let's say we already know something about monatomic ideal gas molecules from when we studied the three-dimensional particle in a box. We got a similar but not identical answer before for monatomic ideal gases that we described with the three-dimensional particle in a box. We found that the internal energy was $\frac{3}{2} R T$. Now we found $R T$. 
+
+The reason for the difference between these two, and the reason I'm saying monatomic ideal gases for what we described with the particle in a box, let me draw a small cartoon here of some gas molecules in a box. If I have monatomic gases like argon, neon, or helium that just bounce around in this box, the only type of energy they have is kinetic energy. The only type of kinetic energy they have is this translational energy as their center of mass moves around the box, as the atom itself moves around the box. 
+
+On the other hand, if I have a diatomic molecule like $N_2$, $O_2$, or $HCl$, those molecules can also translate and bounce around the box, but they can also rotate. So, the energy that these molecules have is one portion that is translational energy, which comes from the particle in a box, and another portion that is rotational. That's the part we've just figured out the answer to. 
+
+The rotational energy, in particular, the energy that we get by describing the molecule as stationary but spinning, is $R T$. Thus, a diatomic molecule has an internal energy not of $\frac{3}{2} R T$, but rather $\frac{3}{2} R T$ from bouncing around in the box (translational energy) and an extra factor of $R T$ from its rotational energy, giving a total energy of $\frac{5}{2} R T$. 
+
+Now, finally, these expressions are beginning to agree with what you may have learned in a previous chemistry course, like general chemistry. The energy of a monatomic ideal gas is $\frac{3}{2} R T$, while for a diatomic ideal gas, it is $\frac{5}{2} R T$. If we also calculate the heat capacities, the constant volume heat capacity, remember, is $C_V = \frac{dU}{dT}$. Just take the temperature derivative of these expressions, and the temperature goes away. 
+
+We've already known that the heat capacity of a monatomic ideal gas or the three-dimensional particle in a box tells us that it is $\frac{3}{2} R$. Now we find that for a diatomic ideal gas, it's $\frac{5}{2} R$—three halves of which comes from the translational energy (particle in a box energy) and one factor of $R$ which comes from the rotational contribution to the energy. 
+
+We also know about a monatomic ideal gas that pressure times volume equals $R T$. So, the energy and the heat capacity both changed when we started including rotational motion. Let's see what happens to the pressure of an ideal gas when we include this rotational motion. To do that, we need to back up to this portion, this step, and begin with another thermodynamic connection formula. 
+
+This was the thermodynamic connection formula for the energy. The thermodynamic connection formula that lets us calculate the pressure is similar: not $k T^2$, but $k T$. Instead of $\frac{d}{dT}$, we have $\frac{d}{dV}$. The volume derivative of $\log q$ is what we need to take. 
+
+So, I need to take the volume derivative of the same $\log q$, the same quantity in brackets that we have discussed before. That is $-\log(n!) + n \log T - n \log \theta$. I need to take the volume derivative of this quantity in parentheses, and that's even easier than the last derivative. There are no volumes that appear in here anywhere. The number of molecules in the gas doesn't depend on the volume, and the rotational constant of the gas doesn't depend on the volume. None of these quantities depend on what the volume is, so the volume derivative of this quantity is zero. 
+
+Thus, the pressure of a diatomic gas is zero. Does that make sense? It does if you remember that this is the rotational contribution to the pressure. This is the extra contribution to the pressure that comes from the fact that this molecule is rotating. The pressure, the force per unit area we feel on the wall when the gas collides with the wall, all comes from the translational energy. The fact that it's rotating as it collides with that wall doesn't affect the pressure. 
+
+Here’s a diatomic molecule about to collide with the wall. If it happens to be spinning in this direction, it might have a little extra kick as it hits the wall, but equally often, it's spinning the other way, and its kick is a little bit reduced as it hits the wall. So, on average, the contribution to the pressure from the rotational motion of the molecule is zero, as the thermodynamic connection formula has told us. 
+
+For a diatomic molecule, it's also true that $PV = nRT$. Pressure times molar volume is equal to $RT$ for a diatomic gas, which has this rotational contribution as well. So, the rotational contribution has changed the energy and the heat capacity, but it has not changed the ideal gas law, the ideal gas equation of state. 
+
+This tells us about the rotational contributions to the energy, heat capacity, and pressure. We haven't yet talked about the vibrational contributions. In addition to rotating, a diatomic molecule also has a vibrational degree of freedom; the bond length can change. We've ignored that bond length when we talked about a rigid rotor, but the next step will be to continue this analysis, do some more quantum mechanics, feeding eventually into thermodynamic properties, and see what effect the vibrational properties of the molecule have. So, that's coming up next.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

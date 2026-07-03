@@ -1,0 +1,48 @@
+#  Vibrational Transitions Use Infrared Light
+## Vibrational Transitions Use Infrared Light (9:50) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/Mo3VONz2wSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Vibrational Transitions Use Infrared Light  Video Transcript { .unnumbered}
+
+
+All right, so here’s what we know about the harmonic oscillator so far. We know there are equally spaced energy levels, starting with the ground energy level, which has an energy of $\frac{1}{2} h \nu$, where $\nu$ is the fundamental vibrational frequency. We can calculate that if we know the spring constant and the reduced mass of the molecule. The spacing between each of these levels, regardless of whether it's the first pair, the second pair, or the third pair, is separated by the same gap, $h \nu$, or, if we prefer, $k$ (Boltzmann's constant) times the vibrational temperature, where we would define the vibrational temperature as $\frac{h \nu}{k}$.
+
+We’ve also seen that for a typical diatomic molecule, this vibrational temperature is somewhere in the vicinity of roughly 1,000 Kelvin or so; it depends on the individual molecule. Every molecule has a different mass, reduced mass, and spring constant, but it’s typically in the vicinity of a few thousand Kelvin. That raises the question: how big are these energy gaps? Of course, they are $h \nu$, but what is that frequency? With what frequency of light would we need to excite a transition from one state to another? Equivalently, if that gap in energy is equal to $h \nu$, we would like to know what $\nu$ is. If we prefer it in units of wave numbers, what would be the wave number of the light beam? Or perhaps we want to know what the wavelength of light needed to excite that transition is. This will tell us whether we should shine visible light, ultraviolet light, or infrared light on the molecule to excite these vibrational transitions.
+
+As an example, let’s again take carbon monoxide, where we know from previous discussions that the vibrational frequency is $6.5 \times 10^{13}$ Hertz, or $6.5 \times 10^{13}$ oscillations per second. If we want to know the wave number first, we know that the frequency is equal to the speed of light times the wave number, so the wave number is the frequency divided by the speed of light. That’s relatively straightforward arithmetic. The speed of light is $3 \times 10^{8}$ meters per second. However, looking ahead, we typically want to talk about wave numbers not in units of $\text{m}^{-1}$ but in units of $\text{cm}^{-1}$. So, I’m going to list the speed of light in units of centimeters per second. Light travels $3 \times 10^{8}$ meters in a second, or $3 \times 10^{10}$ centimeters in every second.
+
+If I do that math, this frequency divided by the speed of light gives me a wave number of $2160 \, \text{cm}^{-1}$. So, if you think back to or remember the discussion about the different portions of the electromagnetic spectrum, that falls squarely in the middle of the infrared portion of the spectrum. This is infrared light with this wave number needed to excite this particular vibrational transition for carbon monoxide. 
+
+In terms of wavelength, we know that $hc \tilde{\nu} = \frac{hc}{\lambda}$, so the wave number and the wavelength are reciprocals of one another. If I already know $\tilde{\nu}$, I could just take $\frac{1}{\tilde{\nu}}$ to find the wavelength. So, that’s $\frac{1}{2160 \, \text{cm}^{-1}}$, which works out to be $4.6 \times 10^{-4}$ when I invert $\text{cm}^{-1}$ to get regular centimeters. Thus, $4.6 \times 10^{-4}$ centimeters is the wavelength of light. If I find some photons with a wavelength of $4.6 \times 10^{-4}$ centimeters, that’s the right energy of light to excite these transitions. 
+
+Now, it’s probably more convenient to convert that away from centimeters. If I divide by 100 to convert centimeters to meters, that many centimeters is 100-fold fewer meters, giving us $4.6 \times 10^{-6}$ meters, or we can convert that using SI prefixes to $4.6$ micrometers. So, the wavelength of light needed to make this transition is $4.6$ micrometers, and again, that wavelength is in the region of the electromagnetic spectrum that we call the infrared portion of the spectrum. 
+
+Both of these numbers tell us that, in fact, the light we need is infrared light. This is something you may already know from other chemistry courses, like analytical chemistry or organic chemistry. Very often, infrared spectroscopy is what we use to identify specific molecules, and that’s because carbon monoxide, with its particular spring constant and reduced mass, has a very specific frequency of light required to excite these transitions. If molecules absorb this frequency of light, that’s a good clue that there might be carbon monoxide in our sample. Likewise, for other organic molecules, each bond has its own spring constant and reduced mass.
+
+I suppose I should point out that it’s not just diatomic molecules. Let me draw carbon monoxide vertically. Here’s my carbon monoxide molecule, a double-bonded carbon monoxide molecule with a spring constant and reduced mass that we can use to tell us this number for the frequency. Let’s suppose we have another molecule with a carbon-oxygen bond, like acetone. For carbon monoxide, we can calculate the reduced mass using the mass of carbon (12) and the mass of oxygen (16). We can do something very similar for acetone. If we’re talking about that carbon-oxygen bond stretch, the reduced mass that we need would be calculated using the mass of this unit (the carbon and the two hydrogens) and the mass of the oxygen. 
+
+That’s a different number than it is for carbon monoxide, but it’s not terribly different; it’s in the same ballpark. So, it’s still going to be a frequency of infrared radiation, but it’s going to be a different frequency of infrared radiation. Every individual molecule has its own signature, its own absorption energies in the infrared spectrum. That’s why we use infrared spectroscopy as a sort of fingerprint to identify specific molecules.
+
+The other reason you may know infrared spectroscopy is used to excite vibrational transitions is that the way we experience infrared light is not in the visible portion of the spectrum; it’s off the red end of the spectrum. If you have any previous experience with infrared light outside of a chemistry lab, it might be, for example, in a fast-food restaurant using a warming lamp—lights that don’t give off very much light but are very good at heating the food underneath them. Those lights give off infrared radiation. 
+
+So, we often think of infrared radiation as simply heat. The reason that’s true is that the infrared photons coming out of an infrared light source excite these vibrational transitions, causing molecules to vibrate with more energy than they were previously. As those bonds vibrate, they cause lots of collisions within the material, and then that heat turns into energy stored in other portions of the molecule. Thus, infrared energy gets converted first to vibrational energy and then to other forms of energy within the molecule. 
+
+Now we know how to predict what types of light, what colors of infrared light to use to excite these vibrational transitions if we know the fundamental vibrational frequency for molecules that behave like harmonic oscillators. The next question is to ask which of these transitions are actually allowable, and so we’ll talk about the selection rules for harmonic oscillators next.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

@@ -1,0 +1,96 @@
+#  Harmonic Oscillator Wavefunction (Ground State)
+## Harmonic Oscillator Wavefunction (Ground State) (10:07) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/8s4ygI3B544" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Harmonic Oscillator Wavefunction (Ground State)  Video Transcript { .unnumbered}
+
+
+If we have the harmonic oscillator version of the Schrödinger equation and we've convinced ourselves that functions of this form ought to be solutions to the Schrödinger equation, let's convince ourselves even further that this is indeed the case. We can do this by plugging this wave function into both the kinetic energy term and the potential energy term on the right side of the equation. To do that, we need to take derivatives of this function.
+
+The first derivative of the wave function shows that the derivative of an exponential is an exponential times the same constant out front, multiplied by the derivative of the exponent. The derivative of $x^2$ is $2x$, and I have a negative $\alpha$ divided by 2. The 2 from $x^2$ and the 2 from dividing by 2 cancel each other out, leaving me with a total of, allowing room for my negative sign, $-2\alpha n x e^{-\alpha x^2}$. I've pulled down an extra factor of $-\alpha x$ by taking the derivative of this exponent, which gives us $-n \alpha x e^{-\alpha x^2}$.
+
+For the second derivative, the derivative of this derivative again pulls down another factor of $-\alpha x$. Now I have $\alpha^2 x^2 n e^{-\alpha x^2}$. Additionally, taking the derivative of $x$ out in front and leaving the rest alone gives me $-\alpha e^{-\alpha x^2}/2$. So that should be the second derivative of our hypothesized wave function. 
+
+If I look a little more closely at that, I see that $n e^{-\alpha x^2/2}$ shows up in this derivative. Let's simplify that a bit by writing it as $\alpha^2 x^2$ times the original wave function minus $\alpha$ times the original wave function. This will help when we go to plug the second derivative into the Schrödinger equation. 
+
+When we do that, the Schrödinger equation becomes:
+
+\[
+-\frac{h^2}{8\pi^2 \mu} \left( \alpha^2 x^2 - \alpha \right) \psi + \frac{1}{2} k x^2 \psi = E \psi.
+\]
+
+Let's collect some terms. We have constants times $x^2$ times $\psi$ and other terms that look like constants times the wave function. If we collect the terms with similar powers of $x$, the first term in parentheses here, $-\text{constants} \times \alpha^2$, becomes $-\frac{h^2}{8\pi^2 \mu} \alpha^2$, which will multiply $x^2$ and the wave function. I also have another term that multiplies $x^2$ and the wave function, which is $\frac{1}{2} k$. 
+
+So, I've collected the two terms that look like $x^2$ times the wave function. In addition to that, I have a term that looks like constants times the wave function. The negative times negative leaves a positive sign, giving us $\frac{h^2}{8\pi^2 \mu} \alpha$ times the wave function. All of this should equal $E$ times the wave function. 
+
+Is it true that the stuff on the left equals the stuff on the right? Constants times the wave function could easily equal constants times the wave function if we have the appropriate value for $E$. However, this equality is only true if the stuff in parentheses cancels each other out, leaving the term in parentheses equal to zero so that the $x^2$ times $\psi$ term is zero. 
+
+If this whole first term is zero, then indeed the Schrödinger equation is satisfied. We need the term in parentheses to be equal to zero. The only term in here that we have any control over is the constant in the wave function that we are trying to write down as a solution for the Schrödinger equation. We get to choose the value of $\alpha$. 
+
+If we rearrange to make the term in parentheses equal to zero, solving for $\alpha$, we find that $\frac{h^2}{8\pi^2 \mu} \alpha^2$ must equal $\frac{1}{2} k$. Rearranging and solving for $\alpha^2$, we get:
+
+\[
+\alpha^2 = \frac{8\pi^2 \mu}{h^2} \cdot \frac{1}{2} k.
+\]
+
+This simplifies to 
+
+\[
+\alpha^2 = \frac{4\pi^2}{h^2} k \mu.
+\]
+
+To find $\alpha$, we take the square root of both sides. The square root of 4 and $\pi^2$ and $h^2$ are straightforward, while $k$ and $\mu$ give us the square root of $k \mu$. 
+
+What I've determined here is specifically what the value of $\alpha$ must be. Not just any $e^{-\alpha x^2/2}$ will be a solution to the Schrödinger equation; only if $\alpha$ is equal to this collection of constants will the $x^2$ times wave function term from the kinetic energy cancel the $x^2$ times wave function term from the potential energy. If that cancellation happens, then this function will solve the Schrödinger equation with that particular value of $\alpha$. 
+
+In the process of inserting this wave function into the Schrödinger equation, we've also determined the value of $E$. This is a solution to the Schrödinger equation only if $E$ is equal to this collection of constants. Therefore, the energy of the wave function that we've now determined is:
+
+\[
+E = \frac{h^2}{8\pi^2 \mu} \alpha.
+\]
+
+Now that we know what $\alpha$ is, we can substitute it in:
+
+\[
+E = \frac{h^2}{8\pi^2 \mu} \cdot \frac{2\pi}{h} \sqrt{k \mu}.
+\]
+
+A lot of cancellation will occur here. We have $2$ divided by $8$, which leaves us with $4$ in the denominator. We have $\pi$ divided by $\pi^2$, leaving $\pi$ in the denominator. Also, $h^2$ divided by $h$ gives us one factor of $h$ in the numerator. 
+
+For $k$, there is no cancellation, but for $\mu$, we have a square root of $\mu$ in the numerator and dividing by $\mu$ in the denominator, which gives us $\frac{1}{\sqrt{\mu}}$ after some cancellation. 
+
+If I rearrange that a little, I will write it as:
+
+\[
+\frac{1}{4\pi} = \frac{1}{2} \cdot \frac{1}{2\pi}.
+\]
+
+For reasons that will become clear shortly, I have a factor of $h$ and $\sqrt{\frac{k}{\mu}}$. This should look somewhat familiar; $\frac{1}{2\pi} \sqrt{\frac{k}{\mu}}$ is what we called the equilibrium vibrational frequency for the classical harmonic oscillator. 
+
+Thus, I can write this now as:
+
+\[
+E = \frac{1}{2} h \nu,
+\]
+
+where the quantity in pink has just been rewritten as the vibrational frequency $\nu$. The energy of this wave function that we've written down, when $\alpha$ takes on this particular value, is $\frac{1}{2}$ times Planck's constant times the vibrational frequency of that same oscillator. 
+
+This combination of the wave function, this constant, and this energy now compose a solution for the harmonic oscillator. This wave function solves the harmonic oscillator wave function with this particular energy. You may already be wondering if this is the only solution, similar to other quantum mechanical problems where there are more than one solution. You probably won't be surprised when I tell you that there is indeed more than one solution. This is one solution, but there is a whole family of solutions that are somewhat similar to this function. The next step will be to explore what those other solutions to the Schrödinger equation look like.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

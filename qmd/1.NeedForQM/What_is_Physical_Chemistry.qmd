@@ -1,0 +1,58 @@
+#  What is Physical Chemistry?
+## What is Physical Chemistry? (11:38) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/IY-7q0o0Jf8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## What is Physical Chemistry?  Video Transcript { .unnumbered}
+
+
+All right, so before we dive too deep into the details of physical chemistry, you might be curious to know what it is that we're going to learn. What is physical chemistry? What are the topics in this field, and what delineates physical chemistry as a part apart from some other type of chemistry? 
+
+One way to answer that question is to list the various sub-disciplines of chemistry. Physical chemistry, of course, is a sub-discipline of chemistry as a whole. There are a number of different sub-disciplines of chemistry, including analytical chemistry, biochemistry, inorganic chemistry, and organic chemistry, in addition to physical chemistry. This is a fairly common way of breaking up the topics in chemistry. However, it's not the only way; you might also want to talk about materials chemistry and other sub-disciplines of chemistry that you can consider as well. Many of these areas you probably already have a reasonable understanding of. For instance, you may have had an organic chemistry course or know something about organic chemistry, which deals with carbon-containing molecules, including their synthesis and properties. In contrast, inorganic chemistry focuses on everything else, specifically the synthesis and properties of non-carbon-containing molecules. 
+
+This division already separates all of chemistry into carbon-containing and non-carbon-containing substances. However, that's just about the molecules themselves. A field like analytical chemistry, for example, is not so much interested in the properties of the molecules themselves but in the analysis—the actual act of doing the measurements and the analysis of those molecules. Analytical chemistry focuses on the measurements themselves and, therefore, often involves the construction and principles behind the instruments we use to make those measurements. 
+
+Biochemistry, on the other hand, is concerned with reactions and molecules that are biomolecules found in living organisms. It is not about biology or the living organisms themselves but rather the chemistry that takes place within those living organisms. Again, these distinctions are reasonably clear from your prior coursework or from the terminology itself. 
+
+If you're like many students, you might be a little more fuzzy about the boundaries of physical chemistry. What makes something a topic in physical chemistry? The name "physical chemistry" suggests it has something to do with physics or physical processes, and that's in the right direction. We can gain insight into what makes physical chemistry unique by considering the various topics typically studied in a physical chemistry course. 
+
+In a typical physical chemistry course, the subject matter is divided into several different subtopics: gas laws, thermodynamics, kinetics, quantum mechanics, and statistical mechanics. Again, this is not an exhaustive list; many people might want to add more topics or subdivide them further. However, this list provides a reasonable overview of the broad topics we will cover in a physical chemistry course. Some of these topics are likely familiar to you already, while others may be less so. 
+
+For example, the ideal gas law, represented by the equation $PV = nRT$, describes gas laws, where $n$ stands for moles of gas. Thermodynamics involves relationships between different thermodynamic variables, one of which you might be familiar with is $\Delta G = \Delta H - T \Delta S$. Kinetics deals with equations that describe how quickly some molecules or concentrations of molecules appear or disappear, thus describing the rate of appearance or disappearance of a species. 
+
+You may be less familiar with quantum mechanics if you're taking a physical chemistry course for the first time, but you've probably at least heard of Schrödinger's equation, which is a fundamental equation in quantum mechanics. We will discuss that equation and all these topics in much greater detail as the course progresses. Statistical mechanics may also be less familiar to you, but it includes important equations that we will spend a lot of time discussing. 
+
+Having listed these topics gives us a pretty good idea of how to describe the field of physical chemistry in general. What do gas laws, thermodynamics, kinetics, and quantum mechanics have in common that makes them topics in physical chemistry as opposed to biochemistry or analytical chemistry? The key is that any topic in physical chemistry will involve a collection of equations that represent those particular topics. This is not necessarily true for organic chemistry or all areas of analytical chemistry. While equations do appear in those fields, they are not as central to their study. You won't get very far in physical chemistry without encountering equations of some sort. 
+
+Physical chemists aim to understand and predict how systems behave by using models. These models might take the form of mathematical equations, physical models, or graphical representations that I might sketch on the board. We will use models to try to understand physical and chemical systems. The key word here is "models." Throughout physical chemistry, we will introduce some model for how a system behaves, often in the form of an equation, and then we will see what that model tells us about the system's behavior. 
+
+Physical chemists are agnostic; we don't care whether we are making predictions about how a carbon-containing molecule behaves, a non-carbon-containing molecule, or a biomolecule. We are satisfied if we can understand and predict how things work using our models. So, if you encounter a new area of chemistry and wonder whether it falls under physical chemistry or biochemistry, if it involves a model and predicting what is going on, chances are physical chemists lay at least some claim to that topic. 
+
+It's important to note that this is not necessarily a sharp division between different fields. Many other fields of chemistry also seek to understand and predict phenomena, and many use equations or models. Equations appear in biochemistry, analytical chemistry, and so on. The boundaries between these fields are not always as distinct as they might seem. 
+
+One last comment about the name "physical chemistry": it suggests a connection to physics. If I say that all the topics I've just described are sub-disciplines of chemistry, there are other scientific fields as well, such as physics and biology. We have subdivided chemistry into different subfields and then physical chemistry into subtopics beneath that. 
+
+In a somewhat tongue-in-cheek manner, I can describe the differences between physics, chemistry, and biology relatively simply. Physics is primarily concerned with rules and equations, and in physics, none of those rules have exceptions. For example, the theory of gravity is described by equations that apply universally. Chemistry, on the other hand, loves to use rules, but these are often rules of thumb. You might know periodic trends in the periodic table, but some elements behave a little oddly. Similarly, you might be familiar with named reactions that work well for most members of a certain class of molecules, but there are exceptions. 
+
+Biology could be described as a collection of exceptions, with relatively few rules that define it. This is not a rigorous way of defining the content of these fields, but it provides a useful perspective on how physicists, chemists, and biologists think about their respective disciplines. In this sense, the name "physical chemistry" indicates that this branch of chemistry has something to do with physics in addition to chemistry. 
+
+Another way to describe what physical chemistry is would be to say that physical chemists appreciate equations and rules, especially when there are not many exceptions to them. It’s as if physical chemists are studying the content of chemistry—chemicals and chemical reactions—while applying the principles or models of physics to do so. This approach allows us to tackle chemistry problems using a physics perspective. 
+
+Hopefully, this gives you a reasonable overview of where we're going. The next thing we will do is talk in more detail about the topics we will cover in the physical chemistry course.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

@@ -1,0 +1,62 @@
+#  Wavefunctions as a Basis
+## Wavefunctions as a Basis (11:03) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/Ds928d9aNVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Wavefunctions as a Basis  Video Transcript { .unnumbered}
+
+
+While we're talking about the one-dimensional particle in a box, let's point out one additional important feature of these wave functions: we can use them to construct other functions. We can use them as a basis to construct other functions, and that term will make more sense in just a few minutes.
+
+You might be familiar with Fourier series; that's something you may have heard of before. The idea is that if I have a periodic function, I can use sine waves and cosine waves to construct any periodic function I want. If you haven't heard of Fourier series before in another course, that's okay. But if you have, you can use that as an analogy for what we're about to discuss, which is the fact that if I have some wave functions, like the particle in a box wave functions, I can write any function I want—any function I choose to write down, at least any function that obeys the same boundary conditions as the one-dimensional particle in a box wave function. I can construct that function by building it up out of a linear combination of the wave functions. 
+
+So, I can take wave functions $\psi_1 + \psi_2 + \psi_3$. Instead of just adding them together, I add them together with different coefficients in front of them. By taking a combination of all these wave functions together, I can build up any other function that I like.
+
+To give you an example of what I mean, let's consider a concrete case. Let's say my function is a parabola: $-x^2 + ax$. If we put up a graph of what that function looks like on the screen, we see that it's a downward-pointing parabola. What I've claimed is that I can construct that function by adding up wave functions. For the one-dimensional particle in a box, those wave functions are sine waves, specifically $\sin\left(\frac{n \pi x}{a}\right)$. 
+
+A sine function is not a parabola; it has some similarities. Sine functions go up and then come back down, so it's not unreasonable to say I could make something that looks a little bit like a parabola by using a sine function. If we look at the next figure on the screen, the orange graph represents $\sin\left(\frac{\pi x}{a}\right)$, where $a$ is the box length at which this function hits zero, one of the zeros of this function. 
+
+You can see that the sine wave, the orange curve, is similar in the sense that it has a peak in the middle and zeros at the two edges, but it's not exactly the same mathematical function. Certainly, the orange function is not the same as the white function; $\sin\left(\frac{n \pi x}{a}\right)$ is not the same as a parabola. But I didn't say I could do that with just one wave function. I said that if I took a sum of multiple wave functions, I could approximate the parabola better.
+
+Let's add $\sin\left(\frac{3 \pi x}{a}\right)$ to this. If we pull up the next graph on top of this one, the yellow curve represents $\sin\left(\frac{\pi x}{a}\right) + \sin\left(\frac{3 \pi x}{a}\right)$ with some coefficients in front of them. You can see why I needed $\sin\left(\frac{3 \pi x}{a}\right)$. If we look back at the orange curve, it undershoots the parabola for the first part, then overshoots for a while, and then undershoots again. 
+
+What I needed to add to the orange curve was something that was positive over this range, negative over this range, and then positive again over this range. In other words, something that looked a little bit like $\sin\left(\frac{3 \pi x}{a}\right)$. By using this sine function to fix the deficiencies in the orange curve, when I add this $\sin\left(\frac{3 \pi x}{a}\right)$ with a small coefficient to the orange curve, I get the yellow curve. 
+
+Unless you look very closely at the screen, you might not notice that there are a few places where the yellow curve and the white curve are not exactly the same. However, I've made $\sin\left(\frac{\pi x}{a}\right)$ and $\sin\left(\frac{3 \pi x}{a}\right)$ the sum of those two very close to a parabola. If I wanted to make it even better, I could continue to add sine functions of different $n \pi x$ over $a$, and the more of those I add, the closer I can get to approximating this function.
+
+So, that's what I mean when I say I can add up wave functions and construct or build any other function that I want. That's the idea of using these wave functions as a basis. These individual functions themselves can be called basis functions. The functions that I'm using to construct this other function are these wave functions, so I'm using these wave functions as basis functions. Taken together, we say they form a basis for constructing another function.
+
+This leaves only one question: perhaps I've convinced you with an example that this might be possible, but it's only useful if we have a recipe for how to calculate what these coefficients are. For example, when I constructed this example, I used $0.182$ times the sine wave and $0.007$ of a sine wave with three times the frequency. How do I know to use those particular coefficients? How do I know, in general, how to find $C_n$?
+
+It turns out that it's not very difficult to find what the $C_n$ should be, as long as our wave functions are orthonormal, as we've seen that the one-dimensional particle in a box wave functions are. Let's go back to this expression: the function is the sum of a bunch of wave functions multiplied by some coefficients that we're interested in finding the values of. 
+
+To isolate the coefficients in this expression, I can choose the coefficient that I want to know the answer to. Maybe I'm interested in $C_3$ or $C_5$ or $C_7$; I'm interested in some particular coefficient. If I take the coefficient I'm interested in, let's call that the $C_k$ coefficient, and multiply both sides of this equation by that wave function, I will multiply on the left by $\psi_k^*$ (the complex conjugate on the right). This is a sum, so each term of that sum needs to include $\psi_k^*$.
+
+The reason I wanted to multiply from the left-hand side is that the next thing I'm going to do is integrate both sides of this expression. If I throw an integral sign on both sides, this looks familiar; this is an overlap integral of the type that we have discussed. This integral is the overlap integral between wave function $k$ and wave function $n$. Remember that these exist inside a sum, so if I write down what this sum looks like, it looks like the first one times the overlap integral of $k$ with $1$, then the second one, the overlap integral of $k$ with $2$, and so on.
+
+What we know about these overlap integrals, since the wave functions are orthonormal, is that if $k$ is equal to $1$, then this will be equal to $1$; otherwise, it will be equal to $0$. Whichever one of these terms is equal to $1$, all the other ones have to be $0$. $k$ is equal to exactly one of these $n$; it's either equal to $1$, $2$, or $3$. 
+
+So this overlap integral will be $0$ for all except one of them, and the one that will not be $0$ is the one where $k$ and $n$ are the same. This effectively isolates the particular value of $C_k$. The sum looks like $0$ for all terms except for one, which is $1$, and the $1$ comes along with the coefficient $C_k$.
+
+The net result of this whole sum of all these overlap integrals is that this is equal to $C_k$. On the left side, I still have $\psi_k^*$ times the function integrated. If I want to know what the value of the $k$ coefficient $C_1$ or $C_3$ is, I just take my original function that I'm interested in—maybe the parabola or something else—multiply it by the $k$ wave function with the complex conjugate, and take the integral. That's how we find the value of these individual coefficients.
+
+So, that's a recipe for finding what the coefficients are that I need to build up my arbitrary function out of these individual wave functions. With that, we know how to use one-dimensional particle in a box wave functions as a basis. Just to recap, we've seen that one-dimensional particle in a box wave functions are normalized and mutually orthogonal to one another. These two things together make them orthonormal; they form an orthonormal set of wave functions. Because they're orthonormal, I can use them to construct other functions.
+
+The next thing we'll do with that piece of information is to see how to use these one-dimensional particle in a box wave functions to describe some problems that actually have relevance in the real world.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

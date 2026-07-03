@@ -1,0 +1,50 @@
+#  H Atom (Radial Equation)
+## H Atom (Radial Equation) (5:27) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/jZ4fjAbR_m4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## H Atom (Radial Equation)  Video Transcript { .unnumbered}
+
+
+All right, so our next task is to solve the radial equation for the hydrogen atom. Previously, we saw that by separating variables in the Schrödinger equation, the radial piece of the equation looks like this: the various derivatives of the radial component of the wave function, which we denote as $R(r)$. If I take these various derivatives and multiply them, then add them to these other components, what I get is a constant that we've called $-\alpha$.
+
+By considering the angular component of the Schrödinger equation, we determined that the angular behavior is similar to that of a rigid rotor. Therefore, we knew the solutions to that problem. The value of $\alpha$ turned out to be a collection of constants multiplied by a quantum number. From what we know about the rigid rotor, we understand that the value of $l$ can be any non-negative integer.
+
+So, what we have here is this radial function. To solve this equation, we can start by simplifying it a bit. I will multiply by $r$ to eliminate some terms and divide by $r^2$ to get rid of others. If I do both of these operations on both sides of the equation, I can amend the equation accordingly. Multiplying by $r$ and then dividing by $r^2$ fixes the first term, while dividing by $r^2$ turns this $r$ into $\frac{1}{r}$. 
+
+If I multiply by $R(r)$ in this term, I can divide by $r^2$ and multiply by $r$ on the right side of the equation. After rewriting this equation, I will insert the value of $\alpha$ and bring the entire term $-\frac{\alpha}{r^2}$ over to the left-hand side. The rewritten equation will look like this: 
+
+\[
+-\frac{h^2}{8\pi^2 m r^2} R(r) + \frac{\alpha h^2}{8\pi^2 m} \frac{l(l+1)}{r^2} R(r) - \frac{ze^2}{4\pi \epsilon_0 r} R(r) - E R(r) = 0.
+\]
+
+This is the differential equation that we need to solve, but with one slight twist: we cannot solve this differential equation unless we know the value of $l$ for which we are solving. $l$ can take on any of the values $0, 1, 2,$ and so on. 
+
+If I rewrite this equation with $l = 0$, it becomes fairly convenient because the term $l(l+1)$ makes the entire second term go away. Thus, my differential equation simplifies to:
+
+\[
+\text{constants} \cdot \frac{d^2}{dr^2} (r^2 R(r)) - \frac{ze^2}{4\pi \epsilon_0 r} R(r) - E R(r) = 0.
+\]
+
+On the other hand, if $l = 1$, I have an entirely different differential equation to solve. Writing out those terms again, I have the first term involving derivatives of my radial function. Now I need to include a term that has $l$ in it, and when $l = 1$, $1 \times 2$ gives me $2$. 
+
+So, I have some constants times the radial wave function itself, to which I add the Coulomb term and the energy term, and again these must sum to zero. I could write out an infinite number of these equations. The point is that the differential equation I have to solve when $l = 0$ is different from the one I have to solve when $l = 1$ or $l = 2$, and so on. 
+
+Now, I have a whole family of differential equations to solve, one for each possible value of $l$, and that is what we will do in the next video.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

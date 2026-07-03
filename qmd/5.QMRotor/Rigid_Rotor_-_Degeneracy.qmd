@@ -1,0 +1,46 @@
+#  Rigid Rotor - Degeneracy
+## Rigid Rotor - Degeneracy (7:55) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/LLVYb2_71rQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Rigid Rotor - Degeneracy  Video Transcript { .unnumbered}
+
+
+Let's talk about the energy levels of the rigid rotor. We can express these energy levels in the form of a collection of constants multiplied by some integers for any particular wave function with quantum number $l$, which must be a non-negative integer. There are various possible values of $m$ as well, and the energy does not depend on the value of $m$. Any of the allowed values of $m$ has the same energy. If we know the value of $l$, we can calculate $l(l + 1)$ and use that to determine the energy.
+
+For example, if $l = 0$, the energy of the zeroth wave function, which corresponds to $l = 0$ and $m = 0$, can be calculated by plugging $l = 0$ into the formula. This gives us $0 \times 1 = 0$, and multiplying by the constants results in zero. 
+
+Now, let's create an energy ladder to illustrate the energies of the different states of the rigid rotor. At the bottom, where zero is located, is the energy of the ground state, $E_0$, which is equal to zero. The next step up this ladder corresponds to $l = 1$. If I plug in $l = 1$, then $l + 1 = 2$, so $1 \times 2 = 2$. The energy of this state, the $l = 1$ state, is given by $\frac{h^2}{8 \pi^2 \mu r^2}$ multiplied by 2, resulting in $\frac{h^2}{4 \pi^2 \mu r^2}$.
+
+It's important to note that for the $l = 1$ energy level, the possible $m$ values are $m = -1, 0,$ and $1$. These three values of $m$ correspond to three different wave functions that all have the same energy. Thus, the degeneracy of the $l = 1$ level is three, while the degeneracy of the zeroth level is just one, as there is only one state with that energy.
+
+Continuing our investigation of degeneracy as we climb the ladder, when $l = 2$, we find that $2 \times 3 = 6$. The energy of the $l = 2$ level is $6$ times the collection of constants. The values of $m$ can range from $-2$ to $2$, which gives us five possible states: $m = -2, -1, 0, 1,$ and $2$. Therefore, the degeneracy of the $l = 2$ level is five.
+
+For $l = 3$, we have $3 \times 4 = 12$. The possible $m$ values range from $-3$ to $3$, resulting in seven different states: $m = -3, -2, -1, 0, 1, 2,$ and $3$. Thus, the degeneracy of the $l = 3$ level is seven, and the energy is $12$ times the collection of constants.
+
+In general, the energy level for $l$ is given by $\frac{h^2}{8 \pi^2 \mu r^2} l(l + 1)$. The degeneracy of that level is $2l + 1$, as $m$ can take on values from $-l$ to $l$, including zero.
+
+For example, when $l = 0$, the degeneracy is $2 \times 0 + 1 = 1$. The degeneracy increases as odd numbers: from one to three to five to seven, increasing by two for each step up the ladder.
+
+A couple of important observations about this energy ladder are as follows: First, the gaps between the energy levels increase as we move up the ladder. The gap between energy level zero and energy level one is smaller than the gap between energy levels one and two, which is smaller still than the gap between energy levels two and three. This means that the gap keeps increasing as we climb the ladder.
+
+Second, the degeneracy of each level also increases as we ascend. The degeneracy goes from one to three to five to seven, indicating that with each rung up the ladder, there are more states that share the same energy. 
+
+These two facts—the increasing energy gaps and the rising degeneracy—have significant consequences for the rotational properties of real molecules, which we will discuss next.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

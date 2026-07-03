@@ -1,0 +1,44 @@
+#  Dye Molecules
+## Dye Molecules (7:50) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/XNCJGJNgEMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Dye Molecules  Video Transcript { .unnumbered}
+
+
+As an interesting example of how we can apply the particle in a box model to real-world molecules, let's consider dye molecules, which take on very distinctive colors. We have seen that not just linear hydrocarbons, but also conjugated molecules that can be thought of as two-dimensional boxes, can be treated with a particle in a box model. A benzene molecule, for example, can be treated fairly well with the two-dimensional particle in a box model, where we say the pi electrons are confined to a box that approximates the size of the benzene molecule.
+
+Just like we observed for the small one-dimensional particle in a box, when the box is relatively small—just a few carbon atoms on a side—the energy levels for excitations of this molecule turn out to be in the ultraviolet range. They are higher energy than the visible portion of the spectrum. If I were to make that molecule bigger by adding more benzene rings onto it, I could increase the wavelength of light that the molecule absorbs. By making it large enough, I could move it into the visible portion of the spectrum. By changing the size of the molecule, I can affect which colors of light it absorbs and which colors it does not absorb, thereby determining what color the molecule appears to be.
+
+One particularly interesting example of this is phenolphthalein, a molecule you are likely familiar with from previous chemistry courses, especially if you've done acid-base titrations. In its acidic form, with the two protons present, it takes on one structure. When we remove those protons—typically done when titrating with hydroxide, for example—we form a more basic version of the molecule. The acidic and basic forms of the molecule have distinct structures.
+
+From the perspective of the particle in a box model, we see that the conjugated portion of the molecule, which includes a benzene ring, is not conjugated with the rest of the molecule. This means that the molecule absorbs light in the ultraviolet portion of the spectrum, just like benzene does. The boxes are not large enough for those pi conjugated electrons to absorb light in the visible portion of the spectrum, so a solution containing this molecule is clear and colorless because it does not absorb any visible light.
+
+On the other hand, when you titrate with hydroxide and consume some of these protons, generating the more basic form of the molecule, we can see that the portion of the molecule that I can draw a box around is now fully conjugated. It has alternating double and single bonds, and it is planar. The two-dimensional box in which these pi conjugated electrons are confined is larger than it used to be, and it is pushed just large enough to absorb in the highest energy portion of the visible spectrum. As a result, it absorbs a little bit of the violet portion of the spectrum, and the color of this molecule appears pink. The color it reflects is slightly tinged toward the red side of the spectrum because it absorbs a little on the violet side.
+
+The reason phenolphthalein is such a good acid-base indicator is that it undergoes a color change when it transitions from its acidic to its basic form. This change occurs because the size of the box that the conjugated electrons are confined to changes. As we have seen, the energy levels of those particle in a box models change with the size of the box, which in turn changes the wavelength of the light that gets absorbed.
+
+Here's another example of how chemistry can be used. I can clear this picture away and bring up another image with a list of molecules. Let me remove these decorations so we can discuss the collection of molecules on the right-hand side. These are all dye molecules, which could be used to dye clothes, for example. The specific details of the molecules are not important other than the fact that they exhibit different colors, as indicated by their names. Each of these molecules behaves a lot like a two-dimensional particle in a box. They have a large conjugated section within which pi conjugated electrons can move freely. The shape of this box determines the wavelengths of light that are absorbed and, consequently, the wavelengths of light that are not absorbed, which is why some molecules look blue.
+
+For example, in the case of Black 29, we have a mix of small conjugated sections of the molecule, larger sections, and moderate sections. This molecule absorbs light via electrons in several different sized boxes. By absorbing almost all the light that shines on it, it ends up with a relatively black color. This illustrates how, by changing the size of the box that these planar conjugated electrons are confined to, we can change the energy levels directly and therefore alter the color of the molecules.
+
+A significant part of what a dye chemist does is adjust the properties and synthesize different molecules to create various colors. While it is not necessary to constantly think about quantum mechanics when performing organic chemistry to prepare these molecules, it is helpful to consider what should happen as you increase the size of a molecule. You should expect a redshift in the color of the light that gets absorbed. Alternatively, if you change the substituents on these molecules—adding electron-withdrawing or electron-donating substituents—you can change the number of molecules that occupy these energy levels, consequently altering those energy levels as well.
+
+At a qualitative level, it is useful to think about the particle in a box model when considering the colors of these molecules. This also illustrates that even a qualitative understanding is sufficient. If we were to try to quantitatively predict exactly what color a molecule would be, we would find that it is not exactly a rectangular box. It is not entirely true that the electrons feel no difference in energy anywhere they go within the molecule; they might have different energy levels near a carbonyl group compared to far away from it, or in the middle of one of these six-membered rings, and so on. Thus, while the particle in a box model is not an exact representation of these molecules, it is certainly good enough to provide a qualitative idea of how they behave.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

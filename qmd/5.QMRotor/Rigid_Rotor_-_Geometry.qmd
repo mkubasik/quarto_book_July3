@@ -1,0 +1,72 @@
+#  Rigid Rotor - Geometry
+## Rigid Rotor - Geometry (10:45) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/Hx6OYdFr8HM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Rigid Rotor - Geometry  Video Transcript { .unnumbered}
+
+
+The three-dimensional particle in a box model has served us well as a model for ideal gases. It has been able to make fairly accurate predictions about properties such as pressure, internal energy, enthalpy, and heat capacity for various gases. However, we have identified some shortcomings. While the model performs well for monatomic ideal gases, it is significantly less effective at predicting the heat capacity for diatomic ideal gases. 
+
+To understand why this is the case, we need to consider that the gases, as modeled by the three-dimensional particle in a box model, only account for kinetic energy. When we modeled the gases, we represented their energy as consisting solely of kinetic energy. For a monatomic gas molecule or atom, this is reasonable; the atom bouncing around in the box possesses no energy other than kinetic energy, with perhaps a small amount of potential energy between the atoms themselves. Kinetic energy is indeed the primary form of energy in this gas if it is something like argon, neon, or helium. 
+
+However, if the gas consists of diatomic molecules such as N₂ or O₂, we must recognize that these molecules not only have translational kinetic energy as they bounce around the box, but also possess additional types of energy, such as rotational energy as the molecule tumbles in the box, and vibrational energy as the bond length vibrates. These additional forms of energy have not been accounted for in our Schrödinger equation, and we need to address this to improve our predictions for the properties of diatomic molecules.
+
+Let's start by ensuring we understand how to describe the mathematics of a diatomic molecule. Consider a diatomic molecule consisting of two atoms. Let’s say atom one has mass $m_1$ and atom two has mass $m_2$. It does not need to be a homonuclear diatomic molecule like N₂ or O₂; it could also be HCl or any diatomic molecule with two atoms of different masses. Atom number one is at position $\mathbf{r}_1$ in space, and atom number two is at position $\mathbf{r}_2$. The vector that describes the bond between atom one and atom two is given by $\mathbf{r}_2 - \mathbf{r}_1$.
+
+Another important quantity we can describe is the center of mass of the molecule. The position of the center of mass, which is not simply atom one or atom two, can be calculated as follows: 
+
+\[
+\mathbf{R}_{cm} = \frac{m_1}{m_1 + m_2} \mathbf{r}_1 + \frac{m_2}{m_1 + m_2} \mathbf{r}_2
+\]
+
+This definition of the center of mass will yield a position in space that is closer to the heavier atom. For our purposes, let's ensure the center of mass of the molecule is at the origin. 
+
+Now, as this molecule rotates, it will tumble around the center of mass, which we have placed at the origin. By fixing the center of mass at the origin, we ignore any translational motion of the molecule in the x, y, and z directions. We will focus primarily on the rotation and vibration of the molecule, neither of which will change the center of mass's position.
+
+Next, we need to discuss the geometry of the molecule and how its orientation is described in space. If I provide you with $\mathbf{r}_1$ and $\mathbf{r}_2$, that tells you where the atoms are located. However, it might be easier to specify the orientation of the molecule using polar angle $\theta$, which indicates how much the molecule is bent down from the z-axis, and the azimuthal angle $\phi$, which describes how much the vector is swept away from the x-axis in a clockwise direction. 
+
+If I provide the bond length and the angles $\theta$ and $\phi$, that also conveys the geometry of the molecule just as effectively as specifying the coordinates $\mathbf{r}_1$ and $\mathbf{r}_2$. 
+
+To begin solving Schrödinger's equation, we can express the energy of this molecule. The kinetic energy, which we are familiar with, is given by 
+
+\[
+KE = \frac{1}{2} mv^2
+\]
+
+Since this molecule has two atoms, each atom has its own kinetic energy. Therefore, the total kinetic energy is the sum of the kinetic energies of atom one and atom two. 
+
+However, we can simplify this process. By combining these equations, particularly considering the relationship between $\mathbf{r}_1$ and $\mathbf{r}_2$ defined by the bond length, we can rewrite the kinetic energy equation. Instead of being the sum of two terms, we can express it as a single term, where the constant in front of $v^2$ is a new quantity called the reduced mass $\mu$. The reduced mass is defined as:
+
+\[
+\mu = \frac{m_1 m_2}{m_1 + m_2}
+\]
+
+Thus, the kinetic energy of the molecule can be expressed as:
+
+\[
+KE = \frac{1}{2} \mu v^2
+\]
+
+This equation, when rearranged, is equivalent to the previous expression. We prefer to use this formulation for kinetic energy because it allows us to describe the molecule with fewer variables. 
+
+If we position a particle at a distance $r$ from the origin, with mass equal to the reduced mass $\mu$, and maintain the same geometry defined by angles $\theta$ and $\phi$, then this particle will exhibit the same kinetic energy and other properties, such as angular momentum, as the original two-atom system. 
+
+The advantage of this approach is that we only need to provide three coordinates—$r$, $\theta$, and $\phi$—to describe this system, compared to the six coordinates required to specify the positions of both atoms in the original system. This simplification will significantly ease the process of solving Schrödinger's equation, which we will tackle next.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

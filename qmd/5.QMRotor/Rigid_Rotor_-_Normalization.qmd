@@ -1,0 +1,60 @@
+#  Rigid Rotor - Normalization
+## Rigid Rotor - Normalization (11:20) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/GutzlVS8l-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Rigid Rotor - Normalization  Video Transcript { .unnumbered}
+
+
+So, we have a collection of wave functions that we've seen solve the Schrödinger equation, and we understand why some of them need to have complex numbers in them. The one part we don't understand yet, or at least don't have a numerical value for yet, is this constant $n$ out in front of the wave function, the normalization constant. We will solve for that normalization constant the same way we did for the particle in a box, and that's by normalizing the wave function, which means guaranteeing that there's 100% probability of finding the system in some state described by some values of our angles $\theta$ and $\phi$ for the orientation of this diatomic molecule that we're representing with this rigid rotor molecule. 
+
+If we integrate the probability over all $\theta$ and all $\phi$, we will get one. So, we need to ensure that that is true. Remember that when you're doing an integration in spherical polar coordinates, when you're integrating over $\theta$ and $\phi$, you don't just integrate over $d\theta \, d\phi$; you need to integrate over $\sin \theta \, d\theta \, d\phi$. The connection between this and the wave function is that we remember that the probability is the wave function squared, or more specifically, for this quantum mechanical system, the wave function's complex conjugate times the wave function is equal to the probability. 
+
+So, we need to guarantee that when we do this integral, the wave function times its complex conjugate, $\sin \theta \, d\theta \, d\phi$, is integrated over all coordinates. Let's write the limits of this integration. I'm integrating over two variables: $\theta$ has to run from $0$ to $\pi$, and $\phi$ runs from $0$ to $2\pi$. So, that's a recipe for how to do the normalization. Take one of our wave functions, plug it into this integral, integrate in this way, and we need to make sure we get one out on the other end. 
+
+To see how that works, let's take one of the complex ones. Let's take our wave function that looks like a normalization constant times $\sin \theta e^{i\phi}$. Just so that we see how the complex numbers affect the integration, if we want to normalize that function to find out what the value of this $n$ is, then we'll do exactly what's stated here. I need to make sure that $1$ is equal to the integral of $\phi$ from $0$ to $2\pi$ and $\theta$ from $0$ to $\pi$ of the complex conjugate. So, that's $n \sin \theta e^{i\phi}$ with all the $i$'s turned into negative $i$'s. I should also say that $n$ could be a complex number that needs to be complex conjugated as well. 
+
+So, that's the complex conjugate of the wave function multiplied by the wave function itself. That's the $n$ without a star, $\sin \theta e^{i\phi}$ without having turned into negative, and then the integration factor $\sin \theta \, d\theta \, d\phi$. So, that's the integral we need to do. We can clean it up a little bit; the $n$'s we can pull out of the integral since those are just constants. So, $n^* n$ is $n^2$. In this specific way, we mean when we're talking about complex numbers. I have a double integral from $0$ to $\pi$ and $0$ to $2\pi$. 
+
+The sine terms give me three factors of sine. The complex numbers turn out to be not a problem at all; $e^{-i\phi}$ times $e^{i\phi}$ cancels each other and just makes one. So, the $e^{i\phi} e^{-i\phi}$ terms just give me one, and I've already accounted for the $\sin \theta$. So, I just need $d\theta \, d\phi$. The integral is looking much simpler already. I've got an $n^2$. The $\phi$ integral, this outer integral from $0$ to $2\pi$ $d\phi$, has no $\phi$'s in here, so I don't have to work hard to do that integration. The integral of $d\phi$ is just $\phi$. Evaluating from $0$ to $2\pi$ gives me $2\pi$, so the $\phi$ integral is done and is equal to $2\pi$. 
+
+Now, I will go ahead and rewrite the $\theta$ integral, which is the integral of $\sin^3 \theta \, d\theta$. All right, so what do we do here? There are a few options. You probably don't have this integral memorized. You can use an integral table, go to the internet, and look up that integral. There's no shame in using integral tables; someone else has already done the work of doing this integral. You can use the integral table to find out what it is, but it's not actually that hard to do. 
+
+So, I'll show you the trick we need to actually perform this integral ourselves, and that trick is $u$-substitution. If we look back and think, what I'd like to have is for one of these factors of $\sin \theta \, d\theta$ to be lumped into the $du$ when I do my $u$-substitution. If one of my factors is $\sin \theta$, the reason I want to have one of these factors taken up by the $du$ is that if I have just $\sin^2$ left over, I know a lot about how to do integrals of $\sin^2$. 
+
+So, what does $u$ need to be in order for its differential to be $\sin \theta$? It needs to be something like $\cos \theta$. Now, if I think about the sines, if I make $u$ equal to $\cos \theta$, its derivative is $-\sin \theta$. So, if $u$ is $\cos \theta$, then $du = -\sin \theta \, d\theta$. This allows me to rewrite my integral. I've got $n^2 \cdot 2\pi$. When I transform the integral itself, I need to remember also to transform the limits of the integral. 
+
+So, my integral was $\theta$ running from $0$ to $\pi$, but $u$ is going to run from when $\theta = 0$, $u$ is equal to $\cos(0)$, which is $1$. When $\theta = \pi$, $u$ is equal to $\cos(\pi)$, which is $-1$. So, my integral is running from $1$ to $-1$. Once I've converted it into $u$, now my integral $\sin^3 \theta$ I'd rather think of that as $\sin^2 \theta \cdot \sin \theta$. 
+
+One of those $\sin^2$ terms I can write as $1 - u^2$, and the other sine I can write as $du$ with a negative sign. So, I'll stick a negative sign out in front of the entire thing. Now, I just have this integral to perform: the integral of $1 - u^2$, and that's a much easier integral. There's no trigonometric functions in there. 
+
+So, I've got $-2\pi n^2$ times the integral of $1 - u^2$, which is $u - \frac{u^3}{3}$, and I'm evaluating that between $1$ and $-1$. Let's insert the top limits. When $u = -1$, $u^3$ is also equal to $-1$, so I have $-(-1) - \frac{-1}{3}$. That's the two terms I get when I insert $-1$ for $u$, and then I subtract what I get when I insert positive $1$. 
+
+So, when $u = 1$, $u^3$ is also equal to $1$. Now I have a little bit of arithmetic left to do, and I've run out of room, so let's move up to the top. My normalization problem has become $1$ on the left side, and that must be equal to $-2\pi n^2$ times everything that's left in brackets here. I've got $-1 - 1$, which looks like $-2$, and $\frac{1}{3} - \frac{-1}{3}$, so that looks like a plus $\frac{2}{3}$. 
+
+Negative two is $-\frac{6}{3}$. If I add $\frac{2}{3}$ to that, all together I get $-\frac{4}{3}$. So, I've got $2\pi n^2 \times \frac{4}{3}$. That negative sign cancels with the negative sign on this $-\frac{4}{3}$, and I need for $1$ to be equal to $\frac{8\pi}{3} n^2$. My goal is to solve for the value of $n$. 
+
+If I leave $n$ by itself and move everything else over to the left-hand side, the $3$ comes to the top, and the $2 \times \pi \times 4$ is on the bottom. All this will be true; my wave function will be normalized, and its integral when I square it will be equal to $1$. If the value of $n^2$ is equal to $\frac{3}{8\pi}$, or if the value of $n$ is equal to $\sqrt{\frac{3}{8\pi}}$. 
+
+Now, I don't have to worry about remembering the reason we kept these vertical lines here on these magnitudes is because I didn't know if $n$ was going to turn out to be real or complex. It turns out I can get by with an $n$ that's a real number, $\sqrt{\frac{3}{8\pi}}$, and then when I square it, I get $\frac{3}{8\pi}$, which is what I was looking for. 
+
+So, we have solved for the value of $n$. What that means is now we understand the wave function more completely. This particular wave function, the one we've been working with, I can say that this wave function is not just equal to $n$, some unknown constant, but it's equal to $\sqrt{\frac{3}{8\pi}} \sin \theta e^{i\phi}$. So, that's what we've succeeded in doing: we've normalized that wave function. If someone gives us a wave function without the normalization constant specified, we can go through this process to determine the normalization constant and be able to write down the fully correct wave function. 
+
+That process is not a lot of fun; it's fairly tedious. The main purpose of this video lecture has been to show you, in case you need to do it, the procedure you need to go through, what exact integral you need to perform, and set equal to one in order to solve for that value. Sometimes we don't end up needing the normalization constant, so often we will just leave it unspecified as we did when we first wrote down these wave functions. But if we do need to know the value, then we can calculate it.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

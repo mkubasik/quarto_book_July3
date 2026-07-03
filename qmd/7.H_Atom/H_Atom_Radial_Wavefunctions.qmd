@@ -1,0 +1,44 @@
+#  H Atom (Radial Wavefunctions)
+## H Atom (Radial Wavefunctions) (8:15) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/UpXBX5q9OuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## H Atom (Radial Wavefunctions)  Video Transcript { .unnumbered}
+
+
+All right, so we're still talking about the radial solutions to the hydrogen atom wavefunction, specifically the radial portion of the solutions. What we've seen so far is that the function $e^{-k \cdot r}$ is a solution to the radial portion of the Schrödinger equation. We determined that the constant $k$ is the atomic number divided by a collection of constants that we've called the Bohr radius. Therefore, the function $e^{-\frac{z \cdot r}{a_0}}$ is a solution to the Schrödinger equation. In fact, if I multiply that equation by any constant I want, it will still be a solution to the Schrödinger equation. You won't be surprised to learn that this constant $n$ turns out to be related to what will become a normalization constant in the near future.
+
+So, that's one solution to the Schrödinger equation. You also won't be surprised to hear that there are a large number of solutions, even for the $l = 0$ wavefunction. This was a solution to the $l = 0$ portion of the radial wavefunction, and even for this case, there is more than just this one solution. We end up numbering those solutions. For $l = 0$, the one solution that we've obtained so far will be named the $R_{10}$ radial function, which looks like $n \cdot e^{-\frac{z \cdot r}{a_0}}$. That product is a solution to the Schrödinger equation, or more specifically, the radial portion of the Schrödinger equation.
+
+There's a second solution that we could consider, and we want to go through all the math to confirm that this is indeed a solution. The second solution to the $l = 0$ radial wavefunction, which we will call $R_{20}$, has a different normalization constant, again multiplied by the same exponential. I'm sorry, it's actually multiplied by a slightly different exponential $e^{-\frac{z \cdot r}{2a_0}}$, along with an extra polynomial term that involves $r$, specifically $\frac{2 - z \cdot r}{a_0}$. This new function, the exponential times this polynomial, also turns out to be a solution to the Schrödinger equation, specifically the radial portion of the Schrödinger equation.
+
+There is an infinite series of these solutions, and there is also a whole different set of solutions not just for $l = 0$, but for $l = 1$, $l = 2$, and so on. If we pause for a second to write out some more of these candidate solutions, we can see that there is indeed a whole infinite series of solutions when $l = 0$: $n = 1, n = 2, n = 3$, and so forth. Any one of these, if we plugged it into the radial version of the Schrödinger equation, would confirm that these equations each solve that differential equation.
+
+For the $l = 1$ version of the radial Schrödinger equation, there are $n = 2, n = 3$, and so on. I have only one example here for the $l = 2$ function, but the point is that there is a very large family of solutions to the radial version of the Schrödinger equation. If we look carefully, we can see some commonalities among them. The radial solution of the Schrödinger equation always has $e^{-\frac{z \cdot r}{a_0}}$, but sometimes it is divided by $1a_0$, $2a_0$, or $3a_0$. This is the reason we label them $n = 1, n = 2, n = 3$. The $n$ tells us how many Bohr radii we divide by in the exponential.
+
+For example, we started counting from $n = 2$ rather than $n = 1$ for these solutions because the first solution has $e^{-\frac{z \cdot r}{2a_0}}$, and the next one has $e^{-\frac{z \cdot r}{3a_0}}$. Thus, we call that the $n = 2$ solution and the $n = 3$ solution. The exponential always has $e^{-\frac{z \cdot r}{n \cdot a_0}}$. There is also always a normalization constant out front. I have labeled them all $n$, but if we calculate the actual values, those are different normalization constants for each of these functions.
+
+The polynomial portions of these functions, which I have written in green, also show some patterns. Sometimes it's a polynomial function like these; sometimes that polynomial function is preceded by a ratio of $\frac{z \cdot r}{a_0}$ with some constants thrown in. That term, if we look carefully, looks like $\frac{2z \cdot r}{n \cdot a_0}$. So, for example, this term is $\frac{2z \cdot r}{2a_0}$ or $\frac{2z \cdot r}{3a_0}$. It's always $\frac{2z \cdot r}{n \cdot a_0}$, and this term is raised to the first power when $l = 1$, raised to the second power when $l = 2$, or missing entirely when $l = 0$ because it's raised to the zero power. This term is raised to the $l$th power.
+
+There is also a more complicated polynomial term that involves constants like $\frac{z \cdot r}{a_0^2}$ and so on. For now, we'll just write that as some polynomial function of $r$, which again will depend on the specific values of $n$ and $l$. We'll talk more about that in the future, but this is the general form of each of these radial solutions of the Schrödinger equation.
+
+The last thing we need to comment on is what values of $n$ and $l$ we should expect to find solutions for. You'll recall that $l$ is the same $l$ that we've had in the rigid rotor Schrödinger equation. We know that the value of $l$ can be any non-negative integer: $l$ can be $0, 1, 2$, and so on. What we see here is that when $l = 0$, the value of $n$ can be $1, 2, 3$, or larger values. When $l = 1$, the smallest value of $n$ we are allowed to have is $n = 2$. When $l = 2$, then $n$ can be $3$ or higher.
+
+That pattern persists: whatever the value of $l$ is, $n$ can be one larger than that or a larger integer still, but it can't be as small as $l$ or anything below. Usually, we don't think of the rules in this form; we think of them instead in the following way: $n$ can be any positive integer. It's possible for $n$ to be $1, 2, 3$; there are no values of $n = 0$. That's because if we had $e^{-\frac{z \cdot r}{0 \cdot a_0}}$, that would not be possible mathematically. So, $1$ is the smallest value of $n$ that we're allowed to have. When $n$ is any of these values, if we rearrange these values, $n$ must be $l + 1$ or larger, meaning $l$ can't be any larger than $n - 1$. Thus, $l$ can range from $0, 1, 2$, etc., all the way up to $n - 1$. This version of the $n$ and $l$ rules may begin to sound familiar from what you've learned about the hydrogen atom before. You know that there is a quantum number that can be $1, 2, 3$, and another quantum number that can range from $0$ up to $n - 1$.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

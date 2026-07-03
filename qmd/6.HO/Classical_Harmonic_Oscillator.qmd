@@ -1,0 +1,90 @@
+#  Classical Harmonic Oscillator
+## Classical Harmonic Oscillator (10:47) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/hgOuBUkuO9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Classical Harmonic Oscillator  Video Transcript { .unnumbered}
+
+
+We are mainly interested in using the harmonic oscillator model to treat the vibration of diatomic molecules. Any time we have a potential energy that looks like some variable squared, it ends up being called the harmonic oscillator model. It's worth spending a few minutes explaining why this model is called a harmonic oscillator and what it looks like when you're not solving quantum mechanical problems with it.
+
+This expression for potential energy looks like the square of some variable. Let me draw what that potential energy would look like in graphical form. There is some variable, which for us might be a bond length but could generally represent many different things. The potential energy will look like the square of that variable, increasing symmetrically on either side of zero for that variable, resembling a parabola. Any variable that behaves like this, whose potential energy behaves like the square of that variable, will act essentially like a classical Hooke's Law spring.
+
+For example, consider a spring with an object at the end, maybe attached to a wall. If I stretch that spring and let it go, it will snap back and then oscillate back and forth. If I compress the spring, it will snap forward and then oscillate back and forth. The reason for this behavior on the potential energy curve is that if I move the value of $x$ to some positive number where the energy is large, it will be able to reduce that positive energy by moving the $x$ coordinate smaller, and the particle will slide down this potential energy well, sliding back up to a point on the other side where the potential energy is equal to where it started. Likewise, if I compress it, it will roll back and forth.
+
+I can think of it as a spring, or as placing a ball inside of a parabolic bowl that will roll back and forth, or as a diatomic molecule, which is a lot like a spring. The reason we call it a Hooke's Law spring is that the more I stretch it, the larger the restoring force gets, and the restoring force is proportional to the amount of stretch. Mathematically, what we are saying is that the force, if I stretch this spring, is the negative derivative of potential energy with respect to position. Since I know what $V(x)$ is, I can write:
+
+\[
+F = -\frac{dV}{dx} = -\frac{d}{dx}\left(\frac{1}{2} k x^2\right) = -kx
+\]
+
+This is our Hooke's Law spring. If I double the stretch in the spring, I have doubled the restoring force in the negative direction that the particle feels. The other thing we should note is that this constant $k$, when we talk about springs, is called the force constant. A strong, stiff spring, one that is very hard to stretch because the energy rises quickly as I stretch it, has a large value of $k$ or a large force constant. A very soft spring with a low force constant would be one that is very easy to stretch, like a slinky, for example.
+
+We also know about the behavior of a system like this that relates to force. The other physics equation that you may be familiar with is $F = ma$, which relates mass times acceleration, or if we prefer, mass times the second derivative of position with respect to time. Since the variable we use for mass when discussing the harmonic oscillator is not $m$ but typically the reduced mass of our object, we will write this as $\mu \frac{d^2x}{dt^2}$. 
+
+So, we have two equations for force: the force for this potential energy must be $F = -kx$, and force is also equal to the mass (or reduced mass) times the second derivative of $x$. If I equate those two terms, we have:
+
+\[
+-kx = \mu \frac{d^2x}{dt^2}
+\]
+
+Let’s rearrange this to have the second derivative on the left side:
+
+\[
+\frac{d^2x}{dt^2} = -\frac{k}{\mu} x
+\]
+
+What must be true about any system with this quadratic potential energy is that the second derivative of position, the acceleration, has to be equal to negative the force constant divided by mass times the original $x$. The $x$ we are discussing is the $x$ that we are taking the time derivative of. When I illustrate this by stretching the spring to a certain point and letting it go, I stretch it to some initial value of $x$ where it has some initial potential energy. But when I let it go, the force on the spring will cause its position to change, and it will go back to its initial position, compressing and stretching back and forth. 
+
+This oscillation back and forth changes the value of $x$ as a function of time, so $x$ will change over time in a way that oscillates. The second derivative of that function with respect to time must equal the original function itself multiplied by some negative constant. This equation should seem familiar; it's exactly the same differential equation we solved when we considered the one-dimensional particle in a box. We were looking for some wave function whose second derivative is negative the original function. There, we took $x$ derivatives and called the function $\psi$, but the differential equation is exactly the same.
+
+Building off of what you've done in a physics class or a differential equations class, we can say that this $x(t)$ function, the only functions whose second derivatives are the negative of the original functions, are cosines and sines. So, we can express it as some amount of cosine plus some amount of sine function, depending on $t$. We can also have some variable inside the sine function along with them, so we write:
+
+\[
+x(t) = A \cos(\omega t) + B \sin(\omega t)
+\]
+
+where $\omega$ is the angular frequency. Cosines and sines, when I take their second derivatives, will return to me the negative of the original values, pulling out some factors of $\omega$ as I take those derivatives. In fact, if I solve for what $\omega$ must be, such that if I take two derivatives, pulling out an $\omega$ and then a minus $\omega$, we find:
+
+\[
+\omega^2 = \frac{k}{\mu}
+\]
+
+Thus, 
+
+\[
+\omega = \sqrt{\frac{k}{\mu}}
+\]
+
+The angular frequency with which this particle oscillates, after I have stretched it to some positive position and let it go, will oscillate back and forth like a cosine or sine wave. 
+
+We are often interested not in the angular frequency but in the frequency. The difference between these is that angular frequency measures how many radians per unit time, while frequency measures the number of round trips per unit time. The only difference between angular frequency and frequency is this factor of $2\pi$ radians per complete round trip in a circle. To convert angular frequency into regular frequency, I divide by $2\pi$:
+
+\[
+\nu = \frac{1}{2\pi} \sqrt{\frac{k}{\mu}}
+\]
+
+Let’s denote this frequency, thinking ahead for the harmonic oscillator, because we will be talking about the reduced mass of a diatomic molecule. The frequency we will discuss for diatomic molecules will be the equilibrium vibrational frequency, typically labeled with a subscript $e$. Thus, we have:
+
+\[
+\nu_e = \frac{1}{2\pi} \sqrt{\frac{k}{\mu}}
+\]
+
+This explains the name "harmonic oscillator." We have clarified why the molecule oscillates; "harmonic" just means it is oscillating as a pure sine or cosine wave with a single frequency—a term related to music. This has all been a classical, purely Newtonian physics description of the oscillation of this system with a quadratic, parabolic, or harmonic potential energy function. The next step will be to plug that into Schrödinger's equation and see how it behaves in a quantum mechanical system, allowing us to describe the vibration of diatomic molecules.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

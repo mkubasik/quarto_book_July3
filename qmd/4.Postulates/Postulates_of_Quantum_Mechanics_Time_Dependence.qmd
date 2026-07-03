@@ -1,0 +1,40 @@
+#  Postulates of Quantum Mechanics (Time Dependence)
+## Postulates of Quantum Mechanics (Time Dependence) (5:23) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/mkzNNdf6G2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Postulates of Quantum Mechanics (Time Dependence)  Video Transcript { .unnumbered}
+
+
+The previous four postulates of quantum mechanics have described features of the wave function and, importantly, how to calculate properties given the wave function. The fifth and last postulate of quantum mechanics has a slightly different flavor; it tells us about the time dependence of the wave function. 
+
+So far, whenever we've talked about a wave function, we've described it as a function of position. For a one-dimensional particle, we might simply say $\psi(x)$; for a three-dimensional particle, we might say $\psi(x, y, z)$. However, notice that there's no time in that formulation of the wave function. We call that a time-independent wave function because it does not change with time. The value of the wave function, whether it's today or yesterday, remains the same. 
+
+In contrast, the wave function of any particle might not be the same today as it was yesterday or as it will be tomorrow. In general, there might be some time dependence of the wave function; it may change as time progresses. Thus, we would call that a time-dependent wave function. 
+
+If we want to understand how the wave function changes over time, we need the fifth postulate of quantum mechanics. This postulate states that for a system with a particular wave function, if it is described by $\psi$, then the time evolution—or the way that the wave function changes with time—provides information about how the wave function evolves. Specifically, if we take $i \frac{h}{2\pi}$, that collection of constants equals the Hamiltonian acting on the wave function. 
+
+Not only does $H \psi = E \psi$, but $H \psi$ also equals $i \frac{h}{2\pi} \frac{d\psi}{dt}$. This tells us something about the time-dependent behavior of the wave function. I should note that treating the time-dependent behavior of the wave function is something we won't spend a lot of time on in undergraduate physical chemistry; it's a somewhat more advanced topic. For the most part, we will consider wave functions to be in what's called a stationary state. We can understand most of the physical chemistry we want to explore without explicitly treating the time dependence of the wave function, with a few exceptions that will arise later in the course. 
+
+However, for completeness, we do have this fifth postulate. To understand what it means, it's not particularly surprising that there is a statement like this. For example, if we set aside quantum mechanics and think only about classical mechanics, we can recall what we learned about cannonballs and predicting the motions of objects. If I completely describe the state of a system—a cannonball flying through the air, for instance—it has some position, some momentum, and a mass. If I describe the state of that system completely, you can predict not only its current properties, such as kinetic energy, potential energy, and momentum, but also where that system will be in the future. You can predict how the state of the system changes over time.
+
+This is the equivalent statement in quantum mechanics, just as Newton's laws of motion are in classical mechanics. It tells us how the state of the system, described by the wave function, changes over time and provides a prescription for how to calculate that change. What is remarkable, if you think about it, is that the same equation predicting the time evolution of the system depends on the same operator that informs us about the energy of the system. 
+
+We have now completed our tour of the postulates of quantum mechanics. This is the fifth and last postulate. Remember that what these postulates overall tell us to do is, once we know the wave function, to calculate the properties. These properties include energy. We have also seen that Boltzmann's distribution and statistical mechanics tell us how to work with those energies; they inform us about the probability that particles will occupy any one of those individual energy levels. Additionally, we can use those properties to calculate further thermodynamic properties. The next step will be to use quantum mechanics to calculate some energies and then use those to derive additional properties.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

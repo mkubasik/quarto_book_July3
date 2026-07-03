@@ -1,0 +1,62 @@
+#  Harmonic Oscillator Model
+## Harmonic Oscillator Model (8:37) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/TcXrba9pBQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Harmonic Oscillator Model  Video Transcript { .unnumbered}
+
+
+So far, in trying to understand how diatomic molecules behave, we have considered two different components of their motion: their translational motion, as their center of mass moves around in the container they occupy, and their rotational motion. We have described the translational motion using the particle-in-a-box model, which allows us to describe the coordinates $x$, $y$, and $z$. 
+
+Let me go ahead and draw a diatomic molecule. Its center of mass is somewhere, and that center of mass has some $x$, $y$, and $z$ coordinates. The rotation of the molecule, as it rotates in various directions, is described using the angles $\theta$ and $\phi$. We have allowed the molecule to move around in $x$, $y$, and $z$, and we have allowed it to rotate in $\theta$ and $\phi$. However, what we have not examined so far is the changes in the bond length of the molecule. 
+
+The bond length is the variable we need to describe the vibration of the molecule. As the bond length changes, we refer to that motion as vibration. We need to understand how to quantum mechanically describe the states of the molecule and, eventually, the thermodynamic properties of the molecule due to those vibrations. So, that is the next thing we will tackle. 
+
+We are going to back up all the way to quantum mechanics and solve Schrödinger's equation again—not for the particle in a box to describe the motion of the molecule, nor for the rigid rotor to describe the orientation of the molecule, but for the bond length to describe these vibrational motions. 
+
+The first step we always need to take in any quantum mechanical problem is to write down the potential energy. We cannot write down Schrödinger's equation until we know what potential energy to plug into that equation. The potential energy will depend on this variable $r$, the bond length. 
+
+Remember that in the previous two approaches, both for the particle in a box and the rigid rotor, we started out by saying, "Well, it may not be exactly true, but let's say the potential energy is equal to zero." Can we do that for the vibration of a molecule? We definitely cannot. If you think about how the potential energy of the molecule changes as I change its bond length, it becomes clear. 
+
+For a diatomic molecule, if I stretch it or compress the bond, the potential energy of the molecule will definitely change. Unlike rotation, where I should not expect the energy of the molecule to differ if I simply place it at a different orientation, or translation, where moving it to a different position in the box does not change its energy, the situation is different for bond length. 
+
+If I draw a qualitative picture of what the potential energy should look like as I change the bond length, I have a molecule at some bond length. If I stretch the bond, I will have to put energy into the molecule to do so, which raises the energy of the molecule. Likewise, if I compress it below the bond length that it naturally tends to have, that will also require energy. 
+
+There is some bond length, which I will denote as $r_e$, where the energy of the molecule is lowest. If I increase the bond length beyond that or decrease it below that, the energy will rise from that point. So, there is a minimum energy, which I will draw approximately in the right place and call $V_e$ at $r_e$. The "e" stands for equilibrium. If I let the molecule alone, the bond length it naturally tends to have is this equilibrium bond length, which corresponds to the lowest energy. 
+
+The energy goes up as I stretch the bond, but it does not keep increasing indefinitely. Eventually, if I keep stretching the bond, the molecule will break. If I have two atoms separated by a long distance and move them further apart, I am not changing their energy anymore. Thus, this energy will rise and approach zero as I have drawn the graph. 
+
+On the other side, if I consider what happens when I compress the bond, I have molecules at their equilibrium bond length. If I move them closer together, that raises their energy. If I continue to move them closer, I will eventually start overlapping the two atoms, which makes it energetically difficult to do so. Therefore, as the bond length approaches zero, the energy will begin to rise very rapidly and become very large. 
+
+This is a general qualitative shape for what the potential energy should look like, and it is not a very good approximation to say that I can model that curve with just a flat $V = 0$ curve. We will have to do a little more work to determine the quantum mechanics this time. We will need to figure out what this potential energy curve looks like and how to insert it into Schrödinger's equation. 
+
+The bad news is that it is not actually known. I cannot write down an equation for what this curve looks like for real-world molecules. If I could, it would be quite a complicated expression, and if I inserted it into Schrödinger's equation, that equation would be very difficult to solve—certainly on a blackboard without using very powerful computers. 
+
+What we will do, as physical chemists often do when faced with a problem that cannot be solved, is come up with a model, an approximation, a simplification. Essentially, we are saying, "I cannot solve this problem, so let me think of a simpler problem that I will be able to solve." 
+
+If I cannot solve the problem for this green curve that I have just drawn, I will draw a simpler curve that resembles it. The curve I have just drawn is a parabola. As the distance away from $r_e$ increases, let me make it increase symmetrically. If I make it increase as the square of the distance away from $r_e$, then what I have drawn is a parabola with some constant out front. 
+
+This expression I have just drawn for the potential energy is a simpler equation, and it turns out that when we use that for the potential energy in Schrödinger's equation, we will be able to solve it. It is not terribly different from the original expression, especially near the bottom. We will see as we go along that usually, for diatomic molecules, they spend most of their time near the equilibrium bond length. 
+
+Thus, this approximation is not actually too bad. We will simplify this expression a little bit by defining a new variable $x$ to be the quantity $r - r_e$, which represents how much I have stretched the bond. When $x$ is a positive number, I have stretched the bond to a larger bond length than the equilibrium bond length. When $x$ is negative, I have compressed the bond to less than its equilibrium bond length. 
+
+This quantity is called the bond displacement, which indicates how much I have displaced the bond away from its equilibrium bond length. With that change, I have a potential energy that depends not on bond length but now on this new variable $x$, the bond displacement I have just defined. This is the expression we will use and insert into Schrödinger's equation to solve for the quantum mechanical behavior of the vibrations of these diatomic molecules. 
+
+That model is called the harmonic oscillator model, and that name may sound a little cryptic. It is not necessarily obvious what is harmonic or what is oscillating in this particular model. You might think we would call it the vibrational model or something similar. The next step will be to explain a little more about this model and why it is called the harmonic oscillator model.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

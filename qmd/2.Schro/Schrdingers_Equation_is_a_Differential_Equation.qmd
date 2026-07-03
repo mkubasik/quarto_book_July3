@@ -1,0 +1,72 @@
+#  Schrödinger's Equation is a Differential Equation
+## Schrödinger's Equation is a Differential Equation (8:51) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/UMEdZSUSFSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Schrödinger's Equation is a Differential Equation  Video Transcript { .unnumbered}
+
+
+All right, so now we understand a little bit about Schrödinger's equation. Whether we write it down somewhat explicitly like this or in this extremely compact notation using operator notation, we can express Schrödinger's equation. It's important to recognize what type of equation this is; namely, that it's a differential equation, not an algebraic equation. 
+
+In an expression like this, what we're trying to do is solve for the function $\Phi(x)$. We are trying to find the wave function that obeys this equation; we are not trying to solve for some numerical value of a variable like $x$. This distinction may be difficult for many of you to remember because you've been doing algebra for so long that when you see an equation, you are tempted to isolate $x$ and solve for $x$. However, that's not what we're doing when we solve Schrödinger's equation. 
+
+Let me illustrate this with an example. As the simplest case we can think of, let's consider the one-dimensional Schrödinger equation. This way, we don't have to worry about $x$, $y$, and $z$; we'll just focus on a one-dimensional version of Schrödinger's equation. The constants remain the same: $-\frac{H^2}{8\pi^2 M}$. The derivative in one dimension is simply $\frac{d^2}{dx^2}$ acting on the wave function. 
+
+This is the one-dimensional Schrödinger equation. To keep it as simple as possible, we cannot discuss the solutions to our equation without knowing what this potential energy means, as it will differ for every problem we study. The potential energy could be gravitational potential energy, electrostatic potential energy, or some other equation that describes what the potential energy looks like. Therefore, we need to define the potential energy before we can describe the equation in detail. 
+
+For this simple example, let's suppose that the potential energy is zero. I am choosing to solve a problem where the potential energy is zero, so the potential energy term completely disappears. The one-dimensional version of Schrödinger's equation with no potential energy simplifies to this form: 
+
+\[
+-\frac{H^2}{8\pi^2 M} \frac{d^2\Phi}{dx^2} = E\Phi
+\]
+
+The key point to keep in mind is that when we ask ourselves whether a function does or does not solve this equation, we are checking if the left-hand side equals the right-hand side when we plug the wave function into both sides. 
+
+For example, let's pick a function $Kx^2$ multiplied by some constant. We can ask, does this function solve Schrödinger's equation? In other words, when I insert this candidate wave function into both sides of Schrödinger's equation, is the equal sign appropriate, or are they not equal to each other? 
+
+To evaluate the left side, I need the second derivative of this wave function. The first derivative of $Kx^2$ is $2Kx$, and the second derivative is simply $2K$. If I insert these into our simplified Schrödinger's equation, I am asking:
+
+\[
+-\frac{H^2}{8\pi^2 M} \cdot 2K = E \cdot Kx^2
+\]
+
+Now, stop and consider what the next step is as I check if this wave function is indeed a solution. If you said to rearrange this equation and solve for $x$, then you've fallen into the trap of thinking of it as an algebraic equation. We are not solving for $x$; rather, we are determining if the left-hand side equals the right-hand side. 
+
+The left side consists of a collection of constants: $H$, $\pi$, $M$, $K$, and $2$. This collection of constants is some number. We want to know if that number is equal to $E \cdot Kx^2$ for all values of $x$. There is no way that these constants can equal $E \cdot Kx^2$ for every value of $x$. The left side, which is just a constant, cannot equal the right side, which is quadratic. Therefore, this wave function does not solve Schrödinger's equation. 
+
+The answer to the question is no; this wave function is not a valid solution to Schrödinger's equation. 
+
+To illustrate what it means to have a function that does actually solve Schrödinger's equation, let's consider another example. We'll stick with the same one-dimensional Schrödinger equation and ask whether the function $\sin(x)$ solves Schrödinger's equation. 
+
+To do this, we need the second derivative. The first derivative of $\sin(x)$ is $\cos(x)$, and the second derivative, taking another derivative, becomes $-\sin(x)$. When I plug both the second derivative and the function into the equation, I find:
+
+\[
+-\frac{H^2}{8\pi^2 M} \cdot (-\sin(x)) = E \cdot \sin(x)
+\]
+
+Now the question has become whether this collection of constants times $\sin(x)$ is equal to $E \cdot \sin(x)$. The answer is yes, as long as $E$ is equal to 
+
+\[
+\frac{H^2}{8\pi^2 M}
+\]
+
+Thus, we have verified that the wave function $\sin(x)$ is a solution to this version of Schrödinger's equation. In the process of arriving at that answer, we also determined the value of $E$ that makes this equation true. 
+
+So, we have made some progress. We haven't actually solved Schrödinger's equation yet, but I have given you some candidate solutions. You now know how to check whether a function is a solution to Schrödinger's equation or not. We are one step closer to being able to actually solve Schrödinger's equation, but before we do that, there's one more interesting feature of Schrödinger's equation that we need to point out first.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

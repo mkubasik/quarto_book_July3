@@ -1,0 +1,76 @@
+#  One-Dimensional Particle In a Box
+## One-Dimensional Particle In a Box (18:44) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/Hk-ntT_eOhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## One-Dimensional Particle In a Box  Video Transcript { .unnumbered}
+
+
+All right, so we've talked about the solutions to the Schrödinger equation, specifically the one-dimensional version with no potential energy, commonly referred to as the free particle problem. For the free particle Hamiltonian, some of the solutions to Schrödinger's equation are sine functions, specifically $\sin(kx)$, where $k$ is a constant. These wave functions will solve Schrödinger's equation, and those wave functions have energies that involve the constant $k^2$, where $k$ is the constant inside the sine wave.
+
+It turns out there's a problem with this solution to Schrödinger's equation. To see what the problem is, let's remind ourselves of what the wave function means. This wave function, if I were to graph it as a function of $x$, oscillates up and down, extending in both the positive and negative $x$ directions. What does it mean that the wave function is a sine wave? Remember that the physical meaning of the wave function is that the probability of the particle being somewhere is equal to the wave function squared. 
+
+When I square a sine wave, $\sin^2(kx)$, it makes the positive numbers bigger and the negative numbers positive. This is poorly drawn, but the green curve here represents what $\sin^2(kx)$ looks like. It goes on and on in both the positive and negative directions. In particular, what I want to be true is that if I integrate the probability of finding the particle at some position $x$ from $x = -\infty$ to $x = +\infty$, I should get 1. There is a 100% probability of finding the particle somewhere between negative infinity and positive infinity. 
+
+However, when I calculate the area under this green curve and add it up, the area clearly becomes infinite. So, we need the probability to integrate to one. In fact, for this wave function, it doesn't integrate to one, at least not if $A$ is a number greater than zero. That's the problem we have with this wave function. One of the requirements we will impose on wave functions is that when we square them, their integral must be finite; they cannot be infinite. So, for now, we can say that something went wrong—this is not a good wave function, and we'll have to figure out how to deal with that.
+
+One thing we can do is recognize that in the real world, particles can't extend everywhere. The free particle problem that we've solved with Schrödinger's equation, with potential energy equal to zero, is missing the potential energy term. The only way for that to be true is if there are no particles anywhere, extending all the way out to positive or negative infinity. If this were the only particle in the entire universe, then the free particle would be an appropriate equation to solve. However, in the real world, we can't have an infinite volume that our particle occupies. We can put a particle in an empty box, but there will always be some walls for the particle to remain within. Thus, we will never have a probability of finding the particle all the way out to positive or negative infinity. 
+
+In fact, what we more typically have, as you might have guessed from the title of this lecture, is a particle confined to a box. My wave function, a sine wave, might be fine for this particle, but let's say I confine the particle to somewhere between 0 and $a$. I won't allow the particle to exist anywhere outside of this box, which ranges from $x = 0$ to $x = a$. If $x$ is some negative number, I won't allow the particle to be there; if $x$ is a positive number greater than $a$, I won't allow the particle to be there either. Thus, the wave function is 0, and the probability is 0 outside of the box.
+
+The problem, however, is that if I draw my sine wave wave function, I have a sine wave that must be nonzero inside the box, oscillating, while I require it to be 0 outside the box. In other words, I'm requiring that the probability of finding the particle is 0 outside the box. My wave function might look like $\sin(kx)$ when I'm inside the box (when $0 < x < a$), but it will be 0 when either $x$ is negative or when $x$ is greater than $a$. 
+
+I've drawn that function here: it oscillates inside the box and is 0 for values greater than $a$. However, notice that the function is discontinuous. My wave function has changed from some finite value to 0 at the edge of the box, which is not acceptable. The particle can't have a high probability of being at the edge of the box and a 0 probability of being at the edge of the box when I approach that limit from different sides. Therefore, we will require that our wave functions be continuous.
+
+The function I've drawn here is not a valid wave function because it's not continuous. A better version of that wave function would be to have it oscillate and remain 0 at the edges of the box. If the edge of the box is here, and my wave function hits the edge of the box exactly, then everything is okay. That wave function is continuous, which is good. I need the wave function to be 0 at the left edge of the box and at the right edge of the box, regardless of which side I approach it from.
+
+What this means is that only certain wavelengths of the wave inside this box are allowed. This sine wave must oscillate at just the right speed to hit the edge of the box and reach 0. If it oscillates at a different speed and hits the edge of the box without being 0, then the wave function will not be continuous, and I don't want that solution. 
+
+What I actually require is that the wave function at the left edge of the box, when $x = 0$, has to be 0, and the wave function at the right edge of the box, when $x = a$, also has to be 0. These are the conditions I'm imposing on the wave function to ensure continuity. The first condition is no problem. When I evaluate the wave function at $x = 0$, $\sin(0) = 0$, so that's fine. Sine waves always start from zero and head upwards before oscillating back downwards.
+
+At the right edge of the box, where $x = a$, I have a potential problem. My wave function, $\sin(kx)$, when I insert $a$, becomes $\sin(ka)$, and I need that to be 0. The sine of some argument is going to be 0 only when the argument is 0 or when it is an integer multiple of $\pi$. Therefore, I want $ka$ to equal $n\pi$, where $n$ is an integer.
+
+Now, let's step back and ask ourselves what we're solving for. I want to know which sine waves will oscillate and hit the edge of the box, reaching 0 right at the edge. In other words, I want to know which values of $k$ make this sine wave oscillate properly at the edge of the box. If I solve for $k$, those values of $k$ are the ones that provide good continuous wave functions that can be confined within a box and remain continuous at the edges.
+
+Instead of saying my wave function is any old sine wave inside the box and 0 outside, a better description of the wave function that generates only valid continuous wave functions would be to say it's $A \sin(kx)$, but $k$ has to be $\frac{n\pi}{a}$. So, it's $\sin\left(\frac{n\pi}{a} x\right)$ when $x$ is inside the box, and it's 0 when $x$ is outside the box, either when $x$ is negative or when $x$ is greater than $a$. This describes wave functions that are confined within the box and continuous.
+
+Let me point out that, just like our original function, this wasn't just one solution to Schrödinger's equation; this was a whole family of solutions. Any value of $k$ solves Schrödinger's equation, although it didn't generate a wave function with 100% probability of being found somewhere. When we confine the particle to a box, we can't just use any value of $k$; we have to use some integer multiple of $\frac{\pi}{a}$ as our value of $k$. We still have an infinite number of solutions. The $n$ values I can use here are integers: 1, 2, 3, and so on. 
+
+You might ask yourself why I don't also use $n = 0$. The sine of $0$ times $\pi$ is 0, so that obeys the boundary conditions. However, if we think about what the wave function looks like when I have $\sin(0 \cdot \pi \cdot x)$, that always equals 0. Thus, the wave function itself is 0 when $n = 0$; it is just a flat line that doesn't exist anywhere. Therefore, that wave function doesn't have a 100% probability of existing at some point in space. 
+
+Only the values of 1, 2, 3, and so on generate useful values of the wave function. Still, I have an infinite number of $n$ values that I can insert into this wave function: $\sin\left(\frac{1\pi}{a} x\right)$, $\sin\left(\frac{2\pi}{a} x\right)$, $\sin\left(\frac{3\pi}{a} x\right)$. This infinite family of solutions can each be labeled with the letter $n$. So, I have solution number one, solution number two, solution number three, each corresponding to one of these values of $n$. 
+
+Notice something important has happened in changing from this expression to this expression. $k$ could be any value at this point, but $n$ can only be certain discrete, specific values—certain quantized values. So, the wave function is only allowed to be certain things; it's not allowed to be other things. The act of confining the particle inside this box has quantized the wave function.
+
+We haven't talked about energies yet. For the free particle, the energies were a collection of constants times $k^2$. Now we know that $k$ has to be these particular values, $\frac{n\pi}{a}$. The energies are still $\frac{h^2}{8m} k^2$, but with this value of $k$, if I insert $\frac{n\pi}{a}$ for $k$ and square it, some simplification happens. The $\pi$ terms cancel, and the energy ends up looking like $\frac{h^2}{8m a^2} n^2$.
+
+Thus, the energy of this $n$ wave function, if I stick $n = 1$ into the wave function, has an energy $E_1 = \frac{h^2}{8m a^2} \cdot 1^2$. If I take the $n = 2$ or $n = 3$ solution, the energies of those are this constant times $2^2$ or $3^2$. 
+
+If I draw that graphically on an energy ladder, the lowest energy I can give my particle confined to a box is this $n = 1$ solution, which has an energy $E_1 = \frac{h^2}{8m a^2}$. If I insert $n = 2$, the energy is four times bigger, $E_2 = \frac{h^2}{8m a^2} \cdot 4$. For the next one, the $n = 3$ solution will be even higher. 
+
+Notice that the energies are discrete; they are quantized. Some energies are allowed, while others are not. I can't have an energy of $1 \cdot \frac{h^2}{8m a^2}$ or $4 \cdot \frac{h^2}{8m a^2}$ or $9 \cdot \frac{h^2}{8m a^2}$. I can't have energies in between. These quantized energy levels come from the discrete individual solutions to Schrödinger's equation, which occur when we confine the particle inside a box.
+
+Also, this will be relevant later on when we talk about real-world systems that we can solve with this particle-in-a-box example. These energies increase proportionally to $n^2$. As $n$ gets bigger, the energies increase even faster, following the $n^2$ relationship. 
+
+We could also point out that the energies are proportional to $\frac{1}{a^2}$. While $h$ and $m$ don't usually change, a particle has the mass that it has, and Planck's constant has its value, confining the particle to a box allows us to choose whether to confine it to a small box or a large box. This choice has a significant effect on the energies. When I confine a particle to a very small box, the small number in the denominator makes the energies quite large. Conversely, if I confine the particle to a large box, the opposite is true; dividing by a large number squared in the denominator keeps the energies low.
+
+This is again going to be an important feature that recurs frequently in quantum mechanical problems: when we confine quantum mechanical systems to boxes, it quantizes their energy levels. The smaller the box we put them in, the higher their energies tend to be. 
+
+All right, that's all we have to say about the particle in a box, with one exception. We've described these wave functions that solve the particle-in-a-box problem, and we've figured out what the value of $k$ has to be in order for this particle to solve the problem. However, we haven't discussed the constant $A$ that multiplies the wave function out front. That's the next thing we'll talk about: the meaning of this constant $A$ and how to determine its value.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

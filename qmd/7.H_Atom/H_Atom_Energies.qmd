@@ -1,0 +1,58 @@
+#  H Atom (Energies)
+## H Atom (Energies) (10:55) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/dpY8EuXsETw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## H Atom (Energies)  Video Transcript { .unnumbered}
+
+
+All right, so we've seen that we can solve the Schrödinger equation and write down the wave functions for the hydrogen atom. There is one thing left that we haven't done for the Schrödinger equation for the hydrogen atom, and that's to talk about the energies. The Schrödinger equation in its full form is written out here for the hydrogen atom. We've got the kinetic energy term in spherical coordinates, and we've got the potential energy term, which is just the Coulomb interaction, the $\frac{1}{r}$ Coulomb interaction for the electron interacting with either one proton or a proton with a nucleus that has more than one proton in it. The kinetic plus potential energy terms must sum to give the energy times the wave function. So that's Schrödinger's equation.
+
+We can write down wave functions—any of an infinite number of wave functions. They might be simple or they might be complex, but we haven't yet talked about what the energies of those wave functions are. Of course, those are the important things as we go on and begin to do statistical mechanics. 
+
+As an example, let's just take the simplest wave function and confirm again that it does, in fact, obey the Schrödinger equation. In the process, we'll learn what the energy of that $1,0,0$ wave function is. The $n = 1$, $l = 0$, $m = 0$ wave function looks like $e^{-Zr/a_0}$. I've reminded us here that the Bohr radius is just this particular collection of constants. 
+
+To find the energy, we'll plug the wave function into this expression. We'll plug in $\psi_{1,0,0}$ here, here, and here, and confirm that this does, in fact, obey the Schrödinger equation. The fact that we're using an $l = 0$, $m = 0$ wave function and that there's no angular dependence in the wave function at all—there are $r$ terms in the wave function but no $\theta$ or $\phi$ terms—means that the terms involving $\theta$ and $\phi$ derivatives will completely disappear once I take those derivatives of the wave function. This makes it a little bit easier.
+
+The $r$ derivative of the wave function, $e^{-Zr/a_0}$, just pulls down the exponent. So that's the $r$ derivative of the wave function. If I multiply by $r^2$, I'll just go ahead and throw that in there. Next, we need to take the $r$ derivative again of that. The $r$ derivative of $r^2$ is $2r$, so I'll put the $2$ out front, and the $r^2$ becomes an $r$ (not an $r^2$). 
+
+If I focus on the exponential term, I've got $-\frac{Z}{a_0}$ with the negative sign, and the $r^2$ derivative of the exponential pulls down another $-\frac{Z}{a_0}$. So the negative becomes positive, and those coefficients get squared. That's what I have for the $r$ derivative of $r^2$ times the $r$ derivative of the wave function.
+
+If I then take $\frac{1}{r^2}$ including this term, I'll just extend this out to include the $\frac{1}{r^2}$. Then the $r$ becomes $\frac{1}{r}$, and the $r^2$ just disappears. So that's what I have for this first term inside the brackets, expanding out to the full Schrödinger equation. 
+
+Now, $H\psi$ is going to equal this collection of constants: $\frac{h^2}{8\pi^2 m}$ times $\left( \frac{2Z}{a_0} \frac{1}{r} \right)$ and an exponential. That's these terms times this term. The negative signs have canceled one another. I've also got the same collection of constants $\frac{h^2}{8\pi^2 m}$ times $\frac{Z^2}{a_0^2} n$ and the exponential. That's the full kinetic energy term. 
+
+Lastly, I can include the potential energy term $-\frac{Ze^2}{4\pi\epsilon_0} \frac{1}{r}$ times the wave function. That should equal the energy of the $1,0,0$ wave function multiplied by that wave function. Notice also that everywhere I have $n e^{-Zr}$, that's equal to the wave function. So we're looking pretty good so far. The things on the left are all multiplied by a wave function, and the things on the right are all multiplied by a wave function. The derivatives have all been taken. 
+
+I do have some $\frac{1}{r}$ times the wave function in the first and the third terms, and I have just some constants times the wave function in the second term and on the right-hand side. So we better make sure that the first and the third terms cancel each other, which they should. If that's true, then the first and the third terms, when I combine them, will look like $\frac{h^2}{8\pi^2 m} \left( 2Z \cdot \frac{1}{a_0} \right)$. This is why I reminded us what the value of $a_0$ is. If I take $\frac{1}{a_0}$, I'll get $\frac{\epsilon_0 h^2}{4\pi m e^2}$. 
+
+So that's this first term where I've replaced the Bohr radius with the constants that it equals. For the third term, this is all one large fraction. I've got $-\frac{Ze^2}{4\pi\epsilon_0}$, and again, each of those terms multiplies $\frac{1}{r}$ and $\psi$. If we double-check what cancels, $h^2$ top and bottom cancels, the mass of the electron top and bottom cancels, we've got a $\frac{2}{8}$, which is the same as $\frac{1}{4}$. We've got a $Z$ on top in both terms, we've got an $e^2$ in both terms, and we've got a $\pi^2$ on the bottom, which cancels the $\pi$ on top. 
+
+So the $\pi$ in the bottom and the $\epsilon_0$ cancel. Each of these terms is exactly the same; one of them minus the other does, in fact, equal zero, as we expected. So what that means is the entire first term cancels the entire third term. All we have left now is that the second term, this collection of constants times the wave function, $-\frac{h^2}{8\pi^2 m} \frac{Z^2}{a_0^2}$ is equal to the energy. 
+
+So those constants times the wave function are equal to the energy times the wave function. The value of the energy is, in fact, this collection of constants, which I suppose I can rewrite as $-\frac{Z^2 h^2}{8\pi^2 m a_0^2}$. So that is, in fact, the energy of this $1,0,0$ wave function. 
+
+Again, if we're interested in the numerical value, we can plug in constants. The only things we need to know are Planck's constant, $\pi$, the mass of an electron, and the Bohr radius. All those are constants that we can calculate. We need to know whether we're talking about a hydrogen atom, a helium ion, or a lithium ion—what the atomic number is of this hydrogen-like ion—and we can calculate the energy of the wave function. 
+
+In fact, this collection of constants is common enough that we can define a constant called $E_h$ or the Hartree. This value, one Hartree, is equal to the collection of constants $\frac{h^2}{4\pi^2 m a_0^2}$. When I combine the constants in that particular combination, that happens to be a value of about $27.2$ in units of electron volts. It's a considerably larger number in other units, like kilocalories per mole, but $27.2$ electron volts is defined to be a Hartree, this collection of constants. 
+
+When I do that, then this $E_{100}$, because there's an $8$ here instead of a $4$, works out to be $-\frac{1}{2} Z^2 E_h$. In fact, we haven't proven it for anything but this $1,0,0$ wave function, but in a more general sense, the energy of any $n, l, m$ wave function—if we were to plug in the wave function that we know how to write down now and plug that into Schrödinger's equation—what happens to be true is that the energy is still proportional to a Hartree and a half and $Z^2$. 
+
+When I do the $n = 1$ wave function, I get exactly this result. When I do an $n = 2$ wave function, I divide it by $4n^2$. For any $n$ wave function, I divide that energy by $n^2$. So the energy ends up being proportional to $\frac{1}{n^2}$. Notice here that the energy doesn't depend on $l$ and $m$. Even though I can calculate the energy of a $2,1,0$ or a $2,3,2,1$—any collection of $l$ and $m$ that I want—the values of $l$ and $m$ don't affect the energy of the wave function at all. All I need to know to calculate the energy is the value of $n$.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

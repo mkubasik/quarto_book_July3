@@ -1,0 +1,158 @@
+#  Postulates of Quantum Mechanics (Expectation Values)
+## Postulates of Quantum Mechanics (Expectation Values) (17:32) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/ogscPg1FncI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Postulates of Quantum Mechanics (Expectation Values)  Video Transcript { .unnumbered}
+
+
+The third postulate of quantum mechanics tells us that the allowed values of any observable property are the eigenvalues of the operator associated with that property. However, this does not quite answer the question of what value we are actually going to see when we make a measurement. This question is a little difficult to answer because quantum mechanics is inherently probabilistic; it is not deterministic. 
+
+For example, if we consider the one-dimensional particle in a box, where the wave function, let's say in particular wave function number one, is given by 
+
+\[
+\psi(x) = \sin\left(\frac{n \pi x}{a}\right) \quad \text{with } n = 1,
+\]
+
+the wave function itself looks like a sine wave. The probability of finding the particle at any particular position is given by $\psi^2$, which is the wave function times its complex conjugate. Therefore, the square of this wave function is 
+
+\[
+\psi^2 = \sin^2\left(\frac{\pi x}{a}\right).
+\]
+
+Graphically, if I plot the probability or $\psi^2$, the graph of $\sin^2$ looks like this: it is zero when $x = 0$ and also zero when $x = a$, reaching a maximum at the midpoint when $x = \frac{a}{2}$. 
+
+Since we know that probabilities are related to the square of the wave function, all we know about the particle is the probability of finding it at different locations. For a particle in the $\psi_1$ wave function, which is the ground state wave function for the particle in a box, it is most likely to be found in the middle of the box. The probability is highest at the center, but there is some non-zero probability of finding it at other locations as well. The only places where we will not find it, where the probability is zero, are at the edges of the box or outside of it. 
+
+Thus, all we know about the particle is its probability of being found at various locations. I cannot definitively say that it will be found at $\frac{a}{2}$, $\frac{a}{4}$, or any specific value; it has some probability of being measured at any point within the box. This is what I mean when I say quantum mechanics is probabilistic. Often, all we know is the probability of finding a particle at certain locations or with certain properties. 
+
+However, that does not mean we do not know anything about the value we will measure when we measure a particular property. This brings us to the fourth postulate of quantum mechanics, which states that if I have a system with a particular wave function, and I want to know the value of a specific property, I can predict something called the expectation value. This is essentially another term for the mean or average. 
+
+If I have some property $A$ that I am interested in—perhaps that property is energy, position, momentum, or something else—we know that this property has some operator associated with it. To find the average value I will obtain after making multiple measurements, we express the expectation value as 
+
+\[
+\langle A \rangle = \int \psi^* \hat{A} \psi \, dx,
+\]
+
+where $\hat{A}$ is the operator acting on the wave function $\psi$, and $\psi^*$ is the complex conjugate of the wave function. If I integrate this expression over the entire space, the result will give me a number, which will be the average value of the property I expect when I make multiple measurements.
+
+For example, if I ask about the average position of the particle, it will be in the middle of the box. Sometimes it will be on the left side, sometimes on the right side, but on average, I expect to find it in the middle. Any single measurement will be unpredictable, but if I make a number of measurements one after the other, I can predict what the average of those measurements will be.
+
+To calculate an expectation value, I need to know what property I am interested in, what the operator of that property is, and which wave function the system is occupying. If I want to find the average value for the position, I can use the fourth postulate to calculate that. We need to calculate the wave function times the operator associated with the position. Remember that the position operator is simply multiplication by $x$. 
+
+Writing this out, the wave function looks like 
+
+\[
+\psi(x) = \sqrt{\frac{2}{a}} \sin\left(\frac{\pi x}{a}\right),
+\]
+
+and the position operator is just $x$. Therefore, we need to evaluate the integral 
+
+\[
+\langle x \rangle = \int_0^a x \left(\sqrt{\frac{2}{a}} \sin\left(\frac{\pi x}{a}\right)\right)^2 \, dx.
+\]
+
+This simplifies to 
+
+\[
+\langle x \rangle = \frac{2}{a} \int_0^a x \sin^2\left(\frac{\pi x}{a}\right) \, dx.
+\]
+
+This integral can certainly be computed using integration techniques such as the double angle formula and integration by parts. For now, I will leave that as an exercise for you to work on or look up in an integral table. If you complete that integral, you will find that the answer is 
+
+\[
+\frac{a}{2}.
+\]
+
+This indicates that the average position where I find the particle, when performing this integral, is indeed $\frac{a}{2}$, which is in the middle of the box. By symmetry, we expected this result because the particle is equally likely to be found on the left side as on the right side.
+
+Now, let’s consider another example where we will compute the integral. What would be the average momentum? The wave function itself does not directly tell us much about the momentum of the particle. It gives us information about the probability of where I will find the particle, but it does not directly indicate the momentum without additional work. 
+
+The fourth postulate tells us that the average momentum, or the expectation value of the momentum, is again going to be the wave function sandwiched around the operator associated with that property. The operator associated with momentum is 
+
+\[
+\hat{p} = -i \hbar \frac{d}{dx}.
+\]
+
+Now we have a slightly different integral to compute. Instead of $x$ times the wave function twice, I have some constants times the derivative of the wave function times the original wave function. The derivative of sine will yield a cosine, pulling out some constants. 
+
+Thus, we have 
+
+\[
+\langle p \rangle = \int_0^a \left(-i \hbar \frac{d}{dx} \left(\sqrt{\frac{2}{a}} \sin\left(\frac{\pi x}{a}\right)\right)\right) \left(\sqrt{\frac{2}{a}} \sin\left(\frac{\pi x}{a}\right)\right) \, dx.
+\]
+
+The derivative of $\sin$ gives us 
+
+\[
+\frac{\pi}{a} \cos\left(\frac{\pi x}{a}\right),
+\]
+
+and the integral now looks like 
+
+\[
+\langle p \rangle = -i \hbar \frac{2}{a} \int_0^a \sin\left(\frac{\pi x}{a}\right) \cos\left(\frac{\pi x}{a}\right) \, dx.
+\]
+
+There are two ways to solve this integral. One approach is to use $u$-substitution. If we let $u = \sin\left(\frac{\pi x}{a}\right)$, then $du = \cos\left(\frac{\pi x}{a}\right) \frac{\pi}{a} dx$. 
+
+Alternatively, we can use symmetry. The sine function is symmetric within the interval from $0$ to $a$, while the cosine function starts positive and goes negative, making it asymmetric about the midpoint of the integral. Thus, we can predict that the answer to this integral will be zero by symmetry.
+
+If we proceed with the $u$-substitution, we find that when $x = 0$, $u = 0$, and when $x = a$, $u = \sin(\pi) = 0$. Therefore, regardless of what the interior of this integral evaluates to, it will be 
+
+\[
+\frac{1}{2} u^2,
+\]
+
+evaluated between $0$ and $0$, multiplied by all the constants out front. The result of this integral will be zero, confirming our expectation from symmetry. 
+
+Thus, we discover that the average momentum of the particle in a box, when it is in the $\psi_1$ wave function, is zero. This is true because a particle in this one-dimensional box, described by the $\psi_1$ wave function, will move to the left as often as it moves to the right. Consequently, the average momentum, which is the sum of positive and negative values, cancels out to zero.
+
+These are two examples of how to use the expectation value and the fourth postulate to calculate the expectation value for a property. We have seen that we can predict the average value of a property even when we cannot necessarily predict the specific value that a property will have. I cannot tell you exactly where the particle is, but I can tell you that on average, if I make many measurements, I will find it in the middle of the box.
+
+However, there is one exception to my claim that quantum mechanics is probabilistic and not deterministic. There is one case where we can tell exactly what the result of a measurement will be, which we can illustrate with this example. Let’s consider one more property: the energy. 
+
+For the same particle in a one-dimensional box with wave functions $\psi_n$, I want to know what the average energy is. Again, using the postulate, the average energy will be given by 
+
+\[
+\langle E \rangle = \int \psi^* \hat{H} \psi \, dx,
+\]
+
+where $\hat{H}$ is the Hamiltonian operator associated with energy. When I perform this integral, I do not even have to worry about whether this is a one-dimensional particle in a box or which particular $n$ value it is. 
+
+I know that if this is the wave function, then 
+
+\[
+\hat{H} \psi_n = E_n \psi_n,
+\]
+
+where $E_n$ is the energy associated with that wave function. Since $E_n$ is just a constant, I can pull it out of the integral, and what remains is simply the square of the wave function with one of the two being the complex conjugate. 
+
+If the wave function is normalized, that integral equals 1. Therefore, the average value for the energy of a particle in a wave function $\psi_n$ is simply 
+
+\[
+\langle E \rangle = E_n.
+\]
+
+This means that the only value the energy can take is the energy corresponding to that wave function. This is true not just for energy but for any property. If I have a wave function that is an eigenfunction of the operator I am inquiring about, then the only possible measured value of that property is the corresponding eigenvalue. 
+
+Since the wave functions for the one-dimensional particle in a box are not eigenfunctions of the position operator, we have many different values, and all we can predict is the average. However, for energy, the wave functions are eigenfunctions of the Hamiltonian, so they will always have that particular value. 
+
+This illustrates how to apply the fourth postulate, and we have one more postulate to cover, which we will discuss in the next video.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

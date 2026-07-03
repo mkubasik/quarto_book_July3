@@ -1,0 +1,70 @@
+#  Harmonic Oscillator - Thermodynamic Properties
+## Harmonic Oscillator - Thermodynamic Properties (12:59) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/TEj4D8OEkmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Harmonic Oscillator - Thermodynamic Properties  Video Transcript { .unnumbered}
+
+
+For the harmonic oscillator, we started with the assumption that the potential energy looked like a quadratic function, specifically $\frac{1}{2} kx^2$. We were able to solve the quantum mechanical problem and find the energy levels of the molecule. These are equally spaced energy levels for the harmonic oscillator, with equal gaps between each level. We can use these energy levels to obtain a partition function, which we call the vibrational partition function because it describes the vibrational motion of the diatomic molecules we are studying. That brings us to where we are so far.
+
+The next step, as in previous examples like the rigid rotor and the particle in a box, is to use that partition function to derive some thermodynamic properties. We are about to learn the properties of the vibrational motion of harmonic oscillators, specifically diatomic molecules that we can treat as harmonic oscillators, such as carbon monoxide (CO), hydrogen (H₂), or nitrogen (N₂). As gas molecules, we are typically interested in not just one of them, but a whole box full of many identical gas molecules. Therefore, we can write the partition function for a collection of $n$ identical and indistinguishable harmonic oscillators as $\frac{1}{n!} q^n$.
+
+This is enough to start using the thermodynamic connection formulas. For example, if we want to know the energy of a box of $n$ diatomic gas molecules, specifically the energy due to their vibrational motion, that will be $kT^2$ times the temperature derivative of the logarithm of this partition function for that collection of molecules. We can take that step by step. This will be $kT^2$ times the temperature derivative of the logarithm of this quantity. 
+
+So, I want $\log q$. The logarithm of $\frac{1}{n!}$ is $-\log n!$, and $\log q^n$ looks like $n \log q$. That's the temperature derivative I want to take. To do that, we need to think about what $\log q$ is going to be. 
+
+Let's go ahead and write it down. I have $kT^2$ times the temperature derivative of $-\log n! + n \log q$. Here, $q$ is this quantity. The logarithm of this fraction will be the logarithm of the numerator minus the logarithm of the denominator. The logarithm of the numerator is straightforward; the logarithm of an exponential simply pulls down the exponent. Thus, I have $\log e^{-\frac{h \nu}{kT}}$.
+
+Let me pause here and say that when we first derived this partition function, we did so in terms of these energy gaps being $h$ times the fundamental vibrational frequency. We have since chosen to write $\frac{h \nu}{k}$ as the vibrational temperature, which is often more convenient. In particular, in this case, I will collect those constants $h$ times $\nu$ divided by $k$ and call those the vibrational temperature. This equation simplifies a bit when I go to take derivatives of it.
+
+Notice carefully that there is a factor of 2 in the denominator on the top, but there is not a 2 in the denominator on the bottom. I want to take the derivative of the logarithm of $q$. The logarithm of the numerator gives me this exponent, so I have $-\frac{\theta_{\text{vibrational}}}{2T}$. I also have $n$ times the logarithm of the denominator, which has a negative sign because it's the logarithm of the numerator minus the logarithm of the denominator. From here, the logarithm of that denominator is $e^{-\frac{\theta_{\text{vibrational}}}{T}}$.
+
+If I haven't dropped a negative sign, that's the temperature derivative we are interested in taking. Let's see what that works out to, and it simplifies a little bit. The temperature derivative of $\log n!$ is easy; there are no temperatures involved, so that one disappears. The temperature derivative of $\frac{1}{T}$ gives me $-\frac{1}{T^2}$, so the negative sign cancels the one that was already there. I can write that as $\frac{1}{2} n \theta \frac{1}{T^2}$.
+
+Next, I need to take the temperature derivative of this term. I will have to be careful to avoid making an algebra mistake. The derivative of the logarithm is $\frac{1}{\text{chain rule}}$, which says I also have to include the derivative of the argument of that logarithm. The derivative of $1 - e^{-\frac{\theta_{\text{vibrational}}}{T}}$ is just $-\frac{d}{dT}(e^{-\frac{\theta_{\text{vibrational}}}{T}})$. The derivative of an exponential is an exponential, so I have the derivative $-e^{-\frac{\theta_{\text{vibrational}}}{T}}$, but again, by the chain rule, the derivative of an exponential is the exponential multiplied by the derivative of the exponent. 
+
+So, I need to take the derivative of $\frac{1}{T}$. I have $-\theta_{\text{vibrational}} \frac{1}{T}$ becomes $\frac{1}{T^2}$ when I take its derivative, and I think it becomes $-\frac{1}{T^2}$, so I need an extra negative sign thrown in there as well. I think that takes care of all of my chain rule.
+
+Now, let's see what we've got after putting all that together. This negative sign cancels another negative sign. I have $T^2$ out front that cancels this $\frac{1}{T^2}$ in the first term. There is also a $\frac{1}{T^2}$ in the second term that gets canceled by that $T^2$. If I rewrite all this in simplified form, I have $\frac{1}{2} n k \theta_{\text{vibrational}}$ that survives out of this first term. 
+
+The second term, with this plus sign, looks like $n k \frac{h \nu e^{-\frac{\theta_{\text{vibrational}}}{T}}}{1 - e^{-\frac{\theta_{\text{vibrational}}}{T}}}$. 
+
+This is a vibrational energy we are discussing. First of all, both these terms include an $n$, which makes sense; the energy of these $n$ molecules should be proportional to the number of molecules we have. We expect the energy to be an extensive property. If I divide by $n$, this will be my vibrational energy divided by the number of molecules, calling that an intensive molar energy or molar vibrational internal energy. 
+
+I will divide away the $n$ and also recognize that $k \theta$ is equal to $h \nu$. So, sometimes when we are doing the math, it is easier to think of things in terms of this vibrational temperature. However, when we want to understand the physical meaning of this equation, it will be easier to think of it in terms of $h \times \nu$. 
+
+I will replace some of these $k \theta$ terms with $h \nu$. Therefore, $\frac{1}{2} k \theta$ becomes $\frac{1}{2} h \nu$. Now, you may see why I replaced it. Then I will add to that, after this $n$ disappears, $k \theta$ is equal to $h \nu$ multiplied by $\frac{e^{-\frac{\theta_{\text{vibrational}}}{T}}}{1 - e^{-\frac{\theta_{\text{vibrational}}}{T}}}$.
+
+This is an equation worth putting in a box. It will take a minute of explanation to convince ourselves we understand what that equation means. What this tells me is that the energy per molecule, the intensive energy due to the vibration of these molecules, is equal to $\frac{1}{2} h \nu$. That is not a surprise; we know that the molecules must have at least $\frac{1}{2} h \nu$. That is the ground state energy. The zero-point energy of the molecules must be at least that much energy, plus some additional energy.
+
+The amount of additional energy they have, when we write it in this form, is equal to $h \nu$. You will recognize that as the increment of energy it takes to get up to the next level or to the level beyond that, or again to the level beyond that. So, we have $h \nu$ as the zero-point energy plus some number of increments of energy. This is the increment of energy, and this quantity that I am multiplying it by must therefore be the number of increments of energy, the number of excitations, the number of levels up the ladder that this molecule has climbed. 
+
+Thus, the average thermodynamic energy is the ground state energy plus some number of excitations, each excitation being this quantity $h \nu$. Now that we know how to look at it, we have a reasonably intuitive way to think about what the internal energy is. That has given us the energy as one of our thermodynamic properties. 
+
+We can consider other thermodynamic properties, like pressure. I will address the pressure because that one is quite easy mathematically. Remember, the thermodynamic connection formula for pressure is not $kT^2$ but $kT$ times the derivative of $\log q$, not with respect to temperature but with respect to volume. 
+
+Luckily, we have already done the work of writing down what $\log q$ is. $\log q$ was this whole thing in brackets. Before I took the temperature derivative, I took the $T$ derivative. Now I want to take the $V$ derivative. What is the volume derivative of this entire section in brackets? 
+
+We can look through; there are no volumes that appear anywhere inside these brackets. None of these quantities depend on the volume of the system, so that derivative simply works out to be zero. Therefore, the pressure of this diatomic gas, specifically the pressure due to the vibrations of the diatomic molecules, is equal to zero. 
+
+If I have a gas of molecules bouncing around in a box, all the pressure is still coming from the translational energy as they move through the box. The fact that they are vibrating as they move does not contribute anything additional to the pressure. This emphasizes that what we know so far on this board is the properties due to the vibrational energy of the molecules. 
+
+What we can do next is ask ourselves how that combines with what we already know about the translational energies and the rotational energies. Then we will be in a position to discuss the full thermodynamic properties of diatomic molecules.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

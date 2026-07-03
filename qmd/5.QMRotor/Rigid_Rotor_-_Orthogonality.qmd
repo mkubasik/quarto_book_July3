@@ -1,0 +1,52 @@
+#  Rigid Rotor - Orthogonality
+## Rigid Rotor - Orthogonality (9:21) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/ylk2YBhyA_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Rigid Rotor - Orthogonality  Video Transcript { .unnumbered}
+
+
+Okay, so our wave functions for the rigid rotor take this form: a normalization constant polynomial in the cosine of theta that is related to the Legendre or associated Legendre polynomials, and then an exponential term involving phi that is complex. These wave functions, as we have seen, are normalized, or at least we can choose the value of $n$ to guarantee that they are normalized. They have one other property that is very handy, which is that they are orthogonal. What I mean by that is every pair of wave functions in this full set of wave functions is orthogonal to each other. So we say that the set of wave functions is mutually orthogonal. Any pair that I choose, as long as they are not the same, will end up orthogonal.
+
+Just as a reminder of what these words mean: a function is normalized if the integral of a wave function squared is equal to one, and orthogonal means the integral of a wave function times a different wave function. For example, if I take this wave function $\psi_{lm}$ multiplied by a different one $\psi_{l'm'}$, then that integral will not come out equal to one; instead, it will come out equal to zero if either $l'$ is not equal to $m'$, or if $l$ is not equal to $l'$, or if $m$ is not equal to $m'$. So that is what it means for these wave functions to be orthogonal.
+
+We can do a quick example to clarify this. Let's take two of the simpler wave functions: the $\psi_{11}$ wave function and the $\psi_{00}$ wave function, where $l = 1, m = 1$ and $l = 0, m = 0$. In this case, both the $l$s and the $m$s are different from each other. We can ask whether they are orthogonal to each other or not. Since I have already told you that they will be, we can verify that they are indeed orthogonal. 
+
+So, we can say: is it true that the integral of $\psi_{11}^* \times \psi_{00}$ will come out to be zero? If so, then the two functions are orthogonal to one another. To do this, we need to write down what the wave functions are, and we would use this expression to write them down. We don't particularly care about the values of the normalization constants when we are dealing with orthogonality. This integral will either come out to be equal to zero or it will be something that is not zero, and the value of $n$ won't change whether it is equal to zero or not. So, I will leave the $n$s alone; I won't bother to normalize these functions and find the values of $n$ for either the $\psi_{11}$ or the $\psi_{00}$ wave function.
+
+The Legendre polynomial when $l = 1$ and $m = 1$ is one we have seen before: that is $\sin \theta$, and then I have $e^{i\phi}$. If I then take the complex conjugate, it becomes negative, so that is the complex conjugate of the $\psi_{11}$ wave function. The $\psi_{00}$ wave function is particularly simple; it is just a normalization constant. The $l = 0$, $m = 0$ Legendre polynomial is one, and $e^{0\phi}$ gives me one.
+
+I want to do that integral over $d\theta$ and $d\phi$ with the $\sin \theta$ integration vector. So, I have a theta integral and a phi integral. That is again an integral we want to know whether it does or does not come out equal to zero. I will go ahead and pull the constants out front; those aren't going to make the function equal zero. I will break the integrals up into first the theta part of the integral and then separately the phi part of the integral. 
+
+For the theta integral, I have $\sin \theta$ and $\sin^2 \theta$ integrated from $0$ to $\pi$. That is already looking like not great news. We know how to do the integral of $\sin^2 \theta$ from zero to pi; it has a particular value, which is $\frac{\pi}{2}$. However, it is not equal to one, but it is also not equal to zero, which is the more important fact: that integral is not equal to zero. If this integral is going to come out equal to zero, it will not be because of the normalization constants or because of this theta term. If it is equal to zero, it will only be because of this term.
+
+So, let's see if that works out. The only phi dependence I have is this $e^{-i\phi}$ term, so I need to know what the integral of $e^{-i\phi}$ is when $\phi$ goes from $0$ to $2\pi$. This integral is the one we should focus on because that is the only one that has any hope of making this thing equal to zero. The integral of an exponential is just an exponential, where I need some constants out front. Just to double-check, if I take the derivative of this function, the derivative pulls down a minus $i$. The minus cancels the minus, the $\frac{1}{i}$ cancels the $i$, and I get back this function. So, this is the correct integral of $e^{-i\phi}$ evaluated from $0$ to $2\pi$. 
+
+That is looking a little weird: $-\frac{1}{i}$ with a negative sign out front of it. That is certainly not going to help me get to zero. But if I plug in the upper and lower limits of this definite integral, this will become $-\frac{1}{i} \left( e^{-i \cdot 2\pi} - e^{0} \right)$. We know that $e^{0}$ is equal to one, but $e^{2\pi i}$ is also equal to one, and $e^{-2\pi i}$ is equal to one as well. 
+
+So, the few small facts you need to understand about complex numbers in order to do quantum mechanics at this level are: first, how to take complex conjugates; second, not to be too frightened when you see an $i$ showing up in equations; and third, a fact that we frequently need to use is that $e^{2\pi i} = 1$. 
+
+Using that fact, $e^{-2\pi i}$ is just $\frac{1}{e^{2\pi}}$, which is $\frac{1}{1}$, still one. So, using that fact, $e^{-2\pi i} = 1$, we see that $1 - 1 = 0$. Remember, what we are calculating is the phi portion of this integral. The work we have just done shows that the phi integral gives us zero. 
+
+After all of this work, we find that the full integral, the overlap integral between the $\psi_{11}$ wave function and the $\psi_{00}$ wave function, does turn out to be zero. We see that those two wave functions are indeed orthogonal to each other. In fact, anytime we have $m$ not equal to $m'$, you can see exactly why that is going to work. If I have any amount of $e^{i\phi}$ that doesn't end up canceling in this phi portion of the integral, then the phi portion of the integral will come out equal to zero, just like it did here. 
+
+So, anytime $m$ is not equal to $m'$, the phi integral will work out to be zero. If $m$ does happen to equal $m'$, then this integral won't be zero, but the $l$ part of the integral will be. Therefore, anytime either one of these quantum numbers is different for the two wave functions, the overlap integral between them will work out to be zero. Every pair of different wave functions for the rigid rotor comes out orthogonal to each other. 
+
+As a result, if all of our wave functions are both normalized and the full set is mutually orthogonal, then the other way to say those two facts is to say that those wave functions form an orthonormal set. So, they are orthonormal. It is probably better to say they are an orthonormal set of wave functions. That fact will be useful when dealing with rigid rotor wave functions occasionally. Now, the next thing we have to do, now that we have a more complete understanding of these wave functions, is to use them again in the Schrödinger equation and figure out what the energies of these wave functions are.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

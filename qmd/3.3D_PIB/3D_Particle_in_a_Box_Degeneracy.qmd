@@ -1,0 +1,84 @@
+#  3D Particle in a Box (Degeneracy)
+## 3D Particle in a Box (Degeneracy) (11:55) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/uEAExXla-qs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## 3D Particle in a Box (Degeneracy)  Video Transcript { .unnumbered}
+
+
+One important feature to be aware of in the energy levels for a particle in a box, specifically a three-dimensional particle in a box, is the degeneracy of those energy levels. To understand this, let's pay a little closer attention to the expression we have for the energy levels of an individual particle in a box. If I choose $n_x$, $n_y$, and $n_z$ as some integer values, I can calculate the energy of that particle in that three-dimensional box. 
+
+Let's draw an energy ladder. Here are the energy levels for the states of that particle in a box. As I mentioned, for any integers $n_x$, $n_y$, and $n_z$, I can calculate the energy and place that energy on this ladder. The lowest possible energy, or the ground state for that particle in a box, occurs when I make $n$ equal to one. So, if I choose $n_x = 1$, $n_y = 1$, and $n_z = 1$, that will be the lowest energy level, denoted as $E_{1,1,1}$. 
+
+This energy is equal to 
+
+\[
+E_{1,1,1} = \frac{h^2}{8m} \left( \frac{1}{a^2} + \frac{1}{b^2} + \frac{1}{c^2} \right).
+\]
+
+If I ask myself what the next step up on this energy ladder is, I can take one of these ones and change it to a two. Which one I change depends on the relative sizes of the box dimensions. If one box size is relatively large, then it doesn't cost much energy to increase that dimension. However, in general, without knowing the specific sizes of the box lengths, somewhere above the $1,1,1$ energy level, there will be $E_{1,1,2}$, $E_{1,2,1}$, and $E_{2,1,1}$ energy levels. Unless the box sizes happen to be equal, there is no reason that the energy for $E_{1,1,2}$ should be the same as that for $E_{1,2,1}$ or $E_{2,1,1}$ because the box lengths will generally not be the same.
+
+I can continue to add more levels to this tree. I can increase some of the twos to threes or have more than one of them be two at the same time. But before we do that, let's consider what this energy level diagram looks like when I have a cubic box, where the box lengths in $x$, $y$, and $z$ are all equal to each other. In that case, the energies simplify a bit because $a^2$, $b^2$, and $c^2$ are all the same number. I can factor them out of this expression and just compute the sums of these $n^2$ values. 
+
+If I draw what the energy ladder looks like for that case, again starting from the ground state, the lowest energy can be achieved by using ones for each of those constants. Then, $1^2 + 1^2 + 1^2 = 3$. So, there is the $1,1,1$ energy level. The next step up on the ladder can be achieved by making $n_z = 2$, $n_y = 2$, or $n_x = 2$. It doesn't matter which one I change to two; I will get the same energy in any case. For example, $2^2 + 1^2 + 1^2$ is the same as $1^2 + 2^2 + 1^2$ or $1^2 + 1^2 + 2^2$. 
+
+This means that somewhere higher up on this energy ladder, there are three degenerate energy levels: $E_{1,1,2}$, $E_{1,2,1}$, and $E_{2,1,1}$. They all have the same energy, which is 
+
+\[
+E = \frac{6h^2}{8m a^2}.
+\]
+
+This energy is twice as high as the ground state but triply degenerate, indicating a degeneracy of three. Let me go ahead and label these states as having a degeneracy of three because there are three states with $x$, $y$, and $z$ excitations that all have the same energy.
+
+Continuing to climb this energy ladder, if I ask myself what the next highest energy level is, I could make two of the indices equal to two. For example, let’s write down the state $E_{2,2,1}$. Here, I have made $n_x = 2$ and $n_y = 2$, while leaving $n_z = 1$. This gives me an energy of 
+
+\[
+E = \frac{9h^2}{8m a^2}.
+\]
+
+This state is also triply degenerate because the states $E_{2,1,2}$ and $E_{1,2,2}$ all have the same energy as each other. It doesn't matter in what order I sum those $n$ values; they yield the same result. 
+
+Let’s do one more example. If I set all three indices to two, so $n_x = 2$, $n_y = 2$, and $n_z = 2$, the energy will be 
+
+\[
+E = \frac{12h^2}{8m a^2}.
+\]
+
+Notice that this state is not degenerate. The indices $n_x = 2$, $n_y = 2$, and $n_z = 2$ do not have different permutations that yield the same energy level. Thus, there is only a single $E_{2,2,2}$ state. 
+
+Some of the states are degenerate, while others are not. This is one interesting feature of the particle in a box energy levels. Another interesting feature arises if I consider using different integers. For instance, if I lift one of the dimensions to the $n = 3$ state while keeping the other two in the $n = 1$ state, say $n_x = 3$, $n_y = 1$, and $n_z = 1$, then 
+
+\[
+E = \frac{11h^2}{8m a^2}.
+\]
+
+This energy level corresponds to a triply degenerate state that includes not only $E_{3,1,1}$ but also $E_{1,3,1}$ and $E_{1,1,3}$. 
+
+This highlights a somewhat frustrating aspect of the energy levels for the particle in a box: it can be difficult to determine which energy level will come next without performing the calculations. I want to know if my next state will be the $3,2,1$ state or one of the other excitations. I cannot know for sure without plugging in the numbers, calculating them, and then placing them on this tree in whatever order they appear.
+
+One last feature I will point out is that we have seen so far that we have singly degenerate states and triply degenerate states. If I consider a state like $n_x = 1$, $n_y = 2$, and $n_z = 3$, the energy of that state will be 
+
+\[
+E = \frac{14h^2}{8m a^2}.
+\]
+
+This energy level is slightly higher than the $12$ energy level. Now, if I ask myself what the degeneracy of this state is, I need to consider the number of ways I can shuffle the numbers $1$, $2$, and $3$. The number of permutations of these numbers will determine the degeneracy. Since the sum of the squares remains the same regardless of the order, there are $3! = 6$ different ways to arrange $1$, $2$, and $3$. 
+
+Thus, I have six different states that all have the same energy. This means I can have a degeneracy of one, a degeneracy of three, or sometimes a degeneracy of six for different states. It turns out there are multiple different degeneracies that these states can have. Each of these features of the three-dimensional particle in a box will appear in other types of problems we solve quantum mechanically. However, this is the first time we have encountered cases with both degenerate and non-degenerate states, as well as a mix of different degeneracies and some difficulty predicting the order in which those states will appear.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

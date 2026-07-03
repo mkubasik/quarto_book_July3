@@ -1,0 +1,42 @@
+#  States of Matter Are Quantized
+## States of Matter Are Quantized (6:17) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/vDk3RZV3o8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## States of Matter Are Quantized  Video Transcript { .unnumbered}
+
+
+We understand now that energies are quantized. Both the energies of things like light, which has a certain discrete number of quanta—quantum mechanical particles or photons—and the energy levels of matter, such as atoms and molecules, are also quantized. However, it turns out that not only are the energies quantized, but also the states that matter can exist in are quantized.
+
+When I say "states of matter," that might immediately bring to mind states like solid, liquid, or gas. Many textbooks might use the term "state of matter" to describe solids, liquids, or gases, while I will use the term "phases of matter" to describe different physical phases like solid, liquid, or gas. When I say "states of matter," I mean the same thing as when I refer to the states that have a certain energy of a molecule, such as the gauche or anti state of butane. I'm just talking about the arrangement of the molecules in a way that describes the system. So, "states of matter" doesn't have anything to do with solids, liquids, or gases.
+
+It's already a little bit strange, depending on how accustomed you are to this quantum mechanical fact: the energy levels of matter are quantized. A particular molecule or system can have energy $E_1$ or energy $E_2$, but it can never have an arbitrary amount of energy. If I want the molecule to have a specific amount of energy, I simply can't do it; it can only have these specific discrete quantized amounts of energy. 
+
+What's even weirder is the fact that the arrangement of the particles in the matter itself is quantized, meaning they can only exist in certain ways as well. This is definitely not how we are used to thinking about macroscopic objects behaving. For example, I imagine that I can make this marker take on any orientation I want. However, at the microscopic level, that's not true. When we talk about things like electrons, atoms, and molecules, it turns out I can make them take on certain arrangements, but I can't make them take on other arrangements. That begins to feel a little strange.
+
+To illustrate this, let's consider an example that provides evidence for why we know this is true about at least small quantum mechanical objects. We'll go back to the example of the hydrogen atom, particularly thinking about the orbitals in hydrogen atoms. We know that the electron in a hydrogen atom can occupy the 1s, 2s, 2p, 3s, 3p, 3d orbitals, and so on. There are many different orbitals that the electron can occupy. 
+
+If we were to draw them, we know that an s orbital has spherical symmetry, so the electron is delocalized or spread out in this spherical electron cloud. This differs from, say, a p orbital, which has a dumbbell shape, where again, the electron is spread out or delocalized in this dumbbell-shaped electron cloud. There are a large number of different orbitals, each with its own shapes. A d orbital has a cloverleaf shape, while f orbitals have eight lobes instead of four. 
+
+Notice that there are shapes that do not fall within this collection of different orbitals. For example, the shapes I've drawn are all perfectly fine; these are allowed states of matter, configurations that the electron in the hydrogen atom is allowed to have. However, there are other states that are not allowed. I cannot make the electron in a hydrogen atom take on a heart shape, even if I delocalize the electron and spread it out around that shape. That's simply not a configuration that an electron takes on in a hydrogen atom in the real world. There are no heart-shaped electrons; no matter how many different orbitals I consider, I will not find one that corresponds to a heart shape or a diamond shape for an electron.
+
+You are already familiar with the fact that certain shapes of electrons are allowed while others are not. This is because nature does not allow those disallowed shapes to exist. So, it's not just the energy levels that are quantized; the reason the energy levels are quantized is that the physical arrangement of the electron itself is quantized. Only certain discrete shapes, orientations, or arrangements are permissible. Each of these corresponds with one of the different energies. Discrete quantized energies exist because the electron itself can only exist in certain patterns. Perhaps if I were able to create a heart-shaped electron, it would have some other energy, but it would be one of these disallowed energies.
+
+This is one of the other strange features of quantum mechanics: it forces matter, such as electrons, atoms, and molecules, to take on only certain arrangements. Next, we will conclude our tour of the weird properties of quantum mechanics by discussing how matter also behaves a little bit like a wave, in addition to acting like a particle.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

@@ -1,0 +1,76 @@
+#  Rigid Rotor - Complexity
+## Rigid Rotor - Complexity (13:06) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/qqZXErnbanw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Rigid Rotor - Complexity  Video Transcript { .unnumbered}
+
+
+In thinking about the rigid rotor as a model for diatomic molecules, we have a Schrödinger equation that describes the rigid rotor. We have seen a few solutions to the rigid rotor Schrödinger equation; there are a large number of these, but the first few, the simplest ones, are shown here. There is a somewhat mysterious fact, for now, that some of those solutions appear to have $i$, the square root of negative 1, in them. This raises some questions. First of all, what is it doing there? Why would those solutions need to have a complex number in them? Does that present any problems for understanding what these wave functions mean? We are used to thinking about real numbers, but we have a little more difficulty thinking about what complex numbers mean in the real world.
+
+As a first step, let's confirm that these solutions with the $i$ in them do, in fact, solve the rigid rotor Schrödinger equation. The first thing we can do is take this function and insert it into the Schrödinger equation for the rigid rotor to confirm that it does, in fact, present a solution to Schrödinger's equation. We will start by taking this function and inserting it here for $\psi$, and taking the derivatives that are indicated. 
+
+If I take the derivative with respect to $\phi$, the only place $\phi$ shows up is in the exponential. The derivative of $e^{i\phi}$ just pulls down a factor of $i$, and that first derivative will look like $n \cdot i \cdot \sin(\theta) \cdot e^{i\phi}$. If I take a second derivative, the first derivative of this function will pull down another factor of $i$, resulting in $n \cdot i^2 \cdot \sin(\theta) \cdot e^{i\phi}$. Since $i^2$ is the square root of negative 1, $i^2$ is just negative 1. Thus, I have $-1 \cdot n \cdot \sin(\theta) \cdot e^{i\phi}$ for this term, which is what I get for the second derivative. 
+
+If I then divide that result by $\sin^2(\theta)$, I will get $-n \cdot \sin(\theta) \cdot e^{i\phi} / \sin^2(\theta)$, which simplifies to $-n \cdot e^{i\phi} / \sin(\theta)$. 
+
+Next, I will take that same function and plug it in here to take the indicated derivatives with respect to $\theta$. Starting with the first $\theta$ derivative of this candidate wave function, the derivative of $\sin(\theta)$ is $\cos(\theta)$, so I have $\cos(\theta) \cdot e^{i\phi}$ with an $n$ out front. If I then multiply it by $\sin(\theta)$, I have $n \cdot \cos(\theta) \cdot \sin(\theta) \cdot e^{i\phi}$. 
+
+Now, I need to take the $\theta$ derivative of $\cos(\theta) \cdot \sin(\theta)$. Using the product rule, the derivative of $\cos(\theta)$ is $-\sin(\theta)$, which multiplied by $\sin(\theta)$ gives $\sin^2(\theta)$. Leaving the cosine part undifferentiated, the derivative of $\sin(\theta)$ is $\cos(\theta)$, so that gives me $\cos^2(\theta) \cdot e^{i\phi}$ at the end of it all. 
+
+Now I've taken the $\theta$ derivative of everything that comes after it, and I have this result. The next step, the last step inside the parentheses here, is to divide by $\sin(\theta)$. When I do all those things together and divide by $\sin(\theta)$, I will end up with $-n \cdot \sin^2(\theta) / \sin(\theta) + n \cdot \cos^2(\theta) / \sin(\theta)$. 
+
+Recognizing that $\cos^2(\theta) = 1 - \sin^2(\theta)$, I can write this as $n \cdot (1 - \sin^2(\theta)) / \sin(\theta)$. This will lead to some cancellation, but the 1 will not be canceled, still multiplying $e^{i\phi}$. 
+
+If we look closely, we can see there’s some cancellation that’s going to happen. I have $-n \cdot (1 / \sin) \cdot e^{i\phi}$, which looks a lot like $n \cdot (1 / \sin) \cdot e^{i\phi}$ with a positive sign out in front of it. This term does involve canceling the term that came from the $\phi$ derivative. 
+
+After canceling those pieces, what we have left is $-n \cdot \sin(\theta) \cdot e^{i\phi}$ and another $-n \cdot \sin^2(\theta) / \sin$ gives me another $\sin(\theta) \cdot e^{i\phi}$. Altogether, that looks like $n \cdot \sin(\theta) \cdot e^{i\phi}$ that shows up twice, once from this term and once from what’s left of the second term. 
+
+So the entire term in parentheses simplifies down to $-2n \cdot \sin(\theta) \cdot e^{i\phi}$. If I now multiply by these constants $-\frac{h^2}{8\pi^2 \mu r^2}$, the question is whether that is equal to a constant times my original function. My original function is $n \cdot \sin(\theta) \cdot e^{i\phi}$. 
+
+The cancellation that we can do now shows that the $n$ cancels on both sides, as does the $\sin(\theta)$ and the $e^{i\phi}$. The two negative signs cancel each other, and we find that on the right, I now just have $\frac{h^2}{8\pi^2 \mu r^2}$. The only thing left in the parentheses that hasn’t canceled is this vector 2. 
+
+So constants on the left and constants on the right mean everything is okay. This function does, in fact, solve Schrödinger's equation. The energy of that wave function is this collection of constants $\frac{2h^2}{8\pi^2 \mu r^2}$. We have seen that this does solve Schrödinger's equation. The $i$s were in there out of necessity because we needed the sign here to be negative, so we needed that negative sign to come from an $i$ that got squared. 
+
+The purpose of the $i$s in this wave function is to guarantee that this function solves the Schrödinger equation. If I had left the exponential term out, as we saw in the previous video lecture, a plain $\sin(\theta)$ does not solve Schrödinger's equation. 
+
+The remaining question is whether that causes problems for us. What does it mean to have a complex wave function? Not complex as in complicated, but complex as in not real. It’s not a real function; it has some imaginary terms in it, so it’s a complex function. 
+
+What does it mean if our wave function is complex physically? Remember that the wave function means that the probability of finding a quantum mechanical system in some state is the square of the wave function. Squaring in this way, which is particular to these quantum mechanical systems, means I take the complex conjugate of the wave function and multiply it by the wave function. 
+
+The only time we have to worry about the complex conjugate is in the cases where we do have $i$s showing up in the wave function. Remember that a complex conjugate means taking all the $i$s in a function and turning them into negative $i$s. 
+
+So this is the wave function $n \cdot \sin(\theta) \cdot e^{i\phi}$. The complex conjugate of that wave function would be $n \cdot \sin(\theta) \cdot e^{-i\phi}$. These two functions are complex conjugates of each other. 
+
+The good news is that if I take a complex number and multiply it by its complex conjugate, I will always end up with a real number. If it’s been a little while since you saw the brief introduction to complex numbers, let’s just say I have some complex number that involves a real part and an imaginary part, which we can denote as $z$. 
+
+Then the complex conjugate of that number leaves the real part alone and turns the $i$ into a $-i$. So this is the complex conjugate of the number $z$. Notice now that if I take the complex conjugate times the original number, in other words, $(a - bi)(a + bi)$, this is now just algebra. 
+
+If I take first outer inner last, the first two terms give me $a^2$, the outer terms give me $a \cdot b \cdot i$, the inner terms give me $a \cdot b \cdot i$ with a negative sign, and the last terms give me $-b^2 \cdot i^2$. But since $i^2$ is negative 1, we have a cancellation between the two terms involving the square root of negative one. The imaginary terms cancel, and all I’m left with is $a^2 + b^2$. 
+
+So what that means is anytime I have a complex number times its complex conjugate, the result is going to be a real number. I’ve made the imaginary parts go away. Thus, if I take a wave function that happens to be complex and multiply it by its complex conjugate, we know that what we get when we do that is a probability. 
+
+If we had found that the probability was a complex number, that would be a little worrisome. If I said the probability of finding a particle at this point in space or a molecule with this orientation was $3i$, that doesn’t really make sense. I need the probability to be a real number because it’s a measurement about the system in the real world. 
+
+However, when I take the wave function times its complex conjugate, what I get is a real number, so it’s okay. The probability, the thing we use wave functions for in part measuring probabilities, still comes out to be a real number. 
+
+So it’s actually not a problem that the wave functions are complex. The wave functions aren’t a real-world property; the molecules they are used to generate measurements or predictions or probabilities do end up having real values. The complex, the imaginary numbers in these wave functions might be a little worrying to you at first, but they are there for a good reason, and they don’t end up causing any problems with any real measurements that we make in the real world. 
+
+With that, we can say that we’ve almost completely understood these wave functions for the rigid rotor. However, the way I’ve written them down here, we don’t yet know what these normalization constants are. So the next thing we will tackle is solving for the values of those normalization constants.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

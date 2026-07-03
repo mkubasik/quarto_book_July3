@@ -1,0 +1,78 @@
+#  Harmonic Oscillator Partition Function
+## Harmonic Oscillator Partition Function (9:33) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/g8tzbYbf8fo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Harmonic Oscillator Partition Function  Video Transcript { .unnumbered}
+
+
+So far, for the harmonic oscillator, here's what we've managed to do. We started with our assumption for what the potential energy is for our harmonic oscillator: a quadratic function, $\frac{1}{2} kx^2$. Quantum mechanics allowed us to solve for the wave functions of particles that obey the Schrödinger equation with that potential energy, as well as the energies of the functions that have those wave functions. As we've done before for both the particle in a box and for the rigid rotor, now that we know those energies, we can use them to obtain the partition function and also the probability of occupying any particular energy level. Once we have the partition function, we will be able to do many things, such as calculating energies, entropies, heat capacities, pressures, and so on. 
+
+We start with quantum mechanics, then proceed to statistical mechanics, which serves as our link to thermodynamics. If we want to discuss the energies and pressures of vibrating diatomic gaseous molecules, the partition function needs to be our next step. So, how do we find the partition function for a vibrating diatomic molecule? The partition function for a harmonic oscillator, as always, is the sum of the Boltzmann factors: 
+
+\[
+Q = \sum e^{-\frac{E_n}{kT}}
+\]
+
+for all the different energies that the system can have. We know exactly what the energies are for a harmonic oscillator. Each of those energies, $E_n$, where $n$ is the vibrational quantum number, can range anywhere from 0 all the way up to infinity. Therefore, we just need to complete that sum. 
+
+If I substitute this expression for $E_n$, I'll get 
+
+\[
+e^{-\left(n + \frac{1}{2}\right) h \nu} \div kT
+\]
+
+This can simplify a little bit and eventually turn into something useful. First of all, $n + \frac{1}{2}$ gives me a sum inside the exponent of this exponential, so I'm going to break that up into two different exponentials. Inside the sum, I have 
+
+\[
+e^{-\frac{n h \nu}{kT}} \cdot e^{-\frac{1}{2} \frac{h \nu}{kT}}
+\]
+
+I've just broken up this exponential into the product of two different exponentials. The reason I've done that is that one of these two, the second one that I've written down, $e^{-\frac{1}{2} \frac{h \nu}{kT}}$, does not have any $n$ in it. The summation variable $n$ does not appear anywhere in this term, so this term does not depend on the value of $n$, and I can pull it outside of the sum. 
+
+Thus, I have 
+
+\[
+e^{-\frac{h \nu}{2kT}} \cdot \sum e^{-\frac{n h \nu}{kT}}
+\]
+
+I can't pull that out of the sum, obviously, because it has this $n$ in it. So, let's think about what this sum means. The first term is still $e^{-\frac{h \nu}{2kT}}$. What it's multiplying is the sum of these Boltzmann factors: the Boltzmann factor with $n = 0$, the Boltzmann factor with $n = 1$, the Boltzmann factor with $n = 2$, and so on. 
+
+When $n = 0$, I have $e^{0}$. That one's easy enough. I'm adding the term when $n = 1$, $e^{-\frac{h \nu}{kT}}$. Then I need the term with $n = 2$, so that's $e^{-2 \frac{h \nu}{kT}}$, and so on. The next one would be $e^{-3 \frac{h \nu}{kT}}$, $e^{-4 \frac{h \nu}{kT}}$, and so on. 
+
+So, that's just what our infinite sum means: this sum of terms. But notice now that $e^{-2 \frac{h \nu}{kT}}$ is the same thing as $e^{-\frac{h \nu}{kT}} \cdot e^{-\frac{h \nu}{kT}}$. In fact, every one of these terms will be this basic Boltzmann factor $e^{-\frac{h \nu}{kT}}$ raised to some power. I have $1$, $e^{-\frac{h \nu}{kT}}$, $e^{-2 \frac{h \nu}{kT}}$, $e^{-3 \frac{h \nu}{kT}}$, and so on. 
+
+If I rewrite this more simply, letting $x = e^{-\frac{h \nu}{kT}}$, this looks like $1 + x + x^2 + x^3 + \ldots$, where I've just let $x$ be short for this Boltzmann factor $e^{-\frac{h \nu}{kT}}$. The next step is to recognize that that sum $1 + x + x^2 + x^3 + \ldots$ is a Taylor series for the quantity in parentheses, which is a Taylor series for $\frac{1}{1 - x}$ or a Maclaurin series, if we want to be technical. 
+
+If we do that in reverse, if you take the function $\frac{1}{1 - x}$ and obtain the Taylor series for it, the Taylor series you'll end up with is indeed this Taylor series $1 + x + x^2 + x^3 + \ldots$. So, if I rewrite everything now using that Taylor series, collapsing this infinite sum of an infinite number of terms down to this simple, more compact term, and remembering that $x$ is equal to this Boltzmann factor $e^{-\frac{h \nu}{kT}}$, my partition function has now become 
+
+\[
+Q = e^{-\frac{h \nu}{2kT}} \cdot \frac{1}{1 - e^{-\frac{h \nu}{kT}}}
+\]
+
+I'll go ahead and put that in a box because that's our final result for the partition function. This is the partition function, the sum of all the Boltzmann factors for a harmonic oscillator, which has these energy levels. Notice, importantly, what we've done: this is no longer an infinite sum. I don't have to sum up an infinite number of terms. If I know the values of these various constants, I can just put them in a couple of exponentials, combine them together, and calculate the partition function directly. 
+
+Notice also that I didn't make any approximations in obtaining this partition function. If you think back to what we did to calculate the partition functions for the particle in a box or the rigid rotor, they involved taking the classical limit and converting sums to integrals and things like that. We didn't end up having to take any shortcuts like that in this particular case. It just happens to be that the infinite sum we are interested in happens to be the Taylor series for a more compact form, allowing us to write it in this way. 
+
+So, we didn't have to make any approximations for this partition function. The next thing we can discuss about the partition function is what it means. We can plug some values in and obtain numbers, and we'll do that. But really, what we're after is the question: Is this partition function large or small? 
+
+Thinking back to what the partition means physically, if the partition function is large, that means many of the states on this energy ladder are occupied; quite a few of the excited states for the harmonic oscillator are occupied. However, if $Q$ is small, that means very few of the states are occupied, maybe just the ground state. The reason that would be true is if the gap between the energy levels is large or small compared to $kT$. 
+
+That will tell us whether we're occupying just the bottom few states or many excited states. Again, that energy difference compared to $kT$ will determine the size of this partition function. So, that's our next task: to figure out which of those two cases is true.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

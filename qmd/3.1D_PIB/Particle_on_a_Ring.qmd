@@ -1,0 +1,84 @@
+#  Particle on a Ring
+## Particle on a Ring (14:46) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/HOhhTfdDZt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Particle on a Ring  Video Transcript { .unnumbered}
+
+
+All right, so we've seen a couple of quantum mechanical problems so far: the free particle and the one-dimensional particle in a box. Now, let's consider a third problem, which turns out to be very similar to the particle in a box but with some important differences. This problem will be called the particle on a ring, for reasons that will become clear shortly. Mainly, we want to highlight the differences between the particle in a box and the particle on a ring.
+
+Let me summarize a few things we know about the particle in a box. Namely, if we take a particle and confine it to a one-dimensional box between $0$ and $a$ on some axis, then the particle has a wave function. There are many different wave functions I could have drawn, and each of those wave functions has to hit zero at the edges of the box. These wave functions have a particular mathematical form and a specific energy. Again, each one of those different wave functions, whether $n = 1$, $2$, or $3$, has a different energy.
+
+Now, let's consider a different problem. We'll still confine our particle to a one-dimensional line, but now let's take that line and bend it around until it forms a circle. I could still say the length is $a$, but now that length is the circumference of the circle. To describe where the particle is, instead of describing its position along the x-axis, I'll describe it in terms of the angle $\theta$ that locates it around the circle. This circle has some radius $r$, and I can use $\theta$ to describe the angle and thus where I am around that circle.
+
+I'm still going to have a wave function that depends on the coordinates of the particle. Now, because the particle can be anywhere in the plane of the board, it feels like a two-dimensional problem. However, since I'm confining the particle to live on the circumference of this circle, $r$ has to be constant. Therefore, the only variable that can change is $\theta$. It's still a one-dimensional problem, but now I'm describing the wave function as a function of $\theta$ rather than as a function of $x$. This is one of the first differences between this problem and the particle in a box problem. We can see now why it's called the particle on a ring; the particle is confined to this ring. We could have called it the particle on a circle, or if we think of this string that we've now wrapped into a circle, we could call it the particle on a rope. There are many different names you could give to this particle, but we'll call it the particle on a ring. Some people refer to it as the particle in a ring.
+
+So, we're going to have a wave function that depends on $\theta$. The boundary conditions, which for a particle in a box required the wave function to hit zero at the edges of the box, are no longer required here. The wave function doesn't have to hit zero at the edge because there is no edge to this box. If I have a wave function that starts somewhere and oscillates as it goes around the circle, all I need is that when I get back to where I started, the wave function must have the same value as when I started. Otherwise, if I returned and had a different value than when I started, I wouldn't have a single function. I need to have the same value on every trip around this loop. So, that's the boundary condition that will replace the zero-at-the-edges boundary condition for the particle in a box. 
+
+This is another difference between this problem and the particle in a box problem. I'm not going to go through the solution in detail; I'll skim through the details of the particle on a ring problem because we've already seen something very similar in the particle in a box. If we solve this problem, we still need to write down the Schrödinger equation. I'll write that down for us and then explain the differences between it and the one for the particle in a box.
+
+This looks a lot like the one-dimensional particle in a box Schrödinger equation. In that problem, our second derivative was $\frac{d^2}{dx^2}$. Here, the variable we're interested in is $\theta$. I don't just take $\frac{d^2}{d\theta^2}$; I take $\frac{1}{r^2} \frac{d^2}{d\theta^2}$. You can take my word for it that this is what the Schrödinger equation of the Laplacian looks like for this problem. If you want to double-check me, what this means is that if I write down $\frac{d^2}{dx^2} + \frac{d^2}{dy^2}$ for this two-dimensional problem, and then convert those $x$ and $y$ to polar coordinates while requiring $r$ to be constant, what survives is just $\frac{1}{r^2} \frac{d^2}{d\theta^2}$. If that sounds like fun, pause the video and do that little exercise right now. If that doesn't sound like fun, as I said, you can just take my word for it; that's the Schrödinger equation for the particle on a ring problem.
+
+So again, it basically boils down to the same problem. Just like the particle in a box, we're going to be looking for some function such that if I take the second derivative of it, I get back the same function but with some constants and a negative sign. As before, a function whose second derivative is the negative of itself is a trigonometric function like sine. Therefore, $\sin(k\theta)$ is still going to be a good solution. Unlike the previous case, cosine also works. Cosine didn't work before because we needed something that would start at zero; the wave function had to be zero at the edges of the box. Sine is zero at $x = 0$, but cosine is not. So, sine was a good solution for the particle in a box, but cosine is also a good solution for the particle on a ring.
+
+If you're not too terrified by complex numbers, we can also use $e^{i k \theta}$, which will also solve this equation perfectly well. If you don't like complex numbers, we can put off thinking about them until a little later in the course, and you can pretend I never wrote that down. For the moment, let's just stick with constants times cosine and sine.
+
+The next step would be figuring out what that value of $k$ needs to be in order for this to be true. Whether you're thinking about it graphically or visually, what does that $k$ have to be so that after I complete a full loop, I get back to where I started? Or, whether you think about it mathematically and consider how to obey this boundary condition, we can convince ourselves that $\cos(n\theta)$ works. So, $\cos(\theta)$, $\cos(2\theta)$, $\cos(3\theta)$, or even $\cos(0\theta)$ or $\cos(-1\theta)$, $\cos(-2\theta)$ are all valid solutions. Any integer multiple of $\cos(n\theta)$ is a perfectly valid solution to this Schrödinger equation. This just means that the sine or cosine needs to oscillate one full round trip as it goes around the circle, which would be $\cos(\theta)$ for one full oscillation, $\cos(2\theta)$ for two full oscillations, and so on. For $\cos(0\theta)$, the wave function remains constant without oscillating as it goes around the circle. 
+
+Each of these different solutions with a different value of $n$ is a different wave function that we can call $\psi_n$, just like we did for the particle in a box. If I want to know what the energy of those solutions is so that I can compare them to the particle in a box solution, we just need to plug these wave functions into the Schrödinger equation. Plugging into the Schrödinger equation, I can say 
+
+\[
+-\frac{\hbar^2}{8\pi^2 m} \frac{1}{r^2} \frac{d^2}{d\theta^2} \left( A \cos(n\theta) \right) = E \left( A \cos(n\theta) \right).
+\]
+
+The second derivative of cosine is negative cosine, and I'll pull out an $n^2$. So, I've got $A$ and $n^2$ pulled out, which gives me 
+
+\[
+-\frac{\hbar^2 n^2}{8\pi^2 m r^2} \cos(n\theta) = E A \cos(n\theta).
+\]
+
+This means that the energy of the $\psi_n$ wave function is equal to 
+
+\[
+E = \frac{\hbar^2 n^2}{8\pi^2 m r^2}.
+\]
+
+Again, this feels very similar to what we did for the particle in a box. If I compare these directly, they're not the same. I no longer have a box length to worry about; instead, I have $r^2$ in the denominator and a $\pi^2$ that survived, which didn't previously exist. But aside from that, the energies do depend on $n^2$, just like they did before.
+
+The last step would be to determine the value of this normalization constant. To normalize this function, I need to take the wave function times itself or its complex conjugate, and that has to equal one when integrated everywhere. For us, this means that if I integrate $\theta$ from $0$ to $2\pi$, the wave function squared will look like 
+
+\[
+A^2 \cos^2(n\theta).
+\]
+
+If I care about what the normalization constant is, I would have to complete this integral, solve for $A$, and that tells me what the normalization constant is. It doesn't end up being $\sqrt{2/a}$ as it did for the particle in a box. Skipping the details of doing that integral, this integral turns out to be $A^2 \pi$, so $A$ results in 
+
+\[
+A = \frac{1}{\sqrt{\pi}}.
+\]
+
+That's the normalization constant.
+
+The last thing worth mentioning about this particle on a ring model is why we should care. Why did I say to take this straight line and bend it around into a circle? What in the world would we ever use this particle on a ring model for? The answer is that if the particle in a box was a useful model for simulating conjugated hydrocarbons that had the shape of a straight line, then if I take one of those conjugated hydrocarbons and bend it around into a circle, the particle on a ring model will be a good model for those molecules. For example, a conjugated hydrocarbon bent into not a circle but a hexagon would be benzene, and there are a variety of other cyclical molecules that we could use as applications for this particular model.
+
+The reason it's worth talking about benzene as an example in particular is that if I draw a graph or chart of the energies of these molecules, the $n = 0$ solution has an energy of zero times some constants, so the energy of the ground state is down here. There are two states, $n = 1$ and $n = -1$, that have the same energy as each other, and then somewhere higher, there are two more states, $n = 2$ and $n = -2$, that also have the same energy as each other. Some of our states are degenerate; there are two states with the same energy at this level and at this level. However, the ground state is not degenerate; there's only one state.
+
+If I were to start filling these states with electrons, notice that I fill up the first level after putting in six electrons. Not coincidentally, benzene has six $\pi$ electrons. So, the six $\pi$ electrons in benzene occupy these lowest wave function energy levels that correspond, at least approximately, to these particle on a ring energy levels. The reason benzene is a very stable aromatic compound is that it fills up the ground and first excited states. You may remember from an organic chemistry class that Huckel's rules about aromaticity specify that if you have $4n + 2$ electrons, a molecule will be aromatic. This is a consequence of the particle on a ring model. Two electrons per energy level, $4n + 2$ electrons, is like $2n + 1$ energy levels. So, if I fill up to here, six electrons give me an aromatic benzene molecule. If I fill one level higher, I would need ten electrons to make the next aromatic ring size. Huckel's rule about aromaticity is really an example of the particle on a ring quantum mechanical model.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

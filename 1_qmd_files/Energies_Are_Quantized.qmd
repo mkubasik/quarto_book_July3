@@ -1,0 +1,32 @@
+#  Energies Are Quantized
+## Energies Are Quantized (4:43) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/wPGFqabR-qg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+ 
+
+    
+## Energies Are Quantized  Video Transcript { .unnumbered}
+
+
+We know that light is quantized; it is made up of individual particles. We must have an integer number of those particles—one, two, three, or some integer number of photons—to make up a light beam. It turns out that not just the energy of light is quantized, meaning we can have the energy of one photon, two photons, or three photons, but we cannot have the energy of one-and-a-half photons. We cannot have a non-integer number of photons, so we have certain allowed energies of light. Thus, we say the energy of a light beam is quantized.
+
+It turns out that not just light, but the energies of other things are quantized as well. This is something we have some experience with from general chemistry or earlier chemistry classes. When we write an energy level diagram, let's say for something like the hydrogen atom, the electrons in 100 nm can occupy certain states, and those states have certain energies. We can refer to these states as s, p, and d orbitals. For now, if I say the energy of that electron can have this value $E_1$, or this value $E_2$, or this value $E_3$, or various other values, what I have essentially done is say that the energy levels of the hydrogen atom are quantized. I can have this value, or I can have this value, or this value; I cannot have any values in between the values that I have drawn. There is no way to make the hydrogen atom have this amount of energy; it can only have these discrete individual quantized amounts of energy that I have drawn on this diagram.
+
+This is something we know about hydrogen atoms, and in fact, every molecule, every atom, and every chemical system has quantized energy levels. As usual, we did not suspect that this weird quantum behavior was true, even if it seems fairly commonplace now. It wasn't always so. The evidence that first told us that energy levels were quantized came from understanding how light is either emitted or absorbed by atoms and molecules, something called the atomic emission spectrum.
+
+If I bring up a picture of the atomic emission spectrum for hydrogen, this diagram tells us the frequencies of light as a function of the frequency of light given off by hydrogen. We see that only certain frequencies of light are emitted. For example, this reddish color of light can be emitted by a hydrogen atom if I excite it to some higher energy level. It can drop down to a lower energy and emit a photon of this reddish color, or this bluish color, or these violet colors, but only these colors. I never see hydrogen emit the orange, yellow, or green frequencies of light that would be here. Only certain discrete or quantized photons are emitted by hydrogen, and that's because when hydrogen is in this state, it can only fall, let’s say, to this state or to this state; it can't fall anywhere in between because there is no level there to accept it. 
+
+For example, this reddish photon is emitted when hydrogen falls from its third state down to its second state. Each one of these different photons corresponds to a different individual transition between discrete quantized states of the hydrogen atom. This is true not just for hydrogen. If I pull up another picture of what that looks like for helium, this is the emission spectrum for a helium atom. Notice that the colors of light given off by a helium atom are not the same as they are for hydrogen because the energy levels are different for hydrogen than they are for helium. Still, they are discrete and quantized; only this color of light, or this color of light, or this color of light, and so on can be given off by helium—not anything in this range where we don't see emission.
+
+So, it is not just the energy of light that is quantized, but also the energy levels of matter, meaning atoms, and molecules made of atoms. Those energy levels themselves are quantized as well. Interestingly, it turns out that it is not only energies that are quantized, but other properties of matter can be quantized as well, and that is the next thing we are going to talk about.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

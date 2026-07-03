@@ -1,0 +1,40 @@
+#  Postulates of Quantum Mechanics (Eigenvalues)
+## Postulates of Quantum Mechanics (Eigenvalues) (5:03) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/YGrEffMkCIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Postulates of Quantum Mechanics (Eigenvalues)  Video Transcript { .unnumbered}
+
+
+Okay, so we've seen that when we solve a quantum mechanical problem, the energies are often quantized or discretized; only certain energies are allowed. The same is true for other properties that we tend to measure, and that's because the third postulate of quantum mechanics tells us which values of certain properties are allowed. 
+
+The postulate states that a property, or a physical observable—maybe the energy, maybe the momentum, or whatever property I'm interested in—has an associated operator. Let's just call this property $A$. The second postulate told us that each of those properties has its own operator. So, if I call the operator corresponding to that property $\hat{A}$, the only values that this property can take on are the eigenvalues of the operator. 
+
+Remember what an eigenvalue is. I'll give an example in just a second, but an eigenvalue is the value that results when I operate with the operator on some function, yielding a constant times the same function. Those constants are the eigenvalues. Therefore, the specific values of the property that are allowed are only the eigenvalues of the operator. 
+
+We've seen this in one example already: for a particle in a box. In this one-dimensional problem, the Hamiltonian operator, which corresponds to the potential energy of zero, was just the kinetic energy portion of the operator—specifically, the second derivative multiplied by constants with a negative sign. This Hamiltonian operator corresponds to the property of energy. 
+
+If I'm looking for some function that I can act on with the Hamiltonian and get back some eigenvalue times the same function, the way we usually write that expression is in the form of the Schrödinger equation. I am looking for eigenfunctions, which are functions that I can act on with the Hamiltonian operator to obtain eigenvalues or constants times the original function. 
+
+When we solve the Schrödinger equation, the goal is to find the various different solutions for the eigenfunctions and the eigenvalues. When we did that for the particle in a box, we found that the energies were given by the specific set of values $\frac{h^2}{8m^2} n^2$. With the energy levels we've drawn a few times, I can have this energy $E_1$, this energy $E_2$, or this energy $E_3$, and so on. However, I can only have these specific discrete quantized energy levels. 
+
+This is an example of the third postulate in action: the only allowed values of the energy are these specific values $E_1, E_2, E_3$, and so on. This is because those values are the eigenvalues of the Hamiltonian operator. If I want to ask what values of the momentum, position, or some other property are allowed for the one-dimensional particle in a box, I would need to find the eigenvalues for each of those operators—the momentum operator, the position operator, and so on. 
+
+By far, the most useful property in a chemistry context is often the Hamiltonian because we're interested in the energies of the molecules. This tells us how to find the allowed values of energy. What it hasn't told us yet is which values we are actually going to see. If I have a quantum mechanical system, it is allowed to have energy $E_1$, $E_2$, or $E_3$; which one is it actually going to have? What energy can I expect to see for that particle? That requires one additional postulate, the fourth postulate, and that's what we'll talk about in the next video lecture.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

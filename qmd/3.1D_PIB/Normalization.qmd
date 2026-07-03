@@ -1,0 +1,74 @@
+#  Normalization
+## Normalization (13:27) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/_HgQecCOVJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Normalization  Video Transcript { .unnumbered}
+
+
+Okay, so we've seen the one-dimensional particle in a box problem. The solutions to the Schrödinger equation have the form of some constant times the sine of $\frac{n \pi x}{a}$, where $n$ has to be an integer and $x$ is confined to this box defined between 0 and $a$. This defines the boundaries of our one-dimensional box. 
+
+We've arrived at this solution by considering what values are allowed inside the constants of the sine function to ensure continuity, but we haven't discussed the value of $a$. Let's see if we can understand what these wave functions look like. Here’s a box where $x$ ranges from 0 to $a$. I've drawn the walls of the box, indicating that the wave function will be 0 outside the box and non-zero only inside, representing the fact that we can find the particle within this box.
+
+If I take the solution for $n = 1$, $\sin\left(\frac{1 \pi x}{a}\right)$ goes up and comes down. When I plug in $x = a$, the value of $x$ cancels out, and for $n = 1$, I just have $\sin(\pi)$, which is the first time this sine function returns to 0. So that would be the graph of $\psi_1$. 
+
+If I plug in $n = 2$, I'll get a different function. It's still a sine function, but it will oscillate twice as fast. It will go down and hit zero halfway through the box, then oscillate back upwards and hit zero at the far edge of the box. Each of these constants inside the sine function is engineered so that the function always returns to 0, whether after half an oscillation, a full oscillation, one and a half, two halves, or four halves, and so on. Each of these wave functions represents a different number of oscillations fitting inside the box. That’s the meaning of the constant $n$. 
+
+The constant $a$ is simply the multiplier for the entire function. For a specific size of the box with a particular value of $a$, we get one function. If I choose a different value of $a$, I can make the function taller, shorter, or even taller still. Different values of $a$ change the height of this function. 
+
+So, which of these functions is right? Which ones are wrong? Which values of $a$ make the function better or worse? Remember, whenever you're confused about what the wave function means, let’s go back to our requirement that the wave function squared must represent the probability of finding a particle somewhere. 
+
+For the top function, if we have this wave function, I have a high probability of finding the particle in the middle of the box and zero probability of finding it at the edges. A different value of $a$ just changes the size of the probability, but we know I have a hundred percent probability of finding the particle somewhere between negative infinity and infinity. If I add up all the probabilities of finding the particle at all those places inside the box, I must get a hundred percent. 
+
+Since probability is equal to the square of the wave function, and since I don’t have any complex numbers, I don’t need to worry about the complex conjugate when squaring the wave function. If I integrate that everywhere, I have to get one. That’s how we determine the value of $a$. 
+
+Let’s see what that looks like. I want to require that 1 is equal to the integral of the wave function squared from negative infinity to infinity. The wave function looks like this in the region of interest inside the box, while outside the box, the wave function is just 0. Therefore, I can break the integral into three pieces. I can integrate sine squared from negative infinity to zero. The area under this green line when I square it will be zero because the wave function is zero outside the box. 
+
+This whole piece goes away because the wave function is zero outside the box. The only part of the integral I care about is the part inside the box. If $\psi$ is this function, then $\psi^2$ will be $a^2 \sin^2\left(\frac{n \pi x}{a}\right)$, and I have to integrate with respect to $dx$. 
+
+So, that’s the integral I want to do. I want to ensure that when I integrate $\sin^2\left(\frac{n \pi x}{a}\right)$ from 0 to $a$, I get 1. There will only be one value of $a$ that allows this integral to yield that value. How do we do that integral? The integral of sine squared doesn’t look too tough, but to simplify the expression inside the trig function, let’s use substitution. 
+
+If I let $u = \frac{n \pi x}{a}$, then $du = \frac{n \pi}{a} dx$, and $dx = \frac{a}{n \pi} du$. Because I have a definite integral, I must also transform the limits. The integral used to go from $x = 0$ to $x = a$; now my integral needs to go from $u = 0$ to $u = n \pi$. 
+
+When $x = 0$, the value of $u$ is $\frac{n \pi \cdot 0}{a} = 0$. When $x = a$, $u$ becomes $\frac{n \pi a}{a} = n \pi$. So, let’s pull all the constants out of this integral. I have $a^2 \cdot \frac{a}{n \pi}$ and now I'm integrating from 0 to $n \pi$ the quantity $\sin^2(u) \, du$. 
+
+What I can do is probably just ask your calculator for the answer or look it up in an integral table, and that’s fine; it will give you the right answer. In fact, if I integrate $\sin^2$ from 0 to $n \pi$, I will get $\frac{n \pi}{2}$. There’s a nice reason why that’s true. 
+
+To illustrate, I can draw a picture that shows exactly why that’s true. The quantity I’m integrating is $\sin^2$. Here’s the graph of $\sin^2$. It looks like a sine wave, but instead of dropping below the axis, it bounces back above the axis because I’ve squared the sine wave. 
+
+If I were to draw a cosine squared, it looks very similar; it just starts high and oscillates in the same manner. The graph of cosine squared starts at 1, drops to 0, goes back to 1, and drops back down to 0, and so on. If I add the area under the green curve (the sine squared curve) to the area under the orange curve (the cosine squared curve), I get the area under 1. 
+
+The area under this flat line at 1, from 0 to $n \pi$, is just a rectangle with height 1 and length $n \pi$. This tells me that integrating just the sine squared part from one of these two equal pieces gives me the rectangle $\frac{n \pi}{2}$. 
+
+So, that’s a way to remember how to do this definite integral of sine squared. Again, the answer your calculator gives you is certainly fine. Some cancellation happens: $\frac{n \pi}{2}$ in the numerator cancels with $n \pi$ in the denominator, leading us to find that the 1 on the left side is equal to $a^2 \cdot \frac{a}{2}$. 
+
+We are solving for the value of $a$. Remember, we’re looking for the specific value of $a$ that allows this integral to equal 1. When I rearrange and solve for $a$, I find that $a^2 = \frac{2}{a}$, which means $a = \sqrt{\frac{2}{a}}$. 
+
+Thus, the value of $a$ we’ve solved for in this wave function, our actual particle in a box wave function, is $\sqrt{\frac{2}{a}} \cdot \sin\left(\frac{n \pi x}{a}\right)$, with the requirement that this is only true inside the box and that $n$ must be a positive integer value. 
+
+The process we just went through—taking the wave function, squaring it, integrating it everywhere, and finding the value of this constant out front that guarantees a hundred percent probability of finding the particle at some location—is a common process we will use whenever we want to find the constant out in front of an integral. 
+
+However, we often don’t need to bother with this. Notice that we got this far without discussing the value of $a$ because this value of $a$ didn’t change whether or not this wave function solved the Schrödinger equation. Whether I use this value of $a$ or some different value, it’s still a solution to the Schrödinger equation, and it still reaches zero at the edge of the box. The only thing it affects is whether the probability integrates to one as it should. 
+
+If I truly want the full wave function, including the value of this constant out front, I need to go through this process, which is often a little tedious to find this constant we call the normalization constant. This process is called normalizing the wave function. Once I’ve normalized the wave function, that’s a good thing. 
+
+However, if all I care about is whether the wave function solves the Schrödinger equation or whether it has the right value at the boundaries of the box, then I don’t need to bother with the normalization constant. Sometimes we’ll solve quantum mechanical problems without worrying too much about the normalization constant. 
+
+The next topic we’ll discuss is normalization, which turns out to be very closely related to another idea called orthogonalization. That’s what we’ll talk about in the next lecture.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

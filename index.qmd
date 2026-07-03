@@ -1,0 +1,21 @@
+---
+title: "Preface"
+---
+
+# Welcome {.unnumbered}
+
+This book collects the video lectures and transcripts from an introductory course on quantum mechanics. Each chapter pairs a video lecture — embedded directly from YouTube — with a full written transcript, making the material accessible in both formats.
+
+## How to Use This Book
+
+- **Watch the video** first to follow along with the instructor's explanations and worked examples.
+- **Read the transcript** for a searchable, referenceable version of the same material, complete with all mathematical notation.
+
+## Course Overview
+
+The lectures are organized into four parts:
+
+1. **Foundations of Quantum Theory** — The quantization of light and matter, including the photoelectric effect and wave-particle duality.
+2. **Mathematical Framework** — Wavefunctions, quantum mechanical operators, and eigenvalue problems.
+3. **Schrödinger's Equation** — Deriving and applying the central equation of quantum mechanics, including the free particle.
+4. **Statistical Mechanics** — An overview of statistical mechanics and its connection to quantum systems.

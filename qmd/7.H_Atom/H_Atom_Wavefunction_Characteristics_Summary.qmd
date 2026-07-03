@@ -1,0 +1,50 @@
+#  H Atom Wavefunction Characteristics (Summary)
+## H Atom Wavefunction Characteristics (Summary) (7:15) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/GIIkXQPe1zk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## H Atom Wavefunction Characteristics (Summary)  Video Transcript { .unnumbered}
+
+
+All right, so what we'll do in this video is illustrate some more drawn-to-scale pictures of what these wave functions look like. The pictures you see on the side here are actual mathematical representations of the probability of finding electrons around an orbital. Each one is labeled with its quantum numbers. For example, $2, 0, 0$ is the wave function of course, but we've learned that the more common name for that wave function is the 2s orbital. 
+
+What we've seen is that in the 2s orbital, there's a radial node. You can see that radial node, which I am unable to draw in a way that's not obscured by the wave function. The radial node is the dark region where the electron is not found at all. Likewise, if we move up to a larger value of $n$ to the 3s orbital, we see that the 3s orbital has two radial nodes: one at a smaller distance and one at a larger distance. You can see the inner and the outer radial nodes of this wave function.
+
+When we move up to larger angular momentum quantum numbers, such as when $l = 1$, we get p-type orbitals. This is the 2p orbital, in particular the 2p$_z$ orbital, which is oriented along the z-axis. Now, rather than having a radial node, we have an angular node. This flat region right here, which we could draw as the plane containing the x and y axes, is an angular node because at that particular value of $\theta$ (where $\theta = \frac{\pi}{2}$), we're never going to observe the electron. 
+
+The 2p$_{1,1}$ orbital is just a different orientation of one of these p orbitals. The 3p orbital shown here for the 3$_{1,0}$ wave function again has both a radial node (the sphere where we never find the electron) as well as the xy-plane. So, we have both an angular node in the xy-plane (or the $\theta = \frac{\pi}{2}$ plane) as well as a radial node at this particular value of $r$ where we never find the wave function. 
+
+We won't illustrate all the rest of these, but as we move higher to d orbitals, for example, with an $l$ value of 2, or even to f orbitals with an $l$ value of 3, we get more and more angular nodes. When we move to higher $n$ values, like this 4p orbital here, we collect more and more radial nodes. 
+
+To summarize the properties of these different quantum numbers and how they affect the shapes and sizes of these orbitals: one thing that the $n$ quantum number tells us is the size of the wave function. As you can see, the 3s wave function is a little bit larger than the 2s wave function, which is not a surprise. Atoms get larger as they move down the rows of the periodic table because they occupy larger principal quantum number orbitals. 
+
+The $l$ quantum number tells us that the main difference between, let's say, an s orbital and a p orbital is not the size of the orbital but the shape of the orbital. What $l$ is really telling us is the angular momentum of the orbital. In a quantum mechanical sense, if an orbital has no angular momentum, it behaves in a spherical manner and occupies a spherical orbital. If an electron has a little bit more angular momentum, meaning it's oscillating a little bit in $\theta$, then as it oscillates from positive to zero to negative in the wave function, that introduces a node. 
+
+In a d orbital, it will oscillate from positive to zero to negative to zero more often as it goes around each value of $\theta$. So, the larger the value of $l$, the larger the wave function, the more the wave function is oscillating in $\theta$, and the more angular nodes that get introduced. 
+
+What angular momentum practically means is that it has an effect on the shape of the wave function. The $l$ value tells us a lot about the shape, largely whether it's an s orbital, a p orbital, a d orbital, or an f orbital, and so on. The $m$ quantum number, the magnetic quantum number, on the other hand, tells us, for example, that the 2p$_z$ orbital and the 2p$_{1,1}$ orbital differ primarily in the orientation of those two orbitals. Likewise, the 2p$_x$, 2p$_y$, and 2p$_z$ orbitals differ primarily in the direction in which they point. So, $m$ is telling us the orientation, while $l$ tells us the shape of the orbital and the relative size of the orbital. 
+
+The next thing that's important to understand if we want to sketch an arbitrary orbital is how many nodes to draw. We can use either the mathematical equations for the wave functions or this chart as a reference and convince ourselves relatively easily that the number of radial nodes has something to do with $n$. As we go from $n = 2$ to $n = 3$, we always introduce one extra radial node, but it's not guaranteed that we'll have one radial node every time. For a 2p orbital, we only have an angular node and not a radial node. 
+
+It turns out that the number of radial nodes increases when $n$ increases but decreases when $l$ increases. The number of radial nodes is given by $n - l - 1$. For example, for the 2s wave function, $2 - 0 - 1$ gives me the one radial node that the 2s orbital has. If we want to determine the number of angular nodes, that's a little bit easier; that's just the value of $l$. An s orbital, where $l = 0$, doesn't have any angular nodes. A p orbital, like these two where $l = 1$, always has one angular node. A d orbital, like this one or this one, has two angular nodes. 
+
+You can see one here and one here. This one also has two angular nodes, but because of the point of view, one is the plane sticking out of the board this way, while the other is in the plane of the board, slicing the molecule in half front and back. However, you can't see it because of the angle you're looking at this wave function from. This would be like a d$_{xy}$ orbital. 
+
+So, that tells us the general shape of the orbitals is determined by $l$, their size, and their orientation. We can know how many angular and radial nodes to divide those wave functions into if we also know the values of $n$ and $l$.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

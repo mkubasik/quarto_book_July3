@@ -1,0 +1,40 @@
+#  Eigenvalue Problems
+## Eigenvalue Problems (5:19) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/1XuNl8Dyi54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Eigenvalue Problems  Video Transcript { .unnumbered}
+
+
+Let's introduce one more bit of terminology that's useful in discussing quantum mechanics and the Schrödinger equation. This terminology is the expression of an eigenvalue problem. The Schrödinger equation, in operator form, is an example of an eigenvalue problem. In general, an eigenvalue problem is any problem for which we have some operator that, when it acts on a function, gives back the same exact function multiplied by some constant. 
+
+To clarify, if the operator is the Hamiltonian and the constant is the energy, while the functions are wave functions, we have the Schrödinger equation. In a more general case, we can say that for an eigenvalue problem, if I provide an operator, the function is referred to as an eigenfunction, and the constant is called an eigenvalue. Therefore, an eigenvalue problem is one where you are usually given an operator and asked to find all the functions such that when that operator acts on those functions, you get back the same function multiplied by a constant. In other words, you need to find the eigenfunctions of that operator such that acting on the eigenfunctions with the operator yields an eigenvalue times the function.
+
+This concept will become clearer after we do a concrete example or two. Let's say that our operator is the differentiation operator, or the $\frac{d}{dx}$ operator. If I say, "Here's an operator; find me the eigenfunctions of the differentiation operator," what I'm asking for is which functions, when differentiated, return a constant times the original function. 
+
+Take a moment to think about what functions exist such that when you take their derivative, you get back the same function. Hopefully, you thought of $e^x$. In fact, not just $e^x$, but $e^{5x}$ as well. If $f(x) = e^{5x}$, then the derivative of that function, when the differentiation operator acts on it, gives me $5e^{5x}$, which is a constant (5) times the original function. Thus, we have found a solution to this eigenvalue problem: the function $e^{5x}$ is an eigenfunction of this operator, and the eigenvalue is 5. 
+
+Notice that these two things are paired: the eigenvalue is the value that is produced when I take the derivative of this particular function. If I were to use a different function, say $e^{7x}$, then my operator acting on $e^{7x}$ gives me $7e^{7x}$, or 7 times my original function. In this case, $e^{7x}$ is also an eigenfunction of the operator, and its eigenvalue is 7. 
+
+Each eigenfunction comes paired with its own eigenvalue, which is generally what happens in an eigenvalue problem. Someone provides you with an operator, and you look for eigenfunctions. In the process of finding functions like $e^{5x}$ or $e^{7x}$, each of those comes paired with a particular eigenvalue that corresponds to it. That function gives rise to that eigenvalue, and usually, we are looking for not just one solution, but the whole family of solutions that satisfy this eigenvalue problem.
+
+This terminology will be used when discussing the Schrödinger equation. One way of rephrasing the Schrödinger equation is to say, "Let's find the wave functions that obey the Schrödinger equation." Another way to express this would be to find the eigenvalues of the Hamiltonian operator. We need to find all the functions $\psi$ (the wave functions) that are eigenvalues of this Hamiltonian operator. When we find the eigenfunctions, we will also find the eigenvalues, which will represent the energies of the particles that obey the Schrödinger equation. 
+
+Now, with this last bit of terminology under our belt, we are ready to use the Schrödinger equation and tackle a somewhat real-world problem for the first time.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

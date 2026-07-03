@@ -1,0 +1,62 @@
+#  Operators
+## Operators (10:28) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/Us1VziJKKB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Operators  Video Transcript { .unnumbered}
+
+
+All right, so we've seen Schrödinger's equation in one dimension, or as it's written here in three dimensions, which is an equation that the wave function needs to satisfy. What we'll point out now is that the Schrödinger equation is full of operators, something called operators. An operator may not sound familiar to you, but you're familiar with operators and how they work. So I'll convince you that they're nothing terribly new. An operator is just a mathematical action that acts upon something else, operates upon something else.
+
+For example, I can define an operator. Let's let the $\hat{D}$ operator represent the differentiation operator. This operator $\hat{D}$ that I'm going to define takes the first derivative of a function. A derivative is an action that doesn't mean anything by itself; I can't tell you what the derivative is until you tell me what you want to take the derivative of. So it acts upon some function. Another way to define this operator would be to say that the derivative operator, when it acts on some function, gives me the derivative of that function.
+
+We can do a few examples. The derivative operator acting on the function $\sin(x)$ will give me $\cos(x)$. On the other hand, the derivative operator acting on a different function, $\log(x)$, gives me the derivative of $\log(x)$, which is $\frac{1}{x}$. So the operator is the same in both cases, but the result I get depends on what it is that I'm acting on. 
+
+That's a moderately interesting operator. Operators don't have to be complicated or interesting; they can be very simple. In fact, let's define an operator: the "multiply by 5" operator. Notice I've put a hat on the 5 here, meaning the $\hat{5}$ operator I'm defining tells me what I get when I multiply something by 5. Again, you can't tell me what this operator does until I tell you what it's acting on. But if I act with the "multiply by 5" operator on some function like $3x$, then what I'll get is $5 \times (3x)$ or $15x$. 
+
+So multiplying by 5 is not a terribly complicated operation. You've probably never thought of that as being an operator before, but we can think of multiplication and differentiation as most mathematical operations being operators. One more important thing to understand about operators is that they can act sequentially. 
+
+Let's see, we've got this differentiation operator. I'll define another operator: the squaring operator. If I take the squaring operator $\hat{S}$ and act on a function, what I get back is the function squared. So far, so good. If I act with the squaring operator on some function, let's say $3x^2$, then what I'll get is the square of $3x^2$, which is $9x^4$. 
+
+But notice that I can do more than one operator back to back. If I say to take the squaring operator and the differentiation operator acting on the sum $f$, in fact, let's not act on $f$; let's act on $3x^2$. The way I've written this down means that first, I need to take the $\hat{D}$ operator acting on the function, and then when I'm done with that, I take the squaring operator acting on what's left. Notice that the operators proceed right to left. I first act with the one closest to the function and then act on the result with the one further away.
+
+So in order to understand what this means, the derivative of $3x^2$ is $6x$. What I'm asking here is, what is the squaring operator acting on $6x$? That's going to give me $36x^2$. So far, so good. That tells us what happens when I sequentially first take the derivative operator and then take the squaring operator acting on the result. 
+
+I could also have asked what the result is when I do those in the opposite order on the same function: first square it and then take the derivative. If I square the function $3x^2$, like we saw just above, squaring $3x^2$ gives me $9x^4$. If I take the derivative of $9x^4$, $9 \times 4 = 36$. So that part looks the same, but $x^4$ gets knocked down to $x^3$, and I see that what I got by doing the square and then the derivative is not the same as what I get by taking the derivative and then squaring it. 
+
+So those two results are not the same as each other. In general, it will not be true that one operator followed by another is the same as the two operators in the opposite order. In other words, what we've discovered is that these two operators $\hat{S}$ and $\hat{D}$ don't commute. 
+
+Commutativity, the commutative property, is something you learned about in elementary school when we taught you that addition is a commutative property and multiplication is a commutative property. $a \times b$ is the same as $b \times a$. In third grade, it probably didn't make much sense why we would bother teaching you this terminology, because of course, multiplication is commutative. But we taught it to you in third grade so that you could one day do quantum mechanics, because sometimes we run across properties like these operators that don't commute with each other. Operations are not necessarily commutative; sometimes they will be, but they're not guaranteed to be, like these are not.
+
+So what does any of this have to do with Schrödinger's equation? I told you Schrödinger's equation is full of operators. Fairly clearly, just like the differentiation operator is an operator, the Laplacian is also an operator. Remember what's hiding inside this Laplacian is $\frac{d^2}{dx^2} + \frac{d^2}{dy^2} + \frac{d^2}{dz^2}$. So this is an operator; I could easily stick a hat on top of $\nabla^2$, and that is an operator that's acting on $\psi$. I don't know what I get until I tell you what this function $\psi$ is that I'm taking derivatives of. 
+
+Also, just like the $\hat{5}$ operator is $5 \times$ something, we can think of either $E \times$ or potential energy $V$ as being operators. They're fairly simple operators; they're just multiplied by operators. But what that tells us is that the $E \times$ is the energy operator. We know potential energy is potential energy, and we talked briefly before about how this whole term, this collection of constants times the Laplacian all acting on a wave function, gives us the kinetic energy. So that's the kinetic energy operator. 
+
+We can just like we name the differentiation operator $\hat{D}$, we can give a name to the kinetic energy operator. We could call that, for example, $\hat{T}$ as a common name. You might also see some people call it $E_k$ for kinetic energy with a hat on it. The potential energy operator is often called $\hat{V}$. 
+
+I won't actually write this one as an operator, but what that means is I could rewrite Schrödinger's equation. If I want to say this whole kinetic energy operator acting on the wave function, if I add that to the potential energy operator acting on the wave function, it gives me back the total energy. Or if I wanted the total energy operator acting on the wave function or multiplying the wave function, in fact, this whole process—taking these constants times the Laplacian acting on a wave function, adding that to the potential energy multiplying the wave function—I can combine all those things into one big operator. 
+
+So if I rewrite potential energy acting on $\psi$ and kinetic energy acting on $\psi$, I combine those both into a single operator that we call the Hamiltonian. That Hamiltonian operator $\hat{H} = \hat{T} + \hat{V}$ acting on $\psi$ tells us to do exactly this: the definition of the Hamiltonian operator is 
+
+\[
+\hat{H} = -\frac{\hbar^2}{8\pi^2 m} \nabla^2 \psi + V \psi.
+\]
+
+Yet another way of writing down Schrödinger's equation is that the Hamiltonian operator acting on a wave function gives us back the energy times the wave function. So what we've seen is that we've got operators hiding inside Schrödinger's equation, and those give us a couple of new, simpler ways to write down Schrödinger's equation. The next thing we have to do is to understand how it is we're going to solve equations like this one—equations that involve operators—and how to solve operator equations for the functions that they act on. And so that's coming up next.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

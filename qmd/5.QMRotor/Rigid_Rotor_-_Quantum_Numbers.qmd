@@ -1,0 +1,50 @@
+#  Rigid Rotor - Quantum Numbers
+## Rigid Rotor - Quantum Numbers (10:21) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/QirD6lfiM70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Rigid Rotor - Quantum Numbers  Video Transcript { .unnumbered}
+
+
+Let's take a look at our rigid rotor wave functions in even a little more detail. What we've seen so far is a collection of wave functions, and I've written more of them here than I have before. Previously, we just saw the first four; now I've written a few more until I ran out of room at the bottom of the board. I've included the normalization constant, so every one of these different wave functions has its own individual normalization constant. If you normalize the wave function, you can find these normalization constants given the wave function. There are many of these wave functions, and this list continues on forever. There is an infinite number of solutions that solve the rigid rotor Schrödinger equation. 
+
+If we look at enough of these, we can see that there are several patterns we can count on when describing the rigid rotor wave functions. When we're talking about these wave functions, they have some features in common with each other. First of all, they all have this normalization constant, which is different for every wave function. Some of them happen to be the same as each other, but in general, the normalization constants differ for every wave function. In addition to the constant out front, there’s a term that involves some sines or cosines of theta. If we look closely, we can describe that as a polynomial in sines and cosines of theta. It can either be a linear polynomial, which has one term like sine(theta) or cosine(theta), or it might be a quadratic term with sine²(theta) or sine(theta)cosine(theta), so a degree two polynomial in sines and cosines. 
+
+The theta dependence of this function involves either one power, two powers, or more powers of these sines and cosines. That’s how the theta dependence looks. The phi dependence always shows up in the exponential; I either have e^(iφ) with a plus sign or a negative sign, or e^(2iφ) with a plus sign or a minus sign. So, there’s e^(i times φ) times some small integer. That integer might be one, it might be negative one, it might be negative two, it might be positive two, or it might even be zero. e^(0φ) gives us the phi dependence of this term, and this term, and this term. But in general, it seems like I always have e^(i times some integer times φ). 
+
+These are the characteristics of these wave functions. If we look a little closer, particularly at this polynomial dependence on theta and sines and cosines, if I divide the list up in this way, we can see that these are the terms that I've called linear. I’ve either got a sine or a cosine, or I’ve got a sine, but there’s one trigonometric function of theta. So, I’m going to call those the l = 1 functions. In this set of three, we have the l = 1 functions. The one simple constant wave function, which is just equal to this normalization constant, has no dependence on theta. So, that’s like a sine raised to the zeroth power or sine or cosine raised to the zeroth power. There’s a zeroth order polynomial; the theta dependence here is a zeroth order polynomial, or just constant.
+
+Now, if I look below this line, I’ve got the functions I’ve called quadratic, either sine²(theta) or maybe cosine²(theta) or sine(theta)cosine(theta). In general, there are two powers of these sine and cosine functions, so I’ll call these the l = 2 functions. I’m using this variable l to describe the degree of the polynomial that describes the theta dependence of the function. That number l that I’ve just described is an integer; we call that number a quantum number. It’s an integer or a number that describes the quantum mechanical wave functions or the quantum properties of each of these wave functions. In particular, we call that the angular momentum quantum number. 
+
+It’s not obvious right now why we would call it an angular momentum quantum number. The reason we call it that will become clear soon enough when we move a little further and talk about more quantum mechanical properties. The preview of that is that the larger the value of l, the more oscillation this function has. As it oscillates up and down more often, the angular dependence of this function has a higher angular momentum. But right now, that’s just a name; we call l the angular momentum quantum number, and it’s one of the numbers that helps us describe or distinguish these different wave functions from each other.
+
+The other way we can distinguish them from each other is via the phi dependence. I can also choose a quantum number that describes the phi dependence, and that one I’ve already given a name to: that’s the integer m that describes the phi dependence in this exponential. I either have e^(i times -1 times φ), e^(0), or e^(i times 1), e^(i times -2), e^(i times -1), e^(i times 0), e^(i times 1), e^(i times 2). So, m is another quantum number that also has a name: that’s the magnetic quantum number. Again, it’s not obvious from these equations necessarily yet why it would be a magnetic quantum number. The preview of that answer is that each of these functions with a different value of m will behave differently from the others when you put them in a magnetic field. 
+
+When you put these diatomic molecules with these wave functions in a magnetic field, it’s their magnetic quantum number that describes, in part, how they behave. So, m is the value of the integer coefficient up in this exponent for the phi dependence of the function. Notice also that we can label these functions by their m values. Sometimes it jumps right out: this function has m = -1, this one has m = +1. The functions with no phi dependence have a quantum number of 0 because e^(0) is just 1, so we’ve not written the phi dependence there. Likewise, this term, which has no phi dependence, is an m = 0 wave function. 
+
+For these l = 2 functions, I’ve got m = -2, -1, 0, 1, and 2. So, m can be equal to -2, -1, 0, 1, or 2. You might see a pattern now: for the functions with l = 1, m could be 1, it could be -1, or it could be 0, the value in between. But we don’t have any values of m that are +2 or -2. When l is equal to 2, I have m = -2 and m = +2 and all the integers in between. But m doesn’t get any larger than 2 or any smaller than -2. When l is 0, we could think of this as saying m is equal to 0, or it’s equal to -0, or any integers in between. There’s only one of those integers, so it happens to be the case that the valid values for m could be -l, or one larger than that, and so on, all the way up to l - 1 or l. So, from -2 up to 2, from -1 up to 1, from -0 up to 0. 
+
+If I were to continue this list with some l = 3 wave functions, which exist, then the values of m would range from -3 up to 3 and all the integer values in between. So those are the possible values of the magnetic quantum number. As we’ve seen here, if we want to list the possible values of the angular momentum quantum number, they could be 0, 1, 2, and that pattern continues; it’s any integer value of l beyond that. 
+
+We have these quantum numbers that help us describe these wave functions. Notice that every single wave function that I’ve written down has a unique pair of quantum numbers. If I pick one of these wave functions out of the list, I can describe it either with the full quantum mechanical function or I can describe it as the l = 2, m = -1 wave function. What that means is when I write down this long list of wave functions, I can describe those with indices. If I give you the angular momentum quantum number and if I give you the magnetic quantum number, I’ve uniquely identified one particular wave function. 
+
+Now we see that the general pattern for these functions includes some normalization constant, which depends on the value of l and m. The normalization constant is different in general for every different l and m. I’ve got some polynomial function that depends on l and depends on m. The polynomial dependence on theta is clear, and the phi dependence is just e^(i m φ). This part is pretty easy to predict. If I say, “Tell me what this looks like for an m = 5 magnetic quantum number,” you could just say e^(5 i φ). But if I say, “Tell me what this function, the polynomial function, would look like when l = 7 and m = 4,” you’d have a hard time doing that right now. 
+
+So, we do have some more to understand about the behavior of this polynomial function that describes the theta dependence of these wave functions, and there is a way to understand that more systematically. That’s what we’ll explore next.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

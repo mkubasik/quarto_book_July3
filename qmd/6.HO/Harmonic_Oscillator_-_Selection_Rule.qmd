@@ -1,0 +1,54 @@
+#  Harmonic Oscillator - Selection Rule
+## Harmonic Oscillator - Selection Rule (9:51) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/slacvVeurvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Harmonic Oscillator - Selection Rule  Video Transcript { .unnumbered}
+
+
+We would like to know which transitions between states of the harmonic oscillator are allowed and which ones are forbidden. Can we make transitions from state 0 to state 1, or to state 2, or to state 3, and so on? What we have determined so far is that the transition dipole moment tells us whether those transitions are allowed—if it is non-zero—or forbidden—if it is zero. This has broken down to look like this: there is a rate of change of the dipole moment of the harmonic oscillator with respect to the bond displacement. If that is zero, then the molecule cannot absorb any light. This gave us the growth selection rule.
+
+What we are interested in now is this integral. To do that, we need to recall that the wave functions for the harmonic oscillator take the form of the nth wave function, denoted as $n$ or $n'$. These wave functions look like some normalization constant, which is different for every $n$, multiplied by a Hermite polynomial, which is a function of $x$. It is actually a function of the square root of some constant we call $\alpha$ multiplying $x$, and then $e^{-\alpha x^2}$. Those constants appear in the exponent of the Gaussian as well. 
+
+So, that is the form of these wave functions. We won't have to get any deeper; we won't need to write down what any of these Hermite polynomials are in order to do these integrals today. But if we remember that, then the transition dipole moment, specifically the integral portion of the transition dipole moment, ends up looking like the integral of the complex conjugate of the nth wave function first. I have $n$ sub $n$ complex conjugated Hermite polynomial. I don't have to worry about the complex conjugate because these are not imaginary; they are real. So, there is an $H_n$ term and there is $e^{-\alpha x^2}$. 
+
+When I combine the $e^{-\alpha x^2}$ terms for both of these pieces, I will go ahead and do that ahead of time. That is going to look like $e^{-\alpha x^2}$ and another one. When I combine those together, I just get $e^{-\frac{1}{2} x^2}$, not divided by 2. So, these pieces are from the first wave function. I also have an $x$, and then I have constants with $n'$ Hermite polynomial with $n'$ and the rest of the Gaussian, the other factor of $e^{-\frac{1}{2} \alpha x^2}$. That combines to give us this term, and that is all integrated over $dx$. 
+
+Some of those are constants we can pull out of the integral. The constants $n$ are not particularly interesting to me; all I want to know is whether this integral is going to work out to be zero. The constants themselves are not going to be zero, so they are not terribly interesting right now. The rest of the integral looks like $H_n$ times $x$ times $H_{n'}$ times a Gaussian. 
+
+Now, the trick is to remember that we know something about these Hermite polynomials. We know there is a recursion relation that relates the Hermite polynomials to the ones just above or just below them. That recursion relation tells us that the $(n + 1)$th polynomial is equal to, let me look this up and make sure I get the coefficients right, $2x H_n - 2n H_{n-1}$. 
+
+So, what I have here is $x$ times a Hermite polynomial. Let me rearrange this equation to solve for $x$ times a Hermite polynomial on one side of the equation. So, $x H_n$, if I bring this over to the left, everything over to the right and divide through by 2 to get rid of that factor of 2, I will have what? One half $H_{n+1} - n H_{n-1}$. 
+
+So, that $x H_n$ I will use to replace this $x H_{n'}$. My integral has now become, so I have constants out front. The integral now looks like the $n$th Hermite polynomial multiplied by what I have written here: one half of the $(n + 1)$th polynomial minus $n' H_{n - n' - 1}$ with a Gaussian integrated over $x$. 
+
+That has now turned into something we can use because if I go ahead and rewrite this one more time, moving up to the top over here, that is going to look like constants that I am not particularly interested in, some one-halves and $n$s and other numbers that I know are not zero and I am not particularly interested in. Then I have an integral that looks like $H_n H_{n' + 1}$ and then some halves. That is what I get by combining this term, and I will go ahead and throw in the one half. 
+
+I have also got the other term, so now I have that minus sign and $n'$, and then the inside of the integral that I am interested in looks like $H_n H_{n' - 1}$. The next step is to say this looks an awful lot like an overlap integral between the $n$th and the $(n' + 1)$th wave function. But I know that different harmonic oscillator wave functions are orthogonal. The zeroth wave function is orthogonal to the first, the second, and the third. If these are different wave functions, this integral is going to disappear. 
+
+What that means is this whole integral is zero unless these are actually the same wave function. If the $n$th wave function is the same as the $(n' + 1)$th wave function, for example, if $n$ is 5 and $n'$ is 4, so that $4 + 1$ is the same as 5, if I am making a transition from the fifth to the fourth, that is okay. But any other transition is going to cause this integral to be zero. Likewise, this integral will be zero unless these two Hermite polynomials have the same index. These two wave functions are the same as each other, so that is zero unless $n = n' - 1$. 
+
+Again, maybe if $n = 5$ and $n' = 6$, then these two sides of the equation are equal to each other. So, I can make a transition between the fifth and the sixth energy level because this integral will be non-zero. I can make a transition between the fifth and the fourth energy level because this integral will be zero. But any other transition I make will be zero. 
+
+My selection rule ends up being that $n$ must be equal to $n' \pm 1$—either plus one or minus one. If I want to write the change in energy level, $n' - n$ must be $\pm 1$. My energy level has to go up by one or down by one, and that is our selection rule for the harmonic oscillator. I am allowed to make, let's say, this transition from state 2 up to state 3. I am allowed to do that if I have a harmonic oscillator that is in the second energy level. If I provide this much energy to it, if I provide a photon with exactly that much energy, I can induce it to absorb the light and make that transition. 
+
+On the other hand, if I have it make a transition that drops by one, if the change in the energy level is negative one, it can make this transition. In that case, it will emit a photon. So, instead of absorbing a photon to gain energy, it drops by one level and emits a photon. It can emit light with that same frequency. Those are both allowed transitions. 
+
+This transition, however, from state 2 down to state 0 will not happen. Likewise, the transition from state 2 up to state 4 will not happen. The change in the quantum number must be plus one or minus one—plus one if we are absorbing light, minus one if we are emitting light. So, that is the selection rule that tells us what transitions are allowed for the harmonic oscillator's vibrational transitions.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

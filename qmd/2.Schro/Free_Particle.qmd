@@ -1,0 +1,62 @@
+#  Free Particle
+## Free Particle (11:48) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/72o2rYqo1T8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Free Particle  Video Transcript { .unnumbered}
+
+
+All right, so let's try to solve Schrödinger's equation for an actual problem that we might encounter in the real world. We know Schrödinger's equation, written in operator form, where the Hamiltonian acting on $\psi$ is equal to $E \times \psi$. That's an eigenvalue problem. We're looking for wave functions that are the eigenfunctions of this operator, the Hamiltonian.
+
+To solve Schrödinger's equation, we need to be a little more specific about exactly what problem we're trying to solve. Since this is our first real example, let's keep it simple and solve a problem in one dimension rather than three dimensions. If I write Schrödinger's equation in one dimension, my derivatives will involve a one-dimensional function of one variable, $x$. The Hamiltonian contains a kinetic energy term, which is $\frac{d^2}{dx^2}$, along with some constants, and a potential energy term. 
+
+To proceed any further, I have to tell you what the potential energy term is. We can't start with this equation as if it were a one-size-fits-all solution; to solve Schrödinger's equation for a particular problem, we need the potential energy of that specific system. Every different system has its own potential energy and its own solutions to Schrödinger's equation. Therefore, I must specify what the potential energy is.
+
+To keep things simple, let's start with the potential energy equal to zero. First, I'll write down what the equation becomes, and then I'll tell you what real-world system might correspond to it. The kinetic energy term is still $\frac{h^2}{8\pi^2 m} \frac{d^2\psi}{dx^2}$, and since the potential energy is zero, that term goes away. This should be equal to $E \times \psi$.
+
+What actual system would have a potential energy of zero? If the system consisted of multiple molecules interacting with each other, then the potential energy of their interaction would be included in this potential energy term. If there's no potential energy, it means particles are not interacting with each other. Thus, we are considering a single particle, whether it's an atom, an electron, or whatever it is, not interacting with anything else. There are no other particles nearby that it interacts with, no gravity acting on it, and no other charged particles nearby for it to have electrostatic interactions with. Essentially, this is a particle floating all by itself in a vacuum, with nothing else to interact with, which is why it has a potential energy of zero.
+
+So, the problem we are solving is that of a free particle. It's a free particle because it's floating around freely in vacuum or in space, not interacting with anything else. A free particle is another way of saying that the potential energy is exactly zero.
+
+What are the solutions to this differential equation? If we were solving this equation properly, as you might do in a differential equations class, we would proceed formally, find a characteristic equation, and determine general solutions and particular solutions that obey boundary conditions, and so on. However, we are not going to go through that entire formal process. This may be good news or bad news for you, depending on whether you enjoyed differential equations or not. 
+
+All we're going to do is propose some solutions since we know the form of Schrödinger's equation and see whether those solutions are or are not solutions to Schrödinger's equation. To start with, we know we're looking for wave functions whose second derivative is related to the original function. That's the eigenvalue problem we have to solve: the second derivative of the wave function gives us back the original function, but notice the negative sign here. I need a function such that when I take the second derivative of it and multiply by a negative number, I get back the original function with some constants.
+
+In particular, we're looking for a function whose second derivative looks like negative the original function, possibly with some other constants included. We can think of functions whose second derivative gives back the original function. One function like that is exponentials. For example, $e^{kx}$. The first derivative of $e^{kx}$ gives us $k e^{kx}$, and the second derivative will give us $k^2 e^{kx}$. That looks half good; I've taken the second derivative of the function and obtained constants times the original function, which is what I want, but I wanted negative constants. 
+
+The only way $k^2$ is going to be a positive number is if $k$ is imaginary. If I back up and say, "Okay, maybe if $k$ is an imaginary number, then a square is negative," that’s what I want, but that's a complication we don't need to deal with just yet. If I want $k$ to be a real number, then this is not a good solution because $k^2$ would be positive, and I want it to be negative.
+
+As another possibility, a function whose second derivative is negative is trigonometric functions like sine or cosine. For instance, the sine of $x$, or more generally, the sine of any constant times $x$, $a \sin(kx)$, is a candidate that sounds good because the derivatives of trigonometric functions keep giving us more trigonometric functions. The first derivative of $a \sin(kx)$ pulls out a $k$, giving us $k a \cos(kx)$. Then, when I move on to the second derivative, it pulls out another factor of $k$, resulting in $k^2 a (-\sin(kx))$. That's good news; I've pulled out the negative sign that I'm looking for. 
+
+Now, the second derivative looks like $-k^2 a \sin(kx)$, and remembering that $a \sin(kx)$ is the original function is good. Now I've got negative constants times the original function. Let's plug those back into the original Schrödinger equation. If I take the wave function and plug it into the right side of Schrödinger's equation, the second derivative on the left side gives me $-\frac{h^2}{8\pi^2 m} (-k^2 a \sin(kx))$, and I'm asking if that is equal to $E \times (a \sin(kx))$. 
+
+I can simplify this: the negative signs cancel, and I have $\frac{h^2}{8\pi^2 m} k^2 a \sin(kx)$ on the left side. I can cancel $a \sin(kx)$ on both sides, and after doing that, the right side just looks like $E$. Now, stop and ask yourself: was it legitimate to do algebra? I told you not to treat this like an algebraic equation, and yet I just used algebra to cancel $a \sin(kx)$ on both sides. 
+
+Using algebra is not a problem; the difficulty is ensuring that the stuff on the left can always equal the stuff on the right. In fact, that can be true: some constants times $\sin(kx)$ can be equal to some constants times $\sin(kx)$, and I'm just canceling the $\sin(kx)$ that appears on both sides. These constants must be equal to the constant on the right. 
+
+What we found here is that yes, the function $a \sin(kx)$ does solve Schrödinger's equation. $a \sin(kx)$ is an eigenfunction of this one-dimensional Hamiltonian with the potential energy equal to zero, and the eigenvalue $E$ that pairs with that eigenfunction is $\frac{h^2}{8\pi^2 m} k^2$. 
+
+So, we say that the wave function $a \sin(kx)$ does solve this version of Schrödinger's equation, and it does so with an energy of $\frac{h^2}{8\pi^2 m} k^2$. Notice a few things about this expression: first, this isn't just one solution; this is a whole family of solutions. $k = 1$, $k = 2$, $k = 3.5$, $k = \pi$, $k$ can be any value at all, and each will solve Schrödinger's equation. Each one of those solutions, with its own value of $k$, is paired with a particular value of energy. Each wave function has its own eigenvalue, and each eigenfunction has its own eigenvalue.
+
+The other thing we could point out is that this is not the only solution to this Schrödinger equation. That's the downside of just proposing some solutions and double-checking them; it doesn't give us all of the solutions that are possible, as it would if we solved it formally, as in a differential equations class. For example, you can take a look at these and convince yourself that not just sine, but also cosine would be a valid solution. 
+
+If we want to get a little more exotic, as we mentioned earlier, if the exponent was imaginary rather than real, $e^{i \cdot k \cdot x}$ would also solve Schrödinger's equation because the second derivative of this function will pull down an $i$ twice, which will give us the negative sign that we're interested in. So, there are several different families of solutions that are somewhat related to one another that solve Schrödinger's equation, again each paired with its own individual energy.
+
+The next thing that we're going to do is extend this problem a little bit to make it a little more realistic, so that we don't have to just consider a particle floating all by itself out in vacuum. That's what we'll do next.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

@@ -1,0 +1,54 @@
+#  Rigid Rotor Selection Rules - Example
+## Rigid Rotor Selection Rules - Example (9:43) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/VEyy7EaRv_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Rigid Rotor Selection Rules - Example  Video Transcript { .unnumbered}
+
+
+Okay, so let's continue with the question of what makes a transition allowed or forbidden using the transition dipole moment. One feature of this expression that I didn't point out in the last video lecture is where this comes from. We haven't derived this expression; it comes from time-dependent quantum mechanics. If you remember the fifth postulate of quantum mechanics, it explains the time dependence of the wave function. Later on in the course, we'll be able to derive this expression using time-dependent quantum mechanics, but we'll put that off for now and just say that this expression is given to us.
+
+Remember that this expression tells us the intensity of an absorption transition that involves light, going from some rigid rotor level $l, m$ to some different level $l', m'$. If this integral is equal to zero, then that transition is forbidden; it won't happen, and light won't be absorbed to make that transition. On the other hand, if that integral is non-zero, then the transition is allowed. We can compute the integral, which has a value that may be zero or some non-zero value. The value, whether it's a large non-zero value or a small non-zero value, can tell us something about whether the transition is strongly allowed or only weakly allowed, indicating whether a lot of light is absorbed or less light is absorbed. 
+
+For the most part, what we're interested in is whether the transition never happens at all or whether it can happen at all, either weakly or strongly. So, we're often interested in just knowing whether this integral will come out to be zero or something non-zero. Doing so will tell us something about the selection rules for those processes. We've already seen the gross selection rule. One way to make this integral zero, a forbidden transition, would be for a molecule with a dipole moment of zero; that's certainly one way to make the integral zero, which is the gross selection rule. 
+
+Now, we're more interested in more specific selection rules about what changes in $l$ and what changes in $m$ are allowed, and we'll be able to determine some rules that dictate those changes. The easiest way to understand that at first is perhaps with an example. Let's consider a transition from the $0, 0$ level, the ground state of the rigid rotor $l = 0, m = 0$, up to a state, let's say the $1, 0$ level, which involves the excitation of one quantum number in $l$ without changing the value of $m$. 
+
+If we recall what the rigid rotor wave functions looked like, the $\psi_{0,0}$ wave function is just a constant, some normalization constant. The $\psi_{1,0}$ wave function is a normalization constant times $\cos(\theta)$. So, those are the rigid rotor wave functions. To determine whether this transition is allowed or forbidden, we just need to take these wave functions and insert them into the transition dipole moment expression to see whether that integral comes out to be zero or non-zero.
+
+If we do that, this transition dipole moment integral looks like a double integral. The initial wave function $\psi_{0,0}$ is just this constant, the dipole moment $\mu$ times $\cos(\theta)$, the dipole moment in the $z$ direction. The destination wave function, the $1,0$ state in our case, is $n_{1,0} \times \cos(\theta)$. For our integration variables, we have $d\theta \, d\phi$, not forgetting that in polar coordinates we need $\sin(\theta) \, d\theta \, d\phi$. 
+
+So, that's the integral we have to do. We can simplify that a little bit; the constants can be pulled out of the integral. There’s an $n$, another $n$, and $\mu$. If the dipole moment of the molecule is not changing, we can pull that out of the integral. The integral is over both $\theta$ and $\phi$, so if I look at any of the pieces that depend on $\phi$, there are none. Therefore, the $\phi$ integral is particularly easy; that's just the integral of $d\phi$. 
+
+The $\theta$ integral is a little more complicated. I have a $\cos(\theta)$, another $\cos(\theta)$, and a $\sin(\theta)$. So, that's the integral we have to perform, and it's not a terribly difficult integral. The integral over $d\phi$ from $0$ to $2\pi$ is just going to be $2\pi$. But again, keep in mind that we don't care about the number; we don't care whether that $\phi$ integral came out to be $2\pi$ or $\pi$ or $3\pi$. As long as it comes out to be a number that's non-zero, then everything's okay. If any one of the contributions to this transition dipole moment is zero, that will kill the whole thing and make the transition forbidden. 
+
+So really, all we need to know is whether the integral is going to come out to be equal to zero or not. The $\theta$ integral, certainly, we could do this integral; it's not too difficult to do a $u$-substitution with $u = \cos(\theta)$ to resolve it quickly. But we can take advantage of this shortcut; we don't care what the numerical value is. We just want to know if this $\theta$ integral comes out to be zero or not. 
+
+To do that, let's take a look at the symmetry of that function. If I just plot a few of these components of this integral from zero up to $\pi$, I need to know what this function $\cos^2(\theta) \sin(\theta)$ looks like. So, $\sin(\theta)$ looks like this. I'll draw on a different graph what $\cos(\theta)$ looks like. $\cos$ starts at $1$ and becomes negative by the time we get to $\pi$. So that's what the graph of $\cos(\theta)$ looks like. We're not interested in $\cos$; we're interested in $\cos^2$. 
+
+If I square $\cos$, it remains zero where the function is equal to zero, but both the negative and positive portions of this function become positive. So that $\cos^2$ looks something like this. What we're really interested in is this product $\cos^2(\theta) \times \sin(\theta)$. If I multiply $\sin(\theta)$ times this pink curve here, the $\cos^2$ term is equal to zero in a few places. $\sin$ is equal to zero at $0$ and at $\pi$; $\cos^2$ is equal to zero halfway through at $\frac{\pi}{2}$. Everywhere else, I'm multiplying a positive number times a positive number until it hits zero or a positive number times a positive number until the sine function hits zero. 
+
+Generally speaking, this function is going to have a shape like that; it's largest at $\frac{\pi}{4}$ and $\frac{3\pi}{4}$, and it hits zero at $\frac{\pi}{2}$. Even those specific details are too much information; I don't need to know where the zeros are. All I need to know is that this function is either positive everywhere or it's sometimes zero, but it never dips negative. That's enough for me to say that the area under this curve is non-zero and positive. 
+
+That's after all what we're interested in here: this integral of $\cos^2(\theta) \sin(\theta)$ is asking for the area underneath this curve, and what that area comes out to be is not relevant at the moment. All we need to know is that that integral is, in fact, greater than zero, non-zero. Likewise, this term is greater than zero. So, without knowing the specific value, that's enough for me to say this total integral is non-zero. 
+
+Thus, this $0,0$ to $1,0$ transition for the rigid rotor is, in fact, an allowed transition. If I have a rigid rotor or a diatomic molecule that we're treating as a rigid rotor in the $l = 0, m = 0$ state and I shine the appropriate frequency of light at it, it can absorb a photon of that light to excite up to the $l = 1, m = 0$ state. 
+
+So that's an example of how we would determine whether a transition is forbidden or allowed. The transition dipole moment came out to be non-zero, so it's an allowed transition. We could work through another example where that integral comes out to be zero, and that would be a forbidden transition. But obviously, it's going to get a little tedious to work one of these integrals for every possible transition that we can imagine. It's much more useful to come up with a general set of rules for which changes in $l$ and which changes in $m$ are allowed or forbidden. So that's the next thing we'll do.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

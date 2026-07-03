@@ -1,0 +1,50 @@
+#  Hermite Polynomials
+## Hermite Polynomials (9:20) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/FU4ruboD7tU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Hermite Polynomials  Video Transcript { .unnumbered}
+
+
+We know one function, $\psi(x) = e^{-x^2}$ with some constants, that solves the harmonic oscillator Schrödinger equation. When we insert this equation for $\psi$ into the Schrödinger equation, the left side is equal to the right side. The primary reason this happens is that when we take the second derivative, it pulls down two extra powers of $x$, which end up canceling the $x^2$ times the wave function in the potential energy term. This feature—pulling down two extra powers of $x$—is a characteristic of the $e^{-x^2}$ term, and it would occur with many other mathematical functions as well.
+
+For example, if I write down a function that looks like $n \cdot x \cdot e^{-\alpha x^2 / 2}$, it is also true that this function solves the Schrödinger equation. We won't do the derivatives here, but you can convince yourself of this by taking the derivatives yourself. When I take the second derivative of this function, despite having some $x$ terms in front and some $x$ terms in the exponent, I will end up with terms that have pulled down two extra powers of $x$ into the polynomial prefactor term. These can cancel with the two powers of $x$ multiplying the wave function in the potential energy term, making this a valid solution to Schrödinger's equation.
+
+Likewise, there are functions that look like $x^2 \cdot e^{-\alpha x^2 / 2}$ with normalization constants in front. This one gets a little more complicated because there is now some cancellation that needs to happen between the various product rule terms involved in taking this derivative. Because of that extra cancellation, if I use $4\alpha$ and $x^2$ along with a constant term, this function also solves the harmonic oscillator Schrödinger equation. 
+
+As you can see, there is a whole series of solutions: one with just a constant multiplying this Gaussian, one with a linear term in $x$ multiplying the Gaussian, and one with a quadratic function of $x$ multiplying the Gaussian. There are also cubic and quartic functions, and so on. In general, we can assign numbers to these solutions. We call the first one the zeroth solution because the polynomial in front of the Gaussian is a zeroth-order polynomial. The linear function, or first-order polynomial, is the $n = 1$ solution. There is an $n = 2$ solution, and in general, for any $n$, I can write a solution that looks like a normalization constant times a polynomial.
+
+We will discuss the features of that polynomial shortly. In fact, I will write that polynomial not just as a polynomial of $x$, but you will notice that every time we see an $x$, it is paired with some $\alpha$. So, this $x^2$ is paired with an $\alpha$; these $x^2$ terms are paired with an $\alpha$. Every time we see an $x$, it is paired with $\alpha^{1/2}$. Thus, this polynomial is a function of $\alpha^{1/2} \cdot x$, all multiplying the Gaussian term $e^{-\alpha x^2 / 2}$. This is the same for every one of these solutions. 
+
+The polynomial term is different for each case, and the normalization constant will also differ for each case. These represent the general form of the solutions to the harmonic oscillator Schrödinger equation. To write down any particular solution, there are a couple of approaches. You could write out a polynomial. If I want to know the $n = 5$ solution, I would need to determine which fifth-order polynomial should be placed in front of this Gaussian to solve the Schrödinger equation. 
+
+We could do it the hard way by writing down a fifth-order polynomial, plugging it into the Schrödinger equation, and figuring out what constants need to cancel other constants. However, now that I have written the general form of this polynomial, or at least named it, we can refer to this polynomial as a Hermite polynomial. This function was well-studied and understood by mathematicians before anyone realized it was useful in quantum mechanical problems.
+
+Notice that I have written a Hermite polynomial as a function of some arbitrary argument. Normally, I would say $H(x)$, but for the harmonic oscillator problem, $x$ has a very specific meaning: it is the bond displacement. Here, I am just writing $H$ as a function of some argument. We can write down the first few of these Hermite polynomials to get a sense of what they look like. 
+
+The zeroth polynomial, as we have already seen, is just a constant, and its value is one. The first Hermite polynomial, $H_1$, is twice the argument of the function. If I insert $\alpha^{1/2} x$ as the argument, the $n = 1$ polynomial becomes $2 \alpha^{1/2} x$. The $n = 2$ polynomial is $4 \cdot (\alpha^{1/2} x)^2 - 2$. We can also write the $n = 3$ version of this polynomial, which is $8 \cdot (\alpha^{1/2} x) - 8 \cdot (\alpha^{1/2} x)^3 - 12 \cdot (\alpha^{1/2} x)$. 
+
+This series continues, but these examples are only useful if we do not want to go beyond $n = 3$. What is useful is to be able to predict what the $n$-th polynomial is, and we can do that with a recursion formula. If we want to know the $n + 1$ polynomial, it will be twice the variable we are discussing, multiplied by the previous polynomial, plus or minus twice the number $n$ times the polynomial prior to that. 
+
+This recursion formula tells me the $n + 1$ polynomial in terms of the $n$-th and the $n - 1$-th. If I want to know the fourth polynomial, I can plug in the second and third polynomials here and use that to solve for the $n = 4$ polynomial. 
+
+Another important aspect of these polynomials is their parity. If we look carefully, we can see that the $n = 1$ and $n = 3$ polynomials have their arguments raised to the first and third powers, respectively. Only the odd powers of the argument show up in the $n = 1$ and $n = 3$ cases, so these functions have odd parity. They only include odd powers of their argument. 
+
+In contrast, the even values of $n$—0, 2, 4, 6, and so on—include only even powers of their argument. For example, $H_2$ has not only the argument squared term but also an argument to the zero term, but it does not include an argument to the first term. Thus, when $n$ is an odd number, the polynomial includes only odd powers of the argument, while when $n$ is an even number, it includes only even powers of the argument. This distinction will be important as we delve further into discussing the parity of the wave functions. Knowing what the Hermite polynomial is and how to predict it for any arbitrary value of $n$ will now allow us to write down the wave function for any arbitrary value of $n$ as well.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

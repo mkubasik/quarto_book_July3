@@ -1,0 +1,58 @@
+#  Molecule in a Box
+## Molecule in a Box (11:07) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/feo6Qa6lG7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Molecule in a Box  Video Transcript { .unnumbered}
+
+
+All right, let's treat an example of a particle in a box with some quantitative calculations. In fact, we're going to compare two different examples of particles in boxes. We have seen that we can use the particle in a box model to describe both electrons confined to a molecule and a conjugated section of a molecule. An example of that would be something like three fused benzene rings, which is an anthracene molecule. 
+
+If we measure the frequencies of light absorbed by anthracene, we find that it absorbs light at around 375 nanometers. This corresponds to a photon of light with a wavelength of 375 nanometers. That value is approximately $10^{-19}$ joules, which is the energy of a photon absorbed by an anthracene molecule. Remember that this corresponds to a pair of energy levels separated by this much energy. When I shine a photon with the same amount of energy, it can excite the electron from the lower energy level up to the upper energy level. Thus, a photon with 375 nanometers has this much energy, which is enough to excite the electron between a pair of states that differ by exactly that much energy. These states can be predicted reasonably well with the two-dimensional particle in a box model.
+
+I mention the energy just to point out that this value, compared to $kT$, is significant. Remember that the value of $kT$ at room temperature is about $4 \times 10^{-21}$ joules. Therefore, the $10^{-19}$ joules that represents a photon on the red end of the visible spectrum is several orders of magnitude larger than $kT$, which has a magnitude of about $10^{-21}$ joules. The energy level spacing between levels for the anthracene molecule is much larger than $kT$. By comparing those energy differences to $kT$, we can conclude several things. For example, we know that because the energy difference is so many $kT$ (about 100 or so $kT$), the upper state will not be very populated. Most of the electrons in this molecule, an overwhelming majority, will be in the lower energy levels. 
+
+We also know that if we were interested in a partition function, since the only states that are populated are those low compared to $kT$, the partition function will be relatively small for this molecule. These factors contrast with the other example we've discussed using the three-dimensional particle in a box model. If the particle is not an electron but an actual molecule, let's take the example of a nitrogen gas molecule. Instead of confining an electron inside a molecule, we can confine an electron inside a physical box. Nitrogen gas will stay confined to a box that you place it in. 
+
+For our example, let's say we are in a cubic room whose length, width, and height are all about 5 meters, roughly 15 feet on each side. If I have a nitrogen gas molecule confined to a room that is about 15 feet on a side, we can use the particle in a box model, specifically the three-dimensional particle in a box model, to describe the energy levels of that system. We can ask similar questions about the difference in energy levels for that system. 
+
+To do that, we need to know that for a cubic box, the energy levels look like 
+
+\[
+E = \frac{h^2}{8mL^2} \left( n_x^2 + n_y^2 + n_z^2 \right).
+\]
+
+In order to calculate these energies, I certainly know what Planck's constant is. I've assumed a value for the size of the box, and we need the mass. Remember that we are not talking about an electron anymore; we are talking about a nitrogen molecule. We need the molar mass of a nitrogen molecule, which is 28 grams per mole. However, we need to convert grams to kilograms to cancel one of the kilograms hiding inside the units of joules. 
+
+We also need to get rid of the factor of moles in the denominator, so we use Avogadro's number of molecules in a mole. So far, I've managed to cancel moles and grams, which takes care of the mass. We will use 5 meters for our box size, and that number gets squared. Then we will multiply by the sum of $n$ values. I will leave that un-substituted for now. Regardless of whether I want to talk about one excitation or another, I will use different values for $n$, but this number will be a relatively small integer. 
+
+The exact value will depend on which excitation level I'm interested in, but let's calculate this first prefactor term. For that, I need a calculator or I need to have done the calculation ahead of time. What I find is that this number works out to be about $10^{-42}$ joules. This is the quantity for which I have numbers. Without plugging in specific values for $n$, I will just say that I'm multiplying by a relatively small number. 
+
+The important thing about this value, $10^{-42}$ joules, is that the units do indeed work. I have kilograms times meters squared in the denominator and seconds squared in the numerator. A kilogram meter squared per second squared is a joule, so that cancels one of my joules in the numerator, leaving me with just one joule. Thus, the energy difference between these states is a small number times $10^{-42}$ joules compared to $kT$. Remember, $kT$ is $10^{-21}$ joules. 
+
+There is not just a two orders of magnitude difference; there are 20 or more orders of magnitude difference between the energy level spacing for the nitrogen molecule in a room-sized box and the value of $kT$. In particular, the inequality works the other way around: this energy level spacing is considerably less than $kT$. In fact, saying it is just much less than is an understatement; 20 orders of magnitude is so small as to be negligible. 
+
+The energy level spacing for molecules confined to a box, with an energy gap between levels of $10^{-42}$ joules, is so small that we cannot possibly measure it with any technology we currently have. It is so many orders of magnitude below energies that we can measure. Therefore, those energy levels are essentially super closely packed together. 
+
+It turns out that there is a significant difference: electrons can find energy differences that are quite large compared to $kT$, whereas molecules confined to boxes have energy spacings that are incredibly small compared to $kT$. This is a very important difference that arises from two different factors: the masses are different, and the box sizes are different. We have changed two numbers when we went from electrons confined to conjugated hydrocarbons to molecules in boxes. A nitrogen molecule is heavier than an electron by a couple thousand fold, which is part of the answer. 
+
+An even bigger factor is the fact that I went from a box that was less than a nanometer on a side when confining an electron to boxes that are meters on a side. This is roughly 9 or 10 orders of magnitude, and when I square that number, it becomes enormous. This is the biggest reason why these energy level spacings are so tiny: I have confined this molecule to a large box, which is not much of a confinement at all for a nitrogen molecule in a whole room. 
+
+As we will see coming up relatively soon, this very small spacing between the energy levels for a gas molecule in an actual macroscopic-sized box is going to be convenient. It will allow us to calculate several properties of gases by using those energy level spacings as well as some statistical mechanics. That is the next step.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

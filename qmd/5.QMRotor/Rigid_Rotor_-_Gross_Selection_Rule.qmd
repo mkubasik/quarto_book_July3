@@ -1,0 +1,50 @@
+#  Rigid Rotor - Gross Selection Rule
+## Rigid Rotor - Gross Selection Rule (11:51) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/PUI4e-pfuYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Rigid Rotor - Gross Selection Rule  Video Transcript { .unnumbered}
+
+
+If we have a diatomic molecule with several different energy levels, we can represent it as a molecule with various rigid rotor-style energy levels that it can occupy. We have determined that the energy difference between these energy levels can be expressed using a specific formula. The tilde on top indicates that we are using units of wave numbers, which allows us to predict the frequencies of light, or the wave numbers of light, that will be absorbed by the molecule during transitions between states.
+
+The small peak that you can barely see corresponds to the transition from the zero to one state. There is another peak corresponding to the one to two transition, and the two to three transition is represented by yet another peak, and so on. However, this raises a question: why are we limited to jumping up only one level at a time on this energy ladder? Why can't we jump directly from the $l = 0$ state all the way up to the $l = 3$ state, or to the $l = 10$ state, or any state we wish? It turns out there is a good reason for this limitation, which we refer to as selection rules.
+
+To understand these selection rules, we need to know the following equation, which tells us how strongly a molecule will absorb light when making a transition from one state to another—perhaps from the $l = 0$ state to another state. We will discuss this in terms of transitioning from one initial wave function to some final wave function. The intensity with which a molecule in state $\psi$ will absorb the right frequency of light to make a transition to the state $\psi'$ can be expressed as a somewhat complicated equation.
+
+There is a first term that depends on the difference in energy between the two states and the frequency of light that we provide. There is also another term that resembles integrals we have encountered before in quantum mechanics, but now sandwiched between the $\psi$ and $\psi'$ wave functions is a new quantity, $\mu_z$. We will discuss this quantity shortly. Additionally, there are some constants in front of the equation, so rather than stating that it is equal to a specific value, we will say it is proportional to this quantity.
+
+To determine whether a molecule absorbs light or does not absorb light, whether it absorbs light strongly or weakly, or perhaps does not absorb light at all, we need to calculate this quantity, which is composed of two portions that we will discuss separately. The first term indicates that if there is a particular $\Delta E$ between two of these states, then this term guarantees that the frequency of light absorbed will be equal to or very close to that difference in energy. Normally, we know that $\Delta E = h \nu$. If we provide the molecule with light that has $h \nu$ equal to that difference in energy, it will absorb light because this term will be strong.
+
+If I graph $\sin^2(x) / x^2$ as a function of $x$, the graph of that quantity is large when $x = 0$ and oscillates, quickly diminishing as $x$ increases. Thus, the intensity of absorption is large when $x = 0$. For us, the quantity inside the sine squared and in the denominator that gets squared is the difference between the energy of the transition and the energy of our photon. When these energies match exactly, the absorption is strong. If I deviate the frequency of light slightly from what is needed to induce that energy transition, the absorption will be quite weak. In other words, if I want to induce this transition, I need to provide the molecule with light that has a photon energy very close to that required for the transition; otherwise, it will not absorb the photon, or it will have a very small chance of doing so.
+
+This brings us to the second term, which we will name because we will refer to it frequently. This is called the transition dipole moment. The name "transition" comes from the fact that we are discussing the transition between state $\psi$ and state $\psi'$. The term "dipole moment" relates to the dipole moment of the molecule that is absorbing the light. The dipole moment is typically represented as a vector. For example, if I have a molecule like HCl, which has a positive charge on one end and a negative charge on the other, there is a dipole moment associated with that vector. Chemists tend to draw that vector from positive to negative. This dipole moment vector has both direction and magnitude, denoted as $\mu$. 
+
+The component of that vector in the direction of the oscillation of the electric field of the photon we are shining on the molecule is referred to as $\mu_z$. If I shine a photon at this molecule and ask whether it absorbs light, making a transition from one state to another, it will do so if the frequencies match and if this condition is well satisfied. The dipole moment we are discussing here is not the vector of the dipole moment I have drawn, but rather the component of the vector aligned with the direction of the light oscillation.
+
+In our spherical coordinate system, $\mu_z$ is equal to $\mu \cos(\theta)$. This is how we will use $\mu_z$ in our integral. When we examine this part of the calculation more closely for a rigid rotor, the transition dipole moment will involve the transition between quantum states described by $l$ and $m$ to a different quantum state described by $l'$ and $m'$. The transition dipole moment can be expressed as the initial state multiplied by the dipole moment in the z-direction, $\mu \cos(\theta)$, multiplied by the final state. We need to integrate this over $d\theta$ and $d\phi$ because we are discussing a rigid rotor or rotating molecule, and these are the coordinates in which our wave function is expressed. Remember that when we integrate in polar coordinates, we need to include the $\sin(\theta)$ term inside the integral, and then we will integrate over both variables.
+
+The question arises: when is that integral large, and when is it small? There is one very straightforward answer to that question. One way to make that integral equal to zero is by examining the term $\mu$. The $\mu$ in the z-component of the dipole moment depends partially on the angle the molecule makes with the z-axis. However, $\mu$ without the subscript $z$ represents the magnitude of the dipole moment. For a molecule like HCl, the dipole moment has a specific value, and every molecule has a different dipole moment unique to it. However, some molecules have no dipole moment at all. For example, homonuclear diatomic molecules like $\text{H}_2$, $\text{Cl}_2$, or $\text{N}_2$—any homonuclear diatomic molecule—has no dipole moment; they are nonpolar molecules. 
+
+For a nonpolar molecule with $\mu = 0$, substituting zero into this integral guarantees that the integral will equal zero. This means that for those nonpolar homonuclear diatomic molecules, the entire transition dipole moment becomes zero. Consequently, this quantity $I$ equals zero, indicating that light will not be absorbed, regardless of the orientation of the molecule, the frequency of light, or which transition we are attempting to make. This situation is referred to as a forbidden transition; light will not be absorbed to facilitate that transition. 
+
+For instance, I cannot shine microwave light on a chlorine molecule and cause it to change its rotational motion. This is an example of what we call the gross selection rule for rotational motion. We need the dipole moment of the molecule to be non-zero for it to absorb light. Thus, we can get molecules like HCl to absorb light for some transitions because they possess a non-zero dipole moment. However, for nonpolar molecules, because they violate the gross selection rule, all those transitions are forbidden, and they do not absorb light in the microwave range. We cannot induce the rotation of a nonpolar molecule using electromagnetic radiation. This does not mean that these molecules do not rotate; hydrogen, nitrogen, and chlorine molecules do rotate, but their rotation must be caused by some other source, such as a collision with another molecule, rather than by absorbing light.
+
+This raises the question: are there other ways to make this integral equal to zero? Indeed, there are. The next topic we will discuss is a slightly more complicated question regarding the conditions that the wave functions must satisfy in order to make this integral equal to zero or not equal to zero. This will not involve the gross selection rule, but rather another flavor of selection rule.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

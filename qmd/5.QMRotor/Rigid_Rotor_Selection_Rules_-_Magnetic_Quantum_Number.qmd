@@ -1,0 +1,56 @@
+#  Rigid Rotor Selection Rules - Magnetic Quantum Number
+## Rigid Rotor Selection Rules - Magnetic Quantum Number (8:46) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/1imeJ0BjTes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Rigid Rotor Selection Rules - Magnetic Quantum Number  Video Transcript { .unnumbered}
+
+
+So, we're interested in the transition dipole moment: under what conditions is this equal to zero, making a transition forbidden, and under what conditions is it not equal to zero, making the transition allowed? In particular, we want to explore what values of $l$ and $m$ make this forbidden or allowed.
+
+To delve deeper, let's recall the form of the wave functions for the rigid rotor. For the rigid rotor, the wave function for quantum numbers $l$ (the angular momentum quantum number) and $m$ (the magnetic quantum number) includes a normalization constant, a piece that looks like a Legendre polynomial, a cosine term, and an exponential term that has $e^{i m \phi}$ with the quantum number $m$. 
+
+If we think about how to plug the rigid rotor wave functions into this expression in the general case, we will use the $\psi_{lm}$ wave function along with its complex conjugate. If I write down what this looks like for the complex conjugated form, the normalization constant might need to be complex conjugated, but the Legendre polynomials are not imaginary, so I don't have to do anything there. For the term $e^{i m \phi}$, the complex conjugate simply turns the $i$ into a negative $i$.
+
+Now, if I write down what that looks like for the $l' m'$ piece, it will just have a different normalization constant, a different Legendre polynomial, and then $e^{i m' \phi}$, which does not get a negative sign because that one does not get complex conjugated.
+
+If I insert those into the transition dipole moment, we have, and I'll go ahead and simplify a little bit as we do this, pulling the constants outside of the integral. Wave function number one and wave function number two both have constants, and the dipole moment is constant, so the constants out front are two normalization constants and a dipole moment. The integral has the $\theta$-dependent portions, where I have $P_{lm}$ from wave function $\psi_{lm}$ and $P_{l'm'}$ from the second wave function, along with some cosine terms and a sine term. 
+
+For the $\phi$ integral, I have $d\phi$, and the $\phi$ dependence of these wave functions is $e^{-i m \phi} e^{i m' \phi}$, all multiplied by $d\phi$ and integrated over $\phi$. That's the integral we need to evaluate to determine whether the transition is forbidden or allowed, particularly looking for anything that could cause either of these two integrals to go to zero.
+
+We'll start with the $\phi$ integral, which involves the magnetic quantum number because that one's a little easier. We'll consider two separate cases. Case number one: let's consider the possibility that the final quantum number is equal to the initial quantum number, meaning the magnetic quantum number is not changing during the transition. We could also say that $\Delta m = 0$. 
+
+When we evaluate this particular integral, I can write it as $e^{i (m' - m) \phi}$, combining these two exponentials into one. So that's the integral I want to perform. $m' - m$ is the same as $\Delta m$, and under this case we're considering where $\Delta m = 0$, this integral $e^{0 \phi}$ is just 1. Since we're considering the case where the quantum number is not changing, this integral evaluates to something that is not zero. Specifically, I'm integrating $d\phi$ from 0 to $2\pi$, which evaluates to $2\pi$. Therefore, this transition is allowed if the quantum number $m$ is not changing; this $\phi$ contribution to the transition dipole moment is non-zero, and that does not kill the transition dipole moment.
+
+On the other hand, if we consider the case where the final magnetic quantum number is not the same as the initial quantum number, meaning $\Delta m$ is something non-zero—perhaps increasing by one or decreasing by one—then this integral becomes the integral of $e^{i (m' - m)}$, which we call $e^{i \Delta m \phi}$, integrated over $\phi$ from 0 to $2\pi$. 
+
+This is just an exponential integral, and although it looks a little scary because it has imaginary numbers in the exponent, the integral of an exponential is simply an exponential with $\frac{1}{i \Delta m}$ in front. If I were to take the derivative of this function, the $i$ and $\Delta m$ will cancel, leaving me with just the exponential that I was integrating. 
+
+So, that is the integral I want to evaluate between 0 and $2\pi$. I will get $\frac{1}{i \Delta m} e^{i \Delta m \cdot 2\pi}$, which I can write as $e^{2\pi i \Delta m}$. The second term will be $e^{i \Delta m \cdot 0}$, which is just 1. 
+
+This is a fairly convenient result. One of the few things we need to know about imaginary numbers to deal with them in these rigid rotor wave functions is that $e^{2\pi i} = 1$, as is $e^{4\pi i}$ and $e^{6\pi i}$. In fact, $e^{2\pi i n} = 1$ for any integer $n$. 
+
+Thus, $e^{2\pi i \Delta m}$ will equal 1 for any even multiples of $\pi i$ in the exponent. This means that if there is a change in the magnetic quantum number, the entire first term will equal 1, leading to $1 - 1$ inside the parentheses. Consequently, this whole integral comes out to be equal to 0. 
+
+It turns out that any time the magnetic quantum number changes, the $\phi$ contribution to the transition dipole moment will equal zero, making the entire transition dipole moment equal to zero. This results in a forbidden transition. 
+
+Therefore, the general statement is that if we want to induce a transition between some initial state and some final state using electromagnetic radiation (light), the requirement is that the transition we want to initiate cannot change the magnetic quantum number; $\Delta m$ must be zero for the transition to be allowed. This is the first of two selection rules we can determine for rigid rotors, which dictates how the value of $m$ should behave. 
+
+Next, we can take a look at the $\theta$ integral and determine how the value of $l$ should behave if we want that transition to be allowed. That's what we'll tackle next.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

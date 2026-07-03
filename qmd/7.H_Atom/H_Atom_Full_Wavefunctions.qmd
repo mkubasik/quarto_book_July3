@@ -1,0 +1,40 @@
+#  H Atom (Full Wavefunctions)
+## H Atom (Full Wavefunctions) (5:36) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/9HD_iwNEF6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## H Atom (Full Wavefunctions)  Video Transcript { .unnumbered}
+
+
+All right, so finally, at long last, we're ready to put together the full wave function for the hydrogen atom. What we've managed to do so far, after separating the variables and deciding that a wave function might be a product of a radial piece and an angular piece—one that depends only on $r$ and one that depends on $\theta$ and $\phi$—is that we discovered this approach does indeed solve the Schrödinger equation. The angular piece was familiar to us from the rigid rotor, so it has the same form as the rigid rotor wave function. The radial piece, after some work, was determined to be a normalization constant times some terms that look like polynomials in $r$ multiplied by a decaying exponential. The radial piece depends on the two quantum numbers $n$ and $l$, while the angular piece depends on the quantum numbers $l$ and $m$.
+
+Let's summarize quickly what we know about those quantum numbers. The value of $n$ can be any positive integer: 1, 2, 3, and so on. This quantity is called the principal quantum number. The value of $l$ can range from 0 up to $n - 1$ but cannot be larger than that; this is known as the angular momentum quantum number. Lastly, $m$, which we haven't discussed recently, has the same meaning as it does for the rigid rotor wave function. We know from the rigid rotor that $m$ can range from $-l$ to $+l$, and this is called the magnetic quantum number.
+
+The next step is to write down the full form of the wave function, which depends not only on $l$ but also on $n$ and $m$. For any valid combinations of these quantum numbers $n$, $l$, and $m$, we can write down one of these wave functions. I will now write down those wave functions for several values of $n$, $l$, and $m$ so we can see what they look like.
+
+This collection of radial Schrödinger equation wave functions looks quite complex, but the key point is that we can calculate all of them if we know the equations for how to calculate the radial and angular portions and then multiply them together. If we examine these, I will point out a few key features. First, each of these $n, l, m$ wave functions has a normalization coefficient in front, and those normalization coefficients are different in principle for each wave function; they are whatever values are needed for normalization.
+
+Notice that the normalization coefficient itself always includes the term $\frac{z}{a_0^{3/2}}$, which is there primarily for unit reasons. The normalization coefficient must have units of $\text{length}^{-3/2}$ so that the units of the wave function are appropriate. After the normalization coefficient in the radial portion of the wave function, we may have terms that look like $\frac{z r}{a_0}$ or $\left( \frac{z r}{a_0} \right)^k$ with some coefficients in front raised to some power. The value of $n$ in the denominator corresponds to this $n$ value, while the power it gets raised to corresponds to the $l$ value.
+
+There is also a polynomial portion of the radial part of the wave function that might be relatively simple, complex, or in some cases invisible because you're just multiplying by one. This is the generalized Laguerre polynomial that we can evaluate for any particular value of $n$ and $l$. Additionally, there is always an exponential piece $e^{-\frac{z r}{n a_0}}$, where $n$ can be 1, 2, or 3, depending on the value of $n$ for this particular wave function.
+
+Then comes the angular term. We might have no angular dependence at all when $l = 0$. When $l = 1$, we might have a cosine or sine function of $\theta$. When $l = 2$, we might have some second-order polynomial in $\cos \theta$, which is somewhat familiar from our study of the rigid rotor. Lastly, we sometimes have terms that look like $e^{i m \phi}$ or $e^{-i m \phi}$, depending on the values of $m$. When $l$ is non-zero, $m$ can also be non-zero, resulting in a complex wave function that has this imaginary term at the end.
+
+There is no need to memorize these; you can always look them up whenever you need. The point is that now we have written down the general form of the solutions to Schrödinger's equation for the hydrogen atom, and we can write them down on demand for any $n$, $l$, and $m$ we wish whenever we want to.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

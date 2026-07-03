@@ -1,0 +1,62 @@
+#  Rigid Rotor - Schrödinger Equation
+## Rigid Rotor - Schrödinger Equation (11:20) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/iNqnrJ5JjZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Rigid Rotor - Schrödinger Equation  Video Transcript { .unnumbered}
+
+
+We have developed a model for the geometry of a diatomic molecule. Instead of thinking about a molecule with two different masses and two different atoms at two different positions, we can simplify our approach by considering a single point with mass $\mu$ (the reduced mass) located a distance $r$ from the origin, maintaining the same orientation with angles $\theta$ and $\phi$. 
+
+One advantage of using this coordinate system, in addition to reducing the number of variables we need to consider, is that it helps us clearly distinguish between the two types of motions the molecule can undergo: vibrational motions and rotational motions. When the molecule vibrates, it keeps its center of mass fixed and changes its bond length, which corresponds to changing the length of the coordinate $r$. On the other hand, when the molecule rotates, it changes its orientation angles $\theta$ or $\phi$ (or both). Thus, rotations are described by $\theta$ and $\phi$, while vibrations are described by changes in $r$. We will treat these two problems separately, postponing vibrations for now to focus on rotation.
+
+To analyze rotation, we will require that $r$ remains constant; it does not change. Therefore, as the molecule rotates, it does so with a fixed bond length, making it a rigidly rotating molecule. We will allow $\theta$ and $\phi$ to change, meaning the state of this system will be described by these two variables. The wave function that describes the system will depend on $\theta$ and $\phi$.
+
+To describe this system quantum mechanically with a wave function, we need to refer to Schrödinger's equation. In general, Schrödinger's equation includes a kinetic energy term, which looks like some constants minus $\frac{h^2}{8\pi^2 m}$. Here, our mass is the reduced mass $\mu$, and the equation involves the second derivative in the form of the Laplacian acting on the wave function. Our wave function depends only on $\theta$ and $\phi$, and we have a potential energy term multiplying the wave function. The kinetic energy plus potential energy must equal the total energy, so $\hat{H} \psi = E \psi$, where $\hat{H}$ is the Hamiltonian operator.
+
+For our diatomic molecule, the potential energy term asks how different the potential energy is for different orientations. We assume that the potential energy is equal to zero for this model, which we call the rigid rotor model. This assumption simplifies Schrödinger's equation significantly. Thus, we have:
+
+\[
+-\frac{h^2}{8\pi^2 \mu} \nabla^2 \psi = E \psi
+\]
+
+This resembles the equation we had when solving the three-dimensional particle in a box problem, with the only difference being that we have $\mu$ instead of $m$. However, an important distinction is that we will solve this problem in spherical polar coordinates $\theta$ and $\phi$, rather than Cartesian coordinates $x$, $y$, and $z$.
+
+To summarize the properties of this rigid rotor model: we assume that for our diatomic molecule, the bond length is constant, remaining rigid as it rotates. We have also assumed that the potential energy is zero, similar to our assumption for the particle in a box. This means we only need to consider two variables, $\theta$ and $\phi$, and our wave function will depend on these angles. 
+
+It is important to note that the boundary conditions differ from those of the three-dimensional particle in a box model. For the particle in a box, the wave function had to reach zero at the edges of the box. In this case, there is no edge; the coordinates $\theta$ and $\phi$ allow for continuous values. As $\theta$ increases, the molecule bends away from the $z$-axis, and there is no limit to how far it can go. If we increase $\phi$, the molecule spins around the $z$-axis, and after a full $2\pi$ radians, it returns to its original position. Therefore, the wave function must have the same value at $\theta$ and $\phi$ as it does after a full revolution around the $z$-axis. 
+
+We will require that our wave function obey this boundary condition: the wave function at $\theta$ and $\phi$ must equal the wave function at $\theta$ and $\phi + 2\pi$.
+
+With these considerations, we need to rewrite Schrödinger's equation, not using the Laplacian in Cartesian coordinates, which is given by:
+
+\[
+\nabla^2 = \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} + \frac{\partial^2}{\partial z^2}
+\]
+
+In spherical polar coordinates, the Laplacian takes a different form. The second derivative with respect to $r$ appears convoluted, while the second derivatives with respect to $\theta$ and $\phi$ have specific structures that we have seen in calculus. However, since we have assumed that $r$ is constant, the $\frac{\partial^2}{\partial r^2}$ terms drop out, simplifying our equation to focus only on the $\theta$ and $\phi$ terms.
+
+Thus, the Schrödinger equation for the rigid rotor becomes:
+
+\[
+-\frac{h^2}{8\pi^2 \mu} \left( \frac{1}{\sin \theta} \frac{\partial}{\partial \theta} \left( \sin \theta \frac{\partial}{\partial \theta} \right) + \frac{1}{\sin^2 \theta} \frac{\partial^2}{\partial \phi^2} \right) \psi(\theta, \phi) = E \psi(\theta, \phi)
+\]
+
+This expression represents the Schrödinger equation in the form we need to describe a diatomic molecule. Our goal is to find a wave function $\psi(\theta, \phi)$ that satisfies this equation, meaning that when we apply the left-hand side to it, we obtain a constant times the original wave function. The next step will be to solve for the wave functions that obey this Schrödinger equation.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

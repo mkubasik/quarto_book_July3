@@ -1,0 +1,46 @@
+#  Wavefunction
+## Wavefunction (7:38) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/9aa-S8qalE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Wavefunction  Video Transcript { .unnumbered}
+
+
+All right, so we've seen a little bit about wave-particle duality, which is a feature of quantum mechanical objects, both light and, a little more confusingly, material objects like atoms, molecules, and electrons. All quantum mechanical properties behave like a particle sometimes and like a wave at other times. 
+
+To understand how these quantum mechanical particles can act like waves, we need to understand the wave function. The wave function is exactly that function that describes how quantum mechanical particles exhibit wave-like properties. We usually use the term $\psi$ to describe the wave function. The goal now is to understand a little more about what this wave function is. You may or may not have heard of wave functions before; perhaps you know a little bit about them but not very much. So, we want to understand what this function is that describes the wave-like properties of quantum mechanical objects.
+
+First of all, we call it a wave function because it describes the wave-like properties of a quantum mechanical object. It is a function that depends on some argument, and what the wave function is a function of is position. If I know the position of a particle and I know this function, I can insert the position of the particle in order to calculate the wave function. The way I've written it down here is with just one argument, the $x$ position. More generally, for molecules that exist in three-dimensional space, that position might be a three-dimensional vector. I could write $\psi(x, y, z)$ for example, for the Cartesian coordinates of a particle, or I can write it as a vector $\mathbf{r}$, or I can think of it in spherical coordinates, maybe $r, \theta, \phi$. The point is that the wave function always depends on the position, whether in one dimension or in three dimensions of the particle that we're talking about.
+
+The physical meaning of the wave function is often good to keep in mind when you get confused on a quantum mechanical problem and you're asking yourself, "What does this actually mean?" It's always useful to step back and recall the physical meaning of the wave function. The wave function tells us the probability of finding a particle at some position, but not the wave function itself. If I square the wave function, that tells me the probability that I'm going to find the particle at that position. 
+
+I'll point out that what looks like absolute value signs, these magnitude signs that I've put around the wave function before I square it, are there to tell us that we don't just square the wave function. That particular flavor of calculating the magnitude or the square is that I need to actually take the wave function times the complex conjugate of the wave function. For now, we're going to ignore that. We'll run into cases where we do have to worry about this complex conjugate, but if the wave function is a real function, if it only has real numbers, not imaginary or complex numbers, then we don't have to worry about the complex conjugate. So that's in there for later when we run across complex or imaginary wave functions, but for now, we don't have to think about that too much, and we can just think of the wave function squared rather than worrying about the complex conjugate.
+
+Squaring the wave function, perhaps with this complex conjugate, tells us how likely we are to find the particle at some position. I've written these equations in one dimension; we could write the same equations for a three-dimensional particle just using the $\mathbf{r}$ vector instead of $x$ for the position of the particle. This tells us how likely we are to find the particle either in some one-dimensional coordinate or in some three-dimensional coordinate.
+
+One other addition I have to make to these equations is actually to be correct about these definitions. What we are actually defining is not the probability of finding the particle but the probability density, meaning the probability per unit of volume in three dimensions, $d^3 r$ for the three-dimensional coordinate. In just a second, I'll stick those in an integral, and they'll make a little bit more sense. It's not telling us the probability of finding the particle at a specific position; the probability of finding any particle at any individual, very specific position is going to be very small. 
+
+To find the probability that the particle's position is between two values, say $a$ and $b$, I would say it has some probability of being at position $x$, and if I integrate that everywhere from $a$ up through $b$, then that tells me the probability of it being somewhere in between those two. That's why it's necessary to think about probability density. I've got some density of finding the particle at any point in space that I integrate over some region of space. 
+
+Equivalently, in three dimensions, if I want to know the probability that my position vector is in some volume of space, maybe the left side of a box or inside some sphere, I define that volume. Then, if I integrate, I will have to do a triple integral. If I integrate the probability over $x, y, z$ or $r, \theta, \phi$, whatever my three-dimensional coordinates are, and if I integrate only over the specific volume that I'm interested in, that tells me how likely I am to find the particle in that region, in one dimension or in three dimensions.
+
+If we use the fact that probability is equal to the square of the wave function, each of these expressions, the triple integral might become wave function squared, or the single integral up here. The reason we calculate the wave function many times is to be able to calculate the probability of finding the particle somewhere. To calculate the probability of finding the particle not just at a point but in a region, we integrate the square of the wave function over that region of space. That's the physical meaning of the wave function; that's often what we use the wave function for.
+
+Another very important property of the wave function is that it satisfies an equation called the Schrödinger equation, which you may or may not have heard of. That's the next task we have: to understand what that Schrödinger equation is and how the wave function relates to it.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

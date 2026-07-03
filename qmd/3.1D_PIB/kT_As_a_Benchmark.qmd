@@ -1,0 +1,48 @@
+#  kT As a Benchmark
+## kT As a Benchmark (10:17) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/tg7BtAyJJHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## kT As a Benchmark  Video Transcript { .unnumbered}
+
+
+As we've used the Boltzmann distribution, we've discovered that it's useful to be able to compare the difference in energy between two systems to $kT$. This ratio, $\frac{\Delta E}{kT}$, is significant because it appears in the exponential of the relative probability distribution. 
+
+For example, suppose that this ratio $\frac{\Delta E}{kT}$ is one, two, or three—some relatively small numbers. This means that the difference in energy is a few times the value of $kT$, which we can express as a few $kT$. Consequently, $e^{-1}$, $e^{-2}$, or $e^{-3}$ are small numbers; they are less than one but not vanishingly small. They might be thirty percent, ten percent, or five percent. This indicates that the population in the upper state $P_i$ relative to the population of the lower state is a small number but not negligible. Thus, the probability of occupying state A is less than the probability of occupying state B because its energy is higher if $\Delta E$ is greater than zero, but not so small that we can ignore state I.
+
+On the other hand, let's consider the extreme case where the difference in energy is large. For it to be significantly larger than $kT$, it needs to be more than just a few $kT$—perhaps even $10 kT$. It doesn't have to be $100 kT$ or $1000 kT$; just $10 kT$ is sufficient. In this case, the ratio $\frac{\Delta E}{kT}$ becomes $10$, and $e^{-10}$ is a considerably small number. This means that the probability of being in state I is much smaller than the probability of being in state J, often small enough that we can completely ignore it. If $e^{-10}$ is a very small number, much less than one, the probability that molecules are in state I is significantly smaller than the probability that they are in state J.
+
+However, let's consider another extreme where state I is still the higher energy state, but the difference in energy between state I and state J is small compared to $kT$. In this case, the ratio $\frac{\Delta E}{kT}$ is quite small, much less than one. This means the exponent we are evaluating is $e^{-x}$ for some small number $x$, such as $e^{-0.01}$ or $e^{-0.001}$. A negative but small number results in a value close to one. Therefore, the probability of being in state A (state I) is about the same as the probability of being in state J. It will be slightly less because the energy is a little higher, but for most practical purposes, the probabilities of occupying those two states are quite similar.
+
+This understanding tells us immediately that if we know how many $kT$ units the difference in energy represents—whether it's a few, many, or a tiny fraction of $kT$—we can gain qualitative insights into how populated these two states are. To utilize this, however, we need to know the value of $kT$, which depends on the temperature. 
+
+Focusing on room temperature, around $298$ K or $300$ K, we find that the product of Boltzmann's constant and the temperature, $1.38 \times 10^{-23}$ joules per kelvin, multiplied by something in the vicinity of $300$ K results in units of joules. The units of joules and kelvin cancel, leaving us with just joules. When we multiply this out, we find that $kT$ is approximately $4.1 \times 10^{-21}$ joules. This is a small but significant number because it serves as a benchmark against which we compare other energies to determine whether states are populated or relatively unpopulated at room temperature.
+
+If we convert this to different units, such as kilojoules per mole, we find that multiplying by Avogadro's number and dividing by $1000$ gives us about $2.5$ kilojoules per mole. Alternatively, if we prefer to work in kilocalories per mole, a non-SI unit still commonly used for describing energies of chemical reactions, it amounts to about $0.6$ kilocalories per mole. These values are worth memorizing because they provide context for evaluating energy values.
+
+For example, if I tell you that the bond energy of a carbon-hydrogen bond in a typical alkane is about $400$ kilojoules per mole, you can assess its significance. Until this discussion, that number might not have meant much to you; it was simply an energy value with a specific unit. Now, however, we can compare $400$ kilojoules per mole to $kT$, which is only $2.5$ kilojoules per mole. Thus, $400$ kilojoules per mole is many multiples of $kT$—specifically, more than $100 kT$. 
+
+This indicates that the probability of a molecule being found in the higher energy state, where the carbon-hydrogen bond is dissociated, is extremely low. At temperatures like $300$ K, there is almost no probability that the molecule will be found in this higher energy state. Carbon-hydrogen bonds do not spontaneously dissociate because the energy required to break them is so much higher than $kT$. This is fortunate, as it means that most of the carbon-hydrogen bonds in the organic molecules that make up our bodies are stable at room temperature.
+
+Now, let's consider a different type of bond, such as the hydrogen bond between two water molecules. This is not a covalent bond; rather, it is a hydrogen bond, which has an energy of about $6$ kilojoules per mole. To determine if this is a large or small number, we again compare it to $kT$. In this case, $6$ kilojoules per mole is just a couple of $kT$—specifically, between $2$ and $3 kT$. 
+
+This means that the more energetic state, where the hydrogen bond is broken, is less likely than the associated state, but not dramatically so. In a sample of liquid water, perhaps $5$ to $10$ percent of the molecules have their hydrogen bonds broken at any given moment. This is a significant fraction that we cannot afford to ignore. In fact, this dynamic is what allows liquid water to behave as a liquid. If all the hydrogen bonds were permanent, like covalent bonds, water would not diffuse as it does. However, if $5$ to $10$ percent of water molecules can break their hydrogen bonds and then form new ones with different molecules, this leads to the unique properties of water.
+
+In summary, by comparing the size of an energy to $kT$, we can qualitatively assess the probabilities of different states based on how they relate to one another in the context of the Boltzmann distribution.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

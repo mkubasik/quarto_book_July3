@@ -1,0 +1,54 @@
+#  Electromagnetic Spectrum
+## Electromagnetic Spectrum (12:30) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/B6_KTeymr3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Electromagnetic Spectrum  Video Transcript { .unnumbered}
+
+
+When we talk about quantum mechanical energy levels, we are never very far from discussing spectroscopy. Spectroscopy is the idea of using light of some type to induce transitions between systems in different energy levels, or vice versa, using a transition between those energy levels to generate light. 
+
+What we mean by this is that if we have a couple of quantum mechanical energy levels on a ladder, the system can have one energy or another, with some difference in energy between those states. If I have a system in the lower state and I bring in a photon—some light with a certain frequency or wavelength—the energy of that photon, if it matches the energy difference between these two states, can induce a transition and lift the system up to the other state. Conversely, if the system is in the upper state and falls down to the lower state, losing energy, it can produce a photon of that same frequency or wavelength. 
+
+We know that the difference in energy between two states is equal to $h \times \nu$, where $\nu$ is the frequency of the photon that gets generated or absorbed, and is also equal to $\frac{hc}{\lambda}$, where $\lambda$ is the wavelength of the photon that gets created or absorbed. 
+
+There are multiple frequencies and wavelengths that can be generated, not only in the visible portion of the spectrum. For molecules that behave like particles in boxes, such as electrons in conjugated hydrocarbons, we can use the differences between these states to generate light of frequencies or wavelengths in the visible portion of the spectrum, such as for beta-carotene, or perhaps in the ultraviolet part of the spectrum for smaller molecules. However, these are not the only two portions of the electromagnetic spectrum. 
+
+We have ultraviolet (often abbreviated as UV) and the visible portion of the spectrum. Visible photons typically have wavelengths of about 400 to 900 nanometers. The edges of this range are a little fuzzy; depending on how good your eyes are, you might be able to see light deeper into the ultraviolet or beyond the lower wavelength edge of the spectrum. Generally speaking, humans can see light in the range of about 400 to 700 nanometers. Ultraviolet light has lower wavelengths, with 400 nanometers being beyond the violet end of the spectrum, going down to roughly 10 nanometers or so. 
+
+On the other end of the spectrum, beyond the red portion, we have the infrared portion, which includes light with wavelengths longer than 700 nanometers, extending up to micrometers and perhaps even a millimeter. At a fairly arbitrary boundary, roughly a millimeter, we enter a different named region of the electromagnetic spectrum called the microwave portion, abbreviated as MW. 
+
+While we could discuss the wavelengths of microwave photons, it is more common to refer to their energies rather than their wavelengths. The frequency of microwave photons typically ranges from low gigahertz to hundreds of gigahertz. This frequency correlates to a wavelength in the range of roughly millimeters to hundreds of millimeters. 
+
+Interestingly, the most convenient units to discuss not just microwave photons but several different portions of the spectrum are not wavelength or frequency, but a different term. We can define a new quantity, denoted with a tilde on top, as the energy divided by $hc$. This quantity is called the wave number. By comparing some of these equations, we can see why it is called the wave number. If we compare the wavelength version of the equation $hc \times \frac{1}{\lambda}$ with $hc \times \text{wave number}$, we find that the wave number is equal to $\frac{1}{\lambda}$. 
+
+A wavelength is the length of a wave, the distance from peak to peak or trough to trough. It tells you how many units of distance there are in the length of one wave. If we turn that fraction upside down, we get the wave number, which tells us how many waves fit in a unit length. For example, if the wavelength is five meters, the wave number would be a fifth of a wave per meter. 
+
+If we know the wave number, we can use it to calculate energy and convert back and forth between frequencies, wavelengths, and wave numbers as needed. Spectroscopists, who shine light on molecules or chemical systems to induce transitions or allow molecules to fall from upper states to lower states, generating light, most commonly talk about light in terms of its wave number rather than its wavelength or frequency. 
+
+Let’s work through a quick example for a photon that we are somewhat comfortable with. Suppose we have a visible photon just at the edge of the visible spectrum, with a wavelength of 400 nanometers. To find the wave number associated with that photon, we calculate $\frac{1}{\text{wavelength}}$, which is $\frac{1}{400 \text{ nm}}$ or $\frac{1}{400 \times 10^{-9} \text{ m}}$. This gives us $2.5 \times 10^{6}$ with units of $\text{m}^{-1}$. 
+
+This means that 2.5 million of these visible photons, with a wavelength of 400 nanometers, oscillate up and down the electric field over the course of one meter. We typically measure the wave number not in units of $\text{m}^{-1}$ but in inverse centimeters. Since there are 100 centimeters in one meter, we divide by 100 to get $2.5 \times 10^{4} \text{ cm}^{-1}$. 
+
+Thus, instead of oscillating two and a half million times in a meter, it oscillates 25,000 times in the length of one centimeter. The wave number associated with this wavelength indicates that ultraviolet ranges from 25,000 inverse centimeters and higher, up to about a million inverse centimeters. Visible light has a wave number of about 25,000 on the upper end, while a red photon with a wavelength of 700 nanometers has a wave number of about 14,000 inverse centimeters. 
+
+If we calculate the same for infrared and microwave portions of the spectrum, we find that an infrared photon with a wavelength of about a millimeter has a wave number of about 10 inverse centimeters. This broad range covers several orders of magnitude, ranging from 10 up to 14,000 inverse centimeters. The microwave portion can drop as low as 100 inverse centimeters. 
+
+As mentioned, in microwave spectroscopy, it is much more common to talk about the wave numbers of the photons rather than their frequencies or wavelengths. This is partly because these are relatively convenient numbers. For every region of the spectrum, it is not too difficult to talk about wave numbers that range from a few hundredths or tenths up to a few thousand, making it a fairly convenient unit that avoids the need to discuss $10^{9}$ inverse seconds or similar units. This introduces the idea of wave number and provides some statistics on the different portions of the electromagnetic spectrum that we can use when discussing spectroscopy for various quantum mechanical problems.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

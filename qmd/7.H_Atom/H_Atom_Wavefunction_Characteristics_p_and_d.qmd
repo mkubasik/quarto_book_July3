@@ -1,0 +1,72 @@
+#  H Atom Wavefunction Characteristics (p and d)
+## H Atom Wavefunction Characteristics (p and d) (13:17) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/VERliKpbRLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## H Atom Wavefunction Characteristics (p and d)  Video Transcript { .unnumbered}
+
+
+All right, so we spent a little bit of time understanding what the wave functions mean when they're spherically symmetric. It turns out that the s orbitals we're familiar with from general chemistry result from the wave functions with $l = 0$ and $m = 0$, which have no angular dependence. Now, let's see if we can understand what the wave functions look like when they have some angular dependence. 
+
+For example, when $l = 1$, we have some $\theta$ terms in the wave function when $m$ is non-zero, specifically when it's $+1$ or $-1$. In this case, we have terms like $e^{-i\phi}$ or $e^{+i\phi}$ that show up in the exponential part of the wave function. We will take these first two cases and see if we can understand what the wave function would look like. 
+
+We will mostly ignore the radial part for now, as we've already discussed what the radial parts look like. These exponentially decaying terms turn into oscillating and then decaying wave functions with radial nodes. For now, we will focus on the angular part of the wave function. 
+
+If the angular behavior of the wave function looks like $\cos(\theta)$, and I draw a wave function as a function of $\theta$, I only need to worry about the value of $\theta$ from $0$ to $\pi$. The graph of $\cos(\theta)$ looks like this function. However, remember that we're not really interested in the wave function itself as much as we are in the probability, which looks like the wave function squared with an $r^2$ in front of it. The $r^2$ isn't particularly necessary this time because we're only plotting the $\theta$ dependence. 
+
+If I square this wave function, I discover that regardless of whether the value is positive or negative, the squared value is positive. However, it does have a node; there is a place where the wave function goes through zero. This means there is a place where there is zero probability of finding the electron, and that node occurs at a value of $\frac{\pi}{2}$. 
+
+Now, if we try to sketch what that wave function looks like, if I take a nucleus and ask where I am likely to find the electron relative to that nucleus, I'm quite likely to find it at an angle of $\theta = 0$, meaning pointing straight up along the z-axis. I'm likely to find it in the direction of the z-axis, but I'm somewhat less likely to find it if I look at a slight angle from the z-axis because the probability is decaying. When the angle is $\frac{\pi}{2}$, in other words, when I'm in the xy-plane, I'm not at all likely to find the wave function; the value of the probability is zero. 
+
+So, this whole plane represents a node, which I will write out so you can see the entire word. In this case, it's an angular node rather than a radial node. Instead of saying there is an $r$ at which the electron can't exist, this time there is an angle $\theta = \frac{\pi}{2}$ for which the wave function is zero and the probability is also zero. 
+
+If we continue, I'm also very likely to find the electron at an angle of $\pi$, meaning bent down a full angle of $\pi$ away from the z-axis, pointing along the negative z-axis. This means I'm likely to find the electron here and here. If I plot many more of these points, I find a two-lobed wave function where I'm quite likely to find the electron straight up. As I move the angle sideways, I get less and less likely to find the electron, and as I move closer to the horizontal axis, I'm significantly less likely to find the electron. The plane itself represents an angular node. 
+
+It won't surprise you much at this point to hear that this wave function, with that dumbbell shape that you're familiar with, is the wave function that we call a p orbital or a p wave function. It's a $2p_z$ wave function because it's oriented along the z-axis, and it has a principal quantum number of $n = 2$. 
+
+Things do get a little more complicated when I consider the wave functions with $m = 1$ and $m = -1$, which introduce these complex components into the wave function. Complexity affects the wave function because when I square the wave function, I need to remember to take the complex conjugate times itself. However, notice that the $m = 1$ and $m = -1$ wave functions are already complex conjugates of each other, so the squares of these two wave functions are the same as each other. 
+
+What we typically do to visualize these wave functions is take the $2p_{1}$ wave function and add it to the $2p_{-1}$ wave function. I've taken a linear combination of these two wave functions and will write $\frac{1}{\sqrt{2}}$ out front, which is important if I want to keep these wave functions normalized. However, that's just for understanding the shape of these wave functions; we don't have to worry about the $\frac{1}{\sqrt{2}}$. 
+
+If I take this particular sum of the two wave functions, without going through all the details, if the z-axis is pointing upwards, the x-axis is pointing this way, and the y-axis is receding into the distance, then this wave function looks a lot like the $2p_z$ wave function. However, by doing this, I've rotated it, and it now points along the x-axis. This is the wave function that we call the $2p_x$ wave function, which is a sum of the $m = 1$ and $m = -1$ wave functions. 
+
+If I take the difference of them, $\frac{1}{\sqrt{2}} \psi_{2,1,1} - \psi_{2,1,-1}$, that will be the $2p_y$ wave function. I won't be able to draw this one quite as well because it involves drawing into the third dimension, but it represents a wave function that is behind and in front, with these p lobes. 
+
+The $2p_x$ and $2p_y$ functions are linear combinations of the $m = 1$ and $m = -1$ wave functions. We've seen that the $l = 1$ wave functions look like p orbitals. It's also worth understanding what those p orbitals look like when $n$ is not two, but when $n = 3$. 
+
+By moving up to a larger value of $n$, we've introduced some extra complexity—not complex number complexity, but some extra difficulty in the radial part of the wave function. The polynomial, which in the simpler wave functions was just $r \times 1$, is now $r \times$ a polynomial that has a zero in it. This will introduce a radial node. 
+
+Again, $\cos(\theta)$ looks exactly like $\cos(\theta)$ for the $2p_x$ wave function. However, if I draw the $3$ $1$ $0$ wave function, a sketch of that wave function shows that $\cos(\theta)$ means the wave function is p-shaped, aligned along the z-axis. However, I've also introduced a radial node, so now I have two nodes: an angular node. 
+
+Let me erase the xy-axes and use this plane to represent them. I have an angular node at $\frac{\pi}{2}$ because of the $\cos(\theta)$ term. I also, as it turns out, have a radial node, so there is a sphere at which I'm not allowed to observe the electron because the probability is equal to zero. This sphere comes from the wave function being equal to zero at some particular value of $r$. 
+
+If I attempt to sketch the 3D picture of this wave function, where these scribbles indicate places where I'm allowed to find the electron, it turns out I'm allowed to find it in some region close to the nucleus or far away from the nucleus. Those regions still occupy a sort of dumbbell p shape. In the negative z-direction, the same sort of behavior is taking place; I've got a region close to the nucleus and a region further away from the nucleus where I can observe the electron. However, at this particular value of $r$, I have a node, so I've got a radial node, and this plane $\theta = \frac{\pi}{2}$ also represents a node. 
+
+Now we can distinguish between an angular node and a radial node. The $3p_z$ wave function has both an angular node and a radial node. For one last example, we can ask what happens when the value of $l$ is not equal to one but equal to two. 
+
+What we see is that when I increase the principal quantum number $n$ from two to three, I introduce a radial node. What happens with the angular nodes is that when I increase $l$ from 1 to 2, that introduces an angular node. We can see why that's happening because the angular behavior of the function, $3\cos^2(\theta) - 1$, is going to have two places where it can equal zero instead of just a single place like it did for the $2p$ wave function. 
+
+If I attempt to draw the sketch, here is the z-axis. I find that instead of just $\frac{\pi}{2}$ being the single value of $\theta$ that is a node and disallowed, I have two different values of $\theta$. When $\theta = \frac{\pi}{3}$ and when $\theta = \frac{2\pi}{3}$, those are both nodes, meaning I cannot find the electron with those coordinates. 
+
+What I get is a more elongated lobe above and below the plane where I can find the electron. In between, because $\theta = \frac{\pi}{3}$ is not just in this direction but in all $\phi$ directions, I actually have a cone where I'm not allowed to find the electron. The wave function occupies that cone above and below the origin. 
+
+In between the origin, I can also find the electron over here and over here, resulting in a sort of doughnut shape. That doughnut goes behind as well, so I end up with a lobe above, a lobe below, and then a doughnut ring surrounding the axis. This might be familiar to you as a wave function we call the $3d_{z^2}$ wave function. 
+
+That's just the name we give to it, but what's happened by increasing the angular quantum number from 1 to 2 is that we've increased from a p orbital to a d-type orbital. We could continue examining the shape and drawing what the wave function looks like for the other $l = 2$ orbitals, and it would not be a surprise to you to find that we would get the other d-shaped orbitals, the cloverleaf-shaped orbitals that you're probably familiar with from general chemistry. In the next lecture, we'll show you some pictures that are more representative of what these look like than my poor sketches on the board.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

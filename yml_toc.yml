@@ -1,0 +1,114 @@
+ 
+book:
+  title: "Physical Chemistry I  Quantum Mechanics"
+  sidebar:
+    logo: "img/FairfielduShield.o.png"
+    logo-alt: "My Book Logo"
+    style: "docked"
+
+  chapters:
+  - index.qmd
+
+  - part: '1.NeedForQM'
+    chapters:
+     - qmd/1.NeedForQM/What_is_Physical_Chemistry.qmd
+     - qmd/1.NeedForQM/The_Original_Double_Slit_Experiment.qmd
+     - qmd/1.NeedForQM/Quantization_of_Energy_Part_1_Blackbody_Radiation_and_the_Ultraviolet_Catastrophe.qmd
+     - qmd/1.NeedForQM/Quantization_of_Energy_Part_2_Photons_Electrons_and_Wave-Particle_Duality.qmd
+     - qmd/1.NeedForQM/Wave-Particle_Duality_and_the_Photoelectric_Effect.qmd
+     - qmd/1.NeedForQM/Quantum_Mechanics_of_the_Electron.qmd
+     - qmd/1.NeedForQM/Light_is_Quantized.qmd
+     - qmd/1.NeedForQM/Energies_Are_Quantized.qmd
+     - qmd/1.NeedForQM/States_of_Matter_Are_Quantized.qmd
+     - qmd/1.NeedForQM/Matter_Has_Wave-like_Properties.qmd
+  - part: '6.HO'
+    chapters:
+     - qmd/6.HO/Harmonic_Oscillator_Model.qmd
+     - qmd/6.HO/Classical_Harmonic_Oscillator.qmd
+     - qmd/6.HO/Harmonic_Oscillator_Schrodinger_Equation.qmd
+     - qmd/6.HO/Harmonic_Oscillator_Solutions_Qualitative.qmd
+     - qmd/6.HO/Harmonic_Oscillator_Wavefunction_Ground_State.qmd
+     - qmd/6.HO/Hermite_Polynomials.qmd
+     - qmd/6.HO/Harmonic_Oscillator_-_Orthonormality.qmd
+     - qmd/6.HO/Harmonic_Oscillator_Energies.qmd
+     - qmd/6.HO/Harmonic_Oscillator_-_Interpretation.qmd
+     - qmd/6.HO/Harmonic_Oscillator_Partition_Function.qmd
+     - qmd/6.HO/Diatomic_Molecules_as_Harmonic_Oscillators.qmd
+     - qmd/6.HO/Vibrational_Transitions_Use_Infrared_Light.qmd
+     - qmd/6.HO/Harmonic_Oscillator_-_Gross_Selection_Rule.qmd
+     - qmd/6.HO/Harmonic_Oscillator_-_Selection_Rule.qmd
+     - qmd/6.HO/Harmonic_Oscillator_-_Populations.qmd
+     - qmd/6.HO/Harmonic_Oscillator_-_Thermodynamic_Properties.qmd
+  - part: '2.Schro'
+    chapters:
+     - qmd/2.Schro/Wavefunction.qmd
+     - qmd/2.Schro/Schrodingers_Equation.qmd
+     - qmd/2.Schro/Operators.qmd
+     - qmd/2.Schro/Schrdingers_Equation_is_a_Differential_Equation.qmd
+     - qmd/2.Schro/Eigenvalue_Problems.qmd
+     - qmd/2.Schro/Free_Particle.qmd
+  - part: '3.1D_PIB'
+    chapters:
+     - qmd/3.1D_PIB/One-Dimensional_Particle_In_a_Box.qmd
+     - qmd/3.1D_PIB/Normalization.qmd
+     - qmd/3.1D_PIB/Orthogonality.qmd
+     - qmd/3.1D_PIB/Wavefunctions_as_a_Basis.qmd
+     - qmd/3.1D_PIB/_Electrons_in_Linear_Conjugated_Hydrocarbons_Qualitative.qmd
+     - qmd/3.1D_PIB/_Electrons_in_Linear_Conjugated_Hydrocarbons_Quantitative.qmd
+     - qmd/3.1D_PIB/Particle_on_a_Ring.qmd
+     - qmd/3.1D_PIB/kT_As_a_Benchmark.qmd
+  - part: '4.Postulates'
+    chapters:
+     - qmd/4.Postulates/Postulates_of_Quantum_Mechanics_Wavefunction.qmd
+     - qmd/4.Postulates/Postulates_of_Quantum_Mechanics_Operators.qmd
+     - qmd/4.Postulates/Postulates_of_Quantum_Mechanics_Eigenvalues.qmd
+     - qmd/4.Postulates/Postulates_of_Quantum_Mechanics_Expectation_Values.qmd
+     - qmd/4.Postulates/Postulates_of_Quantum_Mechanics_Time_Dependence.qmd
+  - part: '7.H_Atom'
+    chapters:
+     - qmd/7.H_Atom/Hydrogen_Atom_-_Schrodinger_Equation.qmd
+     - qmd/7.H_Atom/H_Atom_Separation_of_Variables.qmd
+     - qmd/7.H_Atom/H_Atom_Angular_Component.qmd
+     - qmd/7.H_Atom/H_Atom_Radial_Equation.qmd
+     - qmd/7.H_Atom/H_Atom_Example_l0_Radial_Wavefunction.qmd
+     - qmd/7.H_Atom/H_Atom_Radial_Wavefunctions.qmd
+     - qmd/7.H_Atom/Laguerre_Polynomials.qmd
+     - qmd/7.H_Atom/H_Atom_Full_Wavefunctions.qmd
+     - qmd/7.H_Atom/H_Atom_Energies.qmd
+     - qmd/7.H_Atom/H_Atom_wavefunction_Characteristics_s.qmd
+     - qmd/7.H_Atom/H_Atom_Populations.qmd
+     - qmd/7.H_Atom/H_Atom_Wavefunction_Characteristics_p_and_d.qmd
+     - qmd/7.H_Atom/H_Atom_Wavefunction_Characteristics_Summary.qmd
+  - part: '5.QMRotor'
+    chapters:
+     - qmd/5.QMRotor/Rigid_Rotor_-_Geometry.qmd
+     - qmd/5.QMRotor/Rigid_Rotor_-_Schrodinger_Equation.qmd
+     - qmd/5.QMRotor/Rigid_Rotor_-_Wavefunctions.qmd
+     - qmd/5.QMRotor/Rigid_Rotor_-_Complexity.qmd
+     - qmd/5.QMRotor/Rigid_Rotor_-_Normalization.qmd
+     - qmd/5.QMRotor/Rigid_Rotor_-_Quantum_Numbers.qmd
+     - qmd/5.QMRotor/Legendre_Polynomials.qmd
+     - qmd/5.QMRotor/Rigid_Rotor_-_Orthogonality.qmd
+     - qmd/5.QMRotor/Rigid_Rotor_-_Energies.qmd
+     - qmd/5.QMRotor/Rigid_Rotor_-_Degeneracy.qmd
+     - qmd/5.QMRotor/Rotational_Constant.qmd
+     - qmd/5.QMRotor/Rotational_Temperature.qmd
+     - qmd/5.QMRotor/Rigid_Rotor_Partition_Function_-_Classical.qmd
+     - qmd/5.QMRotor/Rigid_Rotor_Partition_Function_-_Quantum.qmd
+     - qmd/5.QMRotor/Most_Populated_Rotational_Level.qmd
+     - qmd/5.QMRotor/Rotational_Spectroscopy_-_Intro.qmd
+     - qmd/5.QMRotor/Electromagnetic_Spectrum.qmd
+     - qmd/5.QMRotor/Rotational_Transitions_Use_Microwave_Light.qmd
+     - qmd/5.QMRotor/Rigid_Rotor_-_Gross_Selection_Rule.qmd
+     - qmd/5.QMRotor/Rigid_Rotor_Selection_Rules_-_Example.qmd
+     - qmd/5.QMRotor/Rigid_Rotor_Selection_Rules_-_Magnetic_Quantum_Number.qmd
+     - qmd/5.QMRotor/Rigid_Rotor_Selection_Rules_-_Angular_Momentum_Quantum_Number.qmd
+     - qmd/5.QMRotor/Rigid_Rotor_Properties.qmd
+  - part: '3.3D_PIB'
+    chapters:
+     - qmd/3.3D_PIB/3D_Particle_in_a_Box_Solutions.qmd
+     - qmd/3.3D_PIB/3D_Particle_in_a_Box_Normalization.qmd
+     - qmd/3.3D_PIB/3D_Particle_in_a_Box_Applications.qmd
+     - qmd/3.3D_PIB/3D_Particle_in_a_Box_Degeneracy.qmd
+     - qmd/3.3D_PIB/Dye_Molecules.qmd
+     - qmd/3.3D_PIB/Molecule_in_a_Box.qmd

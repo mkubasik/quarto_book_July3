@@ -1,0 +1,54 @@
+#  Light is Quantized
+## Light is Quantized (12:30) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/E5V8IkaVceU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+ 
+
+    
+## Light is Quantized  Video Transcript { .unnumbered}
+
+
+Okay, so our goal is to understand quantum mechanics well enough to predict the energies of molecules or other chemical or physical systems. To start, we'll review some concepts you already know about quantum mechanics from earlier chemistry courses. 
+
+First, we can discuss the quantum mechanical properties of light. One thing we know about light is that we typically think of it as a wave. Light behaves like a wave, similar to other types of waves, such as water waves and sound waves. It can reflect off objects, diffract or bend in different media, and undergo interference, where different light waves can constructively or destructively interfere with one another. These are all characteristics we associate with wave behavior. However, it turns out that light is also made of particles, so it is not purely a wave; it is a wave made of particles. The individual particles of light are called photons.
+
+One of the key things we know about photons is how to describe their energy. These equations are likely familiar: the energy of light is either $E = h \nu$ (Planck's constant times frequency) or $E = \frac{hc}{\lambda}$ (Planck's constant times the speed of light divided by the wavelength of the light). Perhaps the most common way to think about these equations is as a relationship between frequency and wavelength, which are inversely proportional to one another. The actual meaning of these equations is that the energy of one individual particle of light, one photon, is given by $E = h \nu$ or $E = \frac{hc}{\lambda}$.
+
+For example, let's consider a photon of red light. If you look around, you won't have to search far to find a red LED. Let's say the light coming from that LED has a wavelength of 671 nanometers, which is a common wavelength for red light. If I ask you what the energy of the photons of light with this wavelength is, we can plug into this expression: $E = \frac{hc}{\lambda}$ to work through the example and see what the units and numerical values are like. 
+
+Planck's constant, as I mentioned, is $6.626 \times 10^{-34}$ joule-seconds, and the speed of light is another constant, $2.998 \times 10^{8}$ meters per second. If I divide that by the wavelength, $671$ nanometers or $671 \times 10^{-9}$ meters, we have a simple set of numbers to multiply and divide. When we do that, the energy works out to be a tiny number of joules. 
+
+So, the important thing to keep in mind about these equations for light is that they not only tell us the relative values of wavelengths and frequencies, but they also indicate that the energy of a single photon of light of this red color, with a wavelength of 671 nanometers, is quantized. When I say light is quantized, I mean that light comes in quanta; it comes in discrete packets that cannot be subdivided any further. If I have one photon of light, it has a specific amount of energy, let's say $3 \times 10^{-19}$ joules. I can have that much energy from one photon, or if I have two photons of light, I can have twice that much energy. However, I cannot have $4 \times 10^{-19}$ joules worth of red light; I can only have one photon, two photons, three photons, or a large number of photons, but it has to be an integer number of photons. Each photon has this much energy if they all have the same wavelength.
+
+This quantization is a key feature of quantum mechanics. The reason we call it quantum mechanics is that it describes how things are quantized. For each of these features of quantum mechanics that I will point out over the next few video lectures, I will highlight something that you already knew: light is made up of photons and some equations. I will also discuss the evidence for how we know nature behaves this way. 
+
+How do we know that light is made up of photons as opposed to being a continuous wave? We have known this about light ever since we started studying the photoelectric effect over a century ago, in 1905. The photoelectric effect is something you may be familiar with, even if you haven't heard the term before. It is what opens the grocery store door for you when you walk into an automated opening door or what keeps a garage door from closing on you if you pass your hand or a car in that invisible beam that triggers the door to go back up. This all works based on the photoelectric effect.
+
+The name tells us that "photo" means light and "electric" refers to electricity or electrons. The photoelectric effect occurs when I shine light of a particular frequency or wavelength on a surface, usually a metal surface, although it could be any surface. Under certain conditions, that surface can eject an electron. If the energy of the incoming light is greater than the energy required to bind the electron to the metal surface, which we call the work function (usually denoted by the symbol $\Phi$), then I can send in a photon with enough energy to remove an electron, and that electron gets kicked out and flies away through vacuum or air or whatever medium is above the metal.
+
+In terms of equations, the kinetic energy of the ejected electron is equal to the energy of the incoming photon minus the work function. If we study the photoelectric effect and examine how the kinetic energies or other properties depend on the color of light we send in, we can measure what is called the photocurrent, denoted as $I$. Essentially, this is just the number of electrons that get ejected from the sample. These electrons can be used as electricity, and I can measure how many of them there are, which shows up as a current.
+
+If I ask how many electrons get kicked out as I change the frequency of the light, the graph looks like this: at low frequencies, no electrons get ejected by the photoelectric effect. Once I reach a cutoff frequency, which I will call $\nu_0$ (or $\nu$ naught), I suddenly start getting electrons ejected, but that number does not change as I continue to increase the frequency. 
+
+I could also ask how the kinetic energy of those electrons changes as I increase the frequency, changing the light from red to yellow to green to blue to violet to ultraviolet. By increasing the energy of the photon through changing its frequency, we can see what happens to the energy of the electrons that get ejected. This equation tells us that $E = h \nu$ is the incoming energy, $\Phi$ is the amount I have to pay to remove the electron, and as long as I have enough energy to remove an electron, all the excess energy goes into the kinetic energy of the ejected electron. 
+
+As long as I have more than enough energy to kick out an electron, all the excess energy goes directly into the kinetic energy of the electron that gets ejected. These two graphs make sense when we think of this as individual photons coming in, having enough energy to pay for the work function or not, with all the excess energy going into the kinetic energy. This understanding aligns with the idea that light is composed of photons.
+
+Before 1905, when we did not know that light was made of particles and thought of it purely as a wave, these results did not make sense. At that time, the natural way to think about the kinetic energy graph would have been to expect that if you shine a continuous wave of light at a surface, the energy of the electrons ejected from that surface would depend on the energy of the incoming wave. This is akin to asking what happens when water waves approach a beach and how much energy is transferred to the sand particles that get dislodged.
+
+The expectation would have been that the more energy I put into the surface, the more energy the displaced particles would have. There was no idea of a threshold because, even if the individual waves had relatively low frequency, we could always increase the amplitude of the waves. We could always send more waves at the beach or shine a brighter light onto a surface, and surely that would dump more energy into the surface, thus kicking out electrons with higher energy. 
+
+This is what would have been predicted if light behaved like a wave, where more frequency clearly means more energy. However, this is not what actually happens. It took some reevaluation, and eventually, we realized that light is made of individual particles. Only one quantum, one particle of light, has enough energy to pay to remove an electron. This is the threshold at which electrons are either ejected or not. If they are ejected, all the excess energy goes into the kinetic energy of the electron.
+
+As I mentioned, this is one piece of evidence for why we know light is actually made of photons. It turns out that light is not the only thing that is quantized; it is composed of discrete individual amounts of energy. Next, we will discuss other things that are quantized besides light.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

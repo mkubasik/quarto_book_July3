@@ -1,0 +1,58 @@
+#  H Atom (Example l=0 Radial Wavefunction)
+## H Atom (Example l=0 Radial Wavefunction) (11:20) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/Yo8UKnNJ4OM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## H Atom (Example l=0 Radial Wavefunction)  Video Transcript { .unnumbered}
+
+
+All right, so now our task is to see if we can understand the solutions to the $l = 0$ version of the radial portion of the hydrogen atom Schrödinger equation. Remember, we've broken down the Schrödinger equation into a radial piece and an angular piece. The radial version of the Schrödinger equation, in the specific case where $l = 0$, is this equation right here. It is possible to treat this formally and solve it as a formal differential equation, but we're going to take a somewhat simpler approach right now. We will simply demonstrate that a function of this form, an exponentially decaying function, can solve the radial version of the Schrödinger equation when $l = 0$. 
+
+So, that's what we'll do now. Let's start by taking these terms one at a time. Remember, this means taking the $r$ derivative of the function, then multiplying by $r^2$, then taking another derivative, dividing by $r^2$, and multiplying these by the constants. We'll do that step by step. 
+
+Here’s our function. The $r$ derivative of that function, where the derivative of an exponential just pulls down the exponent, looks like $-c e^{-cr}$. If I then bring in the $r^2$, I have $r^2 \times (-c e^{-cr})$, which gives me $-c r^2 e^{-cr}$. Now I have another $r$ derivative to take. So now I have $2r$, and I need to use the product rule. The derivative of $r^2$ is $2r$, so the first piece looks like $-2cr$, leaving the exponential alone. The product rule says to leave the $-cr^2$ alone and pull down another $-c$ when I take the derivative of the exponential. So, that negative $c$ times this negative $c$ gives me $c^2$, and then I still have $r^2$ and the exponential. 
+
+That’s what I get after taking the $r$ derivative of this piece. Now, what I have left to do is divide by $r^2$ and multiply by these constants. Let me go ahead and rewrite this all now in orange since I've done my intermediate work. I've got $-$ these constants times these constants, which also have a negative sign, so I'll write $\frac{h^2}{8\pi^2 m}$. I have a $\frac{1}{r^2}$ multiplying by this $r$, so that’s a $\frac{1}{r}$. I’ve got a $2$ and a $c$, so I’ll write that here: $2c \cdot \frac{h^2}{8\pi^2 m}$. I have an exponential, $e^{-cr}$. 
+
+I’ll go ahead and rewrite that now since I'm done taking derivatives. Every time I see $e^{-cr}$, I’ll just rewrite that as $R$. I’ve taken these constants and multiplied by the first term. Now I need to take these constants and multiply by the second term. So now I've got $-\frac{h^2}{8\pi^2 m} \cdot \frac{1}{r^2}$, which exactly cancels this $r^2$, and I still have a $c^2$ in this term and then $e^{-cr}$, which I’ll write as $R$. 
+
+That’s the full result of taking these constants times the derivative of $r^2$ times the derivative of my radial function. I can then go ahead and write down my Coulomb term. That looks like $-\frac{ze^2}{4\pi \epsilon_0} \cdot \frac{1}{r} \cdot R$ and my energy term $-E R$. That should equal zero if indeed this is a solution to the Schrödinger equation, to the radial portion of the Schrödinger equation. That’s zero. I’ll write a question mark because we’re still just double-checking whether that’s true or not. 
+
+So we can ask ourselves now, is this true? In order for this to be true, everything on the left-hand side of the equation has to completely cancel. I have two terms that look like $\frac{1}{r} \cdot R$, so those two terms need to completely cancel each other. I also have two terms that just look like my function of $r$ multiplied by constants, so those terms also have to cancel each other. 
+
+If I take the first and the third terms first, this $\frac{1}{r}$ term needs to cancel this $\frac{1}{r}$ term in order for my function to be a solution to the Schrödinger equation. So we need two things to be true: we need the first and the third terms to cancel. I need the constants $\frac{2c h^2}{8\pi^2 m} - \frac{ze^2}{4\pi \epsilon_0}$ to be zero. That’s the condition I need in order for the first and third terms to cancel. 
+
+Those certainly don’t look the same as each other, and I don’t have the flexibility to choose very many of these variables except for $c$. So $h$, $\pi$, the mass of an electron, the charge of an electron, and the permittivity of vacuum are fixed. However, $c$ is just a constant. I’ve said, let’s see if this exponential solves the Schrödinger equation. It certainly wouldn’t solve the Schrödinger equation for an arbitrary value of $c$, but I can solve for the particular value of $c$ that does make this a solution to Schrödinger’s equation. 
+
+If I rearrange this equation to solve for $c$, I take the second term, the $\frac{ze^2}{4\pi \epsilon_0}$ term, and put it on the right side. So, that’s not correct: $\frac{ze^2}{4\pi \epsilon_0}$. Then I take everything that’s not a $c$ in this term, the $\frac{2 h^2}{8\pi^2 m}$, and I flip them upside down. So, $\frac{8\pi^2 m}{2 h^2}$. 
+
+After some cancellation, this $4$ will turn that $8$ into $2$, which will also cancel that $2$. This $\pi$ will cancel one of these $\pi$s, and what I’m left with is $\frac{ze^2 \cdot \pi \cdot m}{\epsilon_0 h^2}$ as the value of my constant $c$. 
+
+So, let’s pause and talk about that for a minute. That is the particular value of $c$ that makes this a solution to the Schrödinger equation, to the radial portion of the Schrödinger equation. If you notice, this value $c$ multiplies $r$ by an exponential, so the units of $c$ must be $\frac{1}{\text{length}}$. One over length times length makes this unitless, like the exponent of an exponential must be. So we know that this collection of constants must have units of $\frac{1}{\text{length}}$. 
+
+Let’s define something that has units of length. If I take all these constants and turn them upside down, I’ll say $\frac{\epsilon_0 h^2}{\pi m e^2}$ and I’m leaving out the $z$ intentionally. So that collection of constants, since $z$ is unitless, must have units of length since I’ve turned it upside down. That is the thing that we’re going to call the Bohr radius. 
+
+That turns out to be a pretty important quantity in understanding the size of an electron in a hydrogen atom or in hydrogen-like ions, as we’ll see more in the future. This particular collection of fundamental constants defines the thing called the Bohr radius, which has a value of about half an angstrom. So, what that means is this constant $c$ that we’re talking about—I haven’t included the value of $z$ in the Bohr radius. All these other constants are $\frac{1}{\text{Bohr radius}}$, and so the constant $c$ is the atomic number of the atom we’re talking about divided by the Bohr radius. 
+
+We’ve succeeded in doing two things. Number one, we’ve determined that this exponential does, in fact, solve the radial portion of the Schrödinger equation if $c$ has a particular value. We solved for that particular value of the constant $c$. We have one more thing left to do, which is to guarantee that this second term also cancels the fourth term in order to solve the Schrödinger equation. 
+
+The second term, which is constants multiplying by $r$, needs to cancel the fourth term, which is this constant that we call the energy multiplying $r$. In order for that to be true, the other requirement that we have is that $-\frac{c^2 h^2}{4\pi \epsilon_0} + \frac{c^2 h^2}{8\pi^2 m}$ must equal zero. So we’ve determined what the value of $c$ needs to be. What’s left here is the energy. If this function solves the radial Schrödinger equation, the energy will have a particular value. That value of the energy will be $-\frac{c^2 h^2}{8\pi^2 m}$. 
+
+Since we now know what $z$ is and what $c$ is, $c$ is the atomic number divided by the Bohr radius. We can rewrite this as $-\frac{h^2}{8\pi^2 m}$ and then $c^2$ will be $\frac{z^2}{a_0^2}$. So that is the energy value $E$ when this exponential function is inserted and solves the Schrödinger equation.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

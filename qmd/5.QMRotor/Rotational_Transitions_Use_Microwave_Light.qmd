@@ -1,0 +1,58 @@
+#  Rotational Transitions Use Microwave Light
+## Rotational Transitions Use Microwave Light (11:30) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/t3a9DzOJCJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Rotational Transitions Use Microwave Light  Video Transcript { .unnumbered}
+
+
+Here is a collection of things that we know so far about the energy levels for rigid rotors and for diatomic molecules that we can approximate with the rigid rotor model. We know that there is a sequence of energy levels described by an equation where the rotational constant helps us simplify many of these constants. The difference in energy between any pair of these states can be calculated. The difference between the $L$ and $L + 1$ energy levels can be given by the expression $2 \cdot B_E \cdot (L + 1)$. This represents the gap between any two energy levels for typical diatomic molecules. 
+
+We could model anything we want using the rigid rotor model. For instance, we could take an object like this marker and model its rotational motion with the rigid rotor model. All we need to know is its reduced mass and the length of the object. However, if we use the rigid rotor model to model diatomic molecules based on the typical reduced masses and bond lengths for these molecules, we get a range of different energy differences. This variation is partly due to the different chemical properties of the molecules and partly due to the fact that each of these $\Delta E$ values is slightly different from the others. 
+
+The transitions for diatomic molecules typically occur at energies that can be spanned by photons. If we want to talk about their frequencies, it's in the range of roughly $10^9$ to $10^{11}$ inverse seconds, or hertz. Depending on the molecule and the specific gap we are discussing, these can span a pretty large range. The wave numbers of those photons are typically in the range of a tenth to a few tens of inverse centimeters. 
+
+Particularly light quantum mechanical molecules, like $\text{H}_2$ or $\text{HCl}$ or any molecule involving a hydrogen atom, will have a particularly small reduced mass. Consequently, the wave numbers for those transitions will be on the higher end of this range. In contrast, very heavy diatomic molecules, such as $\text{Br}_2$ (bromine) or iodine molecules, will have wave numbers of only tenths of an inverse centimeter or so to span the differences between their energy levels. 
+
+Since we frequently discuss these energy differences in terms of the wave number of the photon required to generate that much energy, it is convenient to rewrite some of these equations in terms of wave numbers rather than in units of energy. For example, if I take the expression for the gap between any two successive states, which is $2 \cdot B_E \cdot (L + 1)$ for the $L$ to $L + 1$ transition, I know that energy is related to wave number as $\Delta E = h c \cdot \tilde{\nu}$. 
+
+If I divide through by $h c$, the wave number is equal to the energy difference divided by those two constants, Planck's constant and the speed of light. Thus, if I divide both sides by $h c$, the equation now has units of wave numbers on both sides. Anytime we write something in units of wave numbers, we place a tilde on top. When I write this difference in energy but want to express it in units of inverse length, I can write it as $\tilde{\Delta E}$. This notation indicates that we take $\Delta E$ and convert it to units of wave numbers by dividing by $h c$. 
+
+On the right side, I can write $2 \cdot \tilde{B}$, which tells me that I take whatever the rotational constant is (which has units of energy) and convert it to units of wave numbers by dividing by $h c$. This is a more compact version of the equation. It is exactly the same as the previous equation, but this one is written in terms of energies, while the other is in terms of wave numbers. 
+
+This suggests that when we are doing spectroscopy and discussing the wavelength, frequency, or wave number of light required to cause transitions between energy levels for a rotating diatomic molecule, we are more interested in the rotational constant expressed in units of wave numbers. To do this, we simply take the rotational constant and divide it by $h c$. 
+
+The rotational constant $\frac{h^2}{8 \pi^2 \mu r^2}$ with an extra $h c$ in the denominator becomes a more complicated collection of constants when we want it in units of wave numbers. Let's work through a quick example to see how this works. If we take the carbon monoxide molecule, for which we know the rotational constant is $3.82 \times 10^{-23}$ joules, we can find the rotational constant in units of wave numbers. 
+
+To do this, we divide the rotational constant by Planck's constant (joule-seconds) and also divide by the speed of light ($3 \times 10^8$ m/s). Let's consider the units. In this fraction, I have joules on top and joules on the bottom. In the denominator, I have seconds and a reciprocal second that cancel. What I am left with is nothing in the numerator and meters in the denominator. Thus, the answer will come out in units of $\text{m}^{-1}$. 
+
+Calculating this gives us $192 \, \text{m}^{-1}$. However, we prefer wave numbers in units of inverse centimeters rather than inverse meters. Dividing by 100 to convert meters into centimeters gives us $1.92 \, \text{cm}^{-1}$. Therefore, the rotational constant in units of wave numbers is $1.92 \, \text{cm}^{-1}$. 
+
+What does this mean? It means that if we do not want to think about the energy ladder, but instead want to consider the frequencies or wave numbers of light needed to excite these transitions, we can place a tilde on top of each of these quantities. The gaps between these energy levels are either $2 \cdot \tilde{B}$ in units of inverse centimeters, or $4$, $6$, or $8$ times that quantity. 
+
+If I pull up a picture of the absorption spectrum for carbon monoxide in the microwave portion of the spectrum, we see that each line on the spectrum corresponds to a particular frequency given in units of wave numbers. If there is a line, it indicates that the molecule absorbs light at that frequency or wave number. From this calculation, we would expect carbon monoxide to absorb light with energy of $2 \cdot \tilde{B}$. Thus, $2 \cdot 1.92$ would be $3.84$, which should appear somewhere on the spectrum. 
+
+We also see lines corresponding to $4 \cdot \tilde{B}$, $6 \cdot \tilde{B}$, $8 \cdot \tilde{B}$, and so on. For instance, one line appears at about $7.6 \, \text{cm}^{-1}$, which corresponds to $4 \cdot \tilde{B}$. Another line, slightly larger, corresponds to $6 \cdot \tilde{B}$. We also have lines at $8 \cdot \tilde{B}$, $10 \cdot \tilde{B}$, $12 \cdot \tilde{B}$, $14 \cdot \tilde{B}$, and so on. 
+
+These lines correspond to many different transitions, more than I have drawn on this diagram. In fact, we can infer from the heights of these curves how many molecules are present, waiting to absorb light at a certain frequency. The peak with the highest intensity, such as $2B$, $4B$, $6B$, corresponds to transitions beginning at $L = 0$, $L = 1$, $L = 2$, and so forth. 
+
+Counting our way up, we find that the peak corresponds to the $L = 13$ to $L = 14$ transition. The height of this peak indicates that under the conditions in which the spectrum was taken, the $L = 13$ energy level had many molecules waiting to absorb a photon. This explains why it absorbed more light at this frequency than the energy levels with lower quantum numbers, which have less degeneracy, and also more than those at much higher quantum numbers, which are so high up that they are not very well populated. 
+
+This curve emphasizes what we have already seen about the intermediate levels being most populated. Thus, we conclude that rotational transitions for these diatomic molecules tend to be in the microwave portion of the spectrum, ranging from a few tenths to a few tens of wave numbers depending on the molecule. We can calculate these quantities quantitatively based on what we know about the energy levels and the rotational constants, allowing us to predict or understand the spectrum of frequencies of light that these molecules absorb in the microwave portion of the spectrum.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

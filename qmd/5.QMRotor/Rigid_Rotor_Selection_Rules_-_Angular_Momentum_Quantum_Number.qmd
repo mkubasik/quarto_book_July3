@@ -1,0 +1,56 @@
+#  Rigid Rotor Selection Rules - Angular Momentum Quantum Number
+## Rigid Rotor Selection Rules - Angular Momentum Quantum Number (10:15) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/SBWth7Gc3A4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Rigid Rotor Selection Rules - Angular Momentum Quantum Number  Video Transcript { .unnumbered}
+
+
+We can continue our investigation of what it takes to make the transition dipole moment either zero or non-zero, making the transition forbidden or allowed. So far, we've determined that the φ portion of this integral, when we insert the rigid rotor wavefunctions into this integral, yields terms that involve Legendre polynomials and $e^{im\phi}$. The φ portion of the integral tells us that the magnetic quantum number is not allowed to change if the molecule is to absorb electromagnetic radiation to change its rotational state. 
+
+The next question is, for this more complicated-looking integral, by how much is the angular momentum quantum number $l$ allowed to change? We will focus on this θ integral. One step we can immediately take to simplify this integral is to observe that the Legendre polynomials in this cosine θ term all depend on $\cos(\theta)$, while the integration variable is $\sin(\theta) d\theta$. If we simplify this a little bit using $u$-substitution—or, more accurately, $x$-substitution—let's define $x$ as shorthand for $\cos(\theta)$. Then $dx$ will be $-\sin(\theta) d\theta$. 
+
+Since $\sin(\theta) d\theta$ already appears in this integral, I can rewrite the whole integral in a simpler form: the integral of $P_m$ as a function of my shorthand $x$ times $P_{l'}^{m'}$ also as a function of $x$. This cosine θ can now be written as $x$, and $\sin(\theta) d\theta$ can be written as $dx$. This integral will now go from 0 to $\pi$; $\cos(\theta)$ makes this go from 1 to -1. 
+
+That's at least a simple way of writing down the integral. To make progress with that integral, we could certainly plug in specific values, like the $0, 0, 1, 0$ example we've considered previously. However, to do anything with that in the general case, we need to remember that there is a recurrence relation between these Legendre polynomials. We've previously discussed a recursion relation for the plane Legendre polynomials, the ones with $m = 0$ as a superscript. I will write down for you now what that recurrence relation looks like for the associated Legendre polynomials, where $m$ is allowed to be non-zero, as these very well could be. 
+
+What that tells us is that the $(l + 1)$-th Legendre polynomial can be written in terms of $x$ times the $l$-th polynomial minus $(l + m)$ times the $(l - 1)$-th Legendre polynomial. This is similar to, but not exactly the same as, the recurrence relation we've seen previously for the Legendre polynomials with $m = 0$. More importantly for our purposes, we need to remember that we don't really care about the numerical value of the constants in this integral; we just want to know if there's anything that will cause it to completely become zero or not. 
+
+So, I will rewrite this equation as the $(l + 1)$-th associated Legendre polynomial equal to $x$ times the $l$-th polynomial minus the $(l - 1)$-th polynomial. Recognizing that there are some constants out front that I'm not going to bother with—these might depend on the values of $l$ and $m$; they might be twos, threes, or ones, but they will not be zero, and the specific values won't affect whether the integral equals zero or some other value. 
+
+The next step is to recognize that since I have an $x$ in this integral, and $x$ times one of these Legendre polynomials looks like this, if I rearrange this equation a little bit, I can see that $x$ times the $l$-th Legendre polynomial is equal to the $(l + 1)$-th, and if I bring the $(l - 1)$-th over to the other side, I'm adding the $(l - 1)$-th Legendre polynomial. Thus, $x$ times the Legendre polynomial is some combination of the one above it with $(l + 1)$ and the one below it with $(l - 1)$. 
+
+Again, remembering that there are some constants out front of these numbers that I'm not bothering to write down, this is enough for me to use in this expression. If I have $x$ times a Legendre polynomial, either $x$ times this one or $x$ times this one, I can rewrite it as the one above it and the one below it. So let's do that. Let's take this $x$ times the $P_{lm}$ Legendre polynomial so that it's in exactly the form I've got written here. Those terms I've underlined in pink can be rewritten as the one above it, $P_{l + 1}$, and the one below it, $P_{l - 1}$. 
+
+That's rewriting $x$ times the $P_{lm}$ term. Those are still multiplying this $P_{l'}^{m'}$ term. The good news is I've made the $x$ go away. If I simplify this integral a little bit and distribute this product, this integral of a sum can be written as the sum of two integrals. I've got the integral of $P_{l + 1}$ times $l'$ from this term multiplied by this term, and I've also got the one with $(l - 1)$ from this term multiplying this term, so $P_{l - 1}$ multiplying $P_{l'}$. 
+
+Now, the last thing we have to remember is that these associated Legendre polynomials are mutually orthogonal to one another. If I have the integral of two different Legendre polynomials over the appropriate coordinates and the appropriate bounds, then that integral will come out to zero. If I integrate one with itself, it will not equal zero, but if I integrate two different ones, they are mutually orthogonal, so that integral will come out to be equal to zero. 
+
+This integral looks like I've got two different Legendre polynomials, $(l + 1)$ and $l'$. First of all, let me point out that from the magnetic quantum number, we know that these two numbers are indeed the same. The magnetic quantum number contribution to the integral will go to zero unless there is no change in the magnetic quantum number. Therefore, for any transition that is allowed, the $m$ values will already be equal to each other. The same applies here; $\Delta m$ has to be zero, so the superscripts will be the same for any integral that matters. 
+
+The question is, what about the subscripts $(l + 1)$ and $l'$? If those are different numbers from one another, this whole integral goes away. Thus, this integral will be zero unless $l'$ is equal to $(l + 1)$. Likewise, this integral will be zero unless $l'$ is equal to $(l - 1)$. The orthonormality of these Legendre polynomials guarantees that this will be zero unless these are both the same Legendre polynomial. 
+
+If $l'$ is equal to $(l - 1)$, then that will save this integral. What that means is we've now determined the selection rule. Let's say we have $l$ changing by some value. If $l'$ changes by five, then since $l'$ is five higher than the starting value, it is not true that $l'$ is equal to $(l + 1)$, nor is it true that $l'$ is equal to $(l - 1)$. Therefore, both integrals will be zero, and the entire θ integral will be zero. 
+
+If $l$ changes by five, both these integrals are zero, and the transition is forbidden. The only way to make at least one of these integrals not equal to zero is if I'm changing $l$ by plus one. In this case, $l'$ could be one higher than $l$, or if I'm changing by negative one, if the value of $l$ is decreasing by one, then this integral will be non-zero. 
+
+What that means is our selection rule for the angular momentum quantum number $l$ is that it is allowed to change by plus one or minus one. If it changes by any other value, then this θ contribution to the integral will be zero. We had seen previously that the selection rule for the magnetic quantum number is that the change in the magnetic quantum number has to be zero; it is not allowed to change. 
+
+So, these two selection rules together tell us which transitions are allowed or forbidden for a rigid rotor. These are the conditions that a transition must meet in order for it to be allowed; anything else in the transition will be forbidden.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

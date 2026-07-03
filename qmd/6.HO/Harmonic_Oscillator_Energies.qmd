@@ -1,0 +1,38 @@
+#  Harmonic Oscillator Energies
+## Harmonic Oscillator Energies (6:30) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/M5Jy-o7-iCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Harmonic Oscillator Energies  Video Transcript { .unnumbered}
+
+
+We have managed to come up with a whole family of solutions for the wave functions to solve the harmonic oscillator Schrödinger equation. They all have the form of some Hermite polynomial multiplying a Gaussian. In particular, we have seen that for the ground state wave function, the simplest of these functions has just a constant in front of the Gaussian. When we plug that wave function into the Schrödinger equation, the energy turns out to be $\frac{1}{2} h \nu$, where $h$ is Planck's constant and $\nu$ is the vibrational frequency of the harmonic oscillator we are discussing.
+
+We have not plugged any of the other wave functions into the Schrödinger equation, and we won't do that now. That would be a good problem; you will likely work on those as homework problems at some point, or they could serve as good exercises. If you want to, between videos, take any one of these wave functions and plug it into the harmonic oscillator Schrödinger equation. Some terms will cancel, and the terms that do not cancel will end up telling you the energy of the wave function multiplied by the original wave function.
+
+If I plug the wave function with the linear polynomial in front of the Gaussian into the Schrödinger equation, I do not get $\frac{1}{2} h \nu$ as the energy of the wave function; I get $\frac{3}{2} h \nu$. Similarly, if I plug the $\psi_2$ wave function into the harmonic oscillator Schrödinger equation, I will get the energy of the $n = 2$ wave function, which turns out to be $\frac{5}{2} h \nu$. This pattern repeats. Notice that the energies are $\frac{1}{2}$, $\frac{3}{2}$, $\frac{5}{2}$; they are increasing by $\frac{1}{2}$ each time. In other words, the energy is $\frac{1}{2}$ for the $n = 0$ wave function, $1.5$ for the $n = 1$ wave function, $2.5$ for the $n = 2$ wave function, and for the $n$th wave function with this general form, the energy is $\left(n + \frac{1}{2}\right) h \nu$.
+
+If I draw an energy ladder for the energy levels of a harmonic oscillator, here is the bottom: there is zero energy. The ground state, the lowest energy wave function, is this one with energy $E_0$, which is equal to $\frac{1}{2} h \nu$. The next one up is three times larger, $\frac{3}{2} h \nu$, so somewhere around here will be the energy of the $n = 1$ wave function, and then an equal amount higher will be the $n = 2$ wave function, and so on. Notice that the gap between the $E_0$ and $E_1$ wave functions, $\frac{3}{2} h \nu - \frac{1}{2} h \nu$, is one factor of $h \nu$; that is the difference in energy between these two successive states. Likewise, the difference between $E_2$ and $E_1$, $\frac{5}{2} h \nu - \frac{3}{2} h \nu$, is also one factor of $h \nu$, and this continues as we go up the ladder. Every pair of states increases its energy, and every successive pair of states has a difference of energy of $h \nu$ because every energy level increases by an increment of exactly $h \nu$ as we climb the ladder.
+
+There are two very important features of the harmonic oscillator energies that we have just written down. First of all, $\Delta E = h \nu$ between every pair of successive states. In other words, as I climb the ladder, the gap between states remains exactly the same. That is different from what we observed for the particle in a box or for the rigid rotor, where that spacing changed as I climbed the energy ladder. Here, the energy gaps remain constant as I climb the ladder.
+
+The other important point worth mentioning is that the ground state energy, the energy for the $n = 0$ state, is equal to $\frac{1}{2} h \nu$. The relevant fact here is that this number is not zero; it is greater than zero. The lowest energy is a positive energy, so there is no way to lower the energy of the system any lower than $\frac{1}{2} h \nu$. In particular, I cannot get the energy all the way to zero. No matter what energy level the system is in, it cannot have zero energy; it must at least have $\frac{1}{2} h \nu$ worth of energy, and often more than that. Therefore, we say that the system has a zero-point energy, often abbreviated as ZPE. Saying the system has a zero-point energy essentially means that if we bring it down to its lowest, zeroth energy level, it has some non-zero amount of energy. When it is at that zero point, no matter how cold we make the system or how low the state it occupies, it always has some non-zero energy. We can never fully remove all the energy from the system because we cannot drop below the zeroth energy level; we cannot drop the energy below $\frac{1}{2} h \nu$. 
+
+So, when we say this system has a zero-point energy of $\frac{1}{2} h \nu$, or if the system has a zero-point energy in general, it just means that it has some energy that we cannot fully get rid of in the system. These two features—the fact that our harmonic oscillator has a zero-point energy and the fact that the gaps between these energy levels remain constant as I climb the ladder—will combine to have some pretty important consequences when we describe the properties of a harmonic oscillator, particularly the properties of a diatomic molecule vibrating and acting as a harmonic oscillator. This will affect their spectroscopy, the colors of light that the molecule will absorb, as well as their thermodynamic properties. But before we go on to talk about those properties of the molecules, since we have now written down both the energies and the wave functions, we can discuss a little more about how those two properties of the harmonic oscillator interact and what that tells us about the harmonic oscillator.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

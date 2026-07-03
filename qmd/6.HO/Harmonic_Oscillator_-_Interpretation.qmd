@@ -1,0 +1,70 @@
+#  Harmonic Oscillator - Interpretation
+## Harmonic Oscillator - Interpretation (11:44) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/v835gv9ivTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Harmonic Oscillator - Interpretation  Video Transcript { .unnumbered}
+
+
+So, this is a good point to step back and look at the big picture and see what we understand about the harmonic oscillator so far. As a quick recap, we started by saying that if the potential energy is quadratic, given by $\frac{1}{2} k x^2$, we can use that to solve Schrödinger's equation and obtain these wave functions. These wave functions have a particular set of energies. 
+
+Let's draw some pictures and see what that tells us about the properties of this harmonic oscillator. To start with the energy, I will draw an energy ladder, as we've seen before. Here are the energies: I'm going to draw the energy of each level. There is an energy at $\frac{1}{2} h \nu$, somewhat higher there is an energy of $\frac{3}{2} h \nu$, and then an equal amount higher, there is an energy of $\frac{5}{2} h \nu$. That ladder continues with equal spacing as I climb up. So, that's what we know about the energies.
+
+Since this is a graph of energies, let's draw the potential energies on the same graph. The potential energy is also a function of $x$. If I make this a two-dimensional graph with energy or potential energy as a function of $x$, then that parabola, which represents the quadratic function, is zero when $x = 0$ and increases parabolically as $x$ increases. I've drawn a poor parabola, but that's supposed to represent the potential energy function.
+
+Now, if I attempt to superimpose a graph of what the wave functions themselves look like on top of the same graph, we can use that composite graph to understand a little bit about the harmonic oscillator. Let me do that with a different color. We have different wave functions at every energy level. The zeroth level has the wave function $\psi_0$, the first energy level has the wave function $\psi_1$, and the second energy level has the wave function $\psi_2$. 
+
+I can draw several different wave functions. If I treat this as the baseline for the wave function, I know what the zeroth wave function looks like; it looks like a Gaussian, which we've drawn before. So, the wave function looks like that. Squaring the wave function gives us a Gaussian shape but with a different exponent. 
+
+Now, I'll draw $\psi_1$ as well. Remember, $\psi_1$ looks like $x e^{-\alpha x^2 / 2}$. If I draw that wave function and superimpose it on top of the $n = 1$ energy level, it starts out negative, goes positive, and decays as $x$ becomes large in either direction. So, that's the wave function with a single node at $x = 0$. 
+
+The wave function $\psi_2$ is similar but has two nodes. Here’s a different baseline: I'll draw $\psi_2$ starting positive, going negative, then positive again, and decaying at the edges. 
+
+This shows us several things. First of all, make sure you understand what we've drawn here. I've drawn three different things on the same graph: the energy levels themselves, the shape of the potential energy function, and now with this last curve, the blue curve, I've drawn the shape of the wave functions. In particular, those wave functions are all at different baselines. This is $\psi = 0$ for the $\psi_2$ wave function, this level is $\psi = 0$ for the $\psi_1$ wave function, and this is $\psi = 0$ for the $\psi_0$ wave function. 
+
+I've drawn the $x$-axis essentially at different heights for each of these three wave functions to keep them from sitting on top of each other and make them easier to see. The other thing this shows us is that remembering what the wave function means, the wave function tells us where I'm likely to find the particle. In particular, I have to square the wave function to find out where I'm likely to find the particle. 
+
+In the $\psi_0$ wave function, I'm most likely to find the particle near the center, near $x = 0$, where the potential energy is zero. So, that makes sense: I'm most likely to find the wave function where the potential energy is small. As I switch to more and more excited states, I'm able to find the particle in other regions, not just where the wave function is large because the potential energy is low, but also in some regions where the potential energy is considerably higher. 
+
+Thus, the higher the excited state of the harmonic oscillator, the more likely I am to find the $x$ value far away from the origin. Think about what that means for an oscillating diatomic molecule: I don't just find it at the equilibrium distance; I also find it at stretched or compressed values of the bond as well. So, when I excite the harmonic oscillator, a quantum mechanical molecule, I find that it's more commonly found at small or large values of the bond displacement.
+
+There are also some similarities between the wave functions we've just drawn for the harmonic oscillator. This is all for the harmonic oscillator model. If we think back to what a similar graph would have looked like for the particle in a box, we never drew that graph, but if I draw a similar graph for the one-dimensional particle in a box, I will do that quickly. Remember, for the particle in a box, the particle was found between $0$ and $a$. The potential energy for the particle in a box is zero when I'm inside the box and infinitely large when I'm outside the box. 
+
+So, the graph goes up to infinity as I reach the edges of the box. The energy levels, which I should have drawn in pink, are represented by $E_n$. Those were $E_2$, $E_3$, and so on, which correspond to $\frac{h^2}{8m a^2} \times 1$, $\frac{h^2}{8m a^2} \times 4$, $\frac{h^2}{8m a^2} \times 9$, and so on. 
+
+Now, the wave functions I will draw in blue. These had perhaps one node, or perhaps two nodes, or perhaps three nodes, depending on which state of the particle in a box we were discussing. Those were functions that look like $\sin\left(\frac{3 \pi x}{a}\right)$, for example. 
+
+Now that I've drawn both of those, we can see there are some similarities and some differences. In particular, the wave functions tend to oscillate. Both the harmonic oscillator wave function and the particle in a box wave function tend to oscillate. The third wave function, not the ground state but the second excited state, has three individual regions: it goes positive, then negative, then positive. The same is true for the harmonic oscillator: positive, then negative, then positive. 
+
+As a side effect of that, the wave functions have nodes. If I'm switching from positive to negative, I have to have a node; I have to have a region where the wave function reaches zero. There are two nodes in this wave function for the harmonic oscillator, just like there are two nodes in the third wave function for the particle in a box as well. 
+
+However, there are some distinctly different aspects between the harmonic oscillator and the particle in a box. The reason for the oscillation, or the mathematical form of the oscillation, is a little bit different in these two cases. I've got $e^{-\alpha x^2}$ for the harmonic oscillator and $\sin\left(\frac{n \pi x}{a}\right)$ for the particle in a box. So, there's clearly a difference between the trigonometric oscillations and the exponential Gaussian-shaped oscillations. 
+
+The nodes in this case are formed by the zeros of the polynomial that sits out in front of the wave function, which is the Hermite polynomial. The zeros for the particle in a box are caused by the trigonometric functions themselves. 
+
+Another difference is the boundary conditions. For the particle in a box, you'll remember we spent quite a bit of time ensuring that the wave function reached zero at the edges of the box because the potential energy was becoming infinite. The probability of finding the particle at the edge of the box had to reach zero, so we had to make sure the wave function reached zero at the edge of the box. 
+
+That is quite clearly not happening for the harmonic oscillator. These Gaussian functions don't reach zero when they hit the potential energy wall of this box; they asymptotically decay to zero and do so very gradually, never quite reaching zero until $x$ reaches negative infinity or positive infinity. So, that's an important difference between the harmonic oscillator, which in principle can have any amount of bond stretch or bond compression, and the particle in a box, where the particle is not allowed to escape the box.
+
+Another similarity, rather than a difference, between these two models is that they both have some zero-point energy. We've talked about how the harmonic oscillator has some energy even in the ground state; the energy of $\frac{1}{2} h \nu$ is above zero. The same is true for the particle in a box: the ground state, or $E_1$ state, has an energy that's larger than zero. So, both models do have some zero-point energy.
+
+The last point to note between these two models is the types of energy that we're discussing. Remember that for the particle in a box, the potential energy was zero, which meant that the only type of energy that model had was kinetic energy. In the harmonic oscillator, we do have some potential energy, so the harmonic oscillator has both kinetic energy and potential energy. This distinction will turn out to be important when we talk about the thermodynamic properties of these models—thermodynamic properties that we'll eventually derive from the partition function for the models.
+
+Now that we have the energies of the harmonic oscillator energy levels, $\frac{1}{2} h \nu$, $\frac{3}{2} h \nu$, $\frac{5}{2} h \nu$, and so on, we have enough information to plug those into the equation and obtain the partition function for the harmonic oscillator. So, that's what we'll do now.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

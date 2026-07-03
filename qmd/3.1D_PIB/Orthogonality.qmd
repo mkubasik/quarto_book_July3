@@ -1,0 +1,60 @@
+#  Orthogonality
+## Orthogonality (12:10) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/bSAaWc7rxmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Orthogonality  Video Transcript { .unnumbered}
+
+
+Okay, so now we understand what it means when we say a wave function is normalized. A wave function, let's say $\psi_n$, is normalized when the integral of that wave function times itself, remembering to take the complex conjugate if needed, comes out to be exactly one. This is because this particular product represents the probability of finding the wave function at a particular place; the probability of finding it anywhere has to be 100 percent. Therefore, a normalized wave function is one where this integral is equal to 1.
+
+We can also ask the question: what happens when I take a wave function and multiply it by a different one? For instance, I might have wave functions $\psi_1$ and $\psi_2$ for $n = 1$ or $n = 2$, and a different wave function, say $\psi_m$ for $m = 5$. The product of two different wave functions, again including a complex conjugation, can be integrated, and I can ask what I get when I take the product of these two different wave functions. Let's call this integrated product $O_{mn}$.
+
+We can see what that is equal to for a specific example. The only problem we know how to write down wave functions for so far is the one-dimensional particle in a box. The wave functions for that one-dimensional particle in a box have this form: they look like sine waves, specifically $\sin\left(\frac{n \pi x}{a}\right)$, with a normalization constant out front. Let's say I want to know the value of $O$ just for the simplest two wave functions, one for $n = 1$ and one for $n = 2$. 
+
+With our definition, that's the integral of the product $\sqrt{\frac{2}{a}} \sin\left(\frac{\pi x}{a}\right)$ when $n = 1$ and $\sqrt{\frac{2}{a}} \sin\left(\frac{2 \pi x}{a}\right)$ when $n = 2$. I don't have to worry about the complex conjugate because there are no complex or imaginary numbers in these wave functions. I integrate this from 0 to $a$ because the particles live in a box, and the range is only between 0 and $a$; the wave function is zero outside that box.
+
+So, $\psi_1$ looks like this, and $\psi_2$ looks like that. We have this integral to evaluate. We could evaluate it formally, probably using the double angle formula to manipulate the sine of $\frac{2 \pi x}{a}$ into some trigonometric functions of $\frac{\pi x}{a}$. That would work fine, and we could work for a while to get the answer. Alternatively, we could use symmetry as a shortcut. 
+
+Since we know what these wave functions look like, especially if I had drawn them symmetrically, the area on the left-hand side of the box where both $\psi_1$ and $\psi_2$ are positive is symmetrically equivalent to the area on the right-hand side of the box where $\psi_1$ is positive but $\psi_2$ is negative. Every point where $\psi_1$ is positive and $\psi_2$ is negative is mirrored by a point on the opposite side where the two values are the same, but $\psi_2$ has the opposite sign. 
+
+Thus, the area under the product on the left side of the box is positive and exactly equal but opposite in sign to the area on the right side of the box. Whether we do this with actual trigonometric functions and integration or simply observe the symmetry of the problem, we can conclude that this integral must come out equal to zero. Therefore, the overlap integral $O_{12}$ will have the value of 0. 
+
+This means that the two wave functions are orthogonal to one another. Orthogonal means the same thing here as it does in the context of vectors. For example, two vectors in 3D space are orthogonal to one another if they are perpendicular. You can determine if two vectors are orthogonal by taking their dot product; if the dot product is zero, then the vectors are orthogonal. 
+
+Similarly, integrating the complex conjugate of one wave function with another and taking the integral is a specific way of multiplying two wave functions together to find out whether they are orthogonal. A wave function can be normalized by multiplying it by itself and integrating, and it can be orthogonal to another wave function if that product, when complex conjugated and integrated, works out to be zero.
+
+We could continue with more examples for wave functions of the one-dimensional particle in a box, but it turns out that whichever pair we choose—whether it’s $\psi_1$ and $\psi_2$, $\psi_1$ and $\psi_3$, $\psi_1$ and $\psi_4$, $\psi_2$ and $\psi_3$, or $\psi_2$ and $\psi_4$—any pair of different wave functions will always be orthogonal to one another. 
+
+We can say that a set of wave functions, such as $\psi_1, \psi_2, \psi_3,$ and so on, is mutually orthogonal. This means that any pair of different wave functions chosen from that set will be orthogonal to one another. It’s not just $\psi_1$ and $\psi_2$; every pair within that set is orthogonal to all the others. 
+
+There’s one other important feature of these wave functions that we can point out. Since they are all normalized, once we’ve chosen this particular coefficient in front, and the set is mutually orthogonal, we can say that the set of wave functions is orthonormal. If the quantity $O_{mn}$ for two wave functions that are the same (when $m = n$) is equal to one, then if these two wave functions are normalized, the integrated product is equal to one. However, when $m$ is not equal to $n$, for every pair, if it comes out to be zero because they are mutually orthogonal, then we say that the set of wave functions is orthonormal. 
+
+In other words, an orthonormal set of wave functions is one where every wave function is normalized, and the entire set is mutually orthogonal. Having orthonormal wave functions is particularly nice for reasons we will see soon. It is also convenient that for any quantum mechanical problem we choose to solve, we will obtain a set of wave functions that can be normalized and made orthogonal to one another. If they do not come out automatically orthogonal, like the one-dimensional particle in a box wave functions do, there is a procedure we can follow to ensure that they are mutually orthogonal. 
+
+It is very convenient that quantum mechanical problems can always be chosen so that the wave functions turn out to be orthonormal. This is beneficial because we can use those orthonormal wave functions to construct other functions, and that is what we will talk about next.
+
+Alright, I’m back with a quick addendum to point out one more piece of terminology that I forgot. This quantity $O_{mn}$ that we’ve been discussing, which is equal to either 1 or 0 if the wave functions are orthonormal, is called an overlap integral. We call it an overlap integral because it is an integral of two wave functions multiplied together. 
+
+When we calculate that overlap integral, the product of one wave function times another is non-zero only in places where both wave functions have some non-zero value. For the particle in a box, both wave functions are non-zero everywhere except when the $\psi_2$ function passes through a node in the middle of the box. 
+
+However, let’s consider a different problem where $\psi_1$ has a particular shape and is zero for part of the range of the variable we are interested in, while $\psi_2$ has its own different shape and is zero somewhere else. In this case, $\psi_1$ is non-zero only in one region, and $\psi_2$ is non-zero only in another region. When I multiply $\psi_1$ by $\psi_2$ to compute the overlap integral, there are regions where $\psi_1$ is non-zero but is being multiplied by zero from $\psi_2$, and vice versa. 
+
+Thus, for this particular case, the overlap integral would turn out to be zero. This is an important observation about overlap integrals: they can be zero either because there is no region where the two wave functions overlap or, as in this case, even though the wave functions have a high degree of overlap, they can be zero for symmetry reasons, where the positive contributions from one cancel the negative contributions from another region of the box.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

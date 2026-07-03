@@ -1,0 +1,58 @@
+#  π Electrons in Linear Conjugated Hydrocarbons (Qualitative)
+## π Electrons in Linear Conjugated Hydrocarbons (Qualitative) (11:06) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/rbkRU_mKC8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## π Electrons in Linear Conjugated Hydrocarbons (Qualitative)  Video Transcript { .unnumbered}
+
+
+When we solve the one-dimensional particle in a box problem, we obtain wave functions with specific energies. Our real motivation for solving this problem was that it was the easiest problem for which we could solve Schrödinger's equation. We chose the simplest possible potential energy and the simplest one-dimensional problem, rather than a three-dimensional problem. However, it turns out that this problem can actually be used to discuss some real-world issues.
+
+Let's remind ourselves of the assumptions we used when constructing the one-dimensional particle in a box problem. First, we set the potential energy equal to zero, again because it made the problem easier to solve. We also required that the particle be confined to a box, meaning our particle lives in a box of size $a$. The position is only between $x = 0$ and $x = a$, so the particle is confined to a specific region of space. It is a one-dimensional problem; the particle moves along an x-axis and does not have a y or z-axis. 
+
+If we can think of real-world problems that at least approximately obey this set of constraints, then the one-dimensional particle in a box is a good model for studying those problems as well. One such problem is linear hydrocarbons, particularly the π electrons in linear hydrocarbons. 
+
+Let's consider a linear hydrocarbon like octatriene, which has four double bonds and consists of eight carbon atoms. Each of these double bonds contains two π electrons, and there are also some σ electrons in the single bonds. Half of the electrons in each double bond are also σ electrons, but many of the electrons in this molecule—specifically eight—are π electrons. 
+
+What we know about π electrons in conjugated molecules is that they are delocalized; they can spread out and move throughout the entire backbone of the molecule. These eight π electrons are spread out and occupy the whole backbone. While this may not be exactly a one-dimensional problem, they mostly move along a linear axis in this direction and do not move much in the y or z directions. They are confined to a certain region of space, so we can think of these eight electrons as being confined to a one-dimensional box. 
+
+It's not entirely true that the potential energy is zero, but what's important is that the potential energy is relatively unchanging as I move around different positions in my one-dimensional space. The reason these electrons are delocalized is that there is not much of an energy barrier preventing their flow from one carbon atom to another. The energy barriers between different carbon atoms are relatively low, allowing the electrons to spread out over the whole backbone as if they had no potential energy when they are within this box. 
+
+Thus, linear conjugated molecules like octatriene can be modeled by these wave functions. The claim is that these wave functions and energies describe the π electrons, which can move back and forth in the molecule's backbone. Based on this prediction of the energies, the energies of the π electrons should have a specific form. For the eight π electrons in this molecule, there will be relatively low energy levels $E_1, E_2$, and the energies increase as $E^2$, becoming a little further apart as if they are climbing a ladder. There is a whole hierarchy of energy levels that these π electrons can occupy.
+
+The question is, how can we test whether this is true? How would we know whether the π electrons have this energy, this energy, or some different energy? Typically, we measure the energies of electrons in molecules by shining light on them. I can take some photons of light, where $E = h \nu$ or $E = \frac{hc}{\lambda}$, which describes the energy of those photons. If those photons get absorbed by a molecule whose π electrons live in a specific energy level, and I want to make them jump up to a higher energy level, I must provide an amount of energy $\Delta E$ that exactly matches the energy difference between these two states. 
+
+If I want to lift this molecule to a higher energy level, I should provide that much energy. If I want to lift this molecule up to a different level, I would provide a photon with a different amount of energy. We can check what the energy levels are by shining light on the molecules and observing which colors of light get absorbed.
+
+We can also consider how this model predicts the behavior of different linear conjugated hydrocarbons of varying lengths. For example, we can compare octatriene to a shorter molecule, hexatriene, which consists of six carbon atoms. The only difference between these two molecules, as far as the particle in a box model is concerned, is that the length of the box is different. The eight-carbon molecule, octatriene, is longer than hexatriene. 
+
+When the box gets longer for octatriene compared to hexatriene, the energies will decrease since the length $a$ is in the denominator of the energy equation. This means that on the energy ladder, if I draw it for hexatriene, the energy levels for the longer molecule will be lower. Each energy level has decreased for the longer molecule. 
+
+While I am not as interested in the absolute energy levels when shining light on them, I am interested in the differences between the energy levels. If each of these energy levels has decreased, the gaps between the energy levels have also decreased. This means that when deciding what wavelength of light to shine on these molecules to cause a transition between these levels, if the difference in energy goes down, the wavelength will increase because wavelength is inversely proportional to energy. 
+
+Thus, my prediction would be that the longer molecules absorb light of a longer wavelength than the shorter molecules. We can test this prediction. I will pull up a table of the structures of several linear conjugated hydrocarbons, changing in length as I go down the table. From short molecules like ethylene to hexatriene and octatriene, as I go down this table, the length of the molecules increases, and I should predict that the wavelength they absorb light will also increase. 
+
+In fact, this is what we observe. The smallest molecule, ethylene, absorbs light in the ultraviolet at 207 nanometers. As the molecules get longer, the light they absorb shifts to longer wavelengths, approaching the visible end of the spectrum. The longer I make these linear conjugated hydrocarbons, the longer the wavelength of light they absorb, which is due to the particle in a box effect. The box we confine the electrons to has gotten longer, and the particle in a box model tells us that the wavelength should increase in response.
+
+This phenomenon, where a wavelength is getting longer—perhaps because the particle in a box size is increasing—is referred to as a redshift. In the visible portion of the spectrum, red is on the long wavelength side, while violet is on the short wavelength side. Therefore, when a wavelength increases, we say it has been redshifted. Conversely, when a wavelength decreases, we might expect to call that a violet shift, but we actually refer to it as a blue shift. 
+
+You will find this terminology used frequently. If someone tells you that some light has been redshifted or blueshifted, they are simply indicating that the wavelength of light has increased or decreased, or equivalently, that the frequency of the light has decreased or increased. They are communicating the direction in which the energy, wavelength, or frequency of that photon has changed.
+
+We have seen, perhaps surprisingly, that the one-dimensional particle in a box is not purely theoretical; it can be used to describe real-world molecules like these conjugated hydrocarbons. We might wonder next if it is useful for more than just qualitative predictions, such as predicting the direction of a redshift or blueshift, but also for making quantitative predictions about specific absorption wavelengths. That is what we will tackle in the next video lecture.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

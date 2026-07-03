@@ -1,0 +1,88 @@
+#  π Electrons in Linear Conjugated Hydrocarbons (Quantitative)
+## π Electrons in Linear Conjugated Hydrocarbons (Quantitative) (17:31) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/jAxXX0vnrUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## π Electrons in Linear Conjugated Hydrocarbons (Quantitative)  Video Transcript { .unnumbered}
+
+
+It turns out that the one-dimensional particle in a box model is not just useful as a first example of solving a quantum mechanics problem; it can also describe the pi electrons in linear conjugated hydrocarbons, at least qualitatively. The next question is: how useful and how quantitatively accurate is that model?
+
+For short molecules like ethylene or butadiene, we can use the model to predict that the wavelength of absorption, which is in the ultraviolet for these molecules, gets longer as the molecules get longer. We observed that for molecules with eight, ten, or perhaps twelve carbons, the absorption wavelength is pushing up towards the visible spectrum. However, we can make even longer molecules. Here, I will present the structure of a much longer molecule: beta-carotene. This is a compound you might have heard of; it gives carrots their characteristic orange color. In large quantities, it appears red or reddish-orange.
+
+Notice that the structure is conjugated, with double bonds alternating with single bonds throughout the entire backbone of this molecule. It has a much longer backbone than the shorter molecules we previously considered, such as hexatriene or octotetriene. If we count the double bonds in this molecule, we find one, two, three, four, five, six, seven, eight, nine, ten, eleven double bonds. Each of those double bonds has two pi electrons, giving us a total of 22 pi electrons. This is a much longer molecule, and we can ask ourselves to predict the wavelength of light absorbed by this molecule to see if we can explain its orange color.
+
+To do this, we can use the particle in a box model. Again, we treat the pi electrons in this molecule as confined to a box, which is a long, somewhat one-dimensional box. These conjugated electrons can zip back and forth in this box, and we will see how well they can be described by this model. We can predict the energies of these electrons within the molecule if we know the constants $m$ and $a$. There are ground states $E_1, E_2, E_3,$ and so on, and this continues for a long way. To predict what color of light is absorbed by the beta-carotene molecule, we need to determine which energy levels these electrons occupy. Do they occupy the $E_2$, $E_3$, or $E_1$ energy level?
+
+We must recall the rules learned in general chemistry, such as the Aufbau principle and Pauli's exclusion principle. Pauli's exclusion principle tells us that we cannot fit more than two electrons into one orbital. Once I have placed two electrons into the $E_1$ level, it is full, and I cannot add any more. Hund's rule states that I fill singly first; I place one electron in an orbital before adding a second one. With a total of 22 pi electrons and filling them up two electrons per level, I will fill up to the 11th energy level. I will place two electrons in that level, which are my 21st and 22nd electrons, leaving the 12th energy level, $E_{12}$, empty because I have used up all my electrons climbing this ladder. 
+
+Thus, we predict that the lowest 11 energy levels will be full, with the 11th energy level being the highest occupied orbital (HOMO), and $E_{12}$ being the lowest unoccupied level (LUMO). When considering the light absorbed by this molecule, to absorb a photon of light with energy $\frac{hc}{\lambda}$, that photon must have energy matching the difference between $E_{11}$ and $E_{12}$. There are other excitations possible; for example, I could lift an electron from $E_3$ all the way up to $E_{12}$, but that would require a relatively high-energy photon. The lowest energy photon that can be absorbed by this molecule will lift a pi electron from the 11th energy level to the 12th energy level.
+
+We can predict that the lowest energy photon corresponds to the difference in energy between the 12th and 11th energy levels. The way I calculated those particular energy levels is by knowing how many electrons occupy the energy ladder. The expression for calculating the energy of each of these energy levels is given by:
+
+\[
+E_n = \frac{h^2 n^2}{8 m a^2}
+\]
+
+Thus, the difference in energy between $E_{12}$ and $E_{11}$ is:
+
+\[
+\Delta E = \frac{h^2}{8 m a^2} \left(12^2 - 11^2\right)
+\]
+
+To proceed further, we need to know the mass and box lengths. The mass is that of the particle confined to the box, which is the pi electron. The mass of an electron is approximately $9.1 \times 10^{-31}$ kilograms. The box length $a$ is the length of the conjugated backbone of the molecule. A rough estimate for the distance between carbons along the backbone is about one angstrom, or $10^{-10}$ meters. 
+
+Since our molecule has 22 pi electrons and 11 pi bonds, there are 10 single bonds in between them, resulting in a total length of the molecule being those 21 bonds (11 double and 10 single) multiplied by one angstrom. This gives us approximately 21 angstroms, or $2.1$ nanometers. This is a rough calculation, and we will consider it sufficient for our purposes.
+
+Now, plugging into the difference in energy equation, we find Planck's constant squared in the numerator. The denominator has an 8, the mass of an electron, and the box length squared. Thus, we have:
+
+\[
+\Delta E = \frac{h^2}{8 \cdot 9.1 \times 10^{-31} \cdot (2.1 \times 10^{-9})^2} \cdot 23
+\]
+
+Calculating this gives us $3.2 \times 10^{-19}$ joules as the difference in energy between these two energy levels. However, I am more interested in the wavelength of the photon rather than the energy of that gap. Rearranging the equation to solve for the wavelength $\lambda$:
+
+\[
+\lambda = \frac{hc}{\Delta E}
+\]
+
+Using Planck's constant and the speed of light $3 \times 10^8$ meters per second, I can divide that by the energy I just obtained. When I perform this calculation, I find $6.3 \times 10^{-7}$ meters, or $630$ nanometers. 
+
+Thus, our prediction is that the beta-carotene molecule, with electrons in its 11th level but not in the 12th level, behaves as a particle in a box and requires light of wavelength $630$ nanometers to lift those pi electrons from the 11th level to the 12th level. However, it is important to note that this answer is not entirely accurate. 
+
+Here we begin to see the limitations of the particle in a box model. While we predicted $630$ nanometers, the actual absorption of beta-carotene occurs at about $400$ to $500$ nanometers. This roughly $20-30$ nanometer error arises because the beta-carotene molecule is not perfectly a particle in a box. The potential energy is not zero along the backbone; there is a slight preference for certain locations along the backbone compared to others. The model is not perfectly one-dimensional, as the box has some two-dimensional or three-dimensional character. 
+
+Despite these limitations, the particle in a box model provides a rough estimate. If we consider the color of beta-carotene, it absorbs light in the $400$ to $500$ nanometer range, which is in the green, blue, and violet portion of the spectrum. The visible spectrum ranges from about $350$ nanometers on the violet end to about $700$ nanometers on the red end. When white light shines on beta-carotene, it absorbs light in the green, blue, and violet parts of the spectrum, reflecting back the red, orange, and yellow parts. This is why the molecule appears reddish-orange, as those colors are not absorbed and are detected by our eyes.
+
+In summary, we can use the particle in a box model for real conjugated molecules to make predictions about the colors of light they will absorb. The answers are not perfect, but as long as we understand that there will be some error, we can at least make rough predictions about the colors of light absorbed. It is more useful for qualitative predictions, indicating that beta-carotene absorbs at a much longer wavelength than hexatriene or octotetriene.
+
+Before we conclude, since we have calculated the difference in energy between energy levels 11 and 12, I can perform one more calculation: the probability that a pi electron in this molecule will occupy the 12th energy level relative to the 11th energy level. This involves the Boltzmann distribution. The ratio of the probabilities of occupying the 12th level compared to the 11th level is given by:
+
+\[
+\frac{P_{12}}{P_{11}} = e^{-\frac{\Delta E}{kT}}
+\]
+
+We have already calculated $\Delta E$ as approximately $10^{-19}$ joules. If we consider room temperature at $298$ Kelvin, we find $kT$ to be approximately $4.1 \times 10^{-21}$ joules. 
+
+The energy difference of $10^{-19}$ joules is about $100$ times larger than $kT$. Therefore, when I calculate this ratio, it will yield a very small number. This indicates that the probability of occupying the 12th energy level is very small compared to the 11th energy level. 
+
+This illustrates why it was acceptable to use the Aufbau principle when placing the electrons into these levels. It is not strictly true that the electrons only occupy level 11 and never occupy level 12; rather, the probability of occupying level 12 is much smaller than that of occupying level 11. This type of calculation, using the Boltzmann distribution, shows that the probability of occupying energy level 12 is significantly lower than that of energy level 11 because the energy gap is much larger than $kT$. This essentially supports the Aufbau principle, which states that it is reasonable to fill from the bottom up and not skip levels, as the probability of an electron occupying a higher level is quite small.
+
+We will continue next by exploring this ratio of $\Delta E$ compared to $kT$ further and see what it can tell us about the energy levels occupied in molecules other than just beta-carotene.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

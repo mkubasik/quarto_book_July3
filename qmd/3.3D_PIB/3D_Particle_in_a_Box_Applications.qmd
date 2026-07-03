@@ -1,0 +1,44 @@
+#  3D Particle in a Box (Applications)
+## 3D Particle in a Box (Applications) (7:01) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/d6IGJj3zr6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## 3D Particle in a Box (Applications)  Video Transcript { .unnumbered}
+
+
+All right, we've accomplished the goal of extending the particle in a box problem from one dimension into three dimensions. We now have an expression for the wave function of the particle in a box, including a normalization constant. We can also determine the energies for a particle confined to this three-dimensional box. 
+
+We might ask ourselves what real-world problems this could be applicable to, just as we did for the one-dimensional particle box. It turned out that linear conjugated hydrocarbons had electrons that were well described by the one-dimensional particle box. Now, we can consider what problems the three-dimensional particle in a box can help us with. 
+
+Remembering the assumptions we've made in deriving the particle in a box model, we assume that the potential energy is zero inside the box, that the particle is confined to that box, and that, in this particular case, the particle is three-dimensional. This is not much of an assumption; any problem in the real world will be a three-dimensional problem. We just need to ask ourselves what types of problems exist where a particle is confined to some region of three-dimensional space, where the energy is the same everywhere within that volume, and where it cannot leave the volume. 
+
+I should point out that having solved the three-dimensional particle in a box, the one-dimensional particle in a box is actually a special case of this. If we have a problem confined only to one dimension instead of all three dimensions, we simply ignore the y and z portions of the wave function and the y and z contributions to the energy. This portion of the wave function, along with part of the normalization constant, and this portion of the energy, yield exactly the result we had for the one-dimensional particle in a box. Likewise, if we find a particle confined to two dimensions, we can call those x and y and only include the x and y contributions. Thus, the three-dimensional particle in a box can be narrowed down to the solutions for either the two-dimensional or the one-dimensional particle in a box as needed.
+
+To understand what types of systems the particle in a box model applies to, we need to consider what the particles are and what the box is that they are confined to. We have seen an electron confined to a linear hydrocarbon molecule with some conjugation. Linear molecules like this one provide a one-dimensional example. It is not exactly true, but we can imagine that the particle is confined to only one dimension within the box. Between the left and right edges of the box, there is relatively little difference in energy for a conjugated pi electron along the backbone of that molecule, which represents the one-dimensional particle box.
+
+There is a very similar example if we think of a conjugated molecule confined to two dimensions. We can draw organic molecules like naphthalene, or if we add a third benzene ring, we get anthracene. By drawing conjugated planar organic molecules, such as polycyclic aromatic hydrocarbons, where the pi electrons in these connected benzene rings are delocalized over the entire molecule, we can conceptualize the box in this case as a two-dimensional box. It has length and height, but no depth, making it analogous to a two-dimensional particle in a box model. 
+
+Now we can cover many more molecules than just these linear ones. There are also three-dimensional versions of the same problem. If we consider what a three-dimensional object looks like, where an electron within this three-dimensional volume is free to move anywhere inside but cannot leave the volume, we could think of three-dimensional chemical molecules that allow the electron to flow freely within them. Essentially, we are talking about a solid that is conductive; the electron can flow within the solid but cannot leave it. In this case, we are referring to a metal. If I have a block of metal, the electron can move freely within it, which would be a particle in a box where the metal itself is the box and the electron is the particle. This serves as an example of a case where we could apply the three-dimensional particle in a box model—not just to metals, but to any conductive material.
+
+As a fourth case, we have considered situations where the particle is an electron, which makes sense because quantum mechanics deals with small objects, and electrons are the smallest objects that chemists routinely encounter. Confined small quantum mechanical electrons to a box is well described by these quantum mechanical models. However, what if the object is not an electron? What if the object itself is a molecule confined to a container? Here, I wouldn't be talking about a molecule confined to a metal; molecules do not diffuse within the interior of a metal. For a molecule to move back and forth inside this box, it must be a literal box or container. 
+
+For example, if I have a molecule inside this box that is bouncing around and able to move freely within it, but the box has walls so it cannot escape, I have essentially described the case of a gas—a physical gas. If I have molecules confined to a box, and those molecules can fill their container and move everywhere within it, then that is what we think of as a gas. This will be another three-dimensional example for which we could use the particle in a box energy levels and wave functions to describe how that system behaves. 
+
+It turns out we will gain quite a lot of insight from using the three-dimensional particle in a box model to describe how gases behave. But before we move on to that, we need to discuss one more thing about the energy levels for the three-dimensional particle in a box, which will help us understand how to apply it to gases.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

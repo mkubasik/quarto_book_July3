@@ -1,0 +1,50 @@
+#  3D Particle in a Box (Normalization)
+## 3D Particle in a Box (Normalization) (6:59) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/G-g2NNguC5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## 3D Particle in a Box (Normalization)  Video Transcript { .unnumbered}
+
+
+Okay, we know how to write down the wave function for a three-dimensional particle in a box. A particle can exist in a box where it has no potential energy inside and is confined to not leave the box. We almost know how to write down the wave function; however, we haven't yet talked about the value of the constant $a$. 
+
+The way we determine that constant, as we did for the one-dimensional particle in a box, is by normalizing the wave function. Recall that normalization means the particle must exist somewhere, with a 100 percent chance of being found somewhere in space. For the particle in a box, this means a 100 percent chance of being found somewhere in the box. Therefore, if I integrate the probability everywhere, I must get 100 percent. The probability is the wave function squared, in this particular quantum mechanical way of squaring. 
+
+So, I just need to take this wave function, square it, and I don't have to worry about complex conjugation because there are no imaginary numbers in this wave function. I just need to square the wave function, integrate it, and ensure it equals 1, then figure out the value of $a$ that makes that true. 
+
+Writing down what that integral is equal to, the wave function is this long expression. If I square it, I will get $a^2 \sin^2\left(\frac{n \pi x}{a}\right) \sin^2\left(\frac{n \pi y}{b}\right) \sin^2\left(\frac{n \pi z}{c}\right)$. I need to ask myself what I'm integrating with respect to; I'm not just integrating with respect to $x$ because I have a three-dimensional function. So, I have $x$, $y$, and $z$, and I need to integrate with respect to all three. This is actually a triple integral. I could write a triple integral sign here, so let me go ahead and do that.
+
+I have a triple integral over $x$, $y$, and $z$. The integral I have to perform can be separated into three parts: the integral of $\sin^2\left(\frac{n \pi x}{a}\right) \, dx$ for the $x$ integral, the integral of $\sin^2\left(\frac{n \pi y}{b}\right) \, dy$ for the $y$ integral, and a separate integral of $\sin^2\left(\frac{n \pi z}{c}\right) \, dz$ for the $z$ integral. 
+
+All I have left to do now is remind myself what the limits of these integrations are. If I've confined my particle to a box that runs from 0 to $a$ in the $x$ direction, from 0 to $b$ in the $y$ direction, and from 0 to $c$ in the $z$ direction, then those box lengths match the box lengths to ensure our wave function hits zero at the edges of the box. 
+
+The first integral I have to do is the integral of $\sin^2\left(\frac{n \pi x}{a}\right)$ from 0 to $a$. That's exactly the same integral we had to do for the one-dimensional particle in a box. I’ll remind you what the answer was when we discussed that integral previously: it was $\frac{a}{2}$. 
+
+For exactly the same reasons, the integral of $\sin^2\left(\frac{n \pi y}{b}\right)$ integrated from 0 to $b$ is the same mathematical problem, so that will also be $\frac{b}{2}$. However, the box length isn't $a$ in this case; it is $b$. The result of the third integral will be $\frac{c}{2}$. 
+
+So, it's the same problem we did for the one-dimensional particle in a box; we just do it three times and multiply the results together. The product $a^2 \times b \times c$ in the numerator and $2 \times 2 \times 2$ in the denominator must equal 1. Since we're interested in solving for the value of $a$, $a^2$ needs to be $\frac{8}{abc}$, where $abc$ is the volume of the box. 
+
+Thus, the normalization constant $a$ is the square root of either of these quantities. I can write it as $\sqrt{\frac{8}{abc}}$ or $\sqrt{\frac{8}{V}}$. In fact, I can express it as $\sqrt{2}$ times $\sqrt{2}$ times $\sqrt{2}$, which is where the 8 came from. I can write this as $\sqrt{\frac{2}{a}} \times \sqrt{\frac{2}{b}} \times \sqrt{\frac{2}{c}}$. 
+
+The reason it's worth writing it out in this more complicated form is just to remind us that this is the normalization constant for a one-dimensional particle in the $x$-direction, multiplied by the normalization constant for a one-dimensional particle in the $y$-direction, and then multiplied by the normalization constant in the $z$-direction. 
+
+Any one of these is an appropriate way to write the normalization constant for the special case where we have a cubic box, where the length of the box is the same in the $x$, $y$, and $z$ directions. In that case, each of these $a$, $b$, and $c$ is the same, and the normalization constant simplifies further to $\sqrt{\frac{8}{a^3}}$ if $abc$ is the same as $a \times a \times a$, or we can also write that as $\frac{2}{a^{3/2}}$. 
+
+So, any one of these is the normalization constant for a cubic box, and any one of these is the normalization constant for a non-cubic box. That's the constant we would insert here if we want to write down the full, complete wave function for the three-dimensional particle in a box.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

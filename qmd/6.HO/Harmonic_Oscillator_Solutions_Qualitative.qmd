@@ -1,0 +1,62 @@
+#  Harmonic Oscillator Solutions (Qualitative)
+## Harmonic Oscillator Solutions (Qualitative) (13:17) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/ogh2dQH2NKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Harmonic Oscillator Solutions (Qualitative)  Video Transcript { .unnumbered}
+
+
+So now it's time to talk about which wave functions actually solve the harmonic oscillator Schrödinger equation. What functions are there that we can take the second derivative of, add them to $x^2$ times the same function with various constants thrown in, and get back the function that we started with? We can consider at least some trial and error solutions to the Schrödinger equation and learn something about what type of functions will solve it.
+
+We can start with a relatively simple equation. Let's just take a function like $x^3$ or $x^5$ or $x^n$ for some power $n$. We could also consider a polynomial with multiple terms, but if we start simple, let's just take one term. We can throw a constant in front of that, and then we will need the first derivative of that function, as well as the second derivative, in order to plug it into Schrödinger's equation.
+
+Taking them one at a time, the first derivative of that function is going to look like $3a x^2$, and then the second derivative will pull down the constant and the $x^2$ down to just $x$, pulling down the 2 into the prefactor. Now I've got $6a x$ as the second derivative. If we go to plug those into Schrödinger's equation, I have some constants multiplying the second derivative of the wave function. So that looks like more constants times $x$, and to that, I want to add some constants, $\frac{1}{2} k$, multiplying $x^2$ times the wave function. 
+
+So $x^2$ times the original $x^3$ gives me a total of $x^5$. Thus, constants times $x$ plus constants times $x^5$ does not equal constants times the original function, which is $x^3$. So is it true that a linear function plus a fifth-order term equals a cubic term? Definitely not; the $x$ terms don't match in this expression. This means that this guess at a solution failed. If we start with a function like $x^3$, the reason it didn't work is that the second derivative knocked the power of $x$ down by 2 to just $x$. This $x^2$ raises it by 2 to $x^5$. Neither of those matches the $x^3$ that we had in our original function, so we're going to have to try something different. Just $x^n$ is not going to work.
+
+We can try something else. Part of this problem was that the second derivative kept knocking down the power of $x$, and we wanted eventually to be equal to the original function. We certainly know some functions that don't get knocked down in powers as we take the derivatives. Those are functions like $e^{ax}$ or $e^{bx}$. If I take derivatives of an exponential, the first derivative just pulls down the derivative of the exponent, pulling down a $b$. The second derivative is going to pull down another factor of $b$. 
+
+So why don't I just say $\psi'' = ab^2 e^{bx}$? If I plug those into Schrödinger's equation to see if they work, the second derivative looks like $e^{bx}$ on the right side. I've got constants times the original function $e^{bx}$, so that's good news; this term is matching this term. That looks good so far. But when I include this potential energy term $\frac{1}{2} k x^2$ times the wave function, I've got constants. The $x^2$ I can't lump in with the constants; that's part of the $x$-dependent term. So I've got $x^2 e^{bx}$. 
+
+That's bad. Better than we had in our first try, this $e^{bx}$ matches this $e^{bx}$, but the $x^2$ from the potential energy term is causing problems. So we're going to have to work a little bit harder to figure out a function that has a chance of working. If we think about what went right and what went wrong in this solution, it was good that our function didn't get knocked down in powers of $x$ by taking the derivatives, but what we really need is something whose second derivative gets knocked up by a couple of powers of $x$ so that these two terms have some terms that match each other or perhaps cancel each other.
+
+If we think about it a little bit, we can find a function that does that. What I'm looking for is a function that, if I take derivatives, pulls down not just extra constants in front of the function but extra factors of $x$ in front of the original function. I can do that with a function like an exponential again, but now instead of $e^{bx}$, I'm going to have $e^{b x^2}$. I'm going to have more than one power of $x$ in the exponent, so that when I take the derivative of the exponent, it's going to pull down some factors of $x$ out front. 
+
+In particular, the first derivative is going to be $a e^{b x^2}$ times the derivative of the exponent. The derivative of $b x^2$ is $2bx$, so that's doing what I wanted it to. The first derivative has pulled down a factor of $x$. The second derivative gets a little more complicated because now I've got two factors of $x$ to worry about: the $x$ in front of the exponential and the $x^2$ in the exponential. But the product rule tells me the derivative of this function is going to look like $2ab e^{b x^2}$ (taking the derivative with respect to $x$ of this polynomial term in front of the exponential) plus $2ab x e^{b x^2}$ times the derivative of the exponent. 
+
+So I'm going to pull down another factor of $2bx$. The 2 becomes a 4, and the $b$ becomes $b^2$. So that's what I get for my second derivative of this function. I'm sorry; it pulls down $2b$ and it pulls down another factor of $x$. Yes, so $2 \times b \times x$ in addition to the original $2$ and $b$ and $x$. This is the second derivative of this function, and it's done what I claimed we wanted to happen. When I take the second derivative, I get some $x^2$ factors pulled down; they're going to match this term, and I also have something that looks like the original function that's going to match the term on the right side.
+
+So plugging those all into Schrödinger's equation again, we've got constants times the second derivative of the wave function giving me $e^{b x^2}$, and also some constants times $x^2 e^{b x^2}$ from the original wave function. That is supposed to be equal to energy or some constants times the original wave function. So is it true that $e^{b x^2}$ with some constants in front plus $x^2 e^{b x^2}$ is equal to $e^{b x^2}$? 
+
+At first glance, that might look like it's not true. I have some terms on the left, this $x^2 e^{b x^2}$, that don't match any terms on the right. But depending on what these constants are, if the value of this constant is not zero, that's just some particular value. The value of this constant and the value of this constant, when I add them together, can cancel each other. If there's some cancellation that occurs and causes these two terms to cancel each other, then I'm left with something that can work. 
+
+So at least if we choose our constants right, if we choose the value of this $b$ constant, this function can solve Schrödinger's equation, whereas these first two cases that we talked about cannot solve it for the harmonic oscillator. So this is our candidate solution. Possibly, functions that look like $e^{b x^2}$ are going to solve Schrödinger's equation. 
+
+What does that mean physically? If I draw a graph of what that wave function looks like, what would the wave function look like? So $c e^{b x^2}$ (where $c$ is some constant) is what we have. We don't know what the constant is yet, but certainly, we know what the function $e^{x}$ or $e^{x^2}$ looks like. If it's $e^{x^2}$, then the function is going to look like this: the larger $x$ gets, the larger $x^2$ gets, and the function is going to rise pretty quickly as I move away from $x = 0$. 
+
+That begins to look a little strange. Remember what the wave function means. In order for us to interpret what the wave function means, remember that the probability of finding the particle at some point on the $x$-axis is proportional to the wave function squared. So that means I get more and more likely to find the particle at $x$ values as $x$ gets either very large or very small, and that probability reaches infinity as the value of $x$ approaches infinity. 
+
+That sounds like it doesn't make any physical sense. I can't have an infinite probability of finding the particle at any location. But the good news is I haven't decided what this constant $b$ is yet. It doesn't have to be a positive constant. So this graph is what the function would look like if $b$ were a positive number. If $b$ is a negative number, then this is going to look like $e^{-c x^2}$ for some constant $c$. That sounds like a Gaussian function or a bell curve. 
+
+So we know what Gaussian functions look like. If $b < 0$, then the wave function is going to look like this, and now the good news is the further $x$ gets away from the origin, the smaller the wave function gets. Thus, the smaller the probability of finding the particle at that distance. Likewise, the area under this curve or the area under the $\psi^2$ curve is bounded and finite, so we have a chance of normalizing this function and making the probability equal to one. If I ask what's the probability of finding it anywhere under this curve, what that leads us to conclude is that a possibly valid version of the wave function would be some constant times $e^{-\alpha x^2}$. 
+
+If I rename my constants instead of calling them $a$ and $b$, I'll go ahead and start using $n$ for the normalization constant out front, $e^{-\frac{\alpha}{2} x^2}$. In particular, so that we don't end up with this problem of these twos proliferating every time I take a derivative, $x^2$ causes some twos to fall down out of the exponent. Either one or more of those factors of two show up as I take derivatives. To avoid the arithmetic complications when those factors of 2 show up, I'm going to make the exponent half as big as I had in the original definition. 
+
+So still a constant times $e^{-\frac{\alpha}{2} x^2}$, my constant is just now negative. This thing I'm calling $\alpha$ is equal to negative some other constant. I'll change its name to $\alpha$. In particular, this is at least a reasonable guess for a function that will solve the Schrödinger equation for the harmonic oscillator. To find out whether it does in fact solve Schrödinger's equation and what this value of $\alpha$ needs to be, what the value of $n$ needs to be, we need to do a little more work and actually plug this into Schrödinger's equation and not be so cavalier with the constants that we cancel. And that's what we'll do next.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

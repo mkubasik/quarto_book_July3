@@ -1,0 +1,68 @@
+#  Most Populated Rotational Level
+## Most Populated Rotational Level (12:39) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/RFS6HB4SuxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Most Populated Rotational Level  Video Transcript { .unnumbered}
+
+
+We are now in a position to discuss the probability that each of the energy levels of a rigid rotor is occupied. The ground state might have been expected to be the most populated, but it turns out that is not quite true. If we examine the equation for the population of each of these energy levels, it includes not just a Boltzmann factor for how high up the ladder of energy states one is, but also a degeneracy factor. As we climb higher up this ladder, the number of states at each level increases, leading to greater degeneracy.
+
+If we look more closely at this equation, we see that it contains constants throughout, but it also depends on the quantum number $l$. If I want to know the probability as a function of the quantum number $l$, it appears in front of the exponential as a linear term, $l$, and the exponential takes the form $e^{-(l^2 + l)}$. In a rough sense, it resembles $l \cdot e^{-l^2}$. If I were to graph $l \cdot e^{-l^2}$ or, in fact, the function $p_l$ as a function of $l$, at small values of $l$, this number is small, so the function is small. At large values of $l$, $e^{-l^2}$ becomes very small, causing the function to decrease significantly.
+
+What we have is a function that starts out small when $l = 0$, goes through a maximum, and then comes back down. The key points about this are the degeneracy; as I begin increasing the value of $l$, the probability of occupying the zeroth state, as I move to the first or second state, increases. This increase is due to the degeneracy. However, at larger values of $l$, the function begins to decrease again. The Boltzmann factor tells us why this is the case: the higher the value of $l$, the higher the energy of each energy level, and the Boltzmann factor becomes very small when $l$ is large. Thus, for large values of $l$, the probability begins to decrease again.
+
+There exists a point after increasing and then decreasing where the function reaches a maximum. This means there is a particular value of $l$ at which this function takes on its highest possible value. This is interesting because it indicates that the ground state is not the most occupied energy level. The $l = 1$ state might be more occupied because, although each of these individual states has a higher energy and is less occupied than the ground state, there are three of them. Therefore, the entire level might be more populated than the ground state. Somewhere up this ladder, we reach an energy level, possibly $l = 2$ or $l = 3$, that is the most populated, and then the population starts to drop off as we continue to climb higher.
+
+It is intriguing to determine what the most populated rotational level is. The behavior of a rotating diatomic molecule, whether it rotates with a little energy in the $l = 2$ level or a lot of energy in the $l = 5$ level, depends on the conditions. However, we can learn something about what that maximum rotational level is or which rotational level has the highest population. To find this, we look for the point on the graph that is the highest, where the slope reaches zero. Since we have an equation for $p_l$, we can take its derivative and set it equal to zero. The derivative equals zero when we are at the most populated rotational level, $l_{\text{max}}$.
+
+Let's take the derivative of this expression with respect to $l$. The $l$ terms appear both in the pre-factor and in the exponent, so we will need to use the product rule. Taking the derivative of $l$, we have $\frac{1}{q} \cdot 2$ (the derivative of $2l + 1$), and since I have taken the derivative of this term, I will leave the exponential alone, $e^{-\frac{\theta_{\text{rotational}}}{T} l(l + 1)}$. I need to add to this the derivative when I leave this $l$ alone and take the derivative of the other terms. By leaving $2l + 1$ alone and taking the derivative of the exponential, I find that the derivative of an exponential is itself multiplied by the derivative of the exponent. Thus, I have constants in front of some $l$.
+
+This derivative will look like $-\frac{\theta_{\text{rotational}}}{T}$ multiplied by the derivative of $l(l + 1)$. Writing this as $l^2 + l$, the derivative of $l^2 + l$ is $2l + 1$. Notice that $2l + 1$ is the same as this $2l + 1$. In the next line, I will write that as $(2l + 1)^2$. This long, fairly complex expression is what we want to set equal to zero, but fortunately, many terms factor out. I have $\frac{1}{q}$ in both terms and the exponential in both terms. Therefore, we can say $\frac{1}{q} e^{-\frac{\theta_{\text{rotational}}}{T}} (l + 1)$ are the common terms. 
+
+All that remains in the first term is $2$, and in the second term, we have $-\frac{\theta_{\text{rotational}}}{T}$ and $(2l + 1)$ appearing twice. We need this entire expression to equal zero. Since $\frac{1}{q}$ is not zero and this exponential is not zero, the only thing that can be zero is the quantity in brackets. The way to make that equal to zero is if $2$ is equal to $\frac{\theta_{\text{rotational}}}{T} (2l + 1)^2$. Thus, I need $\frac{\theta_{\text{rotational}}}{T} (2l + 1)^2$ to equal $2$.
+
+Now, we need to solve that expression. Remember, we are solving for the value of $l$ that maximizes this function. We can do some algebra to isolate $l$. If I bring $T$ and $\theta_{\text{rotational}}$ over to the right-hand side, I will have $(2l + 1)^2$ on the left side. Taking the square root to eliminate the square, I have this expression. I need to subtract $1$ from both sides, so on the left side, I have $\sqrt{\frac{2T}{\theta_{\text{rotational}}}} - 1$ equal to $2l$. Dividing by $2$, the final version of this equation will be:
+
+\[
+l = \frac{1}{2} \left( \sqrt{\frac{2T}{\theta_{\text{rotational}}}} - 1 \right)
+\]
+
+This expression is useful because it gives us $l_{\text{max}}$, the value of $l$ at which the derivative of the function is equal to zero, indicating the most populated rotational level. 
+
+Let’s work through an example. Consider carbon monoxide, which has a rotational temperature of $202.77 \, \text{K}$. If we have carbon monoxide molecules at room temperature, $298 \, \text{K}$, then the most populated rotational level according to this expression is:
+
+\[
+l = \frac{1}{2} \left( \sqrt{\frac{298}{2 \times 202.77}} - 1 \right)
+\]
+
+Calculating this, we find $298 \, \text{K}$ divided by about $5.5 \, \text{K}$, taking the square root, and subtracting $0.5$, gives us approximately $6.8$. 
+
+This result is a bit strange; we have solved for the most populated rotational level, but rotational levels are integers. They must be $l = 0, 1, 2, 3,$ etc. Since $6.8$ is between $6$ and $7$, it indicates that there are no molecules occupying the $6.8$ rotational level. This means the most populated level is likely either the $6$ or $7$ level. To be extra careful, we could evaluate both $l = 6$ and $l = 7$ to see which has a higher population using this expression, or we can round off to $7$ and conclude that the most populated rotational level is the $l = 7$ level.
+
+On the other hand, if we consider a molecule like HCl, which has a rotational constant of $15.4 \, \text{K}$, and we ask about its behavior at an experimental temperature of $77 \, \text{K}$, we find that it behaves somewhat quantum mechanically. The most populated rotational level is given by:
+
+\[
+l = \frac{1}{2} \left( \sqrt{\frac{77}{2 \times 15.4}} - 1 \right)
+\]
+
+Calculating this gives us approximately $1.08$, which rounds off to $1$. For HCl, we conclude that it is a fairly quantum mechanical molecule because only a handful of states are occupied. The most populated state is the $l = 1$ state, meaning there are more molecules in this $l = 1$ energy level than in the ground state. However, there are also more molecules in this level than in the higher levels, indicating that the population has begun to fall off as we climb beyond $l = 1$.
+
+This expression is quite useful; it illustrates the tension between the degeneracy that causes states to be more occupied as we climb the ladder and the Boltzmann energy, which causes them to be less occupied. Somewhere in the middle, there exists a maximum, and we can now calculate what that maximum is.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

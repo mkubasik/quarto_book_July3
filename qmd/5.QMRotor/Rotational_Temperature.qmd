@@ -1,0 +1,50 @@
+#  Rotational Temperature
+## Rotational Temperature (11:12) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/bvZqENU3T0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Rotational Temperature  Video Transcript { .unnumbered}
+
+
+We have an expression for the energy levels of a rigid rotor model that has been simplified by the definition of the rotational constant. This constant is a collection of fundamental constants and properties of the individual molecule we are discussing. It has given rise to an energy ladder with different degenerate levels and varying spacings between these energy levels. An interesting question is whether these energy levels are large or small compared to $kT$. We would like to know how the difference in energy ($\Delta E$) between these energy levels compares to $kT$. The reason this is interesting is that it tells us whether the energy levels are likely to be populated. Specifically, it indicates whether many of the energy levels are populated or only the lowest few.
+
+Boltzmann's distribution tells us the probability of occupying a state with quantum number $l$ and magnetic quantum number $m$. This probability is given by $\frac{1}{Q} e^{-\frac{E}{kT}}$, where $E$ is the energy of that state. It is the ratio of these energies to $kT$ that is important. Since we know these states are degenerate, the formula for the probability of occupying a particular state, such as the $l = 2, m = -1$ state or the $l = 2, m = +1$ state, can be extended to the probability of occupying an entire energy level. 
+
+The probability of being on the $l = 2$ level, regardless of the $m$ quantum number, is the same for all states because they all have the same energy due to degeneracy. Therefore, the probability of the entire energy level is equal to the probability for an individual state multiplied by the degeneracy of that energy level. This makes sense because we typically consider the energy of an entire energy level rather than individual states. The degeneracy is given by $2l + 1$. 
+
+Let’s express the energy not as $E_l$ but as the rotational constant $B$ multiplied by $l(l + 1)$, and then divide all of that by $kT$. Now we can see that the quantity that tells us whether these energy levels are populated or not is the ratio of the rotational constant to $kT$. If this ratio is a large number, then $e^{-\text{large number}}$ will be very small, indicating that the energy levels will not be very populated. Conversely, if $B/kT$ is a small number, then $e^{-\text{small number}}$ is not that small, and the energy levels might be well populated.
+
+We are particularly interested in the quantity $B/kT$. The rotational constant $B$ is defined as $\frac{h^2}{8\pi^2 \mu r^2}$. If we divide that by $kT$, we find the ratio we are interested in. We often lump a number of these constants together and rename them as the rotational constant. Now that Boltzmann's constant has entered the discussion, we can define a new constant. Let’s denote $\frac{h^2}{8\pi^2 \mu r^2}$ divided by Boltzmann's constant as $\Theta_{\text{rotational}}$, which we will call the rotational temperature. 
+
+Notice that most of those constants $\frac{h^2}{8\pi^2 \mu r^2}$ were already present in the definition of $B$; I have just divided by an extra $k$. Thus, we can think of the rotational temperature as the rotational constant divided by one more factor of $k$. Once we do that, $\frac{B}{kT}$ simplifies to $\frac{\Theta_{\text{rotational}}}{T}$. 
+
+To understand what this rotational temperature means and how it differs from the rotational constant, let’s calculate a value for the rotational temperature. We have previously discussed carbon monoxide, so let’s continue with that. The rotational constant for carbon monoxide is $3.82 \times 10^{-23}$ joules. To find its rotational temperature, we simply divide this value by Boltzmann's constant, which is approximately $1.38 \times 10^{-23}$ joules per kelvin. 
+
+Calculating this ratio, $\frac{3.82}{1.38}$, yields a value slightly smaller than 3, specifically $2.77$. The joules cancel, and we are left with units of kelvin. This illustrates why we call it a rotational temperature; the units work out to be temperature. Whenever I divide an energy by Boltzmann's constant, I will obtain units of temperature. 
+
+This also highlights why we prefer to talk about the rotational temperature. When I provide the value of the rotational constant $3.82 \times 10^{-23}$ joules, it is a very small number, and it does not give much sense of scale compared to $kT$ or whether it represents a lot of energy or a little for something as small as a molecule. However, when I say $2.77$ kelvin, it immediately conveys a sense of what that number means. Room temperatures are around 300 kelvin, so $2.77$ kelvin sounds very cold. 
+
+This indicates that the rotational temperature is quite small compared to the temperatures typically studied in a chemistry class. If the rotational temperature is very small, it means that the gaps between these energy levels are also very small compared to $kT$. Multiplying both sides by $k$, we find that $k \times \Theta_{\text{rotational}}$ equals the rotational constant, which is similar to the differences in energies. Thus, when the rotational temperature is small compared to room temperature, it means that the gaps between these energy levels are comparably small relative to the thermal energy available at room temperature. 
+
+For molecules at this temperature with this amount of thermal energy, they can access many of these energy levels, meaning that many of these states are occupied. Conversely, if $\Theta_{\text{rotational}}$ is not much smaller than the temperature, or if it is larger, then the gaps between these energy levels will be large or comparable to $kT$. If $kT$ represents the size of these gaps, climbing to higher energy levels becomes progressively less likely according to Boltzmann's distribution, resulting in relatively few states being occupied. 
+
+Thus, when we observe that the rotational temperature is a cold number, it indicates that room temperature is quite hot compared to the properties of this molecule. Consequently, because room temperature is hot compared to that number, many of the states can be accessed, and a significant number of these states are occupied. Under different conditions, other molecules may behave differently. 
+
+Now that we have begun discussing how many states are effectively occupied under a given set of conditions, this relates closely to the partition function. Remember, one of the meanings of the partition function is to indicate how many states are occupied. Therefore, a natural next step would be to calculate the partition function for the rigid rotor, and that is what we will do.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

@@ -1,0 +1,68 @@
+#  Legendre Polynomials
+## Legendre Polynomials (14:22) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/17AaRCeejh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Legendre Polynomials  Video Transcript { .unnumbered}
+
+
+So, we've seen that the rigid rotor wave functions, which can be identified by a pair of quantum numbers—the angular momentum quantum number and the magnetic quantum number—can be written as a normalization constant multiplied by some polynomial dependence on trigonometric functions of $\theta$ and a complex term $e^{i m \phi}$. This polynomial dependence on a trigonometric function of $\theta$ deserves a little more attention, and there is a recipe for calculating exactly what that polynomial function looks like. That's what we'll talk about now. This polynomial is called a Legendre polynomial.
+
+Let's start with the general case. If I want to know the $l m$ wave function, I need the polynomial with $l$ and $m$. As a simpler problem, we can first discuss what happens if $m$ is equal to zero. When $l$ is some integer and $m$ happens to be zero, there is a recipe for this polynomial. This polynomial is defined as follows: if I take $\frac{1}{2^l}$, divide that by $l!$, and then take the $l$th derivative of $(x^2 - 1)^l$, that gives us the polynomial.
+
+This is a pretty complicated recipe, but if I know the value of $l$, that's just a recipe for obtaining some polynomial in $x$ with those particular values of $l$. To ensure we understand how that works, let's go through an example. Let's say we want to calculate a particular polynomial, specifically the Legendre polynomial for $l = 2$. 
+
+When $l = 2$, we just follow this recipe. This recipe says to take $\frac{1}{2^2}$ (which is $\frac{1}{4}$), divide that by $2!$ (which is $2$), and then take the second derivative with respect to $x$ of $(x^2 - 1)^2$. 
+
+Now, let's simplify this step by step. The square of $(x^2 - 1)$ is $x^4 - 2x^2 + 1$. So, we want to take the second derivative of this function. The first derivative of $x^4 - 2x^2 + 1$ is $4x^3 - 4x$. The second derivative is $12x^2 - 4$. 
+
+Now, putting everything together, we have $\frac{1}{4}$ divided by $2$, which gives us $\frac{1}{8}$. Thus, the Legendre polynomial when $l = 2$ is $\frac{1}{8}(12x^2 - 4)$, which simplifies to $\frac{3}{2}x^2 - \frac{1}{2}$.
+
+What does this have to do with our rigid rotor wave functions? Notice that the rigid rotor wave functions involve not the Legendre polynomial of $x$ but a Legendre polynomial of the argument $\cos \theta$. So, when I want to know the $\psi_{2 0}$ wave function, it has a normalization constant and $e^{0 i \phi}$ from this value of $m$. However, for the $\theta$ dependence, I replace $x$ in the general polynomial with $\cos \theta$. 
+
+Thus, instead of $\frac{3}{2}x^2 - \frac{1}{2}$, I have $\frac{3}{2}\cos^2 \theta - \frac{1}{2}$. The term $e^{0 i \phi}$ goes away, and all I'm left with is $\frac{3}{2}\cos^2 \theta - \frac{1}{2}$ multiplied by some constants out front. This is exactly the wave function that we've seen previously for the $l = 2$, $n = 0$ wave function.
+
+We can see that this is a recipe for getting the $\theta$ dependence of a wave function using these Legendre polynomials as long as $m$ is equal to zero. I'll also mention that there's a somewhat easier way to obtain these Legendre polynomials as well, using something called a recursion relation. This relation expresses one of these Legendre polynomials in terms of the previous two. 
+
+If I want to know the $l + 1$ Legendre polynomial, I can write it as some factors multiplying the $l$th Legendre polynomial and the $(l - 1)$th Legendre polynomial. To clarify how that works, let's say we want to get the $P_{2 0}$ function. If I want to know that, I need to know the two that come before it, $P_{1 0}$ and $P_{0 0}$. 
+
+Anytime you use a recursion relation like this, we need to start out with the first few values. The $P_{0 0}$ polynomial is just $1$, and the $P_{1 0}$ polynomial is just $x$. These are enough to bootstrap our way up to higher ones. The $P_{0 0}$ and $P_{1 0}$ combine with this formula to give us the second one, and the first and second combine to give us the third one. We can just climb that ladder, getting higher and higher values.
+
+To make sure it's clear how that works, let's do this example again using the recursion relation. For $P_{2 0}$, I want to use this expression where $l + 1 = 2$. This means $l$ must be equal to $1$. Out in front of this $l + 1$ term, I have a factor of $l + 1$, which is $2$. 
+
+If I insert $l = 1$ everywhere in this expression, I have $2$ times $P_{1 0}$, which is $x$. Then I subtract $l$ (which is $1$) times the $(l - 1)$ polynomial, where $l - 1 = 0$, and the zeroth Legendre polynomial is $1$. 
+
+The recursion relation tells me that $2P_{2 0} = 3x^2 - 2$. Dividing by $2$ on both sides, I find that $P_{2 0} = \frac{1}{2}(3x^2 - 2)$. 
+
+Notice now that I get the same answer here as I got previously, and if you can do arithmetic correctly using the recursion relation, it gives you the same result as using the definition of the Legendre polynomial. So, either approach is valid. 
+
+So far, we have two different ways of calculating Legendre polynomials as long as $m$ is equal to zero. However, we often have to calculate these polynomials when $m$ is not equal to zero. To do that, I need to tell you how to calculate the polynomials when $m$ is not equal to zero. The recipe for doing that is as follows: I take $(1 - x^2)$ and raise it to a power—not $m$, but half of $m$. I multiply that by the $n$th derivative of the Legendre polynomial we already know how to calculate with $l$.
+
+These are called the associated Legendre polynomials, and again, we have a recipe for calculating them. As our last example, let's say we want to calculate $P_{2 2}$ just to ensure we understand how this expression works. If I already know what $P_{2 0}$ is, I can follow this recipe. 
+
+For $P_{2 2}$, I take $(1 - x^2)$ raised to a power. What value of $m$ am I using? I've set $m = 2$, so I want to follow this recipe with $m = 2$. Thus, $m/2 = 1$. The derivative I'm taking, this $m$ derivative, is the second derivative of the polynomial when $m = 0$, which is $\frac{1}{2}(3x^2 - 1)$.
+
+To compute that, I need to leave $(1 - x^2)$ out front. The second derivative of $\frac{1}{2}(3x^2 - 1)$ is $3$. Therefore, the $l = 2$, $m = 2$ associated Legendre polynomial is $3(1 - x^2)$.
+
+If I ask myself what that has to do with a wave function like the $\psi_{2 2}$ wave function, that's going to be a normalization constant multiplied by the $2 2$ Legendre polynomial associated polynomial that we've just calculated. However, instead of using $1 - x^2$, I use $1 - \cos^2 \theta$. We know that $1 - \cos^2 \theta = \sin^2 \theta$, and the last term $e^{i m \phi}$ when $m = 2$ gives us $e^{2 i \phi}$.
+
+Again, this expression for the $l = 2$, $m = 2$ wave function isn't on the board right now, but if you look back in your notes or watch the previous video where we listed many of these rigid rotor wave functions, you'll see that the $2 2$ wave function we listed was, in fact, constants times $\sin^2 \theta e^{2 i \phi}$. 
+
+Now, between Legendre polynomials and associated Legendre polynomials, we have a recipe for calculating the $\theta$ dependence of these rigid rotor wave functions, and we'll use those to understand more about the rigid rotor.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

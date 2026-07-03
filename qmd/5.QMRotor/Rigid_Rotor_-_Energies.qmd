@@ -1,0 +1,40 @@
+#  Rigid Rotor - Energies
+## Rigid Rotor - Energies (7:03) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/g7tOgRrE9zo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Rigid Rotor - Energies  Video Transcript { .unnumbered}
+
+
+All right, so what we know about the rigid rotor so far is that once we've written down the rigid rotor Hamiltonian, we can write down solutions—wave functions that have the form of some normalization constant, a Legendre polynomial that describes the theta dependence, and then this exponential, an imaginary exponential that describes the phi dependence. We've seen a few cases of this wave function so far. For example, the $\psi_{1,0}$ wave function, the one with quantum numbers $l = 1$ and $m = 0$, was $n \cos \theta$. For every one of these wave functions that we write down, if it solves Schrödinger's equation—meaning the Hamiltonian acting on the wave function gives us back a constant multiplied by the wave function—we can write down the energy associated with that wave function. 
+
+In the two cases we've seen so far, when the wave function is $n \cos \theta$, the energy of that particular wave function is some constants that are just the constants in front of the Hamiltonian here multiplied by 2. We can also write down the $\psi_{1,1}$ wave function, which looked like $\sin \theta$ rather than $\cos \theta$ and $e^{i \phi}$. That wave function has the same energy, which is also the same collection of constants $\frac{h^2}{8 \pi^2 \mu r^2}$ multiplied by 2. So, those two wave functions have exactly the same energy as each other. However, not every wave function has exactly the same energy. We'll see that when $l$ has a different value, the energy turns out to have a different value.
+
+The easiest case we can demonstrate this for is the simplest of the wave functions, the $\psi_{0,0}$ wave function, which is just a constant. If I insert the normalization constant for the wave function and take the derivatives of that wave function, I will get back a constant times that wave function. In fact, those derivatives are not hard to do. If this is just a constant $n$, when I take the phi derivative of the constant, I get 0. When I take the theta derivative of the constant, I also get 0. So, everything inside parentheses here is just 0. Therefore, the energy of the $\psi_{0,0}$ wave function is just 0. That is a constant times the wave function, where the constant is 0 times the wave function.
+
+There are other more complicated wave functions. When we write down the $\psi_{2,0}$ wave function, that one is a little more complicated; it involves a quadratic dependence on $\cos \theta$, as we know because it's an $l = 2$ function. We'll skip the math; I think you've seen me evaluate Schrödinger's equation enough times on wave functions. If we take the various derivatives of this particular function and evaluate what we get, we're going to get back the same function we started with, multiplied by a constant. The constant in this case will be, not surprisingly, the same collection of constants from here and then another number multiplying that collection of constants.
+
+Things to stop and point out here are that the energies we get are always consistent. We can do this as many times as we have the patience for. In general, for the $\psi_{l,m}$ wave function, the energy of that wave function is always going to be this particular collection of constants $\frac{h^2}{8 \pi^2 \mu r^2}$ multiplied by some number. That number is always going to be an integer; the integer might be 0, or it might be 2. In fact, that's what we're going to get every time $l$ is equal to 1. The integer 0 is what we get when $l = 0$. For any wave function that has $l = 2$, remember there were five of those; we're going to get the integers 6. The general pattern is that the integer we multiply these constants by is $l(l + 1)$. 
+
+We have not proven that statement; I'm just telling you that statement is true. As you remember, we have a recipe for if we know what the wave function looks like for a particular $l$, let's say $l = 2$. We have a recipe in the recursion formula for the Legendre polynomials that tells us how to get the next one. You can use that recursion formula essentially to figure out if I know the energy for the $l = 2$ wave function, what would it be for the $l = 3$? What would it be for the $l = 4$? I won't show you those steps explicitly, but it turns out that any one of these wave functions, the energy of that wave function turns out to be this collection of constants and integers. 
+
+So, that's an equation we'll use several times. I'll put that in a box. A couple of things to point out about that equation: number one, we can just call that $E_l$, not $E_{l,m}$. If I want to know the energy of wave functions $\psi_{2,0}$ or $\psi_{0,0}$, those have an index, a quantum number $l$ and a quantum number $m$, but $m$ doesn't show up anywhere in this energy. It turns out the value of $m$ is irrelevant. That's why the $\psi_{1,0}$ and the $\psi_{1,1}$ wave functions both turned out to have the same energy as each other. Their $m$ values were different, but the values of $l$ were the same, so they end up having the same energy. We normally just write that $E_l$, not $E_{l,m}$, because it ends up only depending on the value of $l$.
+
+The other important consequence is that because multiple wave functions—the $\psi_{1,0}$, the $\psi_{1,1}$, and even the $\psi_{1,-1}$ wave function—have the same energy as each other, multiple wave functions $\psi_{l,m}$ have the same energy $E_l$. This idea begins to sound like the concept of degeneracy that we've talked about previously. The degeneracy of these wave functions turns out to have some pretty important consequences for the properties of the molecules that we treat with the rigid rotor approximation. So, our next step will be to explore that degeneracy a little further.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

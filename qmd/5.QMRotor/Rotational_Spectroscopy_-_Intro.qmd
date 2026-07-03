@@ -1,0 +1,50 @@
+#  Rotational Spectroscopy - Intro
+## Rotational Spectroscopy - Intro (8:45) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/KdqJql79XNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Rotational Spectroscopy - Intro  Video Transcript { .unnumbered}
+
+
+Now that we know something about the energy levels for a rigid rotor, one of the interesting things we can discuss is the frequencies or wavelengths of electromagnetic radiation required to excite molecules from one level to another. Remember how light interacts with molecules that occupy these energy levels. If there is a molecule in one of these particular states, it can absorb a photon with a specific frequency or wavelength. If the energy in that photon matches the difference in energy between two of these states, then the molecule can absorb the photon and jump up to the higher energy level. Alternatively, the molecule can fall down to a lower energy level, in which case it would emit a photon with its own different frequency or wavelength.
+
+Now that we know the energies, we can calculate the differences between the states. These differences tell us something about the types of light that can be either absorbed or emitted by molecules that behave as rigid rotors. First, let's take a look at these energy differences. We know that when we've written the energies, either in terms of a rotational constant or, if we prefer, a rotational temperature, the energy levels are either 0, or twice the rotational constant, or 6 times, or 12 times, or 20 times, and so on. 
+
+The gaps between those energy levels, denoted as $\Delta E$, would be $2B_e - 0$ for the first gap, $6B_e - 2B_e = 4B_e$ for the second, and $12B_e - 6B_e = 6B_e$ for the third. Each of these gaps is different; they get larger as they go up. The size of the gaps increases from 2 to 4 to 6, and the next one will be 8, and so on. 
+
+In general, if I want to know the transition from level $l$ to level $l + 1$, the gap between the $l$ energy level and the $l + 1$ energy level will be the energy of the upper level minus the energy of the lower level. We have an expression that tells us how to calculate each of those. The $l + 1$ level has an energy of a rotational constant $B_e$ times $l(l + 1)$, but when I am asking about the $l + 1$ level, $l$ has the value $l + 1$, which is now one higher, so that's $l + 2$. 
+
+The energy of level $l + 1$ simplifies to $B_e \cdot (l + 2)(l + 1)$, while the energy of level $l$ is still $B_e \cdot l(l + 1)$. Both of these terms have $B_e$ and $(l + 1)$ in them. The terms $l + 2$ and $l$ cancel, leaving me with just a 2. Thus, I can say that the gap, or the energy level difference in going from $l$ to $l + 1$, is twice the rotational constant times $(l + 1)$. 
+
+It is no coincidence that these gaps increase as even numbers: twice the rotational constant, four times the rotational constant, six times the rotational constant, and so on. Now, if we want to know the gap between the 21st and 22nd energy levels, it will be twice the rotational constant times 22, the upper level. 
+
+Let's go ahead and use some actual numbers. For the carbon monoxide molecule, we know the rotational constant is $3.82 \times 10^{-23}$ joules. We can calculate the gap between the levels for the transition from $l = 0$ to $l = 1$. This $\Delta E$ will be twice the rotational constant, which gives us $7.64 \times 10^{-23}$ joules. 
+
+More interesting than knowing how many joules this energy level difference is, is understanding the light required to induce that transition upwards or the light emitted when a molecule falls from the $l = 1$ to the $l = 0$ level. If that energy difference is equal to either $h \nu$ or $\frac{hc}{\lambda}$, we can ask ourselves what the frequency would be. The frequency would be rearranging this expression to $\frac{2B_e}{h}$. 
+
+So, twice the rotational constant divided by Planck's constant gives us the frequency. Considering the units, joules from the rotational constant cancel the joules hidden in Planck's constant, leaving us with seconds in the denominator. The units are $\frac{1}{\text{seconds}}$, which is correct for a frequency. If we do the math, that frequency turns out to be $1.15 \times 10^{11}$ per second. 
+
+Thus, the frequency of a photon used to excite this rotational transition from a non-rotating molecule to a slightly rotating $l = 1$ rigid rotor state would be $1.5 \times 10^{11}$ per second. That number may not be terribly intuitive, so let's try instead to find the wavelength, which might provide more information. 
+
+If I rearrange $2B_e = \frac{hc}{\lambda}$, I get $\lambda = \frac{h \cdot c}{2B_e}$. Again, using Planck's constant multiplied by the speed of light $3 \times 10^8$ meters per second and dividing all that by twice the rotational constant, we find that the units again cancel out, leaving us with meters, which is correct for a wavelength. Numerically, that answer turns out to be $2.6 \times 10^{-3}$ meters, or if we prefer, $2.6$ millimeters. 
+
+This would be the wavelength of light required to be absorbed by a non-rotating carbon monoxide molecule to make it rotate the smallest amount that a quantum mechanical carbon monoxide molecule can rotate. If that number had come out in units of several hundred nanometers, we could start discussing whether it was in the red, blue, or green portion of the visible spectrum. However, that is clearly nowhere near the visible portion of the spectrum. This frequency is also nowhere near the visible portion of the spectrum, which means these photons are not visible photons; they are photons in a different part of the spectrum. 
+
+To make more sense of that, we will spend a little time discussing the different portions of the electromagnetic spectrum next.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

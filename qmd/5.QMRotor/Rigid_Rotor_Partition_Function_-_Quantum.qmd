@@ -1,0 +1,56 @@
+#  Rigid Rotor Partition Function - Quantum
+## Rigid Rotor Partition Function - Quantum (11:27) { .unnumbered}
+<iframe style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/NyE90IHHMsU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+::: {.content-hidden unless-format="pdf"}
+![YouTubeThumbnail]("https://faculty.fairfield.edu/mkubasik/images/fairfielduShield.o.png")
+:::
+
+
+
+::: {.callout-note}
+You will find more excellent videos at this content creater's [YouTube Channel](https://www.youtube.com/@PhysicalChemistry)
+:::
+
+
+    
+## Rigid Rotor Partition Function - Quantum  Video Transcript { .unnumbered}
+
+
+For the partition function of a rigid rotor, we have managed to understand what the answer should be in half of the cases. The partition function, which looked like an infinite sum in the classical limit, can be simplified quite a bit. It works out to be just the temperature divided by the rotational temperature. However, under conditions where we cannot assume the classical limit, we do not yet know what the partition function should be. It turns out we are left with no option other than to compute the sum, which sounds like bad news because it looks like there is an infinite number of terms in that sum. But it doesn't actually turn out to be all that bad.
+
+To illustrate this, let's work through an example. Instead of carbon monoxide, let's take a molecule that is a little more quantum mechanical: HCl. We will see in a moment why HCl is a more quantum mechanical molecule. We will consider it at a temperature that is quite a bit lower, where quantum effects become more important. Seventy-seven Kelvin is a temperature that sounds very cold, but it is not terribly difficult to reach; that is the temperature of liquid nitrogen. If we take some HCl molecules and cool them down with liquid nitrogen, we can ask ourselves what the partition function might be. To answer that question, we will need to know things like the rotational temperature. 
+
+First, we would have to compute the reduced mass of an HCl molecule, which is the mass of hydrogen and the mass of chlorine divided by the sum of the masses of hydrogen and chlorine. I will skip the arithmetic because we have seen examples of these types of calculations before. One gram per mole times thirty-five grams per mole for chlorine divided by thirty-six for the sum works out to be about 0.97 grams per mole, or some small number of kilograms. I will point out again that the reduced mass for HCl is smaller than the atomic masses of either hydrogen or chlorine. The fact that it is very close to the mass of hydrogen means that this object, with the reduced mass, is spinning at a bond length of 1.27 angstroms. 
+
+An object with mass $\mu$ spinning about the origin behaves a lot like a bare hydrogen atom spinning around the origin. This is because, in an HCl molecule, chlorine is very heavy and hydrogen is very small; the center of mass is quite close to the chlorine. A rotating HCl molecule is essentially a hydrogen atom spinning around chlorine, or rather, something a little bit lighter than hydrogen spinning around at this distance from the origin. 
+
+With that information about the bond length, we could calculate the rotational constant. Now that we know $\mu$, I will skip the arithmetic and tell you that it works out to be $2.11 \times 10^{-22}$ joules. We are almost ready to calculate the rotational temperature, which is just this value divided by Boltzmann's constant. Again, skipping the arithmetic, that works out to be 15.4 Kelvin. 
+
+The rotational temperature of this HCl molecule is 15.4 Kelvin. We can stop and think about what this means. Is that hot or cold? That sounds like a small number, 15.4 Kelvin. It is a little higher than the temperature we saw previously for carbon monoxide, which means it is more quantum mechanical, largely because its reduced mass is much smaller than that of carbon monoxide. However, notice that 15.4 Kelvin, although it is less than 77 Kelvin, is not much less than 77 Kelvin. It is no longer multiple orders of magnitude less than 77 Kelvin, so it is in the same ballpark. 
+
+We may not be comfortable using the classical approximation and saying that the system is very hot compared to the rotational temperature. Instead, we are left with the task of calculating our rotational partition function directly from this sum. In other words, first, we will do the $l = 0$ term, then the $l = 1$ term, then the $l = 2$ term, and so on until we reach the end of the sum. 
+
+Let's go ahead and start doing that. When $l = 0$, the degeneracy $2 \times 0 + 1$ is just 1, and that is multiplied by an exponential $e^{0}$, which is just 1. So that first term is going to be pretty easy to calculate. The next term is where it gets more complicated: the $l = 1$ term. For $l = 1$, $2 + 1 = 3$, so the degeneracy is 3. The Boltzmann factor looks like $e^{-1 \times \frac{2 \theta_{\text{rotational}}}{T}}$. The next term will have a degeneracy of 5, and then it will be $e^{-6 \frac{\theta_{\text{rotational}}}{T}}$. The next term will be $e^{-12 \frac{\theta_{\text{rotational}}}{T}}$, and so on.
+
+The bad news is that we have a plus sign followed by dots, indicating that this in principle goes on forever. But if we begin to substitute numbers now that we know what $\theta_{\text{rotational}}$ is (15.4) and the temperature, we can plug these numbers in. The first term $1 \times 1$ is 1. The second term gives us $3 \times e^{\text{some small number}}$, which works out to be approximately 0.67. The next term will be $5 \times$ an even smaller number because $e^{-6}$ has become more negative than $e^{-2}$. This even smaller number is 0.3, and then the next Boltzmann factor is 0.9, and so on.
+
+You can begin to see what is happening here: these Boltzmann factors are becoming smaller and smaller, essentially because the probability of occupying each of these states is getting smaller as we climb the energy ladder. Since we are not under classical conditions, those numbers are getting small quickly enough that we do not have to include too many of these terms before they become negligible. In fact, if I multiply these out, $3 \times 0.67$ and $5 \times 0.3$, I think with rounding that actually comes out to 1.51, and then 0.63. The next few terms look like 0.16, 0.03, and now it does indeed look like we won't have to include too many more of these terms before they are so small that they do not contribute anything.
+
+The good news is that this infinite sum is infinite, but most of the terms are so small that we do not need to worry about them. Only the first few terms in the sum are important enough to include. If we calculate the first ten or so of these terms, that is all we need. It turns out that the partition function works out to be about 5.3, and we can obtain that without doing an infinite number of terms, just a handful of them. 
+
+That is the good news. In fact, this turns out to be typical when we are not under classical conditions. When we are under quantum mechanical conditions, by definition, because we are under classical conditions and this temperature is not very large compared to the rotational temperature, these numbers will become small quite quickly. We will always reach a point relatively quickly where we can terminate the sum. 
+
+So what does that mean for the partition function? First of all, the fact that we got a partition function that was about five confirms our expectation that we are under quantum mechanical conditions when the temperature is not that large compared to the rotational temperature. We are quantum mechanical enough that not many of these states are occupied. In fact, the partition function tells us that the effective number of states that are accessible is about 5.3. 
+
+Not much more than these first few states are occupied. Essentially, these numbers tell us that the $l = 1$ states are only about two-thirds as occupied (0.67) as the ground state. These states are only about 30 percent as occupied, and these states are only 9 percent as occupied. When I add up all those fractional occupations, I get an effective number of about five states that are accessible, counting these fractional occupations. 
+
+It also confirms our expectation that we could not have used this simpler formula. In fact, if we had, we would expect that the rotational temperature is not exactly $\frac{T}{\theta_{\text{rotational}}}$, which is not what we would have gotten if we used the classical approximation. Just to double-check and see if that is true, if we had said $\frac{77 \text{ K}}{15.4 \text{ K}}$ for the rotational temperature, that works out to be not 5.34; it actually works out to be 5.0. That is not too far off; we would have made less than a 10 percent error in the partition function if we had been a little lazy and used this classical approximation, even though we know we did not deserve to use it. 
+
+We are quantum mechanical enough under these conditions that the correct answer, the full sum of all these Boltzmann factors, turns out to be something a little bit different from what the classical approximation predicts. This tells us what we need to do in order to calculate the partition function. If the temperature is quite large compared to the rotational temperature, we can use this classical approximation, either the version for heteronuclear diatomics or, more generally, with a symmetry number if we want to be able to use homonuclear diatomics as well. If we are unsure about using the classical approximation, then there is no harm in just calculating the sum directly when we are under quantum mechanical conditions.
+
+
+{{< include ../_text1.qmd >}}
+
+{{< include ../_text2.qmd >}}
+
+{{< include ../_footer.qmd >}}

@@ -1,0 +1,53 @@
+project:
+  type: book
+  output-dir: _book
+format:
+  html:
+    theme: cosmo
+    toc: true
+    mathjax: true  # needed for HTML output
+    toc-depth: 3
+    margin-header: " "
+    number-sections: true
+    toc-title: "On this page"
+    sidebar:
+      logo: "fairfielduShield.png"
+      logo-alt: "My Book Logo"
+ 
+#filters:
+#    - title-color.lua
+
+metadata-files:
+  - _assigned.yaml
+
+
+book:
+  title: "Physical Chemistry I  \n Quantum Mechanics"
+  image: "fairfielduShield.o.png"
+  sidebar:
+      logo: "fairfielduShield.png"
+      logo-alt: "My Book Logo"
+ 
+
+  chapters:
+  - index.md
+
+  - part: "I.  The Need for Quantum Mechanics"
+    chapters: 
+        - 1_qmd_files/Quantization_of_Energy_Part_1_Blackbody_Radiation_and_the_Ultraviolet_Catastrophe.qmd
+        - 1_qmd_files/Quantization_of_Energy_Part_2_Photons_Electrons_and_Wave-Particle_Duality.qmd
+        - 1_qmd_files/Light_is_Quantized.qmd
+        - 1_qmd_files/Energies_Are_Quantized.qmd
+        - 1_qmd_files/Matter_Has_Wave-like_Properties.qmd
+
+  - part: "II.  The wavefunction"
+    chapters:
+        - 1_qmd_files/Quantum_Mechanics_of_the_Electron.qmd
+        - 1_qmd_files/States_of_Matter_Are_Quantized.qmd
+  - part: "III.  Example:  A Particle in a Box"
+    chapters:
+        - 1_qmd_files/The_Original_Double_Slit_Experiment.qmd
+        - 1_qmd_files/Wave-Particle_Duality_and_the_Photoelectric_Effect.qmd
+
+
+
